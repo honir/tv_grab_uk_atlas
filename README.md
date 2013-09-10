@@ -9,11 +9,11 @@ JUSTIFICATION
 
 Most people in the UK use the excellent Radio Times ".dat" file feed to obtain TV and radio programme schedules for their PVR or Listings Viewer.
 
-The Radio Times service was taken over by Metabroadcast in January 2012 who continue to provide the feed.  However Metabroadcast have stated it is their intention to terminate the .dat feed at some point.  Further they are no longer actively maintaining this feed and have publicly stated they will not be adding any new channels to it.  So as new channels become available, there is no schedule info available for them.  
+The Radio Times service was taken over by MetaBroadcast in December 2011 who continue to provide the feed.  However MetaBroadcast have stated it is their intention to terminate the .dat feed at some point.  Further they are no longer actively maintaining this feed and have publicly stated they will not be adding any new channels to it.  So as new channels become available, there is no schedule info available for them.  
 
 At the time of writing (Sep. 2013) an increasing number of channels are not available in the .dat feed (e.g. Drama, Movie Mix, BT Sport, etc.)
 
-In place of the .dat feed Metabroadcast would like people to use their "Atlas" database via its API.  This module does just that by building on the "XMLTV" package.
+In place of the .dat feed MetaBroadcast would like people to use their "Atlas" database via its API.  This module does just that by building on the "XMLTV" package.
 
 
 
@@ -53,3 +53,6 @@ XMLTV DTD : http://xmltv.cvs.sourceforge.net/viewvc/xmltv/xmltv/xmltv.dtd
 
 XMLTV : http://wiki.xmltv.org/index.php/Main_Page
 
+"Changes to the Radio Times XML TV service" : http://www.radiotimes.com/blog/2011-12-12/changes-to-the-radio-times-xml-tv-service
+
+"providing the RadioTimes XMLTV feed from atlas" : http://metabroadcast.com/blog/providing-the-radiotimes-xmltv-feed-from-atlas
