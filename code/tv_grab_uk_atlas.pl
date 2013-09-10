@@ -38,7 +38,7 @@ my $warnings = 0;
 
 # ------------------------------------------------------------------------------------------------------------------------------------- #
 # Grabber details
-my $VERSION 								= '$Id: tv_grab_uk_atlas,v 1.000 2013/09/10 11:30:00 honir Exp $';
+my $VERSION 								= '$Id: tv_grab_uk_atlas,v 1.001 2013/09/10 11:30:00 honir Exp $';
 my $GRABBER_NAME 						= 'tv_grab_uk_atlas';
 my $GRABBER_DESC 						= 'UK - Atlas (atlas.metabroadcast.com)';
 my $ROOT_URL                = 'http://atlas.metabroadcast.com/3.0/';
@@ -290,10 +290,9 @@ sub get_schedule_from_json {
 				$item{'image'}						= defined($prog{'image'}) ? $prog{'image'} : '';
 				$item{'media'}						= defined($prog{'mediaType'}) ? $prog{'mediaType'} : '';
 				$item{'year'}							= defined($prog{'year'}) ? $prog{'year'} : '';
-				$item{'premiere'}					= 'false';
 				$item{'film'}							= (defined($prog{'type'}) && $prog{'type'} eq 'film') ? true : false;
 				$item{'black_and_white'}	= (defined($prog{'black_and_white'}) && $prog{'black_and_white'} eq 'false') ? true : false;
-				$item{'star_rating'}			= '';
+				$item{'star_rating'}			= '';			# sadly not available in Atlas  :-(
 				$item{'certificate'}			= ''; 
 				$item{'certificate_code'}	= '';
 				if (exists $prog{'certificates'}) {
@@ -336,6 +335,7 @@ sub get_schedule_from_json {
 						my %bdc = %$b;			
 						my %bcast = ();
 						
+						$bcast{'premiere'}      = (defined($bdc{'premiere'}) && $bdc{'premiere'} eq 'true') ? true : false;
 						$bcast{'repeat'}      	= (defined($bdc{'repeat'}) && $bdc{'repeat'} eq 'true') ? true : false;
 						$bcast{'subtitles'}			= (defined($bdc{'subtitled'}) && $bdc{'subtitled'} eq 'true') ? true : false;
 						$bcast{'new_series'}		= (defined($bdc{'new_series'}) && $bdc{'new_series'} eq 'true') ? true : false;
@@ -415,17 +415,13 @@ sub add_programme_to_xml {
 			
 		push @{$xmlprog{'subtitles'}}, {'type' => 'teletext'} 			if $bcast{'subtitles'};
 		push @{$xmlprog{'subtitles'}}, {'type' => 'deaf-signed'} 		if $bcast{'deaf_signed'};
-		$xmlprog{'previously-shown'} = {} 													if $bcast{'repeat'};
 		$xmlprog{'premiere'} = {} 																	if $bcast{'premiere'};
+		$xmlprog{'previously-shown'} = {} 													if $bcast{'repeat'};
 		$xmlprog{'video'}->{'present'} = 'yes' 											if $bcast{'media'} && $bcast{'media'} eq 'video';
 		$xmlprog{'video'}->{'present'} = 'no' 											if $bcast{'media'} && $bcast{'media'} eq 'audio';
 		$xmlprog{'video'}->{'colour'} = 'no' 												if $bcast{'black_and_white'};
 		$xmlprog{'rating'} = [[ $item{'certificate'}, $item{'certificate_code'} ]]	if $item{'certificate'};
-		$xmlprog{'star-rating'} =  [ $item{'star_rating'} . '/10' ]			if $item{'star_rating'};
-
-		
-				# ? <play:languages/>
-				
+		$xmlprog{'star-rating'} =  [ $item{'star_rating'} . '/5' ]	if $item{'star_rating'};
 
 		#print Dumper \%xmlprog;
 		push(@{$programmes}, \%xmlprog);
