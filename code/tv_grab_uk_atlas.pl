@@ -262,10 +262,16 @@ sub get_schedule_from_json {
 		
 				my %item = ();
 				
-				# It seems that the start of a title may be under a brand....
-				#  e.g.  <play:container><title> Live Golf: The Open Championship  </title>
-				#        <title> 2013 Day Four </title>
-				# In this case former is the title and the latter the episode
+				# "What is on the item is the episode title. To get the brand title (which is normally what you will want to display in a schedule) 
+				#  you need to take the title of the parent container (which you can include using the brand_summary annotation).
+				#	 Where an item is not in a container, the item title should be used." (Jonathan Tweed)
+				#
+				# e.g. "title": "Ford's Dagenham Dream",  (with no "brand" container)
+				#		gives title = Ford's Dagenham Dream   episode = 
+				# but
+				#      	"title": "Fatal Attraction",
+				#			"container": { "title": "The Sky at Night", ...  "type": "brand" }
+				# 	gives title = The Sky at Night   episode = Fatal Attraction
 				#
 				$item{'title'}   			= defined($prog{'title'}) ? $prog{'title'} : '';
 				$item{'episodetitle'} = '';
