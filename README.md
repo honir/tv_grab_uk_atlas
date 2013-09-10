@@ -1,11 +1,11 @@
 tv_grab_uk_atlas
-================
+----------------
 
 Fetch TV and radio programme listings from "Atlas" data store and reformat into XMLTV format.
 
 
 JUSTIFICATION
-=============
+-------------
 
 Most people in the UK use the excellent Radio Times ".dat" file feed to obtain TV and radio programme schedules for their PVR or Listings Viewer.
 
@@ -18,7 +18,7 @@ In place of the .dat feed Metabroadcast would like people to use their "Atlas" d
 
 
 OPERATION
-=========
+---------
 
 Drop-in module for the XMLTV package, run as a command-line script.  Output to a disc file in XMLTV format.
 
@@ -27,7 +27,7 @@ Includes a CGI script to run via a web browser.
 
 
 PRE-REQUISITES
-==============
+--------------
 
 Assumes you already have a working copy of "XMLTV".
 
@@ -36,7 +36,7 @@ Optional: web server if you want to use the web browser front-end.
 
 
 COMPATABILITY
-=============
+-------------
 
 Tested with Perl v5.8.8 and Apache 2.2.3
 
@@ -45,9 +45,11 @@ Tested with Perl v5.8.8 and Apache 2.2.3
 
 
 LINKS
-=====
+-----
 
 "Atlas" : http://atlas.metabroadcast.com/
+
 XMLTV DTD : http://xmltv.cvs.sourceforge.net/viewvc/xmltv/xmltv/xmltv.dtd
+
 XMLTV : http://wiki.xmltv.org/index.php/Main_Page
 
