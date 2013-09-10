@@ -263,8 +263,10 @@ sub get_schedule_from_json {
 				my %item = ();
 				
 				# "What is on the item is the episode title. To get the brand title (which is normally what you will want to display in a schedule) 
-				#  you need to take the title of the parent container (which you can include using the brand_summary annotation).
-				#	 Where an item is not in a container, the item title should be used." (Jonathan Tweed)
+				#  	you need to take the title of the parent container (which you can include using the brand_summary annotation).
+				#	 	Where an item is not in a container, the item title should be used.
+				#  Title is: container.title or item.title if no container
+				#	 Subtitle is: item.title if container, otherwise empty"  (Jonathan Tweed)
 				#
 				# e.g. "title": "Ford's Dagenham Dream",  (with no "brand" container)
 				#		gives title = Ford's Dagenham Dream   episode = 
