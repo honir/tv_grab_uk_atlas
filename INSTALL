@@ -166,7 +166,8 @@ tv_validate_grabber will report an error similar to:
 
 	     "Line 5 Invalid channel-id 'FILM4'"
 	
-This is a bug in ValidateFile.pm (lines 201-202) which insists the channel-id adheres to RFC2838 despite the xmltv.dtd only saying "preferably" not "SHOULD".
+This is a bug in ValidateFile.pm (lines 201-202) which insists the channel-id adheres to RFC2838 despite the xmltv.dtd only saying "preferably" not "SHOULD".  
+(Having channel ids of the form "bbc1.bbc.co.uk" will be rejected by many PVRs since they require the data to match their own list.)
 
 
 It may also report 
