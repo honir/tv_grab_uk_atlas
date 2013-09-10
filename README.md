@@ -44,6 +44,13 @@ Tested with Perl v5.8.8 and Apache 2.2.3
 
 
 
+VARIANCE
+--------
+
+The Atlas data store does not include "RadioTimes Choices" nor film ratings.
+
+
+
 LINKS
 -----
 
