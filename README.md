@@ -4,8 +4,8 @@ tv_grab_uk_atlas
 Fetch TV and radio programme listings from "Atlas" data store and reformat into XMLTV format.
 
 
-JUSTIFICATION
--------------
+RATIONALE
+---------
 
 Most people in the UK use the excellent Radio Times ".dat" file feed to obtain TV and radio programme schedules for their PVR or Listings Viewer.
 
@@ -38,7 +38,7 @@ Optional: web server if you want to use the web browser front-end.
 COMPATABILITY
 -------------
 
-Tested with Perl v5.8.8 and Apache 2.2.3
+Tested with XMLTV 0.5.63, Perl v5.8.8 and Apache 2.2.3
 
 (Tech note: many web hosts provide only 5.8.8 so no features are included which require a more recent version of Perl.)
 
