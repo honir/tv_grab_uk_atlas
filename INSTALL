@@ -113,8 +113,14 @@ An additional parameter "--date YYYYMMDD" allows you to fetch the schedule just 
 	      tv_grab_uk_atlas --date 20130923
 
 
+				
+A new parameter "--dst" allows you to add an extra hour to the schedule fetched from Atlas.  Some PVRs have trouble with BST times and 'lose' an hour at the end of the day's schedule.  This parameter might help to alleviate that.
 
-A further new parameter ( --channel ) allows you to override the 'conf' file and retrieve data for a specific channel:
+	      tv_grab_uk_atlas --days 1 --dst
+
+				
+
+A new parameter "--channel" allows you to override the 'conf' file and retrieve data for a specific channel:
 
 	      tv_grab_uk_atlas --offset -4 --hours 12 --channel cbdm
 
@@ -144,11 +150,13 @@ Specify the parameters on the URI as follows:
 	 days=xxxx
 	 date=YYYYMMDD
 	 channel=xxxx
+	 dst
 	 
 	 e.g.   
 	    http://my.webspace.com/cgi-bin/getatlas.pl?hours=12
 	    http://my.webspace.com/cgi-bin/getatlas.pl?hours=12&offset=6
 	    http://my.webspace.com/cgi-bin/getatlas.pl?date=20130930
+	    http://my.webspace.com/cgi-bin/getatlas.pl?days=1&dst
 
 Valid combinations are:
 	    'offset' and 'hours'
