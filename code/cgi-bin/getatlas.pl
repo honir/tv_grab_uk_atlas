@@ -28,6 +28,7 @@ my $days 		= $query->param('days');				# days to fetch
 my $channel = $query->param('channel');			# channel id or label
 my $date 		= $query->param('date');				# YYYYMMDD
 my $dst 		= $query->param('dst');					# (no value)
+my $hasdst	= (defined $query->param('dst') ? 1 : 0);
 
 
 # Validate the params
@@ -74,7 +75,7 @@ if ($hours) {
 }
 
 $channel = "--channel $channel" if $channel;
-$dst 		 = "--dst" 							if $dst;
+$dst 		 = "--dst" 							if $hasdst;
 
 
 
