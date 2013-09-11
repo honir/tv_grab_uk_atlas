@@ -6,7 +6,7 @@
 #
 # 
 
-my $_version 	= '$Id: tv_grab_uk_atlas,v 1.004 2013/09/11 12:10:00 honir Exp $';
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.005 2013/09/11 14:18:00 honir Exp $';
 
 
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
@@ -403,8 +403,8 @@ sub add_programme_to_xml {
 		my %xmlprog = ();		
 				
 		$xmlprog{'channel'} 				= $channel_id;
-		$xmlprog{'start'} 					= DateTime->from_epoch( epoch => $bcast{'start'} )->strftime("%Y%m%d%H%M%S %z");
-		$xmlprog{'stop'} 						= DateTime->from_epoch( epoch => $bcast{'stop'} )->strftime("%Y%m%d%H%M%S %z");
+		$xmlprog{'start'} 					= DateTime->from_epoch( epoch => $bcast{'start'} )->set_time_zone('Europe/London')->strftime("%Y%m%d%H%M%S %z");
+		$xmlprog{'stop'} 						= DateTime->from_epoch( epoch => $bcast{'stop'} )->set_time_zone('Europe/London')->strftime("%Y%m%d%H%M%S %z");
 
 		$xmlprog{'title'} 					= [[ $item{'title'}, 'en' ]];
 		$xmlprog{'sub-title'} 			= [[ $item{'episodetitle'}, 'en' ]] 						if ($item{'episodetitle'});
