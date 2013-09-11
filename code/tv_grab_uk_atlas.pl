@@ -6,7 +6,7 @@
 #
 # 
 
-my $_version 	= '$Id: tv_grab_uk_atlas,v 1.003 2013/09/11 11:29:00 honir Exp $';
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.004 2013/09/11 12:10:00 honir Exp $';
 
 
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
@@ -45,9 +45,13 @@ my $VERSION 								= $_version;
 my $GRABBER_NAME 						= 'tv_grab_uk_atlas';
 my $GRABBER_DESC 						= 'UK - Atlas (atlas.metabroadcast.com)';
 my $ROOT_URL                = 'http://atlas.metabroadcast.com/3.0/';
+my $SOURCE_NAME							= 'MetaBroadcast Atlas';
+my $SOURCE_URL							= 'http://atlas.metabroadcast.com/';
 #
 my $generator_info_name 		= $GRABBER_NAME;
 my $generator_info_url 			= $ROOT_URL;
+my $source_info_name				= $SOURCE_NAME;
+my $source_info_url					= $SOURCE_URL;
 
 
 
@@ -76,6 +80,8 @@ if ($opt->{'info'}) {
 # any overrides?
 if (defined( $conf->{'generator-info-name'} )) { $generator_info_name = $conf->{'generator-info-name'}->[0]; }
 if (defined( $conf->{'generator-info-url'} ))  { $generator_info_url  = $conf->{'generator-info-url'}->[0]; }
+if (defined( $conf->{'source-info-name'} )) 	 { $source_info_name 		= $conf->{'source-info-name'}->[0]; }
+if (defined( $conf->{'source-info-url'} ))  	 { $source_info_url 		= $conf->{'source-info-url'}->[0]; }
 
 
 
@@ -142,9 +148,9 @@ $bar->finish() && undef $bar if defined $bar;
 # Generate the XML
 my $encoding = 'UTF-8';
 my $credits = { 'generator-info-name' => $generator_info_name,
-								'generator-info-url' => $generator_info_url };
-$credits->{'source-info-name'} = $conf->{'source-info-name'}->[0] 	if (defined( $conf->{'source-info-name'} ));
-$credits->{'source-info-url'} = $conf->{'source-info-url'}->[0]			if (defined( $conf->{'source-info-url'} ));
+								'generator-info-url' 	=> $generator_info_url,
+								'source-info-name' 		=> $source_info_name,
+								'source-info-url' 		=> $source_info_url };
 	
 XMLTV::write_data([ $encoding, $credits, $channels, $programmes ]);
 # Finished!
@@ -244,10 +250,10 @@ sub fetch_listings {
 				my $res = $lwp->get( $url );
 				
 				if ($res->is_success) {
-						#print $res->content;
 						get_schedule_from_json($xmlchannel_id, $res->content);
 				} else {
-						print $res->status_line . "\n";
+						# error - format as a valid http status line for cgi script
+						print STDERR "Status: ".$res->status_line."\n";
 				}
 					
 				$bar->update if defined $bar;

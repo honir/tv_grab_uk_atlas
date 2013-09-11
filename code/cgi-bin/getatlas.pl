@@ -82,20 +82,72 @@ $dst 		 = "--dst" 							if $dst;
 #print CGI->header('text/xml');
 # ^^ caused errors:     Use of uninitialized value in string ne at (eval 3) line 29.
 #
-print "Content-type: text/xml"."\n\n";
 
 
 # debug
+#print "Content-type: text/xml"."\n\n";
 #print "Params: <br /> $offset <br /> $hours <br /> $action <br />";exit(0);
 
 
-# run the grabber (outputs to STDOUT (i.e. browser)
-system("perl $ENV{'HOME'}/tv_grab_uk_atlas.pl --quiet $action $channel $dst 2>/tmp/program.stderr ");
+# run the grabber (& capture the output)
+system("perl $ENV{'HOME'}/tv_grab_uk_atlas.pl --quiet $action $channel $dst 1>/tmp/tv_grab_uk_atlas.stdout 2>/tmp/tv_grab_uk_atlas.stderr ");
 
+my $result = '';
+open(my $fh, '<', '/tmp/tv_grab_uk_atlas.stderr')
+    or die "Unable to open file, $!";	
+while(<$fh>) { 
+   $result = $_ ;
+   last;
+}
+close($fh)
+    or warn "Unable to close the file handle: $!";
 
-# if stderr not "" then e-mail it to me (TODO)
+if ( $result =~ /^Status:/ ) {
+	# grabber threw an error
+	# assume it's a valid HTTP "Status: "
+	print $result;
+}
 
+# append the xml file (which is blank when an error occurs)
+print "Content-type: text/xml"."\n\n";
+system("cat /tmp/tv_grab_uk_atlas.stdout");
+		
 
 exit(0);
 
 __END__
+
+
+----------------------------------------------------------------------------------
+# e.g. when error
+stderr = 
+---------------------------------------------------
+Status: 400 Bad Request
+---------------------------------------------------
+
+stdout =
+---------------------------------------------------
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+
+<tv generator-info-name="tv_grab_uk_atlas" generator-info-url="http://atlas.metabroadcast.com/3.0/">
+  <channel id="xxxx">
+    <display-name lang="en">xxxx</display-name>
+  </channel>
+</tv>
+---------------------------------------------------
+
+return = 
+---------------------------------------------------
+HTTP/1.1 400 Bad Request
+Content-type: text/xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+
+<tv generator-info-name="tv_grab_uk_atlas" generator-info-url="http://atlas.metabroadcast.com/3.0/">
+  <channel id="xxxx">
+    <display-name lang="en">xxxx</display-name>
+  </channel>
+</tv>
+---------------------------------------------------
