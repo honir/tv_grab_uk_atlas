@@ -6,6 +6,7 @@
 #
 # optional params:
 #			channel		- Atlas channel id to fetch  (if not specified then grabber .conf file is used as normal)
+#			dst				- Add an extra hour(s) to the schedule fetched (default '1'  ('0' if no 'dst' param specficied))
 #
 #
 
@@ -21,11 +22,12 @@ use CGI::Carp qw(fatalsToBrowser);
 my $query = CGI->new;
 
 # Fetch the query string params
-my $offset 	= $query->param('offset');
-my $hours 	= $query->param('hours');
-my $days 		= $query->param('days');
-my $channel = $query->param('channel');
+my $offset 	= $query->param('offset');			# offset from now to start fetch (hours/days)
+my $hours 	= $query->param('hours');				# hours to fetch
+my $days 		= $query->param('days');				# days to fetch
+my $channel = $query->param('channel');			# channel id or label
 my $date 		= $query->param('date');				# YYYYMMDD
+my $dst 		= $query->param('dst');					# (no value)
 
 
 # Validate the params
@@ -60,14 +62,6 @@ END_OF_XML
 }
 
 
-# Adjust the parameters
-if ($hours) {
-	$offset = 0 if !$offset;
-	$hours += $offset;
-}	
-	
-$channel = "--channel $channel" if $channel;
-
 my $action = '';
 if ($hours) {
 	$action = "--hours $hours " . ($offset ? "--offset $offset" : '');
@@ -78,6 +72,9 @@ if ($hours) {
 } else {
 	$action = "--days 1";
 }
+
+$channel = "--channel $channel" if $channel;
+$dst 		 = "--dst" 							if $dst;
 
 
 
@@ -93,7 +90,7 @@ print "Content-type: text/xml"."\n\n";
 
 
 # run the grabber (outputs to STDOUT (i.e. browser)
-system("perl $ENV{'HOME'}/tv_grab_uk_atlas.pl --quiet $action $channel 2>/tmp/program.stderr ");
+system("perl $ENV{'HOME'}/tv_grab_uk_atlas.pl --quiet $action $channel $dst 2>/tmp/program.stderr ");
 
 
 # if stderr not "" then e-mail it to me (TODO)
