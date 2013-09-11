@@ -38,7 +38,7 @@ my $warnings = 0;
 
 # ------------------------------------------------------------------------------------------------------------------------------------- #
 # Grabber details
-my $VERSION 								= '$Id: tv_grab_uk_atlas,v 1.001 2013/09/10 11:30:00 honir Exp $';
+my $VERSION 								= '$Id: tv_grab_uk_atlas,v 1.002 2013/09/11 06:25:00 honir Exp $';
 my $GRABBER_NAME 						= 'tv_grab_uk_atlas';
 my $GRABBER_DESC 						= 'UK - Atlas (atlas.metabroadcast.com)';
 my $ROOT_URL                = 'http://atlas.metabroadcast.com/3.0/';
@@ -192,15 +192,15 @@ sub fetch_listings {
 				elsif ($opt->{offset} lt 0) { $from = 'now.minus.'.abs($opt->{offset}).'h'; }
 				else { $from = 'now'; }
 			
-				if ($opt->{hours} gt 0)		 { $to = 'now.plus.'.$opt->{hours}.'h'; }
-				elsif ($opt->{hours} lt 0) { $to = 'now.minus.'.abs($opt->{hours}).'h'; }
+				if (($opt->{hours} + $opt->{offset}) gt 0)		 { $to = 'now.plus.'. ($opt->{hours} + $opt->{offset}).'h'; }
+				elsif (($opt->{hours} + $opt->{offset}) lt 0)  { $to = 'now.minus.'.abs($opt->{hours} + $opt->{offset}).'h'; }
 				else { $to = 'now'; }
 			
 			} elsif ($opt->{days}) {
 				$from = DateTime->today->add( days => $opt->{offset} )->set_time_zone('Europe/London')->epoch();
 				$to 	= DateTime->today->add( days => ($opt->{offset} + $opt->{days}) )->set_time_zone('Europe/London')->epoch();
 	
-			} else {										# unlikely to get here since 'days' defaults to '5'
+			} else {											# unlikely to get here since 'days' defaults to '5'
 				# default to today only
 				#		(Atlas accepts epoch times)
 				#		$from = DateTime->today->set_time_zone('Europe/London')->strftime('%Y-%m-%dT00:00:00.000Z');
@@ -217,7 +217,7 @@ sub fetch_listings {
 			my $annotations = 'extended_description,broadcasts,series_summary,brand_summary,people';
 
 			my $url = $baseurl.'?'."channel_id=$channel_id&from=$from&to=$to&annotations=$annotations&publisher=$publisher&apiKey=$apiKey";
-			print $url ."\n" 	if ($opt->{debug});
+			print $url ."\n" 	if ($opt->{debug});exit;
 			#print STDERR "$url \n";
 			
 			if (1) {
@@ -331,7 +331,7 @@ sub get_schedule_from_json {
 				foreach my $person (@{$prog{'people'}}) {
 					SWITCH: {
 							$person->{'role'} eq 'director' && do { push @{$item{'directors'}}, $person->{'name'}; last SWITCH; };
-							$person->{'role'} eq 'actor' && do { push @{$item{'actors'}}, $person->{'name'}; last SWITCH; };
+							$person->{'role'} eq 'actor' 		&& do { push @{$item{'actors'}}, $person->{'name'}; 	 last SWITCH; };
 					}
 				}
 
@@ -413,7 +413,7 @@ sub add_programme_to_xml {
 
 		# add 'Film' genre if it's a film
 		if ($item{'film'}) {
-				$item{'genres'}->{'Film'} = 1;
+				$item{'genres'}->{ map_category('Film') } = 1; 
 		}
 		if (scalar (keys %{$item{'genres'}}) > 0) {		
 			while (my ($key, $value) = each %{$item{'genres'}}) {
