@@ -6,6 +6,9 @@
 #
 # 
 
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.003 2013/09/11 11:29:00 honir Exp $';
+
+
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
     if 0; # not running under some shell
 
@@ -38,7 +41,7 @@ my $warnings = 0;
 
 # ------------------------------------------------------------------------------------------------------------------------------------- #
 # Grabber details
-my $VERSION 								= '$Id: tv_grab_uk_atlas,v 1.002 2013/09/11 06:25:00 honir Exp $';
+my $VERSION 								= $_version;
 my $GRABBER_NAME 						= 'tv_grab_uk_atlas';
 my $GRABBER_DESC 						= 'UK - Atlas (atlas.metabroadcast.com)';
 my $ROOT_URL                = 'http://atlas.metabroadcast.com/3.0/';
@@ -57,7 +60,7 @@ my ($opt, $conf) = ParseOptions({
 			listchannels_sub 	=> \&fetch_channels,
 			version 					=> $VERSION,
 			description 			=> $GRABBER_DESC,
-			extra_options			=> [qw/hours=i date=s channel=s info/],
+			extra_options			=> [qw/hours=i date=s dst channel=s info/],
 			defaults					=> {'hours'=>0, 'channel'=>''}
 });
 #print Dumper($conf, $opt); exit;
@@ -175,7 +178,10 @@ sub fetch_listings {
 			# http://atlas.metabroadcast.com/3.0/schedule.json?apiKey=*****************&publisher=pressassociation.com&from=now&to=now.plus.6h&channel_id=cbbh&annotations=channel,brand_summary,series_summary,extended_description,broadcasts
 			# https://atlas.metabroadcast.com/3.0/schedule.json?channel_id=cbbh&publisher=bbc.co.uk&annotations=channel,description,broadcasts,brand_summary&from=2013-09-08T00:00:00.000Z&to=2013-09-09T00:00:00.000Z
 			
-			# Atlas accepts from/to params of the form  "2013-09-08T00:00:00.000Z"  or like  "now.plus.6h"
+			# -------------------------------------------------------------------------------------------------------------------------------- #
+			# Get the 'from'/'to' times
+			#
+			# Atlas accepts from/to params of the form  "2013-09-08T00:00:00.000Z"  or like  "now.plus.6h"  or epoch times
 			# This grabber accepts either  (i) --days and  --offset   or   (ii) --hours  and  --offset   or  (iii) --date YYYYMMDD
 			#			(in (i) the --offset is in days; in (ii) it's hours)
 			#
@@ -188,27 +194,31 @@ sub fetch_listings {
 				$to 	= $from + 86400;
 			
 			} elsif ($opt->{hours}) {				# test 'hours' first since 'days' defaults to '5'
-				if ($opt->{offset} gt 0) 		{ $from = 'now.plus.'.$opt->{offset}.'h'; }
-				elsif ($opt->{offset} lt 0) { $from = 'now.minus.'.abs($opt->{offset}).'h'; }
-				else { $from = 'now'; }
-			
-				if (($opt->{hours} + $opt->{offset}) gt 0)		 { $to = 'now.plus.'. ($opt->{hours} + $opt->{offset}).'h'; }
-				elsif (($opt->{hours} + $opt->{offset}) lt 0)  { $to = 'now.minus.'.abs($opt->{hours} + $opt->{offset}).'h'; }
-				else { $to = 'now'; }
+				$from = DateTime->now->add( hours => $opt->{offset} )->set_time_zone('Europe/London')->epoch();
+				$to 	= $from + ($opt->{hours} * 3600);
 			
 			} elsif ($opt->{days}) {
 				$from = DateTime->today->add( days => $opt->{offset} )->set_time_zone('Europe/London')->epoch();
-				$to 	= DateTime->today->add( days => ($opt->{offset} + $opt->{days}) )->set_time_zone('Europe/London')->epoch();
+				$to 	= $from + ($opt->{days} * 86400);
 	
 			} else {											# unlikely to get here since 'days' defaults to '5'
 				# default to today only
-				#		(Atlas accepts epoch times)
 				#		$from = DateTime->today->set_time_zone('Europe/London')->strftime('%Y-%m-%dT00:00:00.000Z');
 				#		$to 	= DateTime->today->add ( days => 1 )->set_time_zone('Europe/London')->strftime('%Y-%m-%dT00:00:00.000Z');
 				$from = DateTime->today->set_time_zone('Europe/London')->epoch();
 				$to 	= DateTime->today->add ( days => 1 )->set_time_zone('Europe/London')->epoch();
 			}
 			
+			# Adjust for --dst param
+			$to += 3600  if ($opt->{dst});
+			
+			# debug
+			#print DateTime->from_epoch( epoch=>$from )->set_time_zone('Europe/London')->strftime('%F %T %z').' -- '.DateTime->from_epoch( epoch=>$to )->set_time_zone('Europe/London')->strftime('%F %T %z')."\n" if $opt->{debug}; exit;
+			
+			
+			# -------------------------------------------------------------------------------------------------------------------------------- #
+			# translate the channel-id to Atlas' if it's a 'local' one
+		  $channel_id = unmap_channel_id($channel_id);
 			
 			my $baseurl = $ROOT_URL.'schedule.json';
 			my $apiKey = readpipe("cat ".$conf->{'api-key'}->[0]);
@@ -217,7 +227,7 @@ sub fetch_listings {
 			my $annotations = 'extended_description,broadcasts,series_summary,brand_summary,people';
 
 			my $url = $baseurl.'?'."channel_id=$channel_id&from=$from&to=$to&annotations=$annotations&publisher=$publisher&apiKey=$apiKey";
-			print $url ."\n" 	if ($opt->{debug});exit;
+			print $url ."\n" 	if ($opt->{debug});
 			#print STDERR "$url \n";
 			
 			if (1) {
@@ -483,6 +493,40 @@ sub text_to_num {
 			return $nums{$text} if exists $nums{$text};
 		}
 		return $text
+}
+
+sub unmap_channel_id {
+		# Map the requested channel_id to an Atlas value
+		#
+		# Since the user could ask for *any* channel (using the --channel option) we can't be
+		# certain whether the channel is an 'Atlas' one or a 'mapped' one 
+		# (without maintaining a list of all the channels known to Atlas which is too error-prone).
+		#
+		# But that's not important - we only need to check the 'mapped' list and reverse-map the id if found.
+		#
+		# To cater for the situation where an id exists in the map file as both an Atlas id *and* a mapped id 
+		# (!!! - does this even make sense?) we'll check for an Atlas id first and *not* translate if found.
+		#
+		# Can't handle situation where mapped id occurs > once in map file - will just pick up the first one (alphabetically).
+		#
+		# Thus: (i) Check if channel_id is in 'fromchan' = return;
+		#         (ii) Check if channel_id is in 'tochan' = return 'fromchan'
+		#         (iii) else return
+		#
+		# ( c.f. map_channel_id() )
+		#
+		my ($channel_id) = @_;
+		if (%mapchannelhash && exists $mapchannelhash{$channel_id}) { 
+			return $channel_id; 
+		}
+		if (%mapchannelhash && ( grep { $_ eq $channel_id } values %mapchannelhash ) ) {
+			while (my ($key, $value) = each %mapchannelhash) {
+				if ($value eq $channel_id) {
+					return $key;
+				}
+			}
+		}
+		return $channel_id;
 }
 
 sub map_channel_id {
@@ -949,7 +993,7 @@ tv_grab_uk_atlas --capabilities
 tv_grab_uk_atlas --description
 
 tv_grab_uk_atlas [--config-file FILE]
-           [--days N] [--offset N]
+           [--days N] [--offset N] [--dst]
            [--output FILE] [--quiet] [--debug]
 
 tv_grab_uk_atlas [--config-file FILE]
@@ -957,7 +1001,7 @@ tv_grab_uk_atlas [--config-file FILE]
            [--output FILE] [--quiet] [--debug]
 
 tv_grab_uk_atlas [--config-file FILE]
-           [--date DATE] 
+           [--date DATE] [--dst]
            [--output FILE] [--quiet] [--debug]
 
 tv_grab_uk_atlas --configure [--config-file FILE]
@@ -998,6 +1042,9 @@ B<--days N> When grabbing, grab N days rather than all available days.
 
 B<--offset N> Start grabbing at today/now + N days.  When B<--hours> is used
 this is number of hours instead of days.  N may be negative.
+
+B<--dst> Some PVRs have trouble with BST times and 'lose' an hour at the end 
+of the day's schedule.  This adds an extra hour to the schedule fetched.
 
 B<--quiet> Suppress the progress-bar normally shown on standard error.
 
@@ -1061,3 +1108,41 @@ L<xmltv(5)>.
 
 =cut
 
+
+
+
+Here's the old 'from'/'to' code just for reference
+
+			# Atlas accepts from/to params of the form  "2013-09-08T00:00:00.000Z"  or like  "now.plus.6h"
+			# This grabber accepts either  (i) --days and  --offset   or   (ii) --hours  and  --offset   or  (iii) --date YYYYMMDD
+			#			(in (i) the --offset is in days; in (ii) it's hours)
+			#
+			my $from = '';
+			my $to = '';		
+			if ($opt->{offset} eq '') { $opt->{offset} = 0; }
+			
+			if ($opt->{date}) {
+				$from = str2time( $opt->{date} );
+				$to 	= $from + 86400;
+			
+			} elsif ($opt->{hours}) {				# test 'hours' first since 'days' defaults to '5'
+				if ($opt->{offset} gt 0) 		{ $from = 'now.plus.'.$opt->{offset}.'h'; }
+				elsif ($opt->{offset} lt 0) { $from = 'now.minus.'.abs($opt->{offset}).'h'; }
+				else { $from = 'now'; }
+			
+				if (($opt->{hours} + $opt->{offset}) gt 0)		 { $to = 'now.plus.'. ($opt->{hours} + $opt->{offset}).'h'; }
+				elsif (($opt->{hours} + $opt->{offset}) lt 0)  { $to = 'now.minus.'.abs($opt->{hours} + $opt->{offset}).'h'; }
+				else { $to = 'now'; }
+			
+			} elsif ($opt->{days}) {
+				$from = DateTime->today->add( days => $opt->{offset} )->set_time_zone('Europe/London')->epoch();
+				$to 	= DateTime->today->add( days => ($opt->{offset} + $opt->{days}) )->set_time_zone('Europe/London')->epoch();
+	
+			} else {											# unlikely to get here since 'days' defaults to '5'
+				# default to today only
+				#		(Atlas accepts epoch times)
+				#		$from = DateTime->today->set_time_zone('Europe/London')->strftime('%Y-%m-%dT00:00:00.000Z');
+				#		$to 	= DateTime->today->add ( days => 1 )->set_time_zone('Europe/London')->strftime('%Y-%m-%dT00:00:00.000Z');
+				$from = DateTime->today->set_time_zone('Europe/London')->epoch();
+				$to 	= DateTime->today->add ( days => 1 )->set_time_zone('Europe/London')->epoch();
+			}
