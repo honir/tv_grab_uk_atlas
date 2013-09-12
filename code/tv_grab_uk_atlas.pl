@@ -6,7 +6,7 @@
 #
 # 
 
-my $_version 	= '$Id: tv_grab_uk_atlas,v 1.005 2013/09/11 14:18:00 honir Exp $';
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.006 2013/09/12 16:12:00 honir Exp $';
 
 
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
@@ -70,7 +70,7 @@ my ($opt, $conf) = ParseOptions({
 #print Dumper($conf, $opt); exit;
 
 # options.pm hi-jacks the --help arg and creates its own POD synopsis!  This means we can't tell people about our added
-#  parameters.  I would posit that' a bug.  Let's allow '--info' to replace it.
+#  parameters.  I would posit that's a bug.  Let's allow '--info' to replace it.
 if ($opt->{'info'}) {
 	use Pod::Usage;
   pod2usage(-verbose => 2);
@@ -590,7 +590,8 @@ sub loadmapconf {
 			while (my $line = <$fh>) { 
 				chomp $line;
 				chop($line) if ($line =~ m/\r$/);
-				my ($type, $mapfrom, $mapto) = $line =~ /^(.*)==(.*)==(.*)$/;
+				next if $line =~ /^#/;
+				my ($type, $mapfrom, $mapto, $trash) = $line =~ /^(.*)==(.*)==(.*?)([\s\t]*#.*)?$/;
 				SWITCH: {
 						lc($type) eq 'map' && do { $mapchannels->{$mapfrom} = $mapto; last SWITCH; };
 						lc($type) eq 'cat' && do { $mapcategories->{$mapfrom} = $mapto; last SWITCH; };
@@ -619,7 +620,8 @@ sub loadmapgenre {
 			while (my $line = <$fh>) { 
 				chomp $line;
 				chop($line) if ($line =~ m/\r$/);
-				my ($mapfrom, $mapto) = $line =~ /^(.*)==(.*)$/;
+				next if $line =~ /^#/;
+				my ($mapfrom, $mapto, $trash) = $line =~ /^(.*)==(.*?)([\s\t]*#.*)?$/;
 				$mapgenrehash->{$mapfrom} = $mapto;
 			}
 			close $fh;
