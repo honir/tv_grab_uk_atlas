@@ -1,0 +1,11 @@
+# PLATFORMS
+cbfK==Sky HD 
+cbgp==Sky SD 
+cbg2==Freeview 
+cbhv==Freesat 
+cbhV==Virgin 
+cbjk==Top Up TV 
+cbjR==YouView 
+cbkk==BT TV 
+cbjQ==Saorsat 
+cbjP==Saorview 

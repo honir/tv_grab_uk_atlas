@@ -1,0 +1,20 @@
+# REGIONS for Freesat
+cbhw==Yorkshire & Lincolnshire 
+cbhx==South East 
+cbhy==East 
+cbhz==South England 
+cbhB==South West 
+cbhC==Cambridge 
+cbhD==Wales 
+cbhF==East Midlands 
+cbhG==Northern Ireland 
+cbhH==Oxfordshire 
+cbhJ==Scotland (Central) 
+cbhK==Scotland (North) 
+cbhM==West 
+cbhN==London 
+cbhP==North East 
+cbhQ==Channel Islands 
+cbhR==North West 
+cbhS==Yorkshire 
+cbhT==West Midlands 

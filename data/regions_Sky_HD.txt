@@ -1,0 +1,30 @@
+# REGIONS for Sky HD
+cbfM==Republic of Ireland 
+cbfN==Northern Ireland 
+cbfP==Oxford 
+cbfQ==North West 
+cbfR==North Yorkshire 
+cbfS==North East 
+cbfT==North East Midlands 
+cbfV==Meridian (East) 
+cbfW==Meridian (West) 
+cbfX==Scotland (Central) 
+cbfZ==Scotland (Borders) 
+cbfY==Scotland (North) 
+cbf2==South Lakeland 
+cbf4==Wales 
+cbf5==West Dorset 
+cbf6==West England 
+cbf7==West Midlands 
+cbf8==Yorkshire & Lincolnshire 
+cbf9==Yorkshire 
+cbgb==Channel Islands 
+cbgc==Cambridgeshire 
+cbgd==London (Thames Valley) 
+cbgf==Anglia 
+cbgg==London 
+cbgh==Henley on Thames 
+cbgj==East Midlands 
+cbgk==Cumbria 
+cbgm==London (Kent) 
+cbgn==London (Essex) 

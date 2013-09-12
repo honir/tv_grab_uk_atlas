@@ -1,0 +1,22 @@
+# REGIONS for Freeview
+cbg4==Yorkshire 
+cbg5==Cumbria 
+cbg6==West Midlands 
+cbg7==Channel Islands 
+cbg8==Scotland (Central) 
+cbg9==Scotland (Borders) 
+cbhb==Oxfordshire 
+cbhc==Cambridgeshire 
+cbhd==Northern Ireland 
+cbhf==North West 
+cbhg==Wales 
+cbhh==East Midlands 
+cbhj==West 
+cbhk==Yorkshire & Lincolnshire 
+cbhm==South East 
+cbhn==London 
+cbhp==South West 
+cbhq==North East 
+cbhr==Scotland (North) 
+cbhs==South 
+cbht==East 
