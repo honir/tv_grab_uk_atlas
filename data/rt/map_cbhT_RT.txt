@@ -1,0 +1,156 @@
+# CHANNELS for cbhT
+# This is an attempt to auto-match the Atlas data against the 
+# RT grabber's channel_ids file
+# 'map' == channel id == rt_id   # channel-num (rt_channel_as_defined_by_atlas) channel_name
+# 
+map==cbbC==   				# 101 () - BBC One West Midlands
+map==cbbG==east-midlands.bbc2.bbc.co.uk   				# 102 (2241) - BBC Two England
+map==cbdH==tsod.plus-1.central-macro.itv1.itv.co.uk   				# 103 (27) - ITV Central
+map==cbdj==channel4.com   				# 104 (132) - Channel 4
+map==cbdq==channel5.co.uk   				# 105 (134) - Channel 5
+map==cbbP==bbcthree.bbc.co.uk   				# 106 (45) - BBC Three
+map==cbbQ==bbcfour.bbc.co.uk   				# 107 (47) - BBC Four
+map==cbbq==hd.bbc1.bbc.co.uk   				# 108 (2667) - BBC One HD
+map==cbWw==   				# 109 () - BBC Two HD
+map==cbdQ==plus-1.central.itv1.itv.co.uk   				# 112 (2678) - ITV Central+1
+map==cbdZ==itv2.itv.co.uk   				# 113 (185) - ITV2
+map==cbfr==plus-1.itv2.itv.co.uk   				# 114 (1990) - ITV2+1
+map==cbd2==itv3.itv.co.uk   				# 115 (1859) - ITV3
+map==cbfv==plus-1.itv3.itv.co.uk   				# 116 (2511) - ITV3+1
+map==cbd5==itv4.itv.co.uk   				# 117 (1961) - ITV4
+map==cbfy==plus-1.itv4.itv.co.uk   				# 118 (2568) - ITV4+1
+map==cbDG==   				# 119 () - ITVHD Central
+map==cbfh==s4c.co.uk   				# 120 (721) - S4C
+map==cbff==plus-1.channel4.com   				# 121 (2047) - Channel 4 +1
+map==cbdn==e4.channel4.com   				# 122 (158) - E4
+map==cbfs==plus-1.e4.channel4.com   				# 123 (1161) - E4 +1
+map==cbdk==more4.channel4.com   				# 124 (1959) - More4
+map==cbfw==plus-1.more4.channel4.com   				# 125 (1972) - More4 +1
+map==cbfg==hd.channel4.com   				# 126 (2056) - Channel 4 HD
+map==cbB2==   				# 127 (2701) - 4seven
+map==cbdr==plus-1.channel5.co.uk   				# 128 (2699) - Channel 5 +1
+map==cbdv==fiveusa.channel5.co.uk   				# 129 (2008) - 5USA
+map==cbnH==plus-1.fiveusa.channel5.co.uk   				# 130 (2577) - 5USA +1
+map==cbdt==fiver.channel5.co.uk   				# 131 (2062) - 5*
+map==cbfB==plus-1.fiver.channel5.co.uk   				# 132 (2578) - 5* +1
+map==cbm2==drama.cbs.com   				# 134 (2177) - CBS Drama
+map==cbmZ==reality.cbs.com   				# 135 (2586) - CBS Reality
+map==cbDK==   				# 136 () - CBS Reality +1
+map==cbm4==action.cbs.com   				# 137 (2178) - CBS Action
+map==cbjn==horror.cbs.com   				# 138 (2476) - Horror Channel
+map==cbjp==plus-1.horror.cbs.com   				# 139 (2561) - Horror Channel +1
+map==cbnT==international.bet.com   				# 140 (2244) - BET:BlackEntTV
+map==cbnS==plus-1.international.bet.com   				# 141 (2597) - BET:BlackEntTV +1
+map==cbnd==entertainment.truemovies.tv   				# 142 (2603) - True Entertainment
+map==cbTH==   				# 143 () - more>movies
+map==cbjP==sky-three.sky.com   				# 144 (1963) - Pick TV
+map==cbfR==challengetv.co.uk   				# 145 (131) - Challenge
+map==cbm5==uk.viva.tv   				# 146 (2184) - Viva
+map==cbbR==news.bbc.co.uk   				# 200 (48) - BBC News Channel
+map==cbbT==parliament.bbc.co.uk   				# 201 (49) - BBC Parliament
+map==cbf8==sky-news.sky.com   				# 202 (256) - Sky News
+map==cbkN==aljazeera.net   				# 203 (2055) - Al Jazeera English
+map==cbhB==euronews.com   				# 204 (159) - EuroNews
+map==cbVy==   				# 205 () - FRANCE 24 English
+map==cbTn==   				# 206 () - RT
+map==cbVF==   				# 206 () - RT HD
+map==cbfY==europe.cnn.com   				# 207 (126) - CNN
+map==cbfX==bloomberg.com   				# 208 (120) - Bloomberg TV
+map==cbTt==   				# 209 () - NHK World HD
+map==cbWf==   				# 210 () - CNBC UK
+map==cbWS==   				# 215 () - Investigation Discovery +1
+map==cbdm==filmfour.channel4.com   				# 300 (160) - Film4
+map==cbhd==plus-1.filmfour.channel4.com   				# 301 (2021) - Film4 +1
+map==cbmr==2.truemovies.tv   				# 303 (2192) - True Movies 2
+map==cbmp==1.movies4men.co.uk   				# 304 (2058) - Movies4Men
+map==cbmq==plus-1.1.movies4men.co.uk   				# 305 (2598) - Movies4Men +1
+map==cbV6==   				# 400 () - Showcase
+map==cbm6==foodnetwork.com   				# 403 (2185) - Food Network
+map==cbm7==plus-1.foodnetwork.com   				# 404 (2186) - Food Network +1
+map==cbfK==sat.travelchannel.co.uk   				# 405 (1462) - Travel Channel
+map==cbng==theactivechannel.com   				# 408 (2605) - The Active Channel
+map==cbhS==chartshow.com   				# 500 (2439) - Chart Show TV
+map==cbmk==essentialflava.com   				# 502 (2551) - Flava
+map==cbh5==mydancenation.com   				# 503 (2457) - Chart Show Dance
+map==cbhC==b4utv.com   				# 504 (43) - B4U Movies
+map==cbh7==bliss.co.uk   				# 506 (1144) - Bliss
+map==cbDw==   				# 515 () - Vintage TV
+map==cbhp==kiss-tv.kiss100.com   				# 518 (609) - Kiss TV
+map==cbfZ==thebox.co.uk   				# 519 (281) - The Box
+map==cbhW==magictv.co.uk   				# 520 (588) - Magic
+map==cbGK==   				# 523 () - Heat TV
+map==cbhZ==kerrang.com   				# 524 (191) - Kerrang! TV
+map==cbbW==cbbc.bbc.co.uk   				# 600 (482) - CBBC
+map==cbbX==cbeebies.bbc.co.uk   				# 601 (483) - CBeebies
+map==cbfz==citv.itv.co.uk   				# 602 (1981) - CITV
+map==cbk9==popfun.co.uk   				# 603 (2544) - Pop
+map==cbDH==   				# 604 () - PopGirl
+map==cbmb==tinypop.com   				# 605 (2543) - Tiny Pop
+map==cbXf==   				# 660 () - Sony SAB
+map==cbf4==god.tv   				# 694 (137) - God TV
+map==cbcQ==   				# 700 () - BBC Radio 1 England
+map==cbcR==   				# 701 () - BBC Radio 1Xtra
+map==cbcS==   				# 702 () - BBC Radio 2
+map==cbcT==   				# 703 () - BBC Radio 3
+map==cbcV==   				# 704 () - BBC Radio 4 FM
+map==cbcW==   				# 705 () - BBC Radio 5 live
+map==cbcX==   				# 706 () - BBC Radio 5 live sports extra
+map==cbcZ==   				# 707 () - BBC Radio 6 Music
+map==cbdh==   				# 708 () - BBC Radio 4 Extra
+map==cbDk==   				# 709 () - BBC Asian Network
+map==cbdg==   				# 710 () - BBC Radio 4 LW
+map==cbc4==   				# 711 () - BBC World Service
+map==cbc5==   				# 712 () - BBC Radio Scotland FM
+map==cbc7==   				# 713 () - BBC Radio Nan Gaidheal
+map==cbdb==   				# 714 () - BBC Radio Wales
+map==cbdf==   				# 715 () - BBC Radio Cymru
+map==cbc8==   				# 716 () - BBC Radio Ulster
+map==cbbZ==   				# 718 () - BBC London 94.9
+map==cbpf==   				# 719 () - 95.8 Capital FM
+map==cbwj==   				# 720 () - Choice FM
+map==cbn8==   				# 721 () - Classic FM
+map==cbw4==   				# 722 () - Gold
+map==cbnW==   				# 723 () - Xfm
+map==cbnX==   				# 724 () - Absolute Radio
+map==cbvP==   				# 726 () - Absolute 80s
+map==cbBT==   				# 728 () - World Radio Network
+map==cbxQ==   				# 729 () - Jazz FM
+map==cbyX==   				# 730 () - Planet Rock
+map==cbn9==   				# 731 () - talkSPORT
+map==cbvk==   				# 732 () - 102.2 Smooth Radio
+map==cbpg==   				# 733 () - Heart London
+map==cbzG==   				# 750 () - RTÉ Radio 1 FM
+map==cbvz==   				# 751 () - RTÉ 2FM
+map==cbzF==   				# 752 () - RTÉ lyric fm
+map==cbzJ==   				# 753 () - RTÉ Raidió na Gaeltachta
+map==cbg8==qvcuk.com   				# 800 (228) - QVC
+map==cbjf==price-drop.tv   				# 801 (2640) - Price Drop
+map==cbhy==bid.tv   				# 802 (594) - Bid
+map==cbkX==gemstv.co.uk   				# 805 (2528) - Gems TV
+map==cbTZ==   				# 812 () - Ideal World
+map==cbVm==   				# 813 () - Create and Craft
+map==cbbh==london.bbc1.bbc.co.uk   				# 950 (94) - BBC One London
+map==cbTh==   				# 951 () - BBC One Channel Islands
+map==cbbp==midlands.bbc1.bbc.co.uk   				# 952 (95) - BBC One East Midlands
+map==cbbn==west.east.bbc1.bbc.co.uk   				# 953 (93) - BBC One East
+map==cbbC==   				# 954 () - BBC One West Midlands
+map==cbbs==north-west.bbc1.bbc.co.uk   				# 955 (98) - BBC One North West
+map==cbbr==north-east.bbc1.bbc.co.uk   				# 956 (97) - BBC One North East & Cumbria
+map==cbbj==northern-ireland.bbc1.bbc.co.uk   				# 957 (99) - BBC One Northern Ireland
+map==cbTg==   				# 958 () - BBC One Oxfordshire
+map==cbbx==south-east.bbc1.bbc.co.uk   				# 959 (1869) - BBC One South East
+map==cbbv==scotland.bbc1.bbc.co.uk   				# 960 (101) - BBC One Scotland
+map==cbbw==oxford.south.bbc1.bbc.co.uk   				# 961 (102) - BBC One South
+map==cbbC==   				# 963 () - BBC One West Midlands
+map==cbby==wales.bbc1.bbc.co.uk   				# 964 (100) - BBC One Wales
+map==cbbB==west.bbc1.bbc.co.uk   				# 965 (104) - BBC One West
+map==cbbF==   				# 966 () - BBC One Yorkshire
+map==cbbD==   				# 967 () - BBC One Yorkshire & Lincolnshire
+map==cbbG==east-midlands.bbc2.bbc.co.uk   				# 968 (2241) - BBC Two England
+map==cbbH==northern-ireland.bbc2.bbc.co.uk   				# 969 (112) - BBC Two Northern Ireland
+map==cbbK==scotland.bbc2.bbc.co.uk   				# 970 (113) - BBC Two Scotland
+map==cbbM==wales.bbc2.bbc.co.uk   				# 971 (114) - BBC Two Wales
+map==cbdj==channel4.com   				# 974 (132) - Channel 4
+map==cbff==plus-1.channel4.com   				# 975 (2047) - Channel 4 +1
+map==cbdw==tsod.plus-1.london-macro.itv1.itv.co.uk   				# 977 (26) - ITV London
+map==cbnp==interactive.sport.bbc.co.uk   				# 981 (2040) - BBC Red Button 1

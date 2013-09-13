@@ -1,0 +1,87 @@
+# CHANNELS for cbj2
+# This is an attempt to auto-match the Atlas data against the 
+# RT grabber's channel_ids file
+# 'map' == channel id == rt_id   # channel-num (rt_channel_as_defined_by_atlas) channel_name
+# 
+map==cbbC==   				# 1 () - BBC One West Midlands
+map==cbbG==east-midlands.bbc2.bbc.co.uk   				# 2 (2241) - BBC Two England
+map==cbdH==tsod.plus-1.central-macro.itv1.itv.co.uk   				# 3 (27) - ITV Central
+map==cbdj==channel4.com   				# 4 (132) - Channel 4
+map==cbdq==channel5.co.uk   				# 5 (134) - Channel 5
+map==cbdZ==itv2.itv.co.uk   				# 6 (185) - ITV2
+map==cbbP==bbcthree.bbc.co.uk   				# 7 (45) - BBC Three
+map==cbbQ==bbcfour.bbc.co.uk   				# 9 (47) - BBC Four
+map==cbd2==itv3.itv.co.uk   				# 10 (1859) - ITV3
+map==cbjP==sky-three.sky.com   				# 11 (1963) - Pick TV
+map==cbjc==dave.uktv.co.uk   				# 12 (2050) - Dave
+map==cbff==plus-1.channel4.com   				# 13 (2047) - Channel 4 +1
+map==cbdk==more4.channel4.com   				# 14 (1959) - More4
+map==cbdm==filmfour.channel4.com   				# 15 (160) - Film4
+map==cbg8==qvcuk.com   				# 16 (228) - QVC
+map==cbjy==really.uktv.co.uk   				# 17 (1882) - Really
+map==cbdp==4music.channel4.com   				# 18 (1544) - 4Music
+map==cbhT==yesterday.uktv.co.uk   				# 19 (801) - Yesterday
+map==cbTQ==   				# 20 () - GOLD Top Up TV
+map==cbWW==   				# 20 () - Drama
+map==cbm5==uk.viva.tv   				# 21 (2184) - Viva
+map==cbWb==   				# 22 () - Ideal World Freeview
+map==cbhy==bid.tv   				# 23 (594) - Bid
+map==cbd5==itv4.itv.co.uk   				# 24 (1961) - ITV4
+map==cbfr==plus-1.itv2.itv.co.uk   				# 27 (1990) - ITV2+1
+map==cbdn==e4.channel4.com   				# 28 (158) - E4
+map==cbfs==plus-1.e4.channel4.com   				# 29 (1161) - E4 +1
+map==cbdt==fiver.channel5.co.uk   				# 30 (2062) - 5*
+map==cbdv==fiveusa.channel5.co.uk   				# 31 (2008) - 5USA
+map==cbVC==   				# 32 () - Movie Mix
+map==cbdQ==plus-1.central.itv1.itv.co.uk   				# 33 (2678) - ITV Central+1
+map==cbVx==   				# 36 () - Create and Craft
+map==cbjf==price-drop.tv   				# 37 (2640) - Price Drop
+map==cbmP==quest.discoveryeurope.com   				# 38 (2179) - Quest
+map==cbm6==foodnetwork.com   				# 41 (2185) - Food Network
+map==cbkX==gemstv.co.uk   				# 43 (2528) - Gems TV
+map==cbdr==plus-1.channel5.co.uk   				# 44 (2699) - Channel 5 +1
+map==cbhd==plus-1.filmfour.channel4.com   				# 45 (2021) - Film4 +1
+map==cbfR==challengetv.co.uk   				# 46 (131) - Challenge
+map==cbB2==   				# 47 (2701) - 4seven
+map==cbnd==entertainment.truemovies.tv   				# 61 (2603) - True Entertainment
+map==cbbW==cbbc.bbc.co.uk   				# 70 (482) - CBBC
+map==cbbX==cbeebies.bbc.co.uk   				# 71 (483) - CBeebies
+map==cbfz==citv.itv.co.uk   				# 72 (1981) - CITV
+map==cbbR==news.bbc.co.uk   				# 80 (48) - BBC News Channel
+map==cbbT==parliament.bbc.co.uk   				# 81 (49) - BBC Parliament
+map==cbf8==sky-news.sky.com   				# 82 (256) - Sky News
+map==cbkN==aljazeera.net   				# 83 (2055) - Al Jazeera English
+map==cbTn==   				# 85 () - RT
+map==cbS7==   				# 87 () - Community Channel Freeview
+map==cbbq==hd.bbc1.bbc.co.uk   				# 101 (2667) - BBC One HD
+map==cbWw==   				# 102 () - BBC Two HD
+map==cbDG==   				# 103 () - ITVHD Central
+map==cbfg==hd.channel4.com   				# 104 (2056) - Channel 4 HD
+map==cbgB==   				# 171 () - Television X
+map==cbf4==god.tv   				# 235 (137) - God TV
+map==cbnp==interactive.sport.bbc.co.uk   				# 301 (2040) - BBC Red Button 1
+map==cbWZ==   				# 302 () - BBC Red Button 2
+map==cbWY==   				# 303 () - BBC Red Button HD
+map==cbcQ==   				# 700 () - BBC Radio 1 England
+map==cbcR==   				# 701 () - BBC Radio 1Xtra
+map==cbcS==   				# 702 () - BBC Radio 2
+map==cbcT==   				# 703 () - BBC Radio 3
+map==cbcV==   				# 704 () - BBC Radio 4 FM
+map==cbcW==   				# 705 () - BBC Radio 5 live
+map==cbcX==   				# 706 () - BBC Radio 5 live sports extra
+map==cbcZ==   				# 707 () - BBC Radio 6 Music
+map==cbdh==   				# 708 () - BBC Radio 4 Extra
+map==cbDk==   				# 709 () - BBC Asian Network
+map==cbc4==   				# 710 () - BBC World Service
+map==cbBm==   				# 711 () - The Hits
+map==cbpb==   				# 712 () - Smash Hits
+map==cbn6==   				# 713 () - Kiss 100
+map==cbpd==   				# 714 () - Heat
+map==cbyn==   				# 715 () - Magic 105.4
+map==cbvk==   				# 717 () - 102.2 Smooth Radio
+map==cbpc==   				# 722 () - Kerrang!
+map==cbCQ==   				# 723 () - talkSPORT DAB
+map==cbvD==   				# 724 () - 96-106 Capital FM
+map==cbyZ==   				# 725 () - Premier Christian Radio
+map==cbnX==   				# 727 () - Absolute Radio
+map==cbpg==   				# 728 () - Heart London
