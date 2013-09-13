@@ -1,0 +1,182 @@
+# REGIONS for all platforms
+# region id == region name == platform id == platform name
+# 
+cbf2==South Lakeland==cbfK==Sky HD 
+cbf4==Wales==cbfK==Sky HD 
+cbf5==West Dorset==cbfK==Sky HD 
+cbf6==West England==cbfK==Sky HD 
+cbf7==West Midlands==cbfK==Sky HD 
+cbf8==Yorkshire & Lincolnshire==cbfK==Sky HD 
+cbf9==Yorkshire==cbfK==Sky HD 
+cbfM==Republic of Ireland==cbfK==Sky HD 
+cbfN==Northern Ireland==cbfK==Sky HD 
+cbfP==Oxford==cbfK==Sky HD 
+cbfQ==North West==cbfK==Sky HD 
+cbfR==North Yorkshire==cbfK==Sky HD 
+cbfS==North East==cbfK==Sky HD 
+cbfT==North East Midlands==cbfK==Sky HD 
+cbfV==Meridian (East)==cbfK==Sky HD 
+cbfW==Meridian (West)==cbfK==Sky HD 
+cbfX==Scotland (Central)==cbfK==Sky HD 
+cbfY==Scotland (North)==cbfK==Sky HD 
+cbfZ==Scotland (Borders)==cbfK==Sky HD 
+cbg4==Yorkshire==cbg2==Freeview 
+cbg5==Cumbria==cbg2==Freeview 
+cbg6==West Midlands==cbg2==Freeview 
+cbg7==Channel Islands==cbg2==Freeview 
+cbg8==Scotland (Central)==cbg2==Freeview 
+cbg9==Scotland (Borders)==cbg2==Freeview 
+cbgB==Scotland (Central)==cbgp==Sky SD 
+cbgC==Scotland (Borders)==cbgp==Sky SD 
+cbgD==Scotland (North)==cbgp==Sky SD 
+cbgF==South Lakeland==cbgp==Sky SD 
+cbgG==Wales==cbgp==Sky SD 
+cbgH==West Dorset==cbgp==Sky SD 
+cbgJ==West England==cbgp==Sky SD 
+cbgK==West Midlands==cbgp==Sky SD 
+cbgM==Yorkshire & Lincolnshire==cbgp==Sky SD 
+cbgN==Yorkshire==cbgp==Sky SD 
+cbgP==Channel Islands==cbgp==Sky SD 
+cbgQ==Cambridgeshire==cbgp==Sky SD 
+cbgR==London (Thames Valley)==cbgp==Sky SD 
+cbgS==Anglia==cbgp==Sky SD 
+cbgT==London==cbgp==Sky SD 
+cbgV==Henley on Thames==cbgp==Sky SD 
+cbgW==East Midlands==cbgp==Sky SD 
+cbgX==Cumbria==cbgp==Sky SD 
+cbgY==London (Essex)==cbgp==Sky SD 
+cbgZ==London (Kent)==cbgp==Sky SD 
+cbgb==Channel Islands==cbfK==Sky HD 
+cbgc==Cambridgeshire==cbfK==Sky HD 
+cbgd==London (Thames Valley)==cbfK==Sky HD 
+cbgf==Anglia==cbfK==Sky HD 
+cbgg==London==cbfK==Sky HD 
+cbgh==Henley on Thames==cbfK==Sky HD 
+cbgj==East Midlands==cbfK==Sky HD 
+cbgk==Cumbria==cbfK==Sky HD 
+cbgm==London (Kent)==cbfK==Sky HD 
+cbgn==London (Essex)==cbfK==Sky HD 
+cbgq==Republic of Ireland==cbgp==Sky SD 
+cbgr==Northern Ireland==cbgp==Sky SD 
+cbgs==Oxford==cbgp==Sky SD 
+cbgt==North West==cbgp==Sky SD 
+cbgv==North Yorkshire==cbgp==Sky SD 
+cbgw==North East==cbgp==Sky SD 
+cbgx==North East Midlands==cbgp==Sky SD 
+cbgy==Meridian (East)==cbgp==Sky SD 
+cbgz==Meridian (West)==cbgp==Sky SD 
+cbh2==South West==cbhV==Virgin 
+cbh4==Cambridge==cbhV==Virgin 
+cbh5==Wales==cbhV==Virgin 
+cbh6==East Midlands==cbhV==Virgin 
+cbh7==West==cbhV==Virgin 
+cbh8==North West==cbhV==Virgin 
+cbh9==West Midlands==cbhV==Virgin 
+cbhB==South West==cbhv==Freesat 
+cbhC==Cambridge==cbhv==Freesat 
+cbhD==Wales==cbhv==Freesat 
+cbhF==East Midlands==cbhv==Freesat 
+cbhG==Northern Ireland==cbhv==Freesat 
+cbhH==Oxfordshire==cbhv==Freesat 
+cbhJ==Scotland (Central)==cbhv==Freesat 
+cbhK==Scotland (North)==cbhv==Freesat 
+cbhM==West==cbhv==Freesat 
+cbhN==London==cbhv==Freesat 
+cbhP==North East==cbhv==Freesat 
+cbhQ==Channel Islands==cbhv==Freesat 
+cbhR==North West==cbhv==Freesat 
+cbhS==Yorkshire==cbhv==Freesat 
+cbhT==West Midlands==cbhv==Freesat 
+cbhW==Yorkshire & Lincolnshire==cbhV==Virgin 
+cbhX==South East==cbhV==Virgin 
+cbhY==South England==cbhV==Virgin 
+cbhZ==East==cbhV==Virgin 
+cbhb==Oxfordshire==cbg2==Freeview 
+cbhc==Cambridgeshire==cbg2==Freeview 
+cbhd==Northern Ireland==cbg2==Freeview 
+cbhf==North West==cbg2==Freeview 
+cbhg==Wales==cbg2==Freeview 
+cbhh==East Midlands==cbg2==Freeview 
+cbhj==West==cbg2==Freeview 
+cbhk==Yorkshire & Lincolnshire==cbg2==Freeview 
+cbhm==South East==cbg2==Freeview 
+cbhn==London==cbg2==Freeview 
+cbhp==South West==cbg2==Freeview 
+cbhq==North East==cbg2==Freeview 
+cbhr==Scotland (North)==cbg2==Freeview 
+cbhs==South==cbg2==Freeview 
+cbht==East==cbg2==Freeview 
+cbhw==Yorkshire & Lincolnshire==cbhv==Freesat 
+cbhx==South East==cbhv==Freesat 
+cbhy==East==cbhv==Freesat 
+cbhz==South England==cbhv==Freesat 
+cbj2==West Midlands==cbjR==YouView 
+cbj4==West==cbjR==YouView 
+cbj5==Yorkshire==cbjR==YouView 
+cbj6==North West==cbjR==YouView 
+cbj7==Northern Ireland==cbjR==YouView 
+cbj8==Oxfordshire==cbjR==YouView 
+cbj9==Cumbria==cbjR==YouView 
+cbjB==Cumbria==cbjk==Top Up TV 
+cbjC==Scotland (Borders)==cbjk==Top Up TV 
+cbjD==East==cbjk==Top Up TV 
+cbjF==Scotland (Central)==cbjk==Top Up TV 
+cbjG==Scotland (North)==cbjk==Top Up TV 
+cbjH==Cambridgeshire==cbjk==Top Up TV 
+cbjJ==South==cbjk==Top Up TV 
+cbjK==Channel Islands==cbjk==Top Up TV 
+cbjM==Oxfordshire==cbjk==Top Up TV 
+cbjS==South West==cbjR==YouView 
+cbjT==North East==cbjR==YouView 
+cbjV==South East==cbjR==YouView 
+cbjW==London==cbjR==YouView 
+cbjX==Yorkshire & Lincolnshire==cbjR==YouView 
+cbjY==East Midlands==cbjR==YouView 
+cbjZ==Wales==cbjR==YouView 
+cbjb==Northern Ireland==cbhV==Virgin 
+cbjc==Yorkshire==cbhV==Virgin 
+cbjd==London==cbhV==Virgin 
+cbjf==North East==cbhV==Virgin 
+cbjg==Oxfordshire==cbhV==Virgin 
+cbjh==Scotland (North)==cbhV==Virgin 
+cbjj==Scotland (Central)==cbhV==Virgin 
+cbjm==West Midlands==cbjk==Top Up TV 
+cbjn==Northern Ireland==cbjk==Top Up TV 
+cbjp==North West==cbjk==Top Up TV 
+cbjq==South West==cbjk==Top Up TV 
+cbjr==North East==cbjk==Top Up TV 
+cbjs==South East==cbjk==Top Up TV 
+cbjt==London==cbjk==Top Up TV 
+cbjv==West==cbjk==Top Up TV 
+cbjw==Yorkshire & Lincolnshire==cbjk==Top Up TV 
+cbjx==Wales==cbjk==Top Up TV 
+cbjy==East Midlands==cbjk==Top Up TV 
+cbjz==Yorkshire==cbjk==Top Up TV 
+cbkB==East Midlands==cbkk==BT TV 
+cbkC==East==cbkk==BT TV 
+cbkD==Scotland (North)==cbkk==BT TV 
+cbkF==South==cbkk==BT TV 
+cbkG==South East==cbkk==BT TV 
+cbkH==Cambridgeshire==cbkk==BT TV 
+cbkJ==South West==cbkk==BT TV 
+cbkK==Yorkshire & Lincolnshire==cbkk==BT TV 
+cbkM==London==cbkk==BT TV 
+cbkb==Scotland (Borders)==cbjR==YouView 
+cbkc==East==cbjR==YouView 
+cbkd==Scotland (Central)==cbjR==YouView 
+cbkf==Scotland (North)==cbjR==YouView 
+cbkg==Cambridgeshire==cbjR==YouView 
+cbkh==South==cbjR==YouView 
+cbkj==Channel Islands==cbjR==YouView 
+cbkm==West==cbkk==BT TV 
+cbkn==Northern Ireland==cbkk==BT TV 
+cbkp==West Midlands==cbkk==BT TV 
+cbkq==Oxfordshire==cbkk==BT TV 
+cbkr==Scotland (Borders)==cbkk==BT TV 
+cbks==Wales==cbkk==BT TV 
+cbkt==Scotland (Central)==cbkk==BT TV 
+cbkv==Yorkshire==cbkk==BT TV 
+cbkw==North East==cbkk==BT TV 
+cbkx==North West==cbkk==BT TV 
+cbky==Cumbria==cbkk==BT TV 
+cbkz==Channel Islands==cbkk==BT TV 

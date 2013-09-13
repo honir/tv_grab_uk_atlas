@@ -1,0 +1,21 @@
+# REGIONS for Virgin
+# region id == region title
+# 
+cbhW==Yorkshire & Lincolnshire 
+cbhX==South East 
+cbhZ==East 
+cbhY==South England 
+cbh2==South West 
+cbh4==Cambridge 
+cbh5==Wales 
+cbh6==East Midlands 
+cbh7==West 
+cbh8==North West 
+cbh9==West Midlands 
+cbjb==Northern Ireland 
+cbjc==Yorkshire 
+cbjd==London 
+cbjf==North East 
+cbjg==Oxfordshire 
+cbjh==Scotland (North) 
+cbjj==Scotland (Central) 

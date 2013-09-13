@@ -1,0 +1,24 @@
+# REGIONS for BT TV
+# region id == region title
+# 
+cbkm==West 
+cbkn==Northern Ireland 
+cbkp==West Midlands 
+cbkq==Oxfordshire 
+cbkr==Scotland (Borders) 
+cbks==Wales 
+cbkt==Scotland (Central) 
+cbkv==Yorkshire 
+cbkw==North East 
+cbkx==North West 
+cbky==Cumbria 
+cbkz==Channel Islands 
+cbkB==East Midlands 
+cbkC==East 
+cbkD==Scotland (North) 
+cbkF==South 
+cbkG==South East 
+cbkH==Cambridgeshire 
+cbkJ==South West 
+cbkK==Yorkshire & Lincolnshire 
+cbkM==London 

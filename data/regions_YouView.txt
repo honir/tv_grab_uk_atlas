@@ -1,0 +1,24 @@
+# REGIONS for YouView
+# region id == region title
+# 
+cbjS==South West 
+cbjT==North East 
+cbjV==South East 
+cbjW==London 
+cbjX==Yorkshire & Lincolnshire 
+cbjZ==Wales 
+cbjY==East Midlands 
+cbj2==West Midlands 
+cbj4==West 
+cbj5==Yorkshire 
+cbj6==North West 
+cbj7==Northern Ireland 
+cbj8==Oxfordshire 
+cbj9==Cumbria 
+cbkb==Scotland (Borders) 
+cbkc==East 
+cbkd==Scotland (Central) 
+cbkf==Scotland (North) 
+cbkg==Cambridgeshire 
+cbkh==South 
+cbkj==Channel Islands 

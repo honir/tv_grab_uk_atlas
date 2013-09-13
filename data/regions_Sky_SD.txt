@@ -1,0 +1,32 @@
+# REGIONS for Sky SD
+# region id == region title
+# 
+cbgq==Republic of Ireland 
+cbgr==Northern Ireland 
+cbgs==Oxford 
+cbgt==North West 
+cbgv==North Yorkshire 
+cbgw==North East 
+cbgx==North East Midlands 
+cbgy==Meridian (East) 
+cbgz==Meridian (West) 
+cbgB==Scotland (Central) 
+cbgC==Scotland (Borders) 
+cbgD==Scotland (North) 
+cbgF==South Lakeland 
+cbgG==Wales 
+cbgH==West Dorset 
+cbgJ==West England 
+cbgK==West Midlands 
+cbgM==Yorkshire & Lincolnshire 
+cbgN==Yorkshire 
+cbgP==Channel Islands 
+cbgQ==Cambridgeshire 
+cbgR==London (Thames Valley) 
+cbgS==Anglia 
+cbgT==London 
+cbgV==Henley on Thames 
+cbgW==East Midlands 
+cbgX==Cumbria 
+cbgZ==London (Kent) 
+cbgY==London (Essex) 

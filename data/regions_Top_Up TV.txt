@@ -1,0 +1,24 @@
+# REGIONS for Top Up TV
+# region id == region title
+# 
+cbjm==West Midlands 
+cbjn==Northern Ireland 
+cbjp==North West 
+cbjq==South West 
+cbjr==North East 
+cbjs==South East 
+cbjt==London 
+cbjv==West 
+cbjw==Yorkshire & Lincolnshire 
+cbjx==Wales 
+cbjy==East Midlands 
+cbjz==Yorkshire 
+cbjB==Cumbria 
+cbjC==Scotland (Borders) 
+cbjD==East 
+cbjF==Scotland (Central) 
+cbjG==Scotland (North) 
+cbjH==Cambridgeshire 
+cbjJ==South 
+cbjK==Channel Islands 
+cbjM==Oxfordshire 
