@@ -1,0 +1,13 @@
+# This is an attempt to auto-match the Atlas data against the RT grabber's channel_ids file
+#
+# e.g.  map==cbdm==filmfour.channel4.com   # 15 (160) - Film4
+#
+# It's not very successful since Atlas has many channels which aren't in the RT data, 
+#  and which RT lists as "blank." or doesn't list at all.
+#
+# Also it doesn't account for situations where Atlas lists multiple RT aliases for the same channel.
+#
+# Hopefully it still provides a starting point for you if your PVR requires the RT-style channel ids
+#
+# Hmm... best treat this as a work in progress.
+#
