@@ -108,6 +108,14 @@ if ( $result =~ /^Status:/ ) {
 	# assume it's a valid HTTP "Status: "
 	print $result;
 }
+else {
+	# validate the xml 
+	system(' xmllint --noout --dtdvalid http://supplement.xmltv.org/xmltv.dtd /tmp/tv_grab_uk_atlas.stdout ');
+	if ($? != 0) {
+			print "Status: 500 Invalid XML \n\n";
+			exit;
+	}
+}
 
 # append the xml file (which is blank when an error occurs)
 print "Content-type: text/xml"."\n\n";
