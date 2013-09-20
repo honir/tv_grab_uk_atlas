@@ -45,8 +45,9 @@ HTTP::Cache::Transparent::init( {
 # Get the channels from Atlas
 my $ROOT_URL = 'http://atlas.metabroadcast.com/3.0/';
 my $platforms = ();
-my $channels = ();
 my $regions = ();
+my $regionchannels = ();
+my $allchannels = ();
 my $channelids = ();
 my $rtchannelids = ();
 my $pachannelids = ();
@@ -70,10 +71,12 @@ sub get_channels {
 		print_platforms();
 		print_regions();
 		fetch_channels();
-		#		print Dumper($channels);
+		#		print Dumper($regionchannels);
+		#		print Dumper($allchannels);
 		#		print Dumper($rtchannelids);
 		#		print Dumper($pachannelids);
 		print_channels();
+		print_channels_all();
 		print_channels_RT();
 		print_channels_RT_ATLAS();
 		
@@ -208,7 +211,7 @@ sub fetch_channels {
 						my $url = $ROOT_URL.'channel_groups/'.$regioncode.'.json?annotations=channels';
 						#print $url ."\n" ;
 
-						my %regionchannels = ();
+						my %regionchannel = ();
 
 						# Fetch the page
 						my $res = $lwp->get( $url );
@@ -232,6 +235,9 @@ sub fetch_channels {
 										$channel{'title'} 			= $chan{'channel'}->{'title'};
 										$channel{'image'} 			= $chan{'channel'}->{'image'};
 										$channel{'media_type'} 	= $chan{'channel'}->{'media_type'};		# 'video' 'audio'
+										$channel{'region'} 			= $regioncode;
+										
+										push @{$allchannels}, { %channel };
 										
 										foreach (@{$chan{'channel'}->{'aliases'}}) {
 												my $alias = $_;							
@@ -256,14 +262,14 @@ sub fetch_channels {
 												}
 										}
 												 
-										push @{$regionchannels{$regioncode}}, \%channel;
+										push @{$regionchannel{$regioncode}}, \%channel;
 								}
 								
 						} else {
 								print $res->status_line . "\n";
 						}
 						
-						push @{$channels}, \%regionchannels;		
+						push @{$regionchannels}, \%regionchannel;		
 				}
 		}
 	
@@ -274,7 +280,7 @@ sub fetch_channels {
 sub print_channels {
 		# Write a map file of all the Atlas channels for each region with  map==id==num   ("map_xxxx.txt")
 		#
-		foreach (@{$channels}) {
+		foreach (@{$regionchannels}) {
 				my %r = %$_;
 							
 				foreach my $key (keys %r) {
@@ -294,9 +300,75 @@ sub print_channels {
 						}
 							
 						close OUT;
-			}
+				}
 				
 		}
+}
+
+
+sub print_channels_all {
+		# Write a map file of all the Atlas channels for all regions with  map==id==num   ("map_all.txt")
+		#	
+		my $f = 'map_all.txt';			
+		open OUT, "> $f"  or die "Failed to open $f for writing";
+		printf OUT '# ALL CHANNELS for ALL REGIONS'."\n";
+		printf OUT '# \'map\' == channel id == channel number  # (region id) -- channel title '."\n";
+		printf OUT '# '."\n";
+				
+		foreach (@{$allchannels}) {
+				my %c = %$_;
+				
+				printf OUT "map==%s==%s \t\t# (%s) -- %s "."\n", $c{'id'}, $c{'num'}, $c{'region'}, $c{'title'};
+		}
+				
+		close OUT;
+		
+		# sort by id
+		$f = 'map_all.sort_id.txt';			
+		open OUT, "> $f"  or die "Failed to open $f for writing";
+		printf OUT '# CHANNELS for RT grabber ids'."\n";
+		printf OUT '# ALL CHANNELS for ALL REGIONS'."\n";
+		printf OUT '# \'map\' == channel id == channel number  # (region id) -- channel title '."\n";
+		printf OUT '# '."\n";
+		printf OUT '# Sorted by Atlas id'."\n";
+		printf OUT '# '."\n";
+		foreach (sort {$$a{'id'} cmp $$b{'id'}} @{$allchannels}) {
+				my %c = %$_;
+				printf OUT "map==%s==%s \t\t# (%s) -- %s "."\n", $c{'id'}, $c{'num'}, $c{'region'}, $c{'title'};
+		}
+		close OUT;
+		
+		# sort by num
+		$f = 'map_all.sort_num.txt';			
+		open OUT, "> $f"  or die "Failed to open $f for writing";
+		printf OUT '# CHANNELS for RT grabber ids'."\n";
+		printf OUT '# ALL CHANNELS for ALL REGIONS'."\n";
+		printf OUT '# \'map\' == channel id == channel number  # (region id) -- channel title '."\n";
+		printf OUT '# '."\n";
+		printf OUT '# Sorted by channel number'."\n";
+		printf OUT '# '."\n";
+		foreach (sort {$$a{'num'} cmp $$b{'num'} or $$a{'id'} cmp $$b{'id'}} @{$allchannels}) {
+				my %c = %$_;
+				printf OUT "map==%s==%s \t\t# (%s) -- %s "."\n", $c{'id'}, $c{'num'}, $c{'region'}, $c{'title'};
+		}
+		close OUT;
+		
+		# sort by title
+		$f = 'map_all.sort_title.txt';			
+		open OUT, "> $f"  or die "Failed to open $f for writing";
+		printf OUT '# CHANNELS for RT grabber ids'."\n";
+		printf OUT '# ALL CHANNELS for ALL REGIONS'."\n";
+		printf OUT '# \'map\' == channel id == channel number  # (region id) -- channel title '."\n";
+		printf OUT '# '."\n";
+		printf OUT '# Sorted by Atlas channel title'."\n";
+		printf OUT '# '."\n";
+		foreach (sort {$$a{'title'} cmp $$b{'title'} or $$a{'id'} cmp $$b{'id'}} @{$allchannels}) {
+				my %c = %$_;
+				printf OUT "map==%s==%s \t\t# (%s) -- %s "."\n", $c{'id'}, $c{'num'}, $c{'region'}, $c{'title'};
+		}
+		close OUT;
+		
+		
 }
 
 
@@ -326,7 +398,7 @@ sub print_channels_RT {
 		#print Dumper (\%rt_ids);
 		
 		
-		foreach (@{$channels}) {
+		foreach (@{$regionchannels}) {
 				my %r = %$_;
 							
 				foreach my $key (keys %r) {
@@ -354,7 +426,7 @@ sub print_channels_RT {
 						}
 							
 						close OUT;
-			}
+				}
 				
 		}
 }
@@ -498,7 +570,7 @@ $VAR1 = {
 				
 
 # ----------------------------------------------------------------------------------------------------------- #
-print Dumper($channels);
+print Dumper($regionchannels);
 $VAR1 = [
           {
             'cbfM' => [
@@ -537,7 +609,29 @@ $VAR1 = [
           }
         ];
 				
-
+				
+# ----------------------------------------------------------------------------------------------------------- #
+print Dumper($allchannels);			
+$VAR1 = [
+          {
+            'num' => '101',
+            'media_type' => 'video',
+            'region' => 'cbfM',
+            'id' => 'cbfk',
+            'title' => "RT\x{c3}\x{89} One",
+            'image' => 'http://images.atlas.metabroadcast.com/pressassociation.com/channels/p139876.png'
+          },
+          {
+            'num' => '102',
+            'media_type' => 'video',
+            'region' => 'cbfM',
+            'id' => 'cbfm',
+            'title' => "RT\x{c3}\x{89} Two",
+            'image' => 'http://images.atlas.metabroadcast.com/pressassociation.com/channels/p139878.png'
+          }
+        ];
+				
+				
 # ----------------------------------------------------------------------------------------------------------- #				
 print Dumper($rtchannelids);
 $VAR1 = {
