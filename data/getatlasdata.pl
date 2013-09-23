@@ -326,7 +326,6 @@ sub print_channels_all {
 		# sort by id
 		$f = 'map_all.sort_id.txt';			
 		open OUT, "> $f"  or die "Failed to open $f for writing";
-		printf OUT '# CHANNELS for RT grabber ids'."\n";
 		printf OUT '# ALL CHANNELS for ALL REGIONS'."\n";
 		printf OUT '# \'map\' == channel id == channel number  # (region id) -- channel title '."\n";
 		printf OUT '# '."\n";
@@ -341,7 +340,6 @@ sub print_channels_all {
 		# sort by num
 		$f = 'map_all.sort_num.txt';			
 		open OUT, "> $f"  or die "Failed to open $f for writing";
-		printf OUT '# CHANNELS for RT grabber ids'."\n";
 		printf OUT '# ALL CHANNELS for ALL REGIONS'."\n";
 		printf OUT '# \'map\' == channel id == channel number  # (region id) -- channel title '."\n";
 		printf OUT '# '."\n";
@@ -356,7 +354,6 @@ sub print_channels_all {
 		# sort by title
 		$f = 'map_all.sort_title.txt';			
 		open OUT, "> $f"  or die "Failed to open $f for writing";
-		printf OUT '# CHANNELS for RT grabber ids'."\n";
 		printf OUT '# ALL CHANNELS for ALL REGIONS'."\n";
 		printf OUT '# \'map\' == channel id == channel number  # (region id) -- channel title '."\n";
 		printf OUT '# '."\n";
