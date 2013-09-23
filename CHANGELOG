@@ -1,1 +1,14 @@
---     18-Sep-2013  Validate the generated xml with xmllint1.006  12-Sep-2013  Ignore comments in 'map' files1.005  11-Sep-2013  Bug fix in timezone display1.004  11-Sep-2013  Handle HTTP failures1.003  11-Sep-2013  Added --dst param                    Simplified 'from'/'to' code                     Allow the channel specified to "--channel" to be a 'mapped' channel name 1.002  11-Sep-2013  Map 'Film' genre to alternative name if added by 'type' attribute                    Fixed bug in 'to' time calculation for --hours with --offset1.001  10-Sep-2013  Fix grabbing of "premiere"1.000  10-Sep-2013  Initial release
+
+1.007  23-Sep-2013  Fix channel's <display-name>
+--     18-Sep-2013  Validate the generated xml with xmllint
+1.006  12-Sep-2013  Ignore comments in 'map' files
+1.005  11-Sep-2013  Bug fix in timezone display
+1.004  11-Sep-2013  Handle HTTP failures
+1.003  11-Sep-2013  Added --dst param
+                    Simplified 'from'/'to' code 
+                    Allow the channel specified to "--channel" to be a 'mapped' channel name 
+1.002  11-Sep-2013  Map 'Film' genre to alternative name if added by 'type' attribute
+                    Fixed bug in 'to' time calculation for --hours with --offset
+1.001  10-Sep-2013  Fix grabbing of "premiere"
+1.000  10-Sep-2013  Initial release
+

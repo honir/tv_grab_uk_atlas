@@ -6,7 +6,7 @@
 #
 # 
 
-my $_version 	= '$Id: tv_grab_uk_atlas,v 1.006 2013/09/12 16:12:00 honir Exp $';
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.007 2013/09/23 10:40:00 honir Exp $';
 
 
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
@@ -243,19 +243,19 @@ sub fetch_listings {
 				if (defined(&map_channel_id)) { $xmlchannel_id = map_channel_id($channel_id); }
 				my $channelname = $xmlchannel_id;
 				
-				# Add to the channels hash
-				$channels->{$channel_id} = { 'id'=> $xmlchannel_id , 'display-name' => [[$channelname, 'en']]  };
-				
 				# Fetch the page
 				my $res = $lwp->get( $url );
 				
 				if ($res->is_success) {
-						get_schedule_from_json($xmlchannel_id, $res->content);
+						get_schedule_from_json($xmlchannel_id, $res->content, \$channelname);
 				} else {
 						# error - format as a valid http status line for cgi script
 						print STDERR "Status: ".$res->status_line."\n";
 				}
 					
+				# Add to the channels hash
+				$channels->{$channel_id} = { 'id'=> $xmlchannel_id , 'display-name' => [[$channelname, 'en']]  };
+				
 				$bar->update if defined $bar;
 			}
 		}
@@ -268,10 +268,12 @@ sub get_schedule_from_json {
 		#  Credit: Gordon M.Lack (http://birdman.dynalias.org/xmltv-from-Atlas/) for some of the original data abstraction principles used here.
 		#
 
-		my( $channel_id, $input ) = @_;
+		my( $channel_id, $input, $channelname ) = @_;
 		my $data = JSON::PP->new()->utf8(0)->decode($input);
 		$input = undef;
 
+		${$channelname} = $data->{'schedule'}[0]->{'channel_title'};
+		
 		my $prog_item = $data->{'schedule'}[0]->{'items'};
 		foreach my $p (@$prog_item) {
 				my %prog = %$p;
