@@ -1,4 +1,6 @@
 
+1.008  28-Sep-2013  Fix --list-channels
+                    Add <icon> to channel details
 1.007  23-Sep-2013  Fix channel's <display-name>
 --     18-Sep-2013  Validate the generated xml with xmllint
 1.006  12-Sep-2013  Ignore comments in 'map' files

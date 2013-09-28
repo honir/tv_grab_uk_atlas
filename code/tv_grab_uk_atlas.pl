@@ -6,7 +6,7 @@
 #
 # 
 
-my $_version 	= '$Id: tv_grab_uk_atlas,v 1.007 2013/09/23 10:40:00 honir Exp $';
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.008 2013/09/28 08:11:00 honir Exp $';
 
 
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
@@ -20,6 +20,7 @@ use Data::Dumper;
 use XMLTV::ProgressBar;
 use XMLTV::Options qw/ParseOptions/;
 use XMLTV::Configure::Writer;
+use XMLTV::Ask;
 
 use File::Path;
 use POSIX qw(strftime);
@@ -230,7 +231,7 @@ sub fetch_listings {
 			my $apiKey = readpipe("cat ".$conf->{'api-key'}->[0]);
 			chomp($apiKey); chop($apiKey) if ($apiKey =~ m/\r$/);
 			my $publisher = 'pressassociation.com';
-			my $annotations = 'extended_description,broadcasts,series_summary,brand_summary,people';
+			my $annotations = 'extended_description,broadcasts,series_summary,brand_summary,people,channel';
 
 			my $url = $baseurl.'?'."channel_id=$channel_id&from=$from&to=$to&annotations=$annotations&publisher=$publisher&apiKey=$apiKey";
 			print $url ."\n" 	if ($opt->{debug});
@@ -242,12 +243,13 @@ sub fetch_listings {
 				my $xmlchannel_id = $channel_id;
 				if (defined(&map_channel_id)) { $xmlchannel_id = map_channel_id($channel_id); }
 				my $channelname = $xmlchannel_id;
+				my $channelicon = '';
 				
 				# Fetch the page
 				my $res = $lwp->get( $url );
 				
 				if ($res->is_success) {
-						get_schedule_from_json($xmlchannel_id, $res->content, \$channelname);
+						get_schedule_from_json($xmlchannel_id, $res->content, \$channelname, \$channelicon);
 				} else {
 						# error - format as a valid http status line for cgi script
 						print STDERR "Status: ".$res->status_line."\n";
@@ -255,6 +257,7 @@ sub fetch_listings {
 					
 				# Add to the channels hash
 				$channels->{$channel_id} = { 'id'=> $xmlchannel_id , 'display-name' => [[$channelname, 'en']]  };
+				$channels->{$channel_id}->{'icon'} = [{'src' => $channelicon }]   if $channelicon;
 				
 				$bar->update if defined $bar;
 			}
@@ -268,11 +271,12 @@ sub get_schedule_from_json {
 		#  Credit: Gordon M.Lack (http://birdman.dynalias.org/xmltv-from-Atlas/) for some of the original data abstraction principles used here.
 		#
 
-		my( $channel_id, $input, $channelname ) = @_;
+		my( $channel_id, $input, $channelname, $channelicon ) = @_;
 		my $data = JSON::PP->new()->utf8(0)->decode($input);
 		$input = undef;
 
 		${$channelname} = $data->{'schedule'}[0]->{'channel_title'};
+		${$channelicon} = $data->{'schedule'}[0]->{'channel'}->{'image'};
 		
 		my $prog_item = $data->{'schedule'}[0]->{'items'};
 		foreach my $p (@$prog_item) {
@@ -634,23 +638,68 @@ sub loadmapgenre {
 sub fetch_channels {
 		# Fetch Atlas' channels for a Region for a Platform
 		
+		# This sub is used by both --configure and --list-channels
+		# For --configure we will already have a Platform & Region from config_stage()
+		# For --list-channels it's not practical to list all channels for all regions for all platforms
+		#  (this would take too long (over 10 mins) and would place an unnecessary load on the Atlas server -
+		#   if you really want to see all 38,242 (!) records this would generate then please see the static files
+		#   in the 'data' directory on github)
+		#
+		# It seems XMLTV doesn't really handle the situation where there are multiple Platforms->Regions
+		# The only way we can reduce the list is to have the user select Platform and Region and then just 
+		# list the channels for that one Region. But this duplicates the selections we've done in config_stage()
+		# unfortunately. If anyone can see a more practical way of doing this please let me know.
+		#
+		
 		my ($conf, $opt) = @_;
-	
-		# temporary diversion...
-		# Store some extra data in the conf file (just for info)
-		#
-		# Ideally we would do this in config_stage but that will only write data captured va 'Ask'
-		# 	(i.e. we can't add our own data).  Neither does it have the $opt array with the config_file 
-		#		name so we can't even write it manually!  The only place we can do that is here.
-		#
-		open OUT, ">> ".$opt->{'config-file'}
-				or die "Failed to open $opt->{'config-file'} for writing";
-		print OUT "api-key=".get_supplement_dir()."/atlasAPIkey\n";
-		print OUT "platform-title=$platform_title\n";
-		print OUT "region-title=$region_title\n";
-		close OUT;
-		#  ...now back to the normal listchannels_sub
 
+		if ($opt->{'configure'}) { 
+				# temporary diversion...
+				# Store some extra data in the conf file (just for info)
+				#
+				# Ideally we would do this in config_stage but that will only write data captured va 'Ask'
+				# 	(i.e. we can't add our own data).  Neither does it have the $opt array with the config_file 
+				#		name so we can't even write it manually!  The only place we can do that is here.
+				#
+				open OUT, ">> ".$opt->{'config-file'}
+						or die "Failed to open $opt->{'config-file'} for writing";
+				print OUT "api-key=".get_supplement_dir()."/atlasAPIkey\n";
+				print OUT "platform-title=$platform_title\n";
+				print OUT "region-title=$region_title\n";
+				close OUT;
+				#  ...now back to the normal listchannels_sub
+		}
+		elsif ($opt->{'list-channels'}) { 
+				# Ask the user for the Platform and Region code to get channels for
+				if (!defined $selected_region) {					
+						fetch_platforms();
+						my @choices = ();
+						foreach my $p (@platforms) {
+							my %platform = %$p;
+							next unless defined $platform{'regions'};
+							push @choices, $platform{'id'} . ' | ' . $platform{'title'} . ' ' . $platform{'countries'};
+						}
+						my $platform = ask_choice("\n'Choose your viewing platform'", $choices[0], @choices); # 'ask' forces us to have a valid default value!
+						my ($platform_id) = $platform =~ /^(.*?)\s|/;
+						@choices = ();
+						foreach my $p (@platforms) {
+							my %platform = %$p;
+							next unless $platform{'id'} eq $platform_id;
+							foreach my $r (@{$platform{'regions'}}) {
+									my %region = %$r;
+									push @choices, $region{'id'} . ' | ' . $region{'title'};
+							}
+						}
+						my $region = ask_choice("\n'Choose your viewing region'", $choices[0], @choices);
+						my ($region_id) = $region =~ /^(.*?)\s|/;
+						#
+						$selected_region = $region_id;
+				}
+				
+				# Need to load out 'map' file.  --list-channels doesn't reach that part of the code
+				loadmapconf();
+		}
+		
 	
 		#		http://atlas.metabroadcast.com/3.0/channel_groups/cbhN.json?annotations=channels 
 		#
@@ -685,7 +734,16 @@ sub fetch_channels {
 						$channel{'num'} 	= $chan{'channel_number'};
 						$channel{'id'} 		= $chan{'channel'}->{'id'};
 						$channel{'title'} = $chan{'channel'}->{'title'};
+						$channel{'image'} = $chan{'channel'}->{'image'};
 						
+						
+						if ($opt->{'list-channels'}) { 
+							# if the user has a 'map' file then map the Atlas channel_id to the user's one (since this is the one which will be
+							#  displayed in xml listings)
+							if (defined(&map_channel_id)) { $channel{'id'} = map_channel_id($channel{'id'}); }
+						}
+				
+				
 						push @channels, \%channel;
 				}
 				
@@ -711,9 +769,10 @@ sub fetch_channels {
 		foreach my $c (@channels) {
 			my %channel = %$c;
 			$channels_conf->{$channel{'num'}} = {
-				id => $channel{'id'},
+				'id' => $channel{'id'},
 				'display-name' => [[ $channel{'title'}, 'en' ]],
-			}
+			};
+			$channels_conf->{$channel{'num'}}->{'icon'} = [{'src' => $channel{'image'} }]   if $channel{'image'};
 		}
 		#
 		# Let XMLTV::Writer format the results as xml. 
@@ -1053,8 +1112,12 @@ B<--days N> When grabbing, grab N days rather than all available days.
 B<--offset N> Start grabbing at today/now + N days.  When B<--hours> is used
 this is number of hours instead of days.  N may be negative.
 
-B<--dst> Some PVRs have trouble with BST times and 'lose' an hour at the end 
-of the day's schedule.  This adds an extra hour to the schedule fetched.
+B<--date N> Grab just this date (instead of days/offset).
+
+B<--dst> Some PVRs have trouble with BST times and "lose" an hour at the end 
+of the day schedule.  This adds an extra hour to the schedule fetched.
+
+B<--channel S> Grab just this channel (ignore the channels in the config file).
 
 B<--quiet> Suppress the progress-bar normally shown on standard error.
 
@@ -1070,6 +1133,8 @@ information, see L<http://wiki.xmltv.org/index.php/XmltvCapabilities>
 B<--version> Show the version of the grabber.
 
 B<--help> Print a help message and exit.
+
+B<--info> Print this help page and exit.
 
 =head1 ERROR HANDLING
 
