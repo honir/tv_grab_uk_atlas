@@ -1,4 +1,6 @@
 
+1.009  3-Oct-2013   Map genre to multiple out values
+                    Allow genre removal
 1.008  28-Sep-2013  Fix --list-channels
                     Add <icon> to channel details
 1.007  23-Sep-2013  Fix channel's <display-name>

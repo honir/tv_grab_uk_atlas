@@ -6,7 +6,7 @@
 #
 # 
 
-my $_version 	= '$Id: tv_grab_uk_atlas,v 1.008 2013/09/28 08:11:00 honir Exp $';
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.009 2013/10/03 09:23:00 honir Exp $';
 
 
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
@@ -335,11 +335,15 @@ sub get_schedule_from_json {
 				$item{'genres'} = {};				# use a hash so we can auto-ignore duplicate values
 				foreach my $gtext (@{$prog{'genres'}}) {
 						if ($gtext =~ m|^http://pressassociation.com/genres/(.*)|) {
-								$item{'genres'}->{ map_category( uc_words( map_PA_category($1) ) ) } = 1; 
+								foreach ( map_category( uc_words( map_PA_category($1) ) ) ) {
+									$item{'genres'}->{ $_ } = 1; 
+								}
 								# (nb: if genre not found then the code will be passed through to XML - this way we can spot any which are missing
 						}
 						elsif ( $gtext =~ m|^http://ref.atlasapi.org/genres/atlas/(.*)|) {
-								$item{'genres'}->{ map_category( uc_words( $1 ) ) } = 1; 
+								foreach ( map_category( uc_words( $1 ) ) ) {
+									$item{'genres'}->{ $_ } = 1; 
+								}
 						}
 				}
 				
@@ -435,7 +439,9 @@ sub add_programme_to_xml {
 
 		# add 'Film' genre if it's a film
 		if ($item{'film'}) {
-				$item{'genres'}->{ map_category('Film') } = 1; 
+			foreach ( map_category( 'Film' ) ) {
+				$item{'genres'}->{ $_ } = 1; 
+			}
 		}
 		if (scalar (keys %{$item{'genres'}}) > 0) {		
 			while (my ($key, $value) = each %{$item{'genres'}}) {
@@ -558,11 +564,16 @@ sub map_category {
 		# mapped categories should be stored in a file called  tv_grab_uk_atlas.map.conf
 		# containing lines of the form:  cat==fromcategory==tocategory  e.g. 'cat==General Movie==Film'
 		#
+		# If the 'tocategory' is blank then the category will be removed from the programme
+		#    e.g.  cat==General Movie==
+		# Multiple 'tocategory' can be specified separated by ~
+		#    e.g.   cat==Adventure/War==Adventure~War
+		#
 		my ($category) = @_;
-		if (%mapcategoryhash && exists $mapcategoryhash{$category}) { 
-			return $mapcategoryhash{$category} ; 
+		if (%mapcategoryhash && exists $mapcategoryhash{$category}) {  
+			return split('~', $mapcategoryhash{$category} );
 		}
-		return $category;
+		return split('~', $category);   # force input to be an array
 }
 
 sub map_PA_category {
@@ -596,7 +607,7 @@ sub loadmapconf {
 			while (my $line = <$fh>) { 
 				chomp $line;
 				chop($line) if ($line =~ m/\r$/);
-				next if $line =~ /^#/;
+				next if $line =~ /^#/ || $line eq '';
 				my ($type, $mapfrom, $mapto, $trash) = $line =~ /^(.*)==(.*)==(.*?)([\s\t]*#.*)?$/;
 				SWITCH: {
 						lc($type) eq 'map' && do { $mapchannels->{$mapfrom} = $mapto; last SWITCH; };
@@ -611,11 +622,10 @@ sub loadmapconf {
 
 sub loadmapgenre {
 		# Load the file containing mappings for Press Association categories (genres)
-		#		(nb: this could be incorporated into the ".map.conf" file perhaps ?)
-		# 
-		# Credit: Gordon M.Lack for creating the original list (http://birdman.dynalias.org/xmltv-from-Atlas/)
-		#  derived from https://github.com/atlasapi/atlas/src/main/java/org/atlasapi/remotesite/pa/PaGenreMap.java
-		#  but with additions from looking at the xmltv feed
+		#
+		# This is used to convert the PA category codes into textual genre names.
+		# Note these are then fed through map_category() to convert them to your personal wants, so keep
+		#  the PA file generic (it will be easier to update in the future that way).
 		#
 		
 		my $mapgenrehash = \%mapgenrehash;
@@ -626,7 +636,7 @@ sub loadmapgenre {
 			while (my $line = <$fh>) { 
 				chomp $line;
 				chop($line) if ($line =~ m/\r$/);
-				next if $line =~ /^#/;
+				next if $line =~ /^#/ || $line eq '';
 				my ($mapfrom, $mapto, $trash) = $line =~ /^(.*)==(.*?)([\s\t]*#.*)?$/;
 				$mapgenrehash->{$mapfrom} = $mapto;
 			}
