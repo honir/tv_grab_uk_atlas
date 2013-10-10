@@ -36,7 +36,7 @@ use HTTP::Cache::Transparent;
 HTTP::Cache::Transparent::init( { 
     BasePath => '/tmp/cache/',
     NoUpdate => 60*60*48,			# cache time in seconds
-		MaxAge => 48,							# flush time in hours
+		MaxAge => 72,							# flush time in hours
     Verbose => $debug,
 } );
 
@@ -46,6 +46,7 @@ HTTP::Cache::Transparent::init( {
 my $ROOT_URL = 'http://atlas.metabroadcast.com/3.0/';
 my $platforms = ();
 my $regions = ();
+my $platformchannels = ();
 my $regionchannels = ();
 my $allchannels = ();
 my $channelids = ();
@@ -196,90 +197,130 @@ sub print_regions {
 
 
 sub fetch_channels {
-		# Fetch Atlas' channels for each region
-		
+		# Fetch Atlas' channels for each platform and each region
 		foreach (@$platforms) {
 				my %p = %$_;
+				
+				fetch_channels_for_code( 'platform', $p{'id'} );
 				
 				foreach (@{$p{'regions'}}) {
 						my %r = %$_;
 						
-						my $regioncode = $r{'id'};
-						
-						#		http://atlas.metabroadcast.com/3.0/channel_groups/cbhN.json?annotations=channels 
-						#
-						my $url = $ROOT_URL.'channel_groups/'.$regioncode.'.json?annotations=channels';
-						#print $url ."\n" ;
-
-						my %regionchannel = ();
-
-						# Fetch the page
-						my $res = $lwp->get( $url );
-						
-						if ($res->is_success) {
-								#print $res->content;
-								
-								# Extract the available channels
-								my $data = JSON::PP->new()->utf8(0)->decode($res->content);
-								$res = undef;
-
-								my $chans = $data->{'channel_groups'}[0]->{'channels'};
-								foreach (@$chans) {
-										my %chan = %$_;
-										next unless ($chan{'channel'}->{'type'} eq 'channel');
-								
-										my %channel = ();
-								
-										$channel{'num'} 				= $chan{'channel_number'};
-										$channel{'id'} 					= $chan{'channel'}->{'id'};
-										$channel{'title'} 			= $chan{'channel'}->{'title'};
-										$channel{'image'} 			= $chan{'channel'}->{'image'};
-										$channel{'media_type'} 	= $chan{'channel'}->{'media_type'};		# 'video' 'audio'
-										$channel{'region'} 			= $regioncode;
-										
-										push @{$allchannels}, { %channel };
-										
-										foreach (@{$chan{'channel'}->{'aliases'}}) {
-												my $alias = $_;							
-												#     'aliases' => [
-												#                   'http://pressassociation.com/channels/1459',
-												#                   'http://xmltv.radiotimes.com/channels/2569',
-												#                   'supercasino',
-												#                   'http://atlas.metabroadcast.com/4.0/channels/hmcb'
-												#                 ],
-												#
-												# WHAT IF THERE'S MORE THAN 1 ?
-												#
-												if ( $alias =~ m%http://xmltv.radiotimes.com/channels/(\d*)% ) {
-													$channel{'rt_chan'} = $1;
-													$rtchannelids->{$1} = { 'atlasid' => $channel{'id'}, 'atlastitle' => $channel{'title'}, 'num' => $channel{'num'} };
-													next;
-												}
-												if ( $alias =~ m%http://pressassociation.com/channels/(\d*)% ) {
-													$channel{'pa_chan'} = $1;
-													$pachannelids->{$1} = { 'atlasid' => $channel{'id'}, 'atlastitle' => $channel{'title'}, 'num' => $channel{'num'} };
-													next;
-												}
-										}
-												 
-										push @{$regionchannel{$regioncode}}, \%channel;
-								}
-								
-						} else {
-								print $res->status_line . "\n";
-						}
-						
-						push @{$regionchannels}, \%regionchannel;		
+						fetch_channels_for_code( 'region', $r{'id'} );
 				}
 		}
 	
 		return;
 }
+	
+	
+sub fetch_channels_for_code {
+		# Fetch Atlas' channels for a platform code or region code
+		
+		my ($type, $code) = @_;
+		
+		#		http://atlas.metabroadcast.com/3.0/channel_groups/cbhN.json?annotations=channels 
+		#
+		my $url = $ROOT_URL.'channel_groups/'.$code.'.json?annotations=channels';
+		#print $url ."\n" ;
+
+		# Fetch the page
+		my $res = $lwp->get( $url );
+		
+		if ($res->is_success) {
+				#print $res->content;
+				
+				my %channeldata = ();
+				
+				# Extract the available channels
+				my $data = JSON::PP->new()->utf8(0)->decode($res->content);
+				$res = undef;
+
+				my $chans = $data->{'channel_groups'}[0]->{'channels'};
+				foreach (@$chans) {
+						my %chan = %$_;
+						next unless ($chan{'channel'}->{'type'} eq 'channel');
+				
+						my %channel = ();
+				
+						$channel{'num'} 				= $chan{'channel_number'};
+						$channel{'id'} 					= $chan{'channel'}->{'id'};
+						$channel{'title'} 			= $chan{'channel'}->{'title'};
+						$channel{'image'} 			= $chan{'channel'}->{'image'};
+						$channel{'media_type'} 	= $chan{'channel'}->{'media_type'};		# 'video' 'audio'
+						$channel{'region'} 			= $code;
+						
+						push @{$allchannels}, { %channel };
+						
+						foreach (@{$chan{'channel'}->{'aliases'}}) {
+								my $alias = $_;							
+								#     'aliases' => [
+								#                   'http://pressassociation.com/channels/1459',
+								#                   'http://xmltv.radiotimes.com/channels/2569',
+								#                   'supercasino',
+								#                   'http://atlas.metabroadcast.com/4.0/channels/hmcb'
+								#                 ],
+								#
+								# WHAT IF THERE'S MORE THAN 1 ?
+								#
+								if ( $alias =~ m%http://xmltv.radiotimes.com/channels/(\d*)% ) {
+									$channel{'rt_chan'} = $1;
+									$rtchannelids->{$1} = { 'atlasid' => $channel{'id'}, 'atlastitle' => $channel{'title'}, 'num' => $channel{'num'} };
+									next;
+								}
+								if ( $alias =~ m%http://pressassociation.com/channels/(\d*)% ) {
+									$channel{'pa_chan'} = $1;
+									$pachannelids->{$1} = { 'atlasid' => $channel{'id'}, 'atlastitle' => $channel{'title'}, 'num' => $channel{'num'} };
+									next;
+								}
+						}
+								 
+						push @{$channeldata{$code}}, \%channel;
+				}
+				
+				push @{$platformchannels}, \%channeldata if $type eq 'platform' && %channeldata;
+				push @{$regionchannels}, \%channeldata if $type eq 'region' && %channeldata;
+				
+		} else {
+				print $res->status_line . "\n";
+		}
+
+}
 
 
 sub print_channels {
-		# Write a map file of all the Atlas channels for each region with  map==id==num   ("map_xxxx.txt")
+		# Write a map file of all the Atlas channels for each platform/region with  map==id==num   ("map_xxxx.txt")
 		#
+
+		foreach (@{$platformchannels}) {
+				my %r = %$_;
+							
+				foreach my $key (keys %r) {
+						my $platformid = $key;
+						my $platformtitle = '';
+						foreach (@{$platforms}) {
+							next unless $_->{'id'} eq $platformid;
+							$platformtitle = $_->{'title'};
+						}
+							
+						my $f = 'map_'. $platformid .'.txt';			
+						open OUT, "> $f"  or die "Failed to open $f for writing";
+						printf OUT '# CHANNELS for platform '.$platformid.' - '.$platformtitle."\n";
+						printf OUT '# \'map\' == channel id == channel number'."\n";
+						printf OUT '# '."\n";
+
+						foreach (@{$r{$key}}) {
+							my %c = %$_;
+							# print Dumper(\%c);exit;
+							
+							printf OUT 'map==%s==%s '."\n", $c{'id'}, $c{'num'};
+						}
+							
+						close OUT;
+				}
+				
+		}
+		
 		foreach (@{$regionchannels}) {
 				my %r = %$_;
 							
@@ -288,7 +329,7 @@ sub print_channels {
 						
 						my $f = 'map_'. $regionid .'.txt';			
 						open OUT, "> $f"  or die "Failed to open $f for writing";
-						printf OUT '# CHANNELS for '.$regionid.' - '.$regions->{$regionid}{'title'}."\n";
+						printf OUT '# CHANNELS for region '.$regionid.' - '.$regions->{$regionid}{'title'}."\n";
 						printf OUT '# \'map\' == channel id == channel number'."\n";
 						printf OUT '# '."\n";
 
