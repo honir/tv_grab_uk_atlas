@@ -32,9 +32,11 @@ map==cbgW==plus-1.comedycentral.com   				# 127 (2013) - Comedy Central +1
 map==cbjB==extra.comedycentral.com   				# 128 (1201) - Comedy Central Extra
 map==cbhz==arts.sky.com   				# 129 (40) - Sky Arts 1
 map==cbmz==2.arts.sky.com   				# 130 (2122) - Sky Arts 2
+map==cbdQ==plus-1.central.itv1.itv.co.uk   				# 131 (2678) - ITV Central+1
 map==cbgK==alibi.uktv.co.uk   				# 132 (292) - Alibi
 map==cbgx==plus-1.gold.uktv.co.uk   				# 133 (665) - GOLD +1
 map==cbfh==s4c.co.uk   				# 134 (721) - S4C
+map==cbff==plus-1.channel4.com   				# 135 (2047) - Channel 4 +1
 map==cbdn==e4.channel4.com   				# 136 (158) - E4
 map==cbfs==plus-1.e4.channel4.com   				# 137 (1161) - E4 +1
 map==cbdk==more4.channel4.com   				# 138 (1959) - More4
@@ -50,8 +52,8 @@ map==cbm4==action.cbs.com   				# 148 (2178) - CBS Action
 map==cbm2==drama.cbs.com   				# 149 (2177) - CBS Drama
 map==cbgQ==plus-1.universalchannel.co.uk   				# 150 (2591) - Universal Channel +1
 map==cbh4==eentertainment.com   				# 151 (1421) - E! Entertainment
-map==cbjP==sky-three.sky.com   				# 152 (1963) - Pick TV
-map==cbjQ==plus-1.sky-three.sky.com   				# 153 (2647) - Pick TV +1
+map==cbjP==sky-three.sky.com   				# 152 (1963) - Pick
+map==cbjQ==plus-1.sky-three.sky.com   				# 153 (2647) - Pick +1
 map==cbmP==quest.discoveryeurope.com   				# 154 (2179) - Quest
 map==cbmy==plus-1.watch.uktv.co.uk   				# 155 (2116) - Watch +1
 map==cbhx==biography-channel.biography.com   				# 156 (119) - Bio
@@ -89,6 +91,7 @@ map==cbgS==plus-1.uk.syfy.com   				# 194 (2213) - Syfy +1
 map==cbWK==   				# 195 () - TLC+1
 map==cbgM==plus-1.alibi.uktv.co.uk   				# 196 (1993) - Alibi +1
 map==cbWc==   				# 197 () - Bio +1
+map==cbXV==   				# 200 () - TLC+2
 map==cbgT==hd.uk.syfy.com   				# 201 (2214) - Syfy HD
 map==cbdn==e4.channel4.com   				# 202 (158) - E4
 map==cbTq==   				# 203 () - My Channel TV
@@ -106,6 +109,7 @@ map==cbjw==plus-1.livingit.sky.com   				# 221 (2190) - Sky Livingit +1
 map==cbkR==hd.arts.sky.com   				# 222 (2154) - Sky Arts 1 HD
 map==cbmJ==hd.2.arts.sky.com   				# 223 (2155) - Sky Arts 2 HD
 map==cbd5==itv4.itv.co.uk   				# 228 (1961) - ITV4
+map==cbWd==   				# 229 () - Alibi HD
 map==cbfg==hd.channel4.com   				# 230 (2056) - Channel 4 HD
 map==cbnt==hd.atlantic.sky.com   				# 231 (2684) - Sky Atlantic HD
 map==cbVw==   				# 233 () - E! Entertainment HD
@@ -133,6 +137,7 @@ map==cbnh==fitness.tv   				# 282 (2638) - Fitness TV
 map==cbDs==   				# 283 () - Good Food HD
 map==cbkp==premiere.movies.sky.com   				# 301 (249) - Sky Movies Premiere
 map==cbkq==plus-1.premiere.movies.sky.com   				# 302 (250) - Sky Movies Premiere +1
+map==cbnv==   				# 303 () - Sky Movies Showcase
 map==cbkH==modern.movies.sky.com   				# 304 (260) - Sky Movies Greats
 map==cbWy==   				# 305 () - Sky Movies Disney
 map==cbkx==family.movies.sky.com   				# 306 (258) - Sky Movies Family
@@ -246,6 +251,7 @@ map==cbgJ==turbo.discoveryeurope.com   				# 524 (155) - Discovery Turbo
 map==cbgm==science.discoveryeurope.com   				# 525 (153) - Discovery Science
 map==cbgt==nationalgeographic.co.uk   				# 526 (213) - National Geographic Channel
 map==cbgv==plus-1.nationalgeographic.co.uk   				# 527 (214) - National Geographic Channel +1
+map==cbkc==wild.nationalgeographic.co.uk   				# 528 (22) - Nat Geo Wild
 map==cbgr==thehistorychannel.co.uk   				# 529 (182) - History
 map==cbgs==plus-1.thehistorychannel.co.uk   				# 530 (183) - History +1
 map==cbmv==military.thehistorychannel.co.uk   				# 531 (2559) - H2
@@ -274,6 +280,7 @@ map==cbk8==too.cartoonnetwork.com   				# 602 (742) - CN Too
 map==cbg6==boomerang.cartoonnetwork.com   				# 603 (1661) - Boomerang
 map==cbgY==nickelodeon.co.uk   				# 604 (217) - Nickelodeon
 map==cbg2==plus-1.nickelodeon.co.uk   				# 605 (216) - Nickelodeon +1
+map==cbhQ==toons.nickelodeon.co.uk   				# 606 (664) - Nicktoons
 map==cbmV==xd.disney.co.uk   				# 607 (165) - Disney XD
 map==cbmW==plus-1.xd.disney.co.uk   				# 608 (166) - Disney XD +1
 map==cbgy==disneychannel.disney.co.uk   				# 609 (156) - Disney Channel
@@ -287,7 +294,7 @@ map==cbk9==popfun.co.uk   				# 616 (2544) - Pop
 map==cbmb==tinypop.com   				# 617 (2543) - Tiny Pop
 map==cbg7==plus-1.boomerang.cartoonnetwork.com   				# 618 (129) - Boomerang +1
 map==cbkS==cartoonito.cartoonnetwork.com   				# 619 (1983) - Cartoonito
-map==cbnb==2.jr.nickelodeon.co.uk   				# 620 (2593) - Nick Jr. 2
+map==cbnb==2.jr.nickelodeon.co.uk   				# 620 (2593) - Nick Jr. Peppa
 map==cbfz==citv.itv.co.uk   				# 621 (1981) - CITV
 map==cbmX==   				# 622 () - Disney XD HD
 map==cbVs==   				# 623 () - Baby TV
@@ -314,7 +321,9 @@ map==cbXb==   				# 783 () - Star Life OK
 map==cbhH==star-plus.startv.com   				# 784 (591) - Star Plus
 map==cbfQ==phoenixcne.com   				# 785 (2246) - Phoenix CNE Channel
 map==cbfP==zeeuk.com   				# 788 (581) - Zee TV
+map==cbXT==   				# 789 () - Lamhe
 map==cbDj==   				# 790 () - Zee Cinema
+map==cbWD==   				# 798 () - Zing
 map==cbfN==tv5.org   				# 799 (276) - TV5
 map==cbXg==   				# 806 () - ARY News
 map==cbW2==   				# 808 () - Star Jalsha
@@ -351,6 +360,7 @@ map==cbbK==scotland.bbc2.bbc.co.uk   				# 970 (113) - BBC Two Scotland
 map==cbbM==wales.bbc2.bbc.co.uk   				# 971 (114) - BBC Two Wales
 map==cbbH==northern-ireland.bbc2.bbc.co.uk   				# 972 (112) - BBC Two Northern Ireland
 map==cbdw==tsod.plus-1.london-macro.itv1.itv.co.uk   				# 973 (26) - ITV London
+map==cbff==plus-1.channel4.com   				# 974 (2047) - Channel 4 +1
 map==cbdj==channel4.com   				# 974 (132) - Channel 4
 map==cbcQ==   				# 0101 () - BBC Radio 1 England
 map==cbcS==   				# 0102 () - BBC Radio 2
@@ -364,7 +374,7 @@ map==cbpf==   				# 0109 () - 95.8 Capital FM
 map==cbyX==   				# 0110 () - Planet Rock
 map==cbyc==   				# 0112 () - LBC 97.3
 map==cbnW==   				# 0113 () - Xfm
-map==cbwj==   				# 0114 () - Choice FM
+map==cbwj==   				# 0114 () - Capital XTRA
 map==cbc4==   				# 0115 () - BBC World Service
 map==cbc5==   				# 0116 () - BBC Radio Scotland FM
 map==cbdb==   				# 0117 () - BBC Radio Wales

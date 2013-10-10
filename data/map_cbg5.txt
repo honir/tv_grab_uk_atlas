@@ -1,4 +1,4 @@
-# CHANNELS for cbg5 - Cumbria
+# CHANNELS for region cbg5 - Cumbria
 # 'map' == channel id == channel number
 # 
 map==cbbr==1 

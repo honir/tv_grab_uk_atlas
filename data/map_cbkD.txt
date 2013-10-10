@@ -1,4 +1,4 @@
-# CHANNELS for cbkD - Scotland (North)
+# CHANNELS for region cbkD - Scotland (North)
 # 'map' == channel id == channel number
 # 
 map==cbbv==1 

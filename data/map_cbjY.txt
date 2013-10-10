@@ -1,4 +1,4 @@
-# CHANNELS for cbjY - East Midlands
+# CHANNELS for region cbjY - East Midlands
 # 'map' == channel id == channel number
 # 
 map==cbbp==1 

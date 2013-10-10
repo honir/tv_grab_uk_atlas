@@ -1,4 +1,4 @@
-# CHANNELS for cbhX - South East
+# CHANNELS for region cbhX - South East
 # 'map' == channel id == channel number
 # 
 map==cbbx==101 
@@ -88,8 +88,9 @@ map==cbfw==196
 map==cbm2==197 
 map==cbWd==200 
 map==cbDK==201 
-map==cbhT==203 
-map==cbhV==204 
+map==cbVP==203 
+map==cbhT==206 
+map==cbhV==207 
 map==cbjh==208 
 map==cbjk==209 
 map==cbjj==210 
@@ -105,6 +106,7 @@ map==cbgJ==221
 map==cbgj==222 
 map==cbgk==223 
 map==cbkc==228 
+map==cbgt==230 
 map==cbgv==231 
 map==cbj5==232 
 map==cbhY==233 
@@ -253,6 +255,7 @@ map==cbgX==805
 map==cbXf==807 
 map==cbfP==809 
 map==cbDj==810 
+map==cbXT==811 
 map==cbhC==815 
 map==cbXg==819 
 map==cbfN==825 

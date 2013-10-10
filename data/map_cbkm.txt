@@ -1,4 +1,4 @@
-# CHANNELS for cbkm - West
+# CHANNELS for region cbkm - West
 # 'map' == channel id == channel number
 # 
 map==cbbB==1 

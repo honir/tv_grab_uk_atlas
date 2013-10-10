@@ -1,4 +1,4 @@
-# CHANNELS for cbgG - Wales
+# CHANNELS for region cbgG - Wales
 # 'map' == channel id == channel number
 # 
 map==cbby==101 
@@ -13,6 +13,7 @@ map==cbmx==109
 map==cbgw==110 
 map==cbjc==111 
 map==cbgV==112 
+map==cbgN==113 
 map==cbgR==114 
 map==cbbP==115 
 map==cbbQ==116 
@@ -21,6 +22,7 @@ map==cbdZ==118
 map==cbd2==119 
 map==cbd5==120 
 map==cbh2==121 
+map==cbnF==122 
 map==cbgd==123 
 map==cbjg==124 
 map==cbWJ==125 
@@ -87,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgT==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -180,6 +183,7 @@ map==cbgC==356
 map==cbm5==357 
 map==cbmD==358 
 map==cbfZ==359 
+map==cbdp==360 
 map==cbhp==361 
 map==cbhX==362 
 map==cbhW==363 
@@ -315,7 +319,9 @@ map==cbXb==783
 map==cbhH==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 
@@ -372,6 +378,7 @@ map==cbdb==0117
 map==cbc8==0118 
 map==cbDk==0119 
 map==cbcZ==0120 
+map==cbw4==0121 
 map==cbyd==0124 
 map==cbvk==0128 
 map==cbdh==0131 

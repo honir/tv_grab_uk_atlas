@@ -1,4 +1,4 @@
-# CHANNELS for cbf4 - Wales
+# CHANNELS for region cbf4 - Wales
 # 'map' == channel id == channel number
 # 
 map==cbby==101 
@@ -89,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -244,6 +245,7 @@ map==cbj4==520
 map==cbgG==521 
 map==cbmF==522 
 map==cbDN==523 
+map==cbgJ==524 
 map==cbgm==525 
 map==cbj5==526 
 map==cbgv==527 
@@ -317,9 +319,12 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
+map==cbW2==808 
 map==cbTm==809 
 map==cbkY==814 
 map==cbXf==816 

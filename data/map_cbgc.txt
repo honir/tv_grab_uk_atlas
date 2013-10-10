@@ -1,4 +1,4 @@
-# CHANNELS for cbgc - Cambridgeshire
+# CHANNELS for region cbgc - Cambridgeshire
 # 'map' == channel id == channel number
 # 
 map==cbTj==101 
@@ -88,6 +88,7 @@ map==cbTN==193
 map==cbgS==194 
 map==cbWK==195 
 map==cbgM==196 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -300,10 +301,12 @@ map==cbhq==628
 map==cbXt==629 
 map==cbVv==630 
 map==cbgy==631 
+map==cbgY==632 
 map==cbf2==634 
 map==cbg8==640 
 map==cbTZ==644 
 map==cbjf==645 
+map==cbkT==649 
 map==cbkX==652 
 map==cbhy==654 
 map==cbVm==671 
@@ -315,7 +318,9 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 
@@ -366,6 +371,7 @@ map==cbpf==0109
 map==cbyX==0110 
 map==cbyc==0112 
 map==cbnW==0113 
+map==cbwj==0114 
 map==cbc4==0115 
 map==cbc5==0116 
 map==cbdb==0117 

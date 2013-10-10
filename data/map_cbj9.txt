@@ -1,4 +1,4 @@
-# CHANNELS for cbj9 - Cumbria
+# CHANNELS for region cbj9 - Cumbria
 # 'map' == channel id == channel number
 # 
 map==cbbr==1 

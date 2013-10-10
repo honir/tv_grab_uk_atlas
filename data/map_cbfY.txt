@@ -1,4 +1,4 @@
-# CHANNELS for cbfY - Scotland (North)
+# CHANNELS for region cbfY - Scotland (North)
 # 'map' == channel id == channel number
 # 
 map==cbbv==101 
@@ -77,6 +77,7 @@ map==cbfv==180
 map==cbDP==181 
 map==cbmG==183 
 map==cbnd==184 
+map==cbTH==185 
 map==cbV7==186 
 map==cbnT==187 
 map==cbjg==188 
@@ -88,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -317,9 +319,12 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
+map==cbW2==808 
 map==cbTm==809 
 map==cbkY==814 
 map==cbXf==816 
@@ -331,6 +336,7 @@ map==cbT2==900
 map==cbTy==901 
 map==cbgB==903 
 map==cbTR==904 
+map==cbVZ==907 
 map==cbby==952 
 map==cbbj==953 
 map==cbbh==954 

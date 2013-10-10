@@ -71,7 +71,7 @@ map==cbfy==plus-1.itv4.itv.co.uk   				# 175 (2568) - ITV4+1
 map==cbdY==hd.itv2.itv.co.uk   				# 176 (2661) - ITV2HD
 map==cbd4==   				# 177 () - ITV3HD
 map==cbd6==   				# 178 () - ITV4HD
-map==cbjP==sky-three.sky.com   				# 180 (1963) - Pick TV
+map==cbjP==sky-three.sky.com   				# 180 (1963) - Pick
 map==cbjD==hd.comedycentral.com   				# 181 (2646) - Comedy Central HD
 map==cbjB==extra.comedycentral.com   				# 182 (1201) - Comedy Central Extra
 map==cbq5==   				# 183 () - MTV HD
@@ -89,8 +89,9 @@ map==cbfw==plus-1.more4.channel4.com   				# 196 (1972) - More4 +1
 map==cbm2==drama.cbs.com   				# 197 (2177) - CBS Drama
 map==cbWd==   				# 200 () - Alibi HD
 map==cbDK==   				# 201 () - CBS Reality +1
-map==cbhT==yesterday.uktv.co.uk   				# 203 (801) - Yesterday
-map==cbhV==plus-1.yesterday.uktv.co.uk   				# 204 (1521) - Yesterday +1
+map==cbVP==   				# 203 () - More4 HD
+map==cbhT==yesterday.uktv.co.uk   				# 206 (801) - Yesterday
+map==cbhV==plus-1.yesterday.uktv.co.uk   				# 207 (1521) - Yesterday +1
 map==cbjh==eden.uktv.co.uk   				# 208 (1601) - Eden
 map==cbjk==hd.eden.uktv.co.uk   				# 209 (2662) - Eden HD
 map==cbjj==plus-1.eden.uktv.co.uk   				# 210 (625) - Eden +1
@@ -232,7 +233,7 @@ map==cbgY==nickelodeon.co.uk   				# 712 (217) - Nickelodeon
 map==cbg2==plus-1.nickelodeon.co.uk   				# 713 (216) - Nickelodeon +1
 map==cbTV==   				# 714 () - Nickelodeon HD
 map==cbg5==jr.nickelodeon.co.uk   				# 715 (215) - Nick Jr.
-map==cbnb==2.jr.nickelodeon.co.uk   				# 716 (2593) - Nick Jr. 2
+map==cbnb==2.jr.nickelodeon.co.uk   				# 716 (2593) - Nick Jr. Peppa
 map==cbhQ==toons.nickelodeon.co.uk   				# 717 (664) - Nicktoons
 map==cbgy==disneychannel.disney.co.uk   				# 724 (156) - Disney Channel
 map==cbgz==plus-1.disneychannel.disney.co.uk   				# 725 (157) - Disney Channel +1
@@ -255,6 +256,7 @@ map==cbgX==setasia.tv   				# 805 (267) - Sony Entertainment TV Asia
 map==cbXf==   				# 807 () - Sony SAB
 map==cbfP==zeeuk.com   				# 809 (581) - Zee TV
 map==cbDj==   				# 810 () - Zee Cinema
+map==cbXT==   				# 811 () - Lamhe
 map==cbhC==b4utv.com   				# 815 (43) - B4U Movies
 map==cbXg==   				# 819 () - ARY News
 map==cbfN==tv5.org   				# 825 (276) - TV5
@@ -285,7 +287,7 @@ map==cbpf==   				# 958 () - 95.8 Capital FM
 map==cbw4==   				# 959 () - Gold
 map==cbn6==   				# 963 () - Kiss 100
 map==cbnW==   				# 965 () - Xfm
-map==cbwj==   				# 969 () - Choice FM
+map==cbwj==   				# 969 () - Capital XTRA
 map==cbyc==   				# 973 () - LBC 97.3
 map==cbnp==interactive.sport.bbc.co.uk   				# 991 (2040) - BBC Red Button 1
 map==cbWZ==   				# 992 () - BBC Red Button 2

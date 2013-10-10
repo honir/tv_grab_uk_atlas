@@ -1,4 +1,4 @@
-# CHANNELS for cbf9 - Yorkshire
+# CHANNELS for region cbf9 - Yorkshire
 # 'map' == channel id == channel number
 # 
 map==cbbF==101 
@@ -22,9 +22,12 @@ map==cbd4==119
 map==cbd6==120 
 map==cbh2==121 
 map==cbnF==122 
+map==cbgd==123 
 map==cbmm==124 
 map==cbWQ==125 
+map==cbq5==126 
 map==cbgW==127 
+map==cbjB==128 
 map==cbkR==129 
 map==cbmJ==130 
 map==cbdX==131 
@@ -86,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -315,7 +319,9 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 

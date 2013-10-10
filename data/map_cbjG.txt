@@ -1,4 +1,4 @@
-# CHANNELS for cbjG - Scotland (North)
+# CHANNELS for region cbjG - Scotland (North)
 # 'map' == channel id == channel number
 # 
 map==cbbv==1 

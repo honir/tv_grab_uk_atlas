@@ -1,4 +1,4 @@
-# CHANNELS for cbkv - Yorkshire
+# CHANNELS for region cbkv - Yorkshire
 # 'map' == channel id == channel number
 # 
 map==cbbF==1 

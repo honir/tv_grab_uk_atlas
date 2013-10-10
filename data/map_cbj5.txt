@@ -1,4 +1,4 @@
-# CHANNELS for cbj5 - Yorkshire
+# CHANNELS for region cbj5 - Yorkshire
 # 'map' == channel id == channel number
 # 
 map==cbbF==1 

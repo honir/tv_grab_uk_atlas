@@ -1,4 +1,4 @@
-# CHANNELS for cbg8 - Scotland (Central)
+# CHANNELS for region cbg8 - Scotland (Central)
 # 'map' == channel id == channel number
 # 
 map==cbbv==1 

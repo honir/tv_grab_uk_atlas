@@ -1,4 +1,4 @@
-# CHANNELS for cbhy - East
+# CHANNELS for region cbhy - East
 # 'map' == channel id == channel number
 # 
 map==cbbn==101 
@@ -74,6 +74,7 @@ map==cbmk==502
 map==cbh5==503 
 map==cbhC==504 
 map==cbh7==506 
+map==cbWD==509 
 map==cbDw==515 
 map==cbhp==518 
 map==cbfZ==519 
@@ -133,6 +134,7 @@ map==cbbh==950
 map==cbTh==951 
 map==cbbp==952 
 map==cbbn==953 
+map==cbbC==954 
 map==cbbs==955 
 map==cbbr==956 
 map==cbbj==957 
@@ -141,6 +143,7 @@ map==cbbx==959
 map==cbbv==960 
 map==cbbw==961 
 map==cbbz==962 
+map==cbbC==963 
 map==cbby==964 
 map==cbbB==965 
 map==cbbF==966 

@@ -1,4 +1,4 @@
-# CHANNELS for cbgr - Northern Ireland
+# CHANNELS for region cbgr - Northern Ireland
 # 'map' == channel id == channel number
 # 
 map==cbbH==102 
@@ -73,6 +73,7 @@ map==cbdv==174
 map==cbnH==175 
 map==cbdt==176 
 map==cbdr==177 
+map==cbd9==178 
 map==cbfr==179 
 map==cbfv==180 
 map==cbDP==181 
@@ -90,6 +91,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgT==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -204,6 +206,7 @@ map==cbhw==404
 map==cbhk==405 
 map==999==406 
 map==cbj8==407 
+map==cbj9==408 
 map==cbmj==409 
 map==cbhm==410 
 map==cbjx==411 
@@ -293,6 +296,7 @@ map==cbg7==618
 map==cbkS==619 
 map==cbnb==620 
 map==cbfz==621 
+map==cbmX==622 
 map==cbVs==623 
 map==cbCR==625 
 map==cbDH==626 
@@ -318,9 +322,12 @@ map==cbXb==783
 map==cbhH==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
+map==cbW2==808 
 map==cbTm==809 
 map==cbkY==814 
 map==cbXf==816 

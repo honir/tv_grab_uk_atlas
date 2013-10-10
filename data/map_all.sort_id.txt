@@ -37,6 +37,7 @@ map==999==406 		# (cbgr) -- Sky Sports F1
 map==999==406 		# (cbgs) -- Sky Sports F1 
 map==999==406 		# (cbgt) -- Sky Sports F1 
 map==999==406 		# (cbgv) -- Sky Sports F1 
+map==999==406 		# (cbgw) -- Sky Sports F1 
 map==999==406 		# (cbgx) -- Sky Sports F1 
 map==999==406 		# (cbgy) -- Sky Sports F1 
 map==999==406 		# (cbgz) -- Sky Sports F1 
@@ -255,6 +256,8 @@ map==cbB2==47 		# (cbkH) -- 4seven
 map==cbB2==47 		# (cbkJ) -- 4seven 
 map==cbB2==47 		# (cbkK) -- 4seven 
 map==cbB2==47 		# (cbkM) -- 4seven 
+map==cbB5==208 		# (cbjQ) -- RTÉ Gold 
+map==cbB5==208 		# (cbjP) -- RTÉ Gold 
 map==cbB7==324 		# (cbfM) -- Sony Movie Channel +1 
 map==cbB7==324 		# (cbfN) -- Sony Movie Channel +1 
 map==cbB7==324 		# (cbfP) -- Sony Movie Channel +1 
@@ -438,6 +441,7 @@ map==cbBz==726 		# (cbhd) -- U105
 map==cbBz==726 		# (cbjn) -- U105 
 map==cbBz==726 		# (cbj7) -- U105 
 map==cbBz==726 		# (cbkn) -- U105 
+map==cbCF==209 		# (cbjQ) -- RTÉ Junior 
 map==cbCQ==723 		# (cbg4) -- talkSPORT DAB 
 map==cbCQ==723 		# (cbg5) -- talkSPORT DAB 
 map==cbCQ==723 		# (cbg6) -- talkSPORT DAB 
@@ -1094,6 +1098,7 @@ map==cbDK==201 		# (cbh5) -- CBS Reality +1
 map==cbDK==201 		# (cbh6) -- CBS Reality +1 
 map==cbDK==201 		# (cbh7) -- CBS Reality +1 
 map==cbDK==201 		# (cbh8) -- CBS Reality +1 
+map==cbDK==201 		# (cbh9) -- CBS Reality +1 
 map==cbDK==201 		# (cbjb) -- CBS Reality +1 
 map==cbDK==201 		# (cbjc) -- CBS Reality +1 
 map==cbDK==201 		# (cbjd) -- CBS Reality +1 
@@ -1501,6 +1506,7 @@ map==cbDj==790 		# (cbgT) -- Zee Cinema
 map==cbDj==790 		# (cbgV) -- Zee Cinema 
 map==cbDj==790 		# (cbgW) -- Zee Cinema 
 map==cbDj==790 		# (cbgX) -- Zee Cinema 
+map==cbDj==790 		# (cbgZ) -- Zee Cinema 
 map==cbDj==790 		# (cbgY) -- Zee Cinema 
 map==cbDj==810 		# (cbhW) -- Zee Cinema 
 map==cbDj==810 		# (cbhX) -- Zee Cinema 
@@ -1622,6 +1628,7 @@ map==cbDk==912 		# (cbhY) -- BBC Asian Network
 map==cbDk==912 		# (cbh2) -- BBC Asian Network 
 map==cbDk==912 		# (cbh4) -- BBC Asian Network 
 map==cbDk==912 		# (cbh5) -- BBC Asian Network 
+map==cbDk==912 		# (cbh6) -- BBC Asian Network 
 map==cbDk==912 		# (cbh7) -- BBC Asian Network 
 map==cbDk==912 		# (cbh8) -- BBC Asian Network 
 map==cbDk==912 		# (cbh9) -- BBC Asian Network 
@@ -1904,6 +1911,8 @@ map==cbDz==901 		# (cbh5) -- BBC Radio 1 Wales
 map==cbDz==700 		# (cbjx) -- BBC Radio 1 Wales 
 map==cbDz==700 		# (cbjZ) -- BBC Radio 1 Wales 
 map==cbDz==700 		# (cbks) -- BBC Radio 1 Wales 
+map==cbFr==2 		# (cbjQ) -- RTÉ Two HD 
+map==cbFr==2 		# (cbjP) -- RTÉ Two HD 
 map==cbFv==109 		# (cbfM) -- Watch HD 
 map==cbFv==109 		# (cbfN) -- Watch HD 
 map==cbFv==109 		# (cbfP) -- Watch HD 
@@ -2234,6 +2243,7 @@ map==cbT2==495 		# (cbjj) -- Playboy TV
 map==cbT7==317 		# (cbfM) -- TCM HD 
 map==cbT7==317 		# (cbfN) -- TCM HD 
 map==cbT7==317 		# (cbfP) -- TCM HD 
+map==cbT7==317 		# (cbfQ) -- TCM HD 
 map==cbT7==317 		# (cbfR) -- TCM HD 
 map==cbT7==317 		# (cbfS) -- TCM HD 
 map==cbT7==317 		# (cbfT) -- TCM HD 
@@ -2433,6 +2443,7 @@ map==cbTH==185 		# (cbfV) -- more>movies
 map==cbTH==185 		# (cbfW) -- more>movies 
 map==cbTH==185 		# (cbfX) -- more>movies 
 map==cbTH==185 		# (cbfZ) -- more>movies 
+map==cbTH==185 		# (cbfY) -- more>movies 
 map==cbTH==185 		# (cbf2) -- more>movies 
 map==cbTH==185 		# (cbf4) -- more>movies 
 map==cbTH==185 		# (cbf5) -- more>movies 
@@ -2799,6 +2810,7 @@ map==cbTZ==644 		# (cbgv) -- Ideal World
 map==cbTZ==644 		# (cbgw) -- Ideal World 
 map==cbTZ==644 		# (cbgx) -- Ideal World 
 map==cbTZ==644 		# (cbgy) -- Ideal World 
+map==cbTZ==644 		# (cbgz) -- Ideal World 
 map==cbTZ==644 		# (cbgB) -- Ideal World 
 map==cbTZ==644 		# (cbgC) -- Ideal World 
 map==cbTZ==644 		# (cbgD) -- Ideal World 
@@ -2856,6 +2868,8 @@ map==cbTZ==747 		# (cbjf) -- Ideal World
 map==cbTZ==747 		# (cbjg) -- Ideal World 
 map==cbTZ==747 		# (cbjh) -- Ideal World 
 map==cbTZ==747 		# (cbjj) -- Ideal World 
+map==cbTb==3 		# (cbjQ) -- RTÉ News Now 
+map==cbTb==5 		# (cbjP) -- RTÉ News Now 
 map==cbTg==965 		# (cbfN) -- BBC One Oxfordshire 
 map==cbTg==101 		# (cbfP) -- BBC One Oxfordshire 
 map==cbTg==965 		# (cbfQ) -- BBC One Oxfordshire 
@@ -3136,6 +3150,7 @@ map==cbTm==809 		# (cbgS) -- Star GOLD
 map==cbTm==809 		# (cbgT) -- Star GOLD 
 map==cbTm==809 		# (cbgV) -- Star GOLD 
 map==cbTm==809 		# (cbgW) -- Star GOLD 
+map==cbTm==809 		# (cbgX) -- Star GOLD 
 map==cbTm==809 		# (cbgZ) -- Star GOLD 
 map==cbTm==809 		# (cbgY) -- Star GOLD 
 map==cbTm==801 		# (cbhW) -- Star GOLD 
@@ -3435,6 +3450,8 @@ map==cbTs==624 		# (cbfM) -- RTÉ Jr
 map==cbTs==635 		# (cbfN) -- RTÉ Jr 
 map==cbTs==624 		# (cbgq) -- RTÉ Jr 
 map==cbTs==635 		# (cbgr) -- RTÉ Jr 
+map==cbTs==7 		# (cbjQ) -- RTÉ Jr 
+map==cbTs==7 		# (cbjP) -- RTÉ Jr 
 map==cbTt==507 		# (cbfM) -- NHK World HD 
 map==cbTt==507 		# (cbfN) -- NHK World HD 
 map==cbTt==507 		# (cbfP) -- NHK World HD 
@@ -3447,6 +3464,7 @@ map==cbTt==507 		# (cbfW) -- NHK World HD
 map==cbTt==507 		# (cbfX) -- NHK World HD 
 map==cbTt==507 		# (cbfZ) -- NHK World HD 
 map==cbTt==507 		# (cbfY) -- NHK World HD 
+map==cbTt==507 		# (cbf2) -- NHK World HD 
 map==cbTt==507 		# (cbf4) -- NHK World HD 
 map==cbTt==507 		# (cbf5) -- NHK World HD 
 map==cbTt==507 		# (cbf6) -- NHK World HD 
@@ -3500,6 +3518,8 @@ map==cbTt==625 		# (cbjf) -- NHK World HD
 map==cbTt==625 		# (cbjg) -- NHK World HD 
 map==cbTt==625 		# (cbjh) -- NHK World HD 
 map==cbTt==625 		# (cbjj) -- NHK World HD 
+map==cbTv==8 		# (cbjQ) -- RTÉ One +1 
+map==cbTv==8 		# (cbjP) -- RTÉ One +1 
 map==cbTy==901 		# (cbfN) -- The Adult Channel 
 map==cbTy==901 		# (cbfP) -- The Adult Channel 
 map==cbTy==901 		# (cbfQ) -- The Adult Channel 
@@ -3574,6 +3594,8 @@ map==cbTy==477 		# (cbjf) -- The Adult Channel
 map==cbTy==477 		# (cbjg) -- The Adult Channel 
 map==cbTy==477 		# (cbjh) -- The Adult Channel 
 map==cbTy==477 		# (cbjj) -- The Adult Channel 
+map==cbV2==201 		# (cbjQ) -- RTÉ Radio 1 Extra 
+map==cbV2==201 		# (cbjP) -- RTÉ Radio 1 Extra 
 map==cbV4==172 		# (cbfM) -- Sky1 +1 
 map==cbV4==172 		# (cbfN) -- Sky1 +1 
 map==cbV4==172 		# (cbfP) -- Sky1 +1 
@@ -4071,6 +4093,7 @@ map==cbVF==518 		# (cbgT) -- RT HD
 map==cbVF==518 		# (cbgV) -- RT HD 
 map==cbVF==518 		# (cbgW) -- RT HD 
 map==cbVF==518 		# (cbgX) -- RT HD 
+map==cbVF==518 		# (cbgZ) -- RT HD 
 map==cbVF==518 		# (cbgY) -- RT HD 
 map==cbVF==206 		# (cbhw) -- RT HD 
 map==cbVF==206 		# (cbhx) -- RT HD 
@@ -4131,6 +4154,24 @@ map==cbVP==138 		# (cbgk) -- More4 HD
 map==cbVP==138 		# (cbgm) -- More4 HD 
 map==cbVP==138 		# (cbgn) -- More4 HD 
 map==cbVP==236 		# (cbgq) -- More4 HD 
+map==cbVP==203 		# (cbhW) -- More4 HD 
+map==cbVP==203 		# (cbhX) -- More4 HD 
+map==cbVP==203 		# (cbhZ) -- More4 HD 
+map==cbVP==203 		# (cbhY) -- More4 HD 
+map==cbVP==203 		# (cbh2) -- More4 HD 
+map==cbVP==203 		# (cbh4) -- More4 HD 
+map==cbVP==203 		# (cbh5) -- More4 HD 
+map==cbVP==203 		# (cbh6) -- More4 HD 
+map==cbVP==203 		# (cbh7) -- More4 HD 
+map==cbVP==203 		# (cbh8) -- More4 HD 
+map==cbVP==203 		# (cbh9) -- More4 HD 
+map==cbVP==203 		# (cbjb) -- More4 HD 
+map==cbVP==203 		# (cbjc) -- More4 HD 
+map==cbVP==203 		# (cbjd) -- More4 HD 
+map==cbVP==203 		# (cbjf) -- More4 HD 
+map==cbVP==203 		# (cbjg) -- More4 HD 
+map==cbVP==203 		# (cbjh) -- More4 HD 
+map==cbVP==203 		# (cbjj) -- More4 HD 
 map==cbVZ==907 		# (cbfN) -- Red Hot 18s 
 map==cbVZ==907 		# (cbfP) -- Red Hot 18s 
 map==cbVZ==907 		# (cbfQ) -- Red Hot 18s 
@@ -4141,6 +4182,7 @@ map==cbVZ==907 		# (cbfV) -- Red Hot 18s
 map==cbVZ==907 		# (cbfW) -- Red Hot 18s 
 map==cbVZ==907 		# (cbfX) -- Red Hot 18s 
 map==cbVZ==907 		# (cbfZ) -- Red Hot 18s 
+map==cbVZ==907 		# (cbfY) -- Red Hot 18s 
 map==cbVZ==907 		# (cbf2) -- Red Hot 18s 
 map==cbVZ==907 		# (cbf4) -- Red Hot 18s 
 map==cbVZ==907 		# (cbf5) -- Red Hot 18s 
@@ -4392,6 +4434,7 @@ map==cbVs==623 		# (cbf2) -- Baby TV
 map==cbVs==623 		# (cbf4) -- Baby TV 
 map==cbVs==623 		# (cbf5) -- Baby TV 
 map==cbVs==623 		# (cbf6) -- Baby TV 
+map==cbVs==623 		# (cbf7) -- Baby TV 
 map==cbVs==623 		# (cbf8) -- Baby TV 
 map==cbVs==623 		# (cbf9) -- Baby TV 
 map==cbVs==623 		# (cbgb) -- Baby TV 
@@ -4733,6 +4776,7 @@ map==cbVy==513 		# (cbfP) -- FRANCE 24 English
 map==cbVy==513 		# (cbfQ) -- FRANCE 24 English 
 map==cbVy==513 		# (cbfR) -- FRANCE 24 English 
 map==cbVy==513 		# (cbfS) -- FRANCE 24 English 
+map==cbVy==513 		# (cbfT) -- FRANCE 24 English 
 map==cbVy==513 		# (cbfV) -- FRANCE 24 English 
 map==cbVy==513 		# (cbfW) -- FRANCE 24 English 
 map==cbVy==513 		# (cbfX) -- FRANCE 24 English 
@@ -4825,9 +4869,18 @@ map==cbW2==808 		# (cbfM) -- Star Jalsha
 map==cbW2==808 		# (cbfN) -- Star Jalsha 
 map==cbW2==808 		# (cbfP) -- Star Jalsha 
 map==cbW2==808 		# (cbfQ) -- Star Jalsha 
+map==cbW2==808 		# (cbfR) -- Star Jalsha 
+map==cbW2==808 		# (cbfS) -- Star Jalsha 
 map==cbW2==808 		# (cbfT) -- Star Jalsha 
 map==cbW2==808 		# (cbfV) -- Star Jalsha 
 map==cbW2==808 		# (cbfW) -- Star Jalsha 
+map==cbW2==808 		# (cbfX) -- Star Jalsha 
+map==cbW2==808 		# (cbfZ) -- Star Jalsha 
+map==cbW2==808 		# (cbfY) -- Star Jalsha 
+map==cbW2==808 		# (cbf2) -- Star Jalsha 
+map==cbW2==808 		# (cbf4) -- Star Jalsha 
+map==cbW2==808 		# (cbf5) -- Star Jalsha 
+map==cbW2==808 		# (cbf6) -- Star Jalsha 
 map==cbW2==808 		# (cbf7) -- Star Jalsha 
 map==cbW2==808 		# (cbf8) -- Star Jalsha 
 map==cbW2==808 		# (cbf9) -- Star Jalsha 
@@ -4838,11 +4891,16 @@ map==cbW2==808 		# (cbgf) -- Star Jalsha
 map==cbW2==808 		# (cbgg) -- Star Jalsha 
 map==cbW2==808 		# (cbgh) -- Star Jalsha 
 map==cbW2==808 		# (cbgj) -- Star Jalsha 
+map==cbW2==808 		# (cbgk) -- Star Jalsha 
+map==cbW2==808 		# (cbgm) -- Star Jalsha 
+map==cbW2==808 		# (cbgn) -- Star Jalsha 
 map==cbW2==808 		# (cbgq) -- Star Jalsha 
+map==cbW2==808 		# (cbgr) -- Star Jalsha 
 map==cbW2==808 		# (cbgs) -- Star Jalsha 
 map==cbW2==808 		# (cbgt) -- Star Jalsha 
 map==cbW2==808 		# (cbgv) -- Star Jalsha 
 map==cbW2==808 		# (cbgw) -- Star Jalsha 
+map==cbW2==808 		# (cbgx) -- Star Jalsha 
 map==cbW2==808 		# (cbgy) -- Star Jalsha 
 map==cbW2==808 		# (cbgz) -- Star Jalsha 
 map==cbW2==808 		# (cbgB) -- Star Jalsha 
@@ -5005,9 +5063,13 @@ map==cbW7==414 		# (cbgC) -- BT Sport 2
 map==cbW7==414 		# (cbgD) -- BT Sport 2 
 map==cbW7==414 		# (cbgF) -- BT Sport 2 
 map==cbW7==414 		# (cbgG) -- BT Sport 2 
+map==cbW7==414 		# (cbgH) -- BT Sport 2 
+map==cbW7==414 		# (cbgJ) -- BT Sport 2 
 map==cbW7==414 		# (cbgK) -- BT Sport 2 
+map==cbW7==414 		# (cbgM) -- BT Sport 2 
 map==cbW7==414 		# (cbgN) -- BT Sport 2 
 map==cbW7==414 		# (cbgP) -- BT Sport 2 
+map==cbW7==414 		# (cbgQ) -- BT Sport 2 
 map==cbW7==414 		# (cbgR) -- BT Sport 2 
 map==cbW7==414 		# (cbgS) -- BT Sport 2 
 map==cbW7==414 		# (cbgT) -- BT Sport 2 
@@ -5126,6 +5188,7 @@ map==cbW8==413 		# (cbgM) -- BT Sport 1
 map==cbW8==413 		# (cbgN) -- BT Sport 1 
 map==cbW8==413 		# (cbgP) -- BT Sport 1 
 map==cbW8==413 		# (cbgQ) -- BT Sport 1 
+map==cbW8==413 		# (cbgR) -- BT Sport 1 
 map==cbW8==413 		# (cbgS) -- BT Sport 1 
 map==cbW8==413 		# (cbgT) -- BT Sport 1 
 map==cbW8==413 		# (cbgV) -- BT Sport 1 
@@ -5161,6 +5224,7 @@ map==cbW8==547 		# (cbhY) -- BT Sport 1
 map==cbW8==547 		# (cbh2) -- BT Sport 1 
 map==cbW8==547 		# (cbh4) -- BT Sport 1 
 map==cbW8==547 		# (cbh5) -- BT Sport 1 
+map==cbW8==547 		# (cbh6) -- BT Sport 1 
 map==cbW8==547 		# (cbh7) -- BT Sport 1 
 map==cbW8==547 		# (cbh8) -- BT Sport 1 
 map==cbW8==547 		# (cbh9) -- BT Sport 1 
@@ -5289,6 +5353,83 @@ map==cbW9==510 		# (cbkH) -- BT Sport 1HD
 map==cbW9==510 		# (cbkJ) -- BT Sport 1HD 
 map==cbW9==510 		# (cbkK) -- BT Sport 1HD 
 map==cbW9==510 		# (cbkM) -- BT Sport 1HD 
+map==cbWD==798 		# (cbfM) -- Zing 
+map==cbWD==798 		# (cbfN) -- Zing 
+map==cbWD==798 		# (cbfP) -- Zing 
+map==cbWD==798 		# (cbfQ) -- Zing 
+map==cbWD==798 		# (cbfR) -- Zing 
+map==cbWD==798 		# (cbfS) -- Zing 
+map==cbWD==798 		# (cbfT) -- Zing 
+map==cbWD==798 		# (cbfV) -- Zing 
+map==cbWD==798 		# (cbfW) -- Zing 
+map==cbWD==798 		# (cbfX) -- Zing 
+map==cbWD==798 		# (cbfZ) -- Zing 
+map==cbWD==798 		# (cbfY) -- Zing 
+map==cbWD==798 		# (cbf2) -- Zing 
+map==cbWD==798 		# (cbf4) -- Zing 
+map==cbWD==798 		# (cbf5) -- Zing 
+map==cbWD==798 		# (cbf6) -- Zing 
+map==cbWD==798 		# (cbf7) -- Zing 
+map==cbWD==798 		# (cbf8) -- Zing 
+map==cbWD==798 		# (cbf9) -- Zing 
+map==cbWD==798 		# (cbgb) -- Zing 
+map==cbWD==798 		# (cbgc) -- Zing 
+map==cbWD==798 		# (cbgd) -- Zing 
+map==cbWD==798 		# (cbgf) -- Zing 
+map==cbWD==798 		# (cbgg) -- Zing 
+map==cbWD==798 		# (cbgh) -- Zing 
+map==cbWD==798 		# (cbgj) -- Zing 
+map==cbWD==798 		# (cbgk) -- Zing 
+map==cbWD==798 		# (cbgm) -- Zing 
+map==cbWD==798 		# (cbgn) -- Zing 
+map==cbWD==798 		# (cbgq) -- Zing 
+map==cbWD==798 		# (cbgr) -- Zing 
+map==cbWD==798 		# (cbgs) -- Zing 
+map==cbWD==798 		# (cbgt) -- Zing 
+map==cbWD==798 		# (cbgv) -- Zing 
+map==cbWD==798 		# (cbgw) -- Zing 
+map==cbWD==798 		# (cbgx) -- Zing 
+map==cbWD==798 		# (cbgy) -- Zing 
+map==cbWD==798 		# (cbgz) -- Zing 
+map==cbWD==798 		# (cbgB) -- Zing 
+map==cbWD==798 		# (cbgC) -- Zing 
+map==cbWD==798 		# (cbgD) -- Zing 
+map==cbWD==798 		# (cbgF) -- Zing 
+map==cbWD==798 		# (cbgG) -- Zing 
+map==cbWD==798 		# (cbgH) -- Zing 
+map==cbWD==798 		# (cbgJ) -- Zing 
+map==cbWD==798 		# (cbgK) -- Zing 
+map==cbWD==798 		# (cbgM) -- Zing 
+map==cbWD==798 		# (cbgN) -- Zing 
+map==cbWD==798 		# (cbgP) -- Zing 
+map==cbWD==798 		# (cbgQ) -- Zing 
+map==cbWD==798 		# (cbgR) -- Zing 
+map==cbWD==798 		# (cbgS) -- Zing 
+map==cbWD==798 		# (cbgT) -- Zing 
+map==cbWD==798 		# (cbgV) -- Zing 
+map==cbWD==798 		# (cbgW) -- Zing 
+map==cbWD==798 		# (cbgX) -- Zing 
+map==cbWD==798 		# (cbgZ) -- Zing 
+map==cbWD==798 		# (cbgY) -- Zing 
+map==cbWD==509 		# (cbhw) -- Zing 
+map==cbWD==509 		# (cbhx) -- Zing 
+map==cbWD==509 		# (cbhy) -- Zing 
+map==cbWD==509 		# (cbhz) -- Zing 
+map==cbWD==509 		# (cbhB) -- Zing 
+map==cbWD==509 		# (cbhC) -- Zing 
+map==cbWD==509 		# (cbhD) -- Zing 
+map==cbWD==509 		# (cbhF) -- Zing 
+map==cbWD==509 		# (cbhG) -- Zing 
+map==cbWD==509 		# (cbhH) -- Zing 
+map==cbWD==509 		# (cbhJ) -- Zing 
+map==cbWD==509 		# (cbhK) -- Zing 
+map==cbWD==509 		# (cbhM) -- Zing 
+map==cbWD==509 		# (cbhN) -- Zing 
+map==cbWD==509 		# (cbhP) -- Zing 
+map==cbWD==509 		# (cbhQ) -- Zing 
+map==cbWD==509 		# (cbhR) -- Zing 
+map==cbWD==509 		# (cbhS) -- Zing 
+map==cbWD==509 		# (cbhT) -- Zing 
 map==cbWJ==239 		# (cbfM) -- TLC 
 map==cbWJ==239 		# (cbfN) -- TLC 
 map==cbWJ==239 		# (cbfP) -- TLC 
@@ -5642,6 +5783,8 @@ map==cbWS==551 		# (cbfP) -- Investigation Discovery +1
 map==cbWS==551 		# (cbfQ) -- Investigation Discovery +1 
 map==cbWS==551 		# (cbfR) -- Investigation Discovery +1 
 map==cbWS==551 		# (cbfS) -- Investigation Discovery +1 
+map==cbWS==551 		# (cbfT) -- Investigation Discovery +1 
+map==cbWS==551 		# (cbfV) -- Investigation Discovery +1 
 map==cbWS==551 		# (cbfW) -- Investigation Discovery +1 
 map==cbWS==551 		# (cbfX) -- Investigation Discovery +1 
 map==cbWS==551 		# (cbfZ) -- Investigation Discovery +1 
@@ -6337,6 +6480,7 @@ map==cbWd==229 		# (cbgF) -- Alibi HD
 map==cbWd==229 		# (cbgG) -- Alibi HD 
 map==cbWd==229 		# (cbgH) -- Alibi HD 
 map==cbWd==229 		# (cbgJ) -- Alibi HD 
+map==cbWd==229 		# (cbgK) -- Alibi HD 
 map==cbWd==229 		# (cbgM) -- Alibi HD 
 map==cbWd==229 		# (cbgN) -- Alibi HD 
 map==cbWd==229 		# (cbgP) -- Alibi HD 
@@ -6462,6 +6606,12 @@ map==cbWf==613 		# (cbjf) -- CNBC UK
 map==cbWf==613 		# (cbjg) -- CNBC UK 
 map==cbWf==613 		# (cbjh) -- CNBC UK 
 map==cbWf==613 		# (cbjj) -- CNBC UK 
+map==cbWr==205 		# (cbjQ) -- RTÉ Pulse 
+map==cbWr==205 		# (cbjP) -- RTÉ Pulse 
+map==cbWs==206 		# (cbjQ) -- RTÉ 2XM 
+map==cbWs==206 		# (cbjP) -- RTÉ 2XM 
+map==cbWt==207 		# (cbjQ) -- RTÉ Choice 
+map==cbWt==207 		# (cbjP) -- RTÉ Choice 
 map==cbWw==142 		# (cbfM) -- BBC Two HD 
 map==cbWw==142 		# (cbfN) -- BBC Two HD 
 map==cbWw==142 		# (cbfP) -- BBC Two HD 
@@ -6768,6 +6918,7 @@ map==cbWz==332 		# (cbgN) -- Sky Movies Disney HD
 map==cbWz==332 		# (cbgP) -- Sky Movies Disney HD 
 map==cbWz==332 		# (cbgQ) -- Sky Movies Disney HD 
 map==cbWz==332 		# (cbgR) -- Sky Movies Disney HD 
+map==cbWz==332 		# (cbgS) -- Sky Movies Disney HD 
 map==cbWz==332 		# (cbgT) -- Sky Movies Disney HD 
 map==cbWz==332 		# (cbgV) -- Sky Movies Disney HD 
 map==cbWz==332 		# (cbgW) -- Sky Movies Disney HD 
@@ -6792,6 +6943,140 @@ map==cbWz==437 		# (cbjf) -- Sky Movies Disney HD
 map==cbWz==437 		# (cbjg) -- Sky Movies Disney HD 
 map==cbWz==437 		# (cbjh) -- Sky Movies Disney HD 
 map==cbWz==437 		# (cbjj) -- Sky Movies Disney HD 
+map==cbXT==789 		# (cbfM) -- Lamhe 
+map==cbXT==789 		# (cbfN) -- Lamhe 
+map==cbXT==789 		# (cbfP) -- Lamhe 
+map==cbXT==789 		# (cbfQ) -- Lamhe 
+map==cbXT==789 		# (cbfR) -- Lamhe 
+map==cbXT==789 		# (cbfS) -- Lamhe 
+map==cbXT==789 		# (cbfT) -- Lamhe 
+map==cbXT==789 		# (cbfV) -- Lamhe 
+map==cbXT==789 		# (cbfW) -- Lamhe 
+map==cbXT==789 		# (cbfX) -- Lamhe 
+map==cbXT==789 		# (cbfZ) -- Lamhe 
+map==cbXT==789 		# (cbfY) -- Lamhe 
+map==cbXT==789 		# (cbf2) -- Lamhe 
+map==cbXT==789 		# (cbf4) -- Lamhe 
+map==cbXT==789 		# (cbf5) -- Lamhe 
+map==cbXT==789 		# (cbf6) -- Lamhe 
+map==cbXT==789 		# (cbf7) -- Lamhe 
+map==cbXT==789 		# (cbf8) -- Lamhe 
+map==cbXT==789 		# (cbf9) -- Lamhe 
+map==cbXT==789 		# (cbgb) -- Lamhe 
+map==cbXT==789 		# (cbgc) -- Lamhe 
+map==cbXT==789 		# (cbgd) -- Lamhe 
+map==cbXT==789 		# (cbgf) -- Lamhe 
+map==cbXT==789 		# (cbgg) -- Lamhe 
+map==cbXT==789 		# (cbgh) -- Lamhe 
+map==cbXT==789 		# (cbgj) -- Lamhe 
+map==cbXT==789 		# (cbgk) -- Lamhe 
+map==cbXT==789 		# (cbgm) -- Lamhe 
+map==cbXT==789 		# (cbgn) -- Lamhe 
+map==cbXT==789 		# (cbgq) -- Lamhe 
+map==cbXT==789 		# (cbgr) -- Lamhe 
+map==cbXT==789 		# (cbgs) -- Lamhe 
+map==cbXT==789 		# (cbgt) -- Lamhe 
+map==cbXT==789 		# (cbgv) -- Lamhe 
+map==cbXT==789 		# (cbgw) -- Lamhe 
+map==cbXT==789 		# (cbgx) -- Lamhe 
+map==cbXT==789 		# (cbgy) -- Lamhe 
+map==cbXT==789 		# (cbgz) -- Lamhe 
+map==cbXT==789 		# (cbgB) -- Lamhe 
+map==cbXT==789 		# (cbgC) -- Lamhe 
+map==cbXT==789 		# (cbgD) -- Lamhe 
+map==cbXT==789 		# (cbgF) -- Lamhe 
+map==cbXT==789 		# (cbgG) -- Lamhe 
+map==cbXT==789 		# (cbgH) -- Lamhe 
+map==cbXT==789 		# (cbgJ) -- Lamhe 
+map==cbXT==789 		# (cbgK) -- Lamhe 
+map==cbXT==789 		# (cbgM) -- Lamhe 
+map==cbXT==789 		# (cbgN) -- Lamhe 
+map==cbXT==789 		# (cbgP) -- Lamhe 
+map==cbXT==789 		# (cbgQ) -- Lamhe 
+map==cbXT==789 		# (cbgR) -- Lamhe 
+map==cbXT==789 		# (cbgS) -- Lamhe 
+map==cbXT==789 		# (cbgT) -- Lamhe 
+map==cbXT==789 		# (cbgV) -- Lamhe 
+map==cbXT==789 		# (cbgW) -- Lamhe 
+map==cbXT==789 		# (cbgX) -- Lamhe 
+map==cbXT==789 		# (cbgZ) -- Lamhe 
+map==cbXT==789 		# (cbgY) -- Lamhe 
+map==cbXT==811 		# (cbhW) -- Lamhe 
+map==cbXT==811 		# (cbhX) -- Lamhe 
+map==cbXT==811 		# (cbhZ) -- Lamhe 
+map==cbXT==811 		# (cbhY) -- Lamhe 
+map==cbXT==811 		# (cbh2) -- Lamhe 
+map==cbXT==811 		# (cbh4) -- Lamhe 
+map==cbXT==811 		# (cbh5) -- Lamhe 
+map==cbXT==811 		# (cbh6) -- Lamhe 
+map==cbXT==811 		# (cbh7) -- Lamhe 
+map==cbXT==811 		# (cbh8) -- Lamhe 
+map==cbXT==811 		# (cbh9) -- Lamhe 
+map==cbXT==811 		# (cbjb) -- Lamhe 
+map==cbXT==811 		# (cbjc) -- Lamhe 
+map==cbXT==811 		# (cbjd) -- Lamhe 
+map==cbXT==811 		# (cbjf) -- Lamhe 
+map==cbXT==811 		# (cbjg) -- Lamhe 
+map==cbXT==811 		# (cbjh) -- Lamhe 
+map==cbXT==811 		# (cbjj) -- Lamhe 
+map==cbXV==200 		# (cbfM) -- TLC+2 
+map==cbXV==200 		# (cbfN) -- TLC+2 
+map==cbXV==200 		# (cbfP) -- TLC+2 
+map==cbXV==200 		# (cbfQ) -- TLC+2 
+map==cbXV==200 		# (cbfR) -- TLC+2 
+map==cbXV==200 		# (cbfS) -- TLC+2 
+map==cbXV==200 		# (cbfT) -- TLC+2 
+map==cbXV==200 		# (cbfV) -- TLC+2 
+map==cbXV==200 		# (cbfW) -- TLC+2 
+map==cbXV==200 		# (cbfX) -- TLC+2 
+map==cbXV==200 		# (cbfZ) -- TLC+2 
+map==cbXV==200 		# (cbfY) -- TLC+2 
+map==cbXV==200 		# (cbf2) -- TLC+2 
+map==cbXV==200 		# (cbf4) -- TLC+2 
+map==cbXV==200 		# (cbf5) -- TLC+2 
+map==cbXV==200 		# (cbf6) -- TLC+2 
+map==cbXV==200 		# (cbf7) -- TLC+2 
+map==cbXV==200 		# (cbf8) -- TLC+2 
+map==cbXV==200 		# (cbf9) -- TLC+2 
+map==cbXV==200 		# (cbgb) -- TLC+2 
+map==cbXV==200 		# (cbgc) -- TLC+2 
+map==cbXV==200 		# (cbgd) -- TLC+2 
+map==cbXV==200 		# (cbgf) -- TLC+2 
+map==cbXV==200 		# (cbgg) -- TLC+2 
+map==cbXV==200 		# (cbgh) -- TLC+2 
+map==cbXV==200 		# (cbgj) -- TLC+2 
+map==cbXV==200 		# (cbgk) -- TLC+2 
+map==cbXV==200 		# (cbgm) -- TLC+2 
+map==cbXV==200 		# (cbgn) -- TLC+2 
+map==cbXV==200 		# (cbgq) -- TLC+2 
+map==cbXV==200 		# (cbgr) -- TLC+2 
+map==cbXV==200 		# (cbgs) -- TLC+2 
+map==cbXV==200 		# (cbgt) -- TLC+2 
+map==cbXV==200 		# (cbgv) -- TLC+2 
+map==cbXV==200 		# (cbgw) -- TLC+2 
+map==cbXV==200 		# (cbgx) -- TLC+2 
+map==cbXV==200 		# (cbgy) -- TLC+2 
+map==cbXV==200 		# (cbgz) -- TLC+2 
+map==cbXV==200 		# (cbgB) -- TLC+2 
+map==cbXV==200 		# (cbgC) -- TLC+2 
+map==cbXV==200 		# (cbgD) -- TLC+2 
+map==cbXV==200 		# (cbgF) -- TLC+2 
+map==cbXV==200 		# (cbgG) -- TLC+2 
+map==cbXV==200 		# (cbgH) -- TLC+2 
+map==cbXV==200 		# (cbgJ) -- TLC+2 
+map==cbXV==200 		# (cbgK) -- TLC+2 
+map==cbXV==200 		# (cbgM) -- TLC+2 
+map==cbXV==200 		# (cbgN) -- TLC+2 
+map==cbXV==200 		# (cbgP) -- TLC+2 
+map==cbXV==200 		# (cbgQ) -- TLC+2 
+map==cbXV==200 		# (cbgR) -- TLC+2 
+map==cbXV==200 		# (cbgS) -- TLC+2 
+map==cbXV==200 		# (cbgT) -- TLC+2 
+map==cbXV==200 		# (cbgV) -- TLC+2 
+map==cbXV==200 		# (cbgW) -- TLC+2 
+map==cbXV==200 		# (cbgX) -- TLC+2 
+map==cbXV==200 		# (cbgZ) -- TLC+2 
+map==cbXV==200 		# (cbgY) -- TLC+2 
 map==cbXb==783 		# (cbfM) -- Star Life OK 
 map==cbXb==783 		# (cbfN) -- Star Life OK 
 map==cbXb==783 		# (cbfP) -- Star Life OK 
@@ -7032,6 +7317,7 @@ map==cbXg==806 		# (cbgY) -- ARY News
 map==cbXg==819 		# (cbhW) -- ARY News 
 map==cbXg==819 		# (cbhX) -- ARY News 
 map==cbXg==819 		# (cbhZ) -- ARY News 
+map==cbXg==819 		# (cbhY) -- ARY News 
 map==cbXg==819 		# (cbh2) -- ARY News 
 map==cbXg==819 		# (cbh4) -- ARY News 
 map==cbXg==819 		# (cbh5) -- ARY News 
@@ -7458,6 +7744,8 @@ map==cbbC==954 		# (cbhw) -- BBC One West Midlands
 map==cbbC==963 		# (cbhw) -- BBC One West Midlands 
 map==cbbC==954 		# (cbhx) -- BBC One West Midlands 
 map==cbbC==963 		# (cbhx) -- BBC One West Midlands 
+map==cbbC==954 		# (cbhy) -- BBC One West Midlands 
+map==cbbC==963 		# (cbhy) -- BBC One West Midlands 
 map==cbbC==954 		# (cbhz) -- BBC One West Midlands 
 map==cbbC==963 		# (cbhz) -- BBC One West Midlands 
 map==cbbC==954 		# (cbhB) -- BBC One West Midlands 
@@ -7869,6 +8157,7 @@ map==cbbH==972 		# (cbgR) -- BBC Two Northern Ireland
 map==cbbH==972 		# (cbgS) -- BBC Two Northern Ireland 
 map==cbbH==972 		# (cbgT) -- BBC Two Northern Ireland 
 map==cbbH==972 		# (cbgV) -- BBC Two Northern Ireland 
+map==cbbH==972 		# (cbgW) -- BBC Two Northern Ireland 
 map==cbbH==972 		# (cbgX) -- BBC Two Northern Ireland 
 map==cbbH==972 		# (cbgZ) -- BBC Two Northern Ireland 
 map==cbbH==972 		# (cbgY) -- BBC Two Northern Ireland 
@@ -8834,6 +9123,7 @@ map==cbbW==613 		# (cbgQ) -- CBBC
 map==cbbW==613 		# (cbgR) -- CBBC 
 map==cbbW==613 		# (cbgS) -- CBBC 
 map==cbbW==613 		# (cbgT) -- CBBC 
+map==cbbW==613 		# (cbgV) -- CBBC 
 map==cbbW==613 		# (cbgW) -- CBBC 
 map==cbbW==613 		# (cbgX) -- CBBC 
 map==cbbW==613 		# (cbgZ) -- CBBC 
@@ -9192,6 +9482,8 @@ map==cbbZ==0152 		# (cbgT) -- BBC London 94.9
 map==cbbZ==0152 		# (cbgV) -- BBC London 94.9 
 map==cbbZ==0152 		# (cbgW) -- BBC London 94.9 
 map==cbbZ==0152 		# (cbgX) -- BBC London 94.9 
+map==cbbZ==0152 		# (cbgZ) -- BBC London 94.9 
+map==cbbZ==0152 		# (cbgY) -- BBC London 94.9 
 map==cbbZ==718 		# (cbhw) -- BBC London 94.9 
 map==cbbZ==718 		# (cbhx) -- BBC London 94.9 
 map==cbbZ==718 		# (cbhy) -- BBC London 94.9 
@@ -9592,6 +9884,7 @@ map==cbbq==141 		# (cbgS) -- BBC One HD
 map==cbbq==141 		# (cbgT) -- BBC One HD 
 map==cbbq==141 		# (cbgV) -- BBC One HD 
 map==cbbq==141 		# (cbgW) -- BBC One HD 
+map==cbbq==141 		# (cbgX) -- BBC One HD 
 map==cbbq==141 		# (cbgZ) -- BBC One HD 
 map==cbbq==141 		# (cbgY) -- BBC One HD 
 map==cbbq==101 		# (cbg4) -- BBC One HD 
@@ -9822,6 +10115,7 @@ map==cbbs==958 		# (cbgK) -- BBC One North West
 map==cbbs==958 		# (cbgM) -- BBC One North West 
 map==cbbs==958 		# (cbgN) -- BBC One North West 
 map==cbbs==958 		# (cbgP) -- BBC One North West 
+map==cbbs==958 		# (cbgQ) -- BBC One North West 
 map==cbbs==958 		# (cbgR) -- BBC One North West 
 map==cbbs==958 		# (cbgS) -- BBC One North West 
 map==cbbs==958 		# (cbgT) -- BBC One North West 
@@ -10275,6 +10569,7 @@ map==cbbz==962 		# (cbhP) -- BBC One South West
 map==cbbz==962 		# (cbhQ) -- BBC One South West 
 map==cbbz==962 		# (cbhR) -- BBC One South West 
 map==cbbz==962 		# (cbhS) -- BBC One South West 
+map==cbbz==962 		# (cbhT) -- BBC One South West 
 map==cbbz==101 		# (cbh2) -- BBC One South West 
 map==cbbz==1 		# (cbjq) -- BBC One South West 
 map==cbbz==1 		# (cbjS) -- BBC One South West 
@@ -11257,6 +11552,7 @@ map==cbcT==0103 		# (cbgT) -- BBC Radio 3
 map==cbcT==0103 		# (cbgV) -- BBC Radio 3 
 map==cbcT==0103 		# (cbgW) -- BBC Radio 3 
 map==cbcT==0103 		# (cbgX) -- BBC Radio 3 
+map==cbcT==0103 		# (cbgZ) -- BBC Radio 3 
 map==cbcT==0103 		# (cbgY) -- BBC Radio 3 
 map==cbcT==703 		# (cbg4) -- BBC Radio 3 
 map==cbcT==703 		# (cbg5) -- BBC Radio 3 
@@ -12616,6 +12912,7 @@ map==cbd8==3 		# (cbjn) -- UTV
 map==cbd8==3 		# (cbj7) -- UTV 
 map==cbd8==3 		# (cbkn) -- UTV 
 map==cbd9==178 		# (cbfN) -- UTV HD 
+map==cbd9==178 		# (cbgr) -- UTV HD 
 map==cbd9==103 		# (cbhd) -- UTV HD 
 map==cbd9==119 		# (cbhG) -- UTV HD 
 map==cbd9==103 		# (cbjn) -- UTV HD 
@@ -12625,6 +12922,7 @@ map==cbdB==103 		# (cbfP) -- ITV Meridian
 map==cbdB==103 		# (cbfV) -- ITV Meridian 
 map==cbdB==103 		# (cbfW) -- ITV Meridian 
 map==cbdB==103 		# (cbgs) -- ITV Meridian 
+map==cbdB==103 		# (cbgy) -- ITV Meridian 
 map==cbdB==103 		# (cbgz) -- ITV Meridian 
 map==cbdB==3 		# (cbhm) -- ITV Meridian 
 map==cbdB==3 		# (cbhs) -- ITV Meridian 
@@ -12738,6 +13036,7 @@ map==cbdQ==131 		# (cbfP) -- ITV Central+1
 map==cbdQ==131 		# (cbf7) -- ITV Central+1 
 map==cbdQ==131 		# (cbgj) -- ITV Central+1 
 map==cbdQ==131 		# (cbgs) -- ITV Central+1 
+map==cbdQ==131 		# (cbgK) -- ITV Central+1 
 map==cbdQ==131 		# (cbgW) -- ITV Central+1 
 map==cbdQ==33 		# (cbg6) -- ITV Central+1 
 map==cbdQ==33 		# (cbhb) -- ITV Central+1 
@@ -12769,6 +13068,7 @@ map==cbdR==114 		# (cbh8) -- ITV Granada+1
 map==cbdR==33 		# (cbjp) -- ITV Granada+1 
 map==cbdR==33 		# (cbj6) -- ITV Granada+1 
 map==cbdR==33 		# (cbkx) -- ITV Granada+1 
+map==cbdS==131 		# (cbgd) -- ITV London+1 
 map==cbdS==131 		# (cbgg) -- ITV London+1 
 map==cbdS==131 		# (cbgh) -- ITV London+1 
 map==cbdS==131 		# (cbgm) -- ITV London+1 
@@ -13102,6 +13402,8 @@ map==cbdb==0117 		# (cbfY) -- BBC Radio Wales
 map==cbdb==0117 		# (cbf2) -- BBC Radio Wales 
 map==cbdb==0117 		# (cbf4) -- BBC Radio Wales 
 map==cbdb==0117 		# (cbf5) -- BBC Radio Wales 
+map==cbdb==0117 		# (cbf6) -- BBC Radio Wales 
+map==cbdb==0117 		# (cbf7) -- BBC Radio Wales 
 map==cbdb==0117 		# (cbf8) -- BBC Radio Wales 
 map==cbdb==0117 		# (cbf9) -- BBC Radio Wales 
 map==cbdb==0117 		# (cbgb) -- BBC Radio Wales 
@@ -14322,6 +14624,9 @@ map==cbdp==360 		# (cbgy) -- 4Music
 map==cbdp==360 		# (cbgz) -- 4Music 
 map==cbdp==360 		# (cbgB) -- 4Music 
 map==cbdp==360 		# (cbgC) -- 4Music 
+map==cbdp==360 		# (cbgD) -- 4Music 
+map==cbdp==360 		# (cbgF) -- 4Music 
+map==cbdp==360 		# (cbgG) -- 4Music 
 map==cbdp==360 		# (cbgH) -- 4Music 
 map==cbdp==360 		# (cbgJ) -- 4Music 
 map==cbdp==360 		# (cbgK) -- 4Music 
@@ -14334,6 +14639,7 @@ map==cbdp==360 		# (cbgS) -- 4Music
 map==cbdp==360 		# (cbgT) -- 4Music 
 map==cbdp==360 		# (cbgV) -- 4Music 
 map==cbdp==360 		# (cbgW) -- 4Music 
+map==cbdp==360 		# (cbgX) -- 4Music 
 map==cbdp==360 		# (cbgZ) -- 4Music 
 map==cbdp==360 		# (cbgY) -- 4Music 
 map==cbdp==18 		# (cbg4) -- 4Music 
@@ -14898,6 +15204,7 @@ map==cbdt==176 		# (cbgr) -- 5*
 map==cbdt==176 		# (cbgs) -- 5* 
 map==cbdt==176 		# (cbgt) -- 5* 
 map==cbdt==176 		# (cbgv) -- 5* 
+map==cbdt==176 		# (cbgw) -- 5* 
 map==cbdt==176 		# (cbgx) -- 5* 
 map==cbdt==176 		# (cbgy) -- 5* 
 map==cbdt==176 		# (cbgz) -- 5* 
@@ -15125,6 +15432,7 @@ map==cbdv==129 		# (cbhy) -- 5USA
 map==cbdv==129 		# (cbhz) -- 5USA 
 map==cbdv==129 		# (cbhB) -- 5USA 
 map==cbdv==129 		# (cbhC) -- 5USA 
+map==cbdv==129 		# (cbhD) -- 5USA 
 map==cbdv==129 		# (cbhF) -- 5USA 
 map==cbdv==129 		# (cbhG) -- 5USA 
 map==cbdv==129 		# (cbhH) -- 5USA 
@@ -15928,6 +16236,7 @@ map==cbf9==516 		# (cbgy) -- Sky News HD
 map==cbf9==516 		# (cbgz) -- Sky News HD 
 map==cbf9==516 		# (cbgB) -- Sky News HD 
 map==cbf9==516 		# (cbgC) -- Sky News HD 
+map==cbf9==516 		# (cbgD) -- Sky News HD 
 map==cbf9==516 		# (cbgF) -- Sky News HD 
 map==cbf9==516 		# (cbgG) -- Sky News HD 
 map==cbf9==516 		# (cbgH) -- Sky News HD 
@@ -16667,6 +16976,7 @@ map==cbfQ==785 		# (cbf4) -- Phoenix CNE Channel
 map==cbfQ==785 		# (cbf5) -- Phoenix CNE Channel 
 map==cbfQ==785 		# (cbf6) -- Phoenix CNE Channel 
 map==cbfQ==785 		# (cbf7) -- Phoenix CNE Channel 
+map==cbfQ==785 		# (cbf8) -- Phoenix CNE Channel 
 map==cbfQ==785 		# (cbf9) -- Phoenix CNE Channel 
 map==cbfQ==785 		# (cbgb) -- Phoenix CNE Channel 
 map==cbfQ==785 		# (cbgc) -- Phoenix CNE Channel 
@@ -17521,6 +17831,8 @@ map==cbff==135 		# (cbgH) -- Channel 4 +1
 map==cbff==974 		# (cbgH) -- Channel 4 +1 
 map==cbff==135 		# (cbgJ) -- Channel 4 +1 
 map==cbff==974 		# (cbgJ) -- Channel 4 +1 
+map==cbff==135 		# (cbgK) -- Channel 4 +1 
+map==cbff==974 		# (cbgK) -- Channel 4 +1 
 map==cbff==135 		# (cbgM) -- Channel 4 +1 
 map==cbff==974 		# (cbgM) -- Channel 4 +1 
 map==cbff==135 		# (cbgN) -- Channel 4 +1 
@@ -17543,6 +17855,8 @@ map==cbff==135 		# (cbgX) -- Channel 4 +1
 map==cbff==974 		# (cbgX) -- Channel 4 +1 
 map==cbff==135 		# (cbgZ) -- Channel 4 +1 
 map==cbff==974 		# (cbgZ) -- Channel 4 +1 
+map==cbff==135 		# (cbgY) -- Channel 4 +1 
+map==cbff==974 		# (cbgY) -- Channel 4 +1 
 map==cbff==13 		# (cbg4) -- Channel 4 +1 
 map==cbff==13 		# (cbg5) -- Channel 4 +1 
 map==cbff==13 		# (cbg6) -- Channel 4 +1 
@@ -17718,6 +18032,7 @@ map==cbfg==230 		# (cbgv) -- Channel 4 HD
 map==cbfg==230 		# (cbgw) -- Channel 4 HD 
 map==cbfg==230 		# (cbgx) -- Channel 4 HD 
 map==cbfg==230 		# (cbgy) -- Channel 4 HD 
+map==cbfg==230 		# (cbgz) -- Channel 4 HD 
 map==cbfg==230 		# (cbgB) -- Channel 4 HD 
 map==cbfg==230 		# (cbgC) -- Channel 4 HD 
 map==cbfg==230 		# (cbgD) -- Channel 4 HD 
@@ -17981,11 +18296,14 @@ map==cbfh==4 		# (cbjZ) -- S4C
 map==cbfh==4 		# (cbks) -- S4C 
 map==cbfk==101 		# (cbfM) -- RTÉ One 
 map==cbfk==161 		# (cbfN) -- RTÉ One 
+map==cbfk==101 		# (cbgq) -- RTÉ One 
 map==cbfk==161 		# (cbgr) -- RTÉ One 
 map==cbfk==52 		# (cbhd) -- RTÉ One 
 map==cbfk==52 		# (cbjn) -- RTÉ One 
 map==cbfk==52 		# (cbj7) -- RTÉ One 
 map==cbfk==52 		# (cbkn) -- RTÉ One 
+map==cbfk==1 		# (cbjQ) -- RTÉ One 
+map==cbfk==1 		# (cbjP) -- RTÉ One 
 map==cbfm==102 		# (cbfM) -- RTÉ Two 
 map==cbfm==115 		# (cbfM) -- RTÉ Two 
 map==cbfm==162 		# (cbfN) -- RTÉ Two 
@@ -18004,8 +18322,11 @@ map==cbfn==51 		# (cbhd) -- TG4
 map==cbfn==51 		# (cbjn) -- TG4 
 map==cbfn==51 		# (cbj7) -- TG4 
 map==cbfn==51 		# (cbkn) -- TG4 
+map==cbfn==4 		# (cbjQ) -- TG4 
+map==cbfn==4 		# (cbjP) -- TG4 
 map==cbfp==103 		# (cbfM) -- TV3 
 map==cbfp==103 		# (cbgq) -- TV3 
+map==cbfp==3 		# (cbjP) -- TV3 
 map==cbfr==179 		# (cbfN) -- ITV2+1 
 map==cbfr==179 		# (cbfP) -- ITV2+1 
 map==cbfr==179 		# (cbfQ) -- ITV2+1 
@@ -18214,6 +18535,7 @@ map==cbfs==137 		# (cbgm) -- E4 +1
 map==cbfs==137 		# (cbgn) -- E4 +1 
 map==cbfs==138 		# (cbgq) -- E4 +1 
 map==cbfs==137 		# (cbgr) -- E4 +1 
+map==cbfs==137 		# (cbgs) -- E4 +1 
 map==cbfs==137 		# (cbgt) -- E4 +1 
 map==cbfs==137 		# (cbgv) -- E4 +1 
 map==cbfs==137 		# (cbgw) -- E4 +1 
@@ -18386,6 +18708,7 @@ map==cbft==136 		# (cbgc) -- E4 HD
 map==cbft==136 		# (cbgd) -- E4 HD 
 map==cbft==136 		# (cbgf) -- E4 HD 
 map==cbft==136 		# (cbgg) -- E4 HD 
+map==cbft==136 		# (cbgh) -- E4 HD 
 map==cbft==136 		# (cbgj) -- E4 HD 
 map==cbft==136 		# (cbgk) -- E4 HD 
 map==cbft==136 		# (cbgm) -- E4 HD 
@@ -18416,6 +18739,7 @@ map==cbfv==180 		# (cbfR) -- ITV3+1
 map==cbfv==180 		# (cbfS) -- ITV3+1 
 map==cbfv==180 		# (cbfT) -- ITV3+1 
 map==cbfv==180 		# (cbfV) -- ITV3+1 
+map==cbfv==180 		# (cbfW) -- ITV3+1 
 map==cbfv==180 		# (cbfX) -- ITV3+1 
 map==cbfv==180 		# (cbfZ) -- ITV3+1 
 map==cbfv==180 		# (cbfY) -- ITV3+1 
@@ -18504,6 +18828,8 @@ map==cbfv==174 		# (cbjj) -- ITV3+1
 map==cbfw==139 		# (cbfN) -- More4 +1 
 map==cbfw==139 		# (cbfP) -- More4 +1 
 map==cbfw==139 		# (cbfQ) -- More4 +1 
+map==cbfw==139 		# (cbfR) -- More4 +1 
+map==cbfw==139 		# (cbfS) -- More4 +1 
 map==cbfw==139 		# (cbfT) -- More4 +1 
 map==cbfw==139 		# (cbfV) -- More4 +1 
 map==cbfw==139 		# (cbfW) -- More4 +1 
@@ -18613,6 +18939,7 @@ map==cbfy==206 		# (cbf9) -- ITV4+1
 map==cbfy==206 		# (cbgb) -- ITV4+1 
 map==cbfy==206 		# (cbgc) -- ITV4+1 
 map==cbfy==206 		# (cbgd) -- ITV4+1 
+map==cbfy==206 		# (cbgf) -- ITV4+1 
 map==cbfy==206 		# (cbgg) -- ITV4+1 
 map==cbfy==206 		# (cbgh) -- ITV4+1 
 map==cbfy==206 		# (cbgj) -- ITV4+1 
@@ -19144,6 +19471,7 @@ map==cbg7==618 		# (cbgS) -- Boomerang +1
 map==cbg7==618 		# (cbgT) -- Boomerang +1 
 map==cbg7==618 		# (cbgV) -- Boomerang +1 
 map==cbg7==618 		# (cbgW) -- Boomerang +1 
+map==cbg7==618 		# (cbgX) -- Boomerang +1 
 map==cbg7==618 		# (cbgZ) -- Boomerang +1 
 map==cbg7==618 		# (cbgY) -- Boomerang +1 
 map==cbg7==731 		# (cbhW) -- Boomerang +1 
@@ -19513,6 +19841,7 @@ map==cbgC==356 		# (cbfW) -- VH1
 map==cbgC==356 		# (cbfX) -- VH1 
 map==cbgC==356 		# (cbfZ) -- VH1 
 map==cbgC==356 		# (cbfY) -- VH1 
+map==cbgC==356 		# (cbf2) -- VH1 
 map==cbgC==356 		# (cbf4) -- VH1 
 map==cbgC==356 		# (cbf5) -- VH1 
 map==cbgC==356 		# (cbf6) -- VH1 
@@ -19528,6 +19857,7 @@ map==cbgC==356 		# (cbgh) -- VH1
 map==cbgC==356 		# (cbgj) -- VH1 
 map==cbgC==356 		# (cbgk) -- VH1 
 map==cbgC==356 		# (cbgm) -- VH1 
+map==cbgC==356 		# (cbgn) -- VH1 
 map==cbgC==356 		# (cbgq) -- VH1 
 map==cbgC==356 		# (cbgr) -- VH1 
 map==cbgC==356 		# (cbgs) -- VH1 
@@ -19677,6 +20007,7 @@ map==cbgF==561 		# (cbgD) -- Discovery Channel
 map==cbgF==561 		# (cbgF) -- Discovery Channel 
 map==cbgF==561 		# (cbgG) -- Discovery Channel 
 map==cbgF==561 		# (cbgH) -- Discovery Channel 
+map==cbgF==561 		# (cbgJ) -- Discovery Channel 
 map==cbgF==561 		# (cbgK) -- Discovery Channel 
 map==cbgF==561 		# (cbgM) -- Discovery Channel 
 map==cbgF==561 		# (cbgN) -- Discovery Channel 
@@ -19791,7 +20122,9 @@ map==cbgG==213 		# (cbhW) -- Discovery Channel +1
 map==cbgG==213 		# (cbhX) -- Discovery Channel +1 
 map==cbgG==213 		# (cbhZ) -- Discovery Channel +1 
 map==cbgG==213 		# (cbhY) -- Discovery Channel +1 
+map==cbgG==213 		# (cbh2) -- Discovery Channel +1 
 map==cbgG==213 		# (cbh4) -- Discovery Channel +1 
+map==cbgG==213 		# (cbh5) -- Discovery Channel +1 
 map==cbgG==213 		# (cbh6) -- Discovery Channel +1 
 map==cbgG==213 		# (cbh7) -- Discovery Channel +1 
 map==cbgG==213 		# (cbh8) -- Discovery Channel +1 
@@ -19816,6 +20149,7 @@ map==cbgJ==524 		# (cbfX) -- Discovery Turbo
 map==cbgJ==524 		# (cbfZ) -- Discovery Turbo 
 map==cbgJ==524 		# (cbfY) -- Discovery Turbo 
 map==cbgJ==524 		# (cbf2) -- Discovery Turbo 
+map==cbgJ==524 		# (cbf4) -- Discovery Turbo 
 map==cbgJ==524 		# (cbf5) -- Discovery Turbo 
 map==cbgJ==524 		# (cbf6) -- Discovery Turbo 
 map==cbgJ==524 		# (cbf7) -- Discovery Turbo 
@@ -19872,6 +20206,7 @@ map==cbgJ==221 		# (cbh7) -- Discovery Turbo
 map==cbgJ==221 		# (cbh8) -- Discovery Turbo 
 map==cbgJ==221 		# (cbh9) -- Discovery Turbo 
 map==cbgJ==221 		# (cbjb) -- Discovery Turbo 
+map==cbgJ==221 		# (cbjc) -- Discovery Turbo 
 map==cbgJ==221 		# (cbjd) -- Discovery Turbo 
 map==cbgJ==221 		# (cbjf) -- Discovery Turbo 
 map==cbgJ==221 		# (cbjg) -- Discovery Turbo 
@@ -19941,6 +20276,7 @@ map==cbgK==130 		# (cbhZ) -- Alibi
 map==cbgK==130 		# (cbhY) -- Alibi 
 map==cbgK==130 		# (cbh2) -- Alibi 
 map==cbgK==130 		# (cbh4) -- Alibi 
+map==cbgK==130 		# (cbh5) -- Alibi 
 map==cbgK==130 		# (cbh6) -- Alibi 
 map==cbgK==130 		# (cbh7) -- Alibi 
 map==cbgK==130 		# (cbh8) -- Alibi 
@@ -20091,6 +20427,7 @@ map==cbgN==113 		# (cbgB) -- Universal Channel
 map==cbgN==113 		# (cbgC) -- Universal Channel 
 map==cbgN==113 		# (cbgD) -- Universal Channel 
 map==cbgN==113 		# (cbgF) -- Universal Channel 
+map==cbgN==113 		# (cbgG) -- Universal Channel 
 map==cbgN==113 		# (cbgH) -- Universal Channel 
 map==cbgN==113 		# (cbgJ) -- Universal Channel 
 map==cbgN==113 		# (cbgK) -- Universal Channel 
@@ -20390,6 +20727,7 @@ map==cbgS==194 		# (cbfZ) -- Syfy +1
 map==cbgS==194 		# (cbfY) -- Syfy +1 
 map==cbgS==194 		# (cbf2) -- Syfy +1 
 map==cbgS==194 		# (cbf4) -- Syfy +1 
+map==cbgS==194 		# (cbf5) -- Syfy +1 
 map==cbgS==194 		# (cbf6) -- Syfy +1 
 map==cbgS==194 		# (cbf7) -- Syfy +1 
 map==cbgS==194 		# (cbf8) -- Syfy +1 
@@ -20488,6 +20826,7 @@ map==cbgT==201 		# (cbgv) -- Syfy HD
 map==cbgT==201 		# (cbgw) -- Syfy HD 
 map==cbgT==201 		# (cbgx) -- Syfy HD 
 map==cbgT==201 		# (cbgy) -- Syfy HD 
+map==cbgT==201 		# (cbgz) -- Syfy HD 
 map==cbgT==201 		# (cbgB) -- Syfy HD 
 map==cbgT==201 		# (cbgC) -- Syfy HD 
 map==cbgT==201 		# (cbgD) -- Syfy HD 
@@ -20748,6 +21087,7 @@ map==cbgX==782 		# (cbgK) -- Sony Entertainment TV Asia
 map==cbgX==782 		# (cbgM) -- Sony Entertainment TV Asia 
 map==cbgX==782 		# (cbgN) -- Sony Entertainment TV Asia 
 map==cbgX==782 		# (cbgP) -- Sony Entertainment TV Asia 
+map==cbgX==782 		# (cbgQ) -- Sony Entertainment TV Asia 
 map==cbgX==782 		# (cbgR) -- Sony Entertainment TV Asia 
 map==cbgX==782 		# (cbgS) -- Sony Entertainment TV Asia 
 map==cbgX==782 		# (cbgT) -- Sony Entertainment TV Asia 
@@ -20794,6 +21134,7 @@ map==cbgY==632 		# (cbf7) -- Nickelodeon
 map==cbgY==632 		# (cbf8) -- Nickelodeon 
 map==cbgY==632 		# (cbf9) -- Nickelodeon 
 map==cbgY==632 		# (cbgb) -- Nickelodeon 
+map==cbgY==632 		# (cbgc) -- Nickelodeon 
 map==cbgY==632 		# (cbgd) -- Nickelodeon 
 map==cbgY==632 		# (cbgf) -- Nickelodeon 
 map==cbgY==632 		# (cbgg) -- Nickelodeon 
@@ -20910,6 +21251,7 @@ map==cbgZ==317 		# (cbgY) -- TCM
 map==cbgZ==415 		# (cbhW) -- TCM 
 map==cbgZ==415 		# (cbhX) -- TCM 
 map==cbgZ==415 		# (cbhZ) -- TCM 
+map==cbgZ==415 		# (cbhY) -- TCM 
 map==cbgZ==415 		# (cbh2) -- TCM 
 map==cbgZ==415 		# (cbh4) -- TCM 
 map==cbgZ==415 		# (cbh5) -- TCM 
@@ -21018,6 +21360,7 @@ map==cbgd==123 		# (cbf5) -- Sky Living +1
 map==cbgd==123 		# (cbf6) -- Sky Living +1 
 map==cbgd==123 		# (cbf7) -- Sky Living +1 
 map==cbgd==123 		# (cbf8) -- Sky Living +1 
+map==cbgd==123 		# (cbf9) -- Sky Living +1 
 map==cbgd==123 		# (cbgb) -- Sky Living +1 
 map==cbgd==123 		# (cbgc) -- Sky Living +1 
 map==cbgd==123 		# (cbgd) -- Sky Living +1 
@@ -21027,6 +21370,7 @@ map==cbgd==123 		# (cbgh) -- Sky Living +1
 map==cbgd==123 		# (cbgj) -- Sky Living +1 
 map==cbgd==123 		# (cbgk) -- Sky Living +1 
 map==cbgd==123 		# (cbgm) -- Sky Living +1 
+map==cbgd==123 		# (cbgn) -- Sky Living +1 
 map==cbgd==123 		# (cbgq) -- Sky Living +1 
 map==cbgd==123 		# (cbgr) -- Sky Living +1 
 map==cbgd==123 		# (cbgs) -- Sky Living +1 
@@ -21390,6 +21734,7 @@ map==cbgn==557 		# (cbfW) -- Discovery Science +1
 map==cbgn==557 		# (cbfX) -- Discovery Science +1 
 map==cbgn==557 		# (cbfZ) -- Discovery Science +1 
 map==cbgn==557 		# (cbfY) -- Discovery Science +1 
+map==cbgn==557 		# (cbf2) -- Discovery Science +1 
 map==cbgn==557 		# (cbf4) -- Discovery Science +1 
 map==cbgn==557 		# (cbf5) -- Discovery Science +1 
 map==cbgn==557 		# (cbf6) -- Discovery Science +1 
@@ -21410,6 +21755,7 @@ map==cbgn==557 		# (cbgq) -- Discovery Science +1
 map==cbgn==557 		# (cbgr) -- Discovery Science +1 
 map==cbgn==557 		# (cbgs) -- Discovery Science +1 
 map==cbgn==557 		# (cbgt) -- Discovery Science +1 
+map==cbgn==557 		# (cbgv) -- Discovery Science +1 
 map==cbgn==557 		# (cbgw) -- Discovery Science +1 
 map==cbgn==557 		# (cbgx) -- Discovery Science +1 
 map==cbgn==557 		# (cbgy) -- Discovery Science +1 
@@ -21510,6 +21856,7 @@ map==cbgr==529 		# (cbgW) -- History
 map==cbgr==529 		# (cbgX) -- History 
 map==cbgr==529 		# (cbgZ) -- History 
 map==cbgr==529 		# (cbgY) -- History 
+map==cbgr==234 		# (cbhW) -- History 
 map==cbgr==234 		# (cbhX) -- History 
 map==cbgr==234 		# (cbhZ) -- History 
 map==cbgr==234 		# (cbhY) -- History 
@@ -21682,6 +22029,8 @@ map==cbgt==526 		# (cbgW) -- National Geographic Channel
 map==cbgt==526 		# (cbgX) -- National Geographic Channel 
 map==cbgt==526 		# (cbgZ) -- National Geographic Channel 
 map==cbgt==526 		# (cbgY) -- National Geographic Channel 
+map==cbgt==230 		# (cbhW) -- National Geographic Channel 
+map==cbgt==230 		# (cbhX) -- National Geographic Channel 
 map==cbgt==230 		# (cbhZ) -- National Geographic Channel 
 map==cbgt==230 		# (cbhY) -- National Geographic Channel 
 map==cbgt==230 		# (cbh2) -- National Geographic Channel 
@@ -21973,6 +22322,7 @@ map==cbgy==631 		# (cbfN) -- Disney Channel
 map==cbgy==631 		# (cbfP) -- Disney Channel 
 map==cbgy==631 		# (cbfQ) -- Disney Channel 
 map==cbgy==631 		# (cbfR) -- Disney Channel 
+map==cbgy==631 		# (cbfS) -- Disney Channel 
 map==cbgy==631 		# (cbfT) -- Disney Channel 
 map==cbgy==631 		# (cbfV) -- Disney Channel 
 map==cbgy==631 		# (cbfW) -- Disney Channel 
@@ -22029,6 +22379,7 @@ map==cbgy==724 		# (cbhW) -- Disney Channel
 map==cbgy==724 		# (cbhX) -- Disney Channel 
 map==cbgy==724 		# (cbhZ) -- Disney Channel 
 map==cbgy==724 		# (cbhY) -- Disney Channel 
+map==cbgy==724 		# (cbh2) -- Disney Channel 
 map==cbgy==724 		# (cbh4) -- Disney Channel 
 map==cbgy==724 		# (cbh5) -- Disney Channel 
 map==cbgy==724 		# (cbh6) -- Disney Channel 
@@ -22587,6 +22938,7 @@ map==cbhB==620 		# (cbhY) -- EuroNews
 map==cbhB==620 		# (cbh2) -- EuroNews 
 map==cbhB==620 		# (cbh4) -- EuroNews 
 map==cbhB==620 		# (cbh5) -- EuroNews 
+map==cbhB==620 		# (cbh6) -- EuroNews 
 map==cbhB==620 		# (cbh7) -- EuroNews 
 map==cbhB==620 		# (cbh8) -- EuroNews 
 map==cbhB==620 		# (cbh9) -- EuroNews 
@@ -22637,6 +22989,7 @@ map==cbhC==780 		# (cbgy) -- B4U Movies
 map==cbhC==780 		# (cbgz) -- B4U Movies 
 map==cbhC==780 		# (cbgB) -- B4U Movies 
 map==cbhC==780 		# (cbgC) -- B4U Movies 
+map==cbhC==780 		# (cbgD) -- B4U Movies 
 map==cbhC==780 		# (cbgF) -- B4U Movies 
 map==cbhC==780 		# (cbgG) -- B4U Movies 
 map==cbhC==780 		# (cbgH) -- B4U Movies 
@@ -22758,6 +23111,7 @@ map==cbhF==527 		# (cbh4) -- Extreme Sports Channel
 map==cbhF==527 		# (cbh5) -- Extreme Sports Channel 
 map==cbhF==527 		# (cbh6) -- Extreme Sports Channel 
 map==cbhF==527 		# (cbh7) -- Extreme Sports Channel 
+map==cbhF==527 		# (cbh8) -- Extreme Sports Channel 
 map==cbhF==527 		# (cbh9) -- Extreme Sports Channel 
 map==cbhF==527 		# (cbjb) -- Extreme Sports Channel 
 map==cbhF==527 		# (cbjc) -- Extreme Sports Channel 
@@ -22849,6 +23203,7 @@ map==cbhH==854 		# (cbfQ) -- Star Plus
 map==cbhH==854 		# (cbfR) -- Star Plus 
 map==cbhH==854 		# (cbfS) -- Star Plus 
 map==cbhH==854 		# (cbfT) -- Star Plus 
+map==cbhH==854 		# (cbfV) -- Star Plus 
 map==cbhH==854 		# (cbfW) -- Star Plus 
 map==cbhH==854 		# (cbfX) -- Star Plus 
 map==cbhH==854 		# (cbfZ) -- Star Plus 
@@ -22880,6 +23235,7 @@ map==cbhH==784 		# (cbgx) -- Star Plus
 map==cbhH==784 		# (cbgy) -- Star Plus 
 map==cbhH==784 		# (cbgz) -- Star Plus 
 map==cbhH==784 		# (cbgB) -- Star Plus 
+map==cbhH==784 		# (cbgC) -- Star Plus 
 map==cbhH==784 		# (cbgD) -- Star Plus 
 map==cbhH==784 		# (cbgF) -- Star Plus 
 map==cbhH==784 		# (cbgG) -- Star Plus 
@@ -23189,6 +23545,7 @@ map==cbhQ==606 		# (cbgF) -- Nicktoons
 map==cbhQ==606 		# (cbgG) -- Nicktoons 
 map==cbhQ==606 		# (cbgH) -- Nicktoons 
 map==cbhQ==606 		# (cbgJ) -- Nicktoons 
+map==cbhQ==606 		# (cbgK) -- Nicktoons 
 map==cbhQ==606 		# (cbgM) -- Nicktoons 
 map==cbhQ==606 		# (cbgN) -- Nicktoons 
 map==cbhQ==606 		# (cbgP) -- Nicktoons 
@@ -23375,24 +23732,24 @@ map==cbhT==19 		# (cbhq) -- Yesterday
 map==cbhT==19 		# (cbhr) -- Yesterday 
 map==cbhT==19 		# (cbhs) -- Yesterday 
 map==cbhT==19 		# (cbht) -- Yesterday 
-map==cbhT==203 		# (cbhW) -- Yesterday 
-map==cbhT==203 		# (cbhX) -- Yesterday 
-map==cbhT==203 		# (cbhZ) -- Yesterday 
-map==cbhT==203 		# (cbhY) -- Yesterday 
-map==cbhT==203 		# (cbh2) -- Yesterday 
-map==cbhT==203 		# (cbh4) -- Yesterday 
-map==cbhT==203 		# (cbh5) -- Yesterday 
-map==cbhT==203 		# (cbh6) -- Yesterday 
-map==cbhT==203 		# (cbh7) -- Yesterday 
-map==cbhT==203 		# (cbh8) -- Yesterday 
-map==cbhT==203 		# (cbh9) -- Yesterday 
-map==cbhT==203 		# (cbjb) -- Yesterday 
-map==cbhT==203 		# (cbjc) -- Yesterday 
-map==cbhT==203 		# (cbjd) -- Yesterday 
-map==cbhT==203 		# (cbjf) -- Yesterday 
-map==cbhT==203 		# (cbjg) -- Yesterday 
-map==cbhT==203 		# (cbjh) -- Yesterday 
-map==cbhT==203 		# (cbjj) -- Yesterday 
+map==cbhT==206 		# (cbhW) -- Yesterday 
+map==cbhT==206 		# (cbhX) -- Yesterday 
+map==cbhT==206 		# (cbhZ) -- Yesterday 
+map==cbhT==206 		# (cbhY) -- Yesterday 
+map==cbhT==206 		# (cbh2) -- Yesterday 
+map==cbhT==206 		# (cbh4) -- Yesterday 
+map==cbhT==206 		# (cbh5) -- Yesterday 
+map==cbhT==206 		# (cbh6) -- Yesterday 
+map==cbhT==206 		# (cbh7) -- Yesterday 
+map==cbhT==206 		# (cbh8) -- Yesterday 
+map==cbhT==206 		# (cbh9) -- Yesterday 
+map==cbhT==206 		# (cbjb) -- Yesterday 
+map==cbhT==206 		# (cbjc) -- Yesterday 
+map==cbhT==206 		# (cbjd) -- Yesterday 
+map==cbhT==206 		# (cbjf) -- Yesterday 
+map==cbhT==206 		# (cbjg) -- Yesterday 
+map==cbhT==206 		# (cbjh) -- Yesterday 
+map==cbhT==206 		# (cbjj) -- Yesterday 
 map==cbhT==19 		# (cbjm) -- Yesterday 
 map==cbhT==19 		# (cbjn) -- Yesterday 
 map==cbhT==19 		# (cbjp) -- Yesterday 
@@ -23514,23 +23871,24 @@ map==cbhV==538 		# (cbgW) -- Yesterday +1
 map==cbhV==538 		# (cbgX) -- Yesterday +1 
 map==cbhV==538 		# (cbgZ) -- Yesterday +1 
 map==cbhV==538 		# (cbgY) -- Yesterday +1 
-map==cbhV==204 		# (cbhW) -- Yesterday +1 
-map==cbhV==204 		# (cbhX) -- Yesterday +1 
-map==cbhV==204 		# (cbhZ) -- Yesterday +1 
-map==cbhV==204 		# (cbhY) -- Yesterday +1 
-map==cbhV==204 		# (cbh4) -- Yesterday +1 
-map==cbhV==204 		# (cbh5) -- Yesterday +1 
-map==cbhV==204 		# (cbh6) -- Yesterday +1 
-map==cbhV==204 		# (cbh7) -- Yesterday +1 
-map==cbhV==204 		# (cbh8) -- Yesterday +1 
-map==cbhV==204 		# (cbh9) -- Yesterday +1 
-map==cbhV==204 		# (cbjb) -- Yesterday +1 
-map==cbhV==204 		# (cbjc) -- Yesterday +1 
-map==cbhV==204 		# (cbjd) -- Yesterday +1 
-map==cbhV==204 		# (cbjf) -- Yesterday +1 
-map==cbhV==204 		# (cbjg) -- Yesterday +1 
-map==cbhV==204 		# (cbjh) -- Yesterday +1 
-map==cbhV==204 		# (cbjj) -- Yesterday +1 
+map==cbhV==207 		# (cbhW) -- Yesterday +1 
+map==cbhV==207 		# (cbhX) -- Yesterday +1 
+map==cbhV==207 		# (cbhZ) -- Yesterday +1 
+map==cbhV==207 		# (cbhY) -- Yesterday +1 
+map==cbhV==207 		# (cbh2) -- Yesterday +1 
+map==cbhV==207 		# (cbh4) -- Yesterday +1 
+map==cbhV==207 		# (cbh5) -- Yesterday +1 
+map==cbhV==207 		# (cbh6) -- Yesterday +1 
+map==cbhV==207 		# (cbh7) -- Yesterday +1 
+map==cbhV==207 		# (cbh8) -- Yesterday +1 
+map==cbhV==207 		# (cbh9) -- Yesterday +1 
+map==cbhV==207 		# (cbjb) -- Yesterday +1 
+map==cbhV==207 		# (cbjc) -- Yesterday +1 
+map==cbhV==207 		# (cbjd) -- Yesterday +1 
+map==cbhV==207 		# (cbjf) -- Yesterday +1 
+map==cbhV==207 		# (cbjg) -- Yesterday +1 
+map==cbhV==207 		# (cbjh) -- Yesterday +1 
+map==cbhV==207 		# (cbjj) -- Yesterday +1 
 map==cbhW==363 		# (cbfN) -- Magic 
 map==cbhW==363 		# (cbfP) -- Magic 
 map==cbhW==363 		# (cbfQ) -- Magic 
@@ -23768,6 +24126,7 @@ map==cbhY==233 		# (cbh7) -- Community Channel
 map==cbhY==233 		# (cbh8) -- Community Channel 
 map==cbhY==233 		# (cbh9) -- Community Channel 
 map==cbhY==233 		# (cbjb) -- Community Channel 
+map==cbhY==233 		# (cbjc) -- Community Channel 
 map==cbhY==233 		# (cbjd) -- Community Channel 
 map==cbhY==233 		# (cbjf) -- Community Channel 
 map==cbhY==233 		# (cbjg) -- Community Channel 
@@ -23907,6 +24266,7 @@ map==cbhc==342 		# (cbgz) -- Film4 HD
 map==cbhc==342 		# (cbgB) -- Film4 HD 
 map==cbhc==342 		# (cbgC) -- Film4 HD 
 map==cbhc==342 		# (cbgD) -- Film4 HD 
+map==cbhc==342 		# (cbgF) -- Film4 HD 
 map==cbhc==342 		# (cbgG) -- Film4 HD 
 map==cbhc==342 		# (cbgH) -- Film4 HD 
 map==cbhc==342 		# (cbgJ) -- Film4 HD 
@@ -23967,6 +24327,7 @@ map==cbhd==316 		# (cbgf) -- Film4 +1
 map==cbhd==316 		# (cbgg) -- Film4 +1 
 map==cbhd==316 		# (cbgh) -- Film4 +1 
 map==cbhd==316 		# (cbgj) -- Film4 +1 
+map==cbhd==316 		# (cbgk) -- Film4 +1 
 map==cbhd==316 		# (cbgm) -- Film4 +1 
 map==cbhd==316 		# (cbgn) -- Film4 +1 
 map==cbhd==316 		# (cbgq) -- Film4 +1 
@@ -24210,6 +24571,7 @@ map==cbhg==240 		# (cbfY) -- Discovery Home & Health
 map==cbhg==240 		# (cbf2) -- Discovery Home & Health 
 map==cbhg==240 		# (cbf4) -- Discovery Home & Health 
 map==cbhg==240 		# (cbf5) -- Discovery Home & Health 
+map==cbhg==240 		# (cbf6) -- Discovery Home & Health 
 map==cbhg==240 		# (cbf7) -- Discovery Home & Health 
 map==cbhg==240 		# (cbf8) -- Discovery Home & Health 
 map==cbhg==240 		# (cbf9) -- Discovery Home & Health 
@@ -24371,7 +24733,9 @@ map==cbhj==418 		# (cbgd) -- MUTV
 map==cbhj==418 		# (cbgf) -- MUTV 
 map==cbhj==418 		# (cbgg) -- MUTV 
 map==cbhj==418 		# (cbgh) -- MUTV 
+map==cbhj==418 		# (cbgj) -- MUTV 
 map==cbhj==418 		# (cbgk) -- MUTV 
+map==cbhj==418 		# (cbgm) -- MUTV 
 map==cbhj==418 		# (cbgn) -- MUTV 
 map==cbhj==418 		# (cbgq) -- MUTV 
 map==cbhj==418 		# (cbgr) -- MUTV 
@@ -24660,6 +25024,7 @@ map==cbhn==522 		# (cbh4) -- British Eurosport HD
 map==cbhn==522 		# (cbh5) -- British Eurosport HD 
 map==cbhn==522 		# (cbh6) -- British Eurosport HD 
 map==cbhn==522 		# (cbh7) -- British Eurosport HD 
+map==cbhn==522 		# (cbh8) -- British Eurosport HD 
 map==cbhn==522 		# (cbh9) -- British Eurosport HD 
 map==cbhn==522 		# (cbjb) -- British Eurosport HD 
 map==cbhn==522 		# (cbjc) -- British Eurosport HD 
@@ -25338,6 +25703,7 @@ map==cbhy==654 		# (cbf8) -- Bid
 map==cbhy==654 		# (cbf9) -- Bid 
 map==cbhy==654 		# (cbgb) -- Bid 
 map==cbhy==654 		# (cbgc) -- Bid 
+map==cbhy==654 		# (cbgd) -- Bid 
 map==cbhy==654 		# (cbgf) -- Bid 
 map==cbhy==654 		# (cbgg) -- Bid 
 map==cbhy==654 		# (cbgh) -- Bid 
@@ -25372,6 +25738,8 @@ map==cbhy==654 		# (cbgT) -- Bid
 map==cbhy==654 		# (cbgV) -- Bid 
 map==cbhy==654 		# (cbgW) -- Bid 
 map==cbhy==654 		# (cbgX) -- Bid 
+map==cbhy==654 		# (cbgZ) -- Bid 
+map==cbhy==654 		# (cbgY) -- Bid 
 map==cbhy==23 		# (cbg4) -- Bid 
 map==cbhy==23 		# (cbg5) -- Bid 
 map==cbhy==23 		# (cbg6) -- Bid 
@@ -25503,6 +25871,7 @@ map==cbhz==222 		# (cbfT) -- Sky Arts 1
 map==cbhz==222 		# (cbfV) -- Sky Arts 1 
 map==cbhz==222 		# (cbfW) -- Sky Arts 1 
 map==cbhz==222 		# (cbfX) -- Sky Arts 1 
+map==cbhz==222 		# (cbfZ) -- Sky Arts 1 
 map==cbhz==222 		# (cbfY) -- Sky Arts 1 
 map==cbhz==222 		# (cbf2) -- Sky Arts 1 
 map==cbhz==222 		# (cbf4) -- Sky Arts 1 
@@ -25519,6 +25888,7 @@ map==cbhz==222 		# (cbgg) -- Sky Arts 1
 map==cbhz==222 		# (cbgh) -- Sky Arts 1 
 map==cbhz==222 		# (cbgj) -- Sky Arts 1 
 map==cbhz==222 		# (cbgk) -- Sky Arts 1 
+map==cbhz==222 		# (cbgm) -- Sky Arts 1 
 map==cbhz==222 		# (cbgn) -- Sky Arts 1 
 map==cbhz==129 		# (cbgq) -- Sky Arts 1 
 map==cbhz==129 		# (cbgr) -- Sky Arts 1 
@@ -25875,7 +26245,13 @@ map==cbj9==402 		# (cbgc) -- Sky Sports 2 HD
 map==cbj9==402 		# (cbgd) -- Sky Sports 2 HD 
 map==cbj9==402 		# (cbgf) -- Sky Sports 2 HD 
 map==cbj9==402 		# (cbgg) -- Sky Sports 2 HD 
+map==cbj9==402 		# (cbgh) -- Sky Sports 2 HD 
+map==cbj9==402 		# (cbgj) -- Sky Sports 2 HD 
+map==cbj9==402 		# (cbgk) -- Sky Sports 2 HD 
+map==cbj9==402 		# (cbgm) -- Sky Sports 2 HD 
+map==cbj9==402 		# (cbgn) -- Sky Sports 2 HD 
 map==cbj9==408 		# (cbgq) -- Sky Sports 2 HD 
+map==cbj9==408 		# (cbgr) -- Sky Sports 2 HD 
 map==cbj9==408 		# (cbgs) -- Sky Sports 2 HD 
 map==cbj9==408 		# (cbgt) -- Sky Sports 2 HD 
 map==cbj9==408 		# (cbgv) -- Sky Sports 2 HD 
@@ -25939,6 +26315,7 @@ map==cbjB==128 		# (cbf5) -- Comedy Central Extra
 map==cbjB==128 		# (cbf6) -- Comedy Central Extra 
 map==cbjB==128 		# (cbf7) -- Comedy Central Extra 
 map==cbjB==128 		# (cbf8) -- Comedy Central Extra 
+map==cbjB==128 		# (cbf9) -- Comedy Central Extra 
 map==cbjB==128 		# (cbgb) -- Comedy Central Extra 
 map==cbjB==128 		# (cbgc) -- Comedy Central Extra 
 map==cbjB==128 		# (cbgd) -- Comedy Central Extra 
@@ -26028,7 +26405,9 @@ map==cbjC==159 		# (cbgn) -- Comedy Central Extra +1
 map==cbjC==159 		# (cbgq) -- Comedy Central Extra +1 
 map==cbjC==159 		# (cbgr) -- Comedy Central Extra +1 
 map==cbjC==159 		# (cbgs) -- Comedy Central Extra +1 
+map==cbjC==159 		# (cbgt) -- Comedy Central Extra +1 
 map==cbjC==159 		# (cbgv) -- Comedy Central Extra +1 
+map==cbjC==159 		# (cbgw) -- Comedy Central Extra +1 
 map==cbjC==159 		# (cbgx) -- Comedy Central Extra +1 
 map==cbjC==159 		# (cbgy) -- Comedy Central Extra +1 
 map==cbjC==159 		# (cbgz) -- Comedy Central Extra +1 
@@ -26324,9 +26703,17 @@ map==cbjN==321 		# (cbgD) -- True Movies
 map==cbjN==321 		# (cbgF) -- True Movies 
 map==cbjN==321 		# (cbgG) -- True Movies 
 map==cbjN==321 		# (cbgH) -- True Movies 
+map==cbjN==321 		# (cbgJ) -- True Movies 
 map==cbjN==321 		# (cbgK) -- True Movies 
 map==cbjN==321 		# (cbgM) -- True Movies 
+map==cbjN==321 		# (cbgN) -- True Movies 
+map==cbjN==321 		# (cbgP) -- True Movies 
+map==cbjN==321 		# (cbgQ) -- True Movies 
+map==cbjN==321 		# (cbgR) -- True Movies 
+map==cbjN==321 		# (cbgS) -- True Movies 
 map==cbjN==321 		# (cbgT) -- True Movies 
+map==cbjN==321 		# (cbgV) -- True Movies 
+map==cbjN==321 		# (cbgW) -- True Movies 
 map==cbjN==321 		# (cbgX) -- True Movies 
 map==cbjN==321 		# (cbgZ) -- True Movies 
 map==cbjN==321 		# (cbgY) -- True Movies 
@@ -26334,6 +26721,7 @@ map==cbjN==302 		# (cbhw) -- True Movies
 map==cbjN==302 		# (cbhx) -- True Movies 
 map==cbjN==302 		# (cbhy) -- True Movies 
 map==cbjN==302 		# (cbhz) -- True Movies 
+map==cbjN==302 		# (cbhB) -- True Movies 
 map==cbjN==302 		# (cbhC) -- True Movies 
 map==cbjN==302 		# (cbhD) -- True Movies 
 map==cbjN==302 		# (cbhF) -- True Movies 
@@ -26347,10 +26735,14 @@ map==cbjN==302 		# (cbhP) -- True Movies
 map==cbjN==302 		# (cbhQ) -- True Movies 
 map==cbjN==302 		# (cbhR) -- True Movies 
 map==cbjN==302 		# (cbhS) -- True Movies 
+map==cbjN==302 		# (cbhT) -- True Movies 
+map==cbjN==424 		# (cbhW) -- True Movies 
 map==cbjN==424 		# (cbhX) -- True Movies 
 map==cbjN==424 		# (cbhZ) -- True Movies 
 map==cbjN==424 		# (cbhY) -- True Movies 
 map==cbjN==424 		# (cbh2) -- True Movies 
+map==cbjN==424 		# (cbh4) -- True Movies 
+map==cbjN==424 		# (cbh5) -- True Movies 
 map==cbjN==424 		# (cbh6) -- True Movies 
 map==cbjN==424 		# (cbh7) -- True Movies 
 map==cbjN==424 		# (cbh8) -- True Movies 
@@ -26362,243 +26754,246 @@ map==cbjN==424 		# (cbjf) -- True Movies
 map==cbjN==424 		# (cbjg) -- True Movies 
 map==cbjN==424 		# (cbjh) -- True Movies 
 map==cbjN==424 		# (cbjj) -- True Movies 
-map==cbjP==152 		# (cbfM) -- Pick TV 
-map==cbjP==152 		# (cbfN) -- Pick TV 
-map==cbjP==152 		# (cbfP) -- Pick TV 
-map==cbjP==152 		# (cbfQ) -- Pick TV 
-map==cbjP==152 		# (cbfR) -- Pick TV 
-map==cbjP==152 		# (cbfS) -- Pick TV 
-map==cbjP==152 		# (cbfT) -- Pick TV 
-map==cbjP==152 		# (cbfV) -- Pick TV 
-map==cbjP==152 		# (cbfW) -- Pick TV 
-map==cbjP==152 		# (cbfX) -- Pick TV 
-map==cbjP==152 		# (cbfY) -- Pick TV 
-map==cbjP==152 		# (cbf2) -- Pick TV 
-map==cbjP==152 		# (cbf4) -- Pick TV 
-map==cbjP==152 		# (cbf5) -- Pick TV 
-map==cbjP==152 		# (cbf6) -- Pick TV 
-map==cbjP==152 		# (cbf7) -- Pick TV 
-map==cbjP==152 		# (cbf8) -- Pick TV 
-map==cbjP==152 		# (cbf9) -- Pick TV 
-map==cbjP==152 		# (cbgb) -- Pick TV 
-map==cbjP==152 		# (cbgc) -- Pick TV 
-map==cbjP==152 		# (cbgd) -- Pick TV 
-map==cbjP==152 		# (cbgf) -- Pick TV 
-map==cbjP==152 		# (cbgg) -- Pick TV 
-map==cbjP==152 		# (cbgh) -- Pick TV 
-map==cbjP==152 		# (cbgj) -- Pick TV 
-map==cbjP==152 		# (cbgk) -- Pick TV 
-map==cbjP==152 		# (cbgm) -- Pick TV 
-map==cbjP==152 		# (cbgn) -- Pick TV 
-map==cbjP==152 		# (cbgq) -- Pick TV 
-map==cbjP==152 		# (cbgr) -- Pick TV 
-map==cbjP==152 		# (cbgs) -- Pick TV 
-map==cbjP==152 		# (cbgt) -- Pick TV 
-map==cbjP==152 		# (cbgv) -- Pick TV 
-map==cbjP==152 		# (cbgw) -- Pick TV 
-map==cbjP==152 		# (cbgx) -- Pick TV 
-map==cbjP==152 		# (cbgy) -- Pick TV 
-map==cbjP==152 		# (cbgB) -- Pick TV 
-map==cbjP==152 		# (cbgC) -- Pick TV 
-map==cbjP==152 		# (cbgD) -- Pick TV 
-map==cbjP==152 		# (cbgF) -- Pick TV 
-map==cbjP==152 		# (cbgG) -- Pick TV 
-map==cbjP==152 		# (cbgH) -- Pick TV 
-map==cbjP==152 		# (cbgJ) -- Pick TV 
-map==cbjP==152 		# (cbgK) -- Pick TV 
-map==cbjP==152 		# (cbgM) -- Pick TV 
-map==cbjP==152 		# (cbgN) -- Pick TV 
-map==cbjP==152 		# (cbgP) -- Pick TV 
-map==cbjP==152 		# (cbgQ) -- Pick TV 
-map==cbjP==152 		# (cbgR) -- Pick TV 
-map==cbjP==152 		# (cbgS) -- Pick TV 
-map==cbjP==152 		# (cbgT) -- Pick TV 
-map==cbjP==152 		# (cbgV) -- Pick TV 
-map==cbjP==152 		# (cbgW) -- Pick TV 
-map==cbjP==152 		# (cbgX) -- Pick TV 
-map==cbjP==152 		# (cbgZ) -- Pick TV 
-map==cbjP==152 		# (cbgY) -- Pick TV 
-map==cbjP==11 		# (cbg4) -- Pick TV 
-map==cbjP==11 		# (cbg5) -- Pick TV 
-map==cbjP==11 		# (cbg6) -- Pick TV 
-map==cbjP==11 		# (cbg7) -- Pick TV 
-map==cbjP==11 		# (cbg8) -- Pick TV 
-map==cbjP==11 		# (cbg9) -- Pick TV 
-map==cbjP==11 		# (cbhb) -- Pick TV 
-map==cbjP==11 		# (cbhc) -- Pick TV 
-map==cbjP==11 		# (cbhd) -- Pick TV 
-map==cbjP==11 		# (cbhf) -- Pick TV 
-map==cbjP==11 		# (cbhg) -- Pick TV 
-map==cbjP==11 		# (cbhh) -- Pick TV 
-map==cbjP==11 		# (cbhj) -- Pick TV 
-map==cbjP==11 		# (cbhk) -- Pick TV 
-map==cbjP==11 		# (cbhm) -- Pick TV 
-map==cbjP==11 		# (cbhn) -- Pick TV 
-map==cbjP==11 		# (cbhp) -- Pick TV 
-map==cbjP==11 		# (cbhq) -- Pick TV 
-map==cbjP==11 		# (cbhr) -- Pick TV 
-map==cbjP==11 		# (cbhs) -- Pick TV 
-map==cbjP==11 		# (cbht) -- Pick TV 
-map==cbjP==144 		# (cbhw) -- Pick TV 
-map==cbjP==144 		# (cbhx) -- Pick TV 
-map==cbjP==144 		# (cbhy) -- Pick TV 
-map==cbjP==144 		# (cbhz) -- Pick TV 
-map==cbjP==144 		# (cbhB) -- Pick TV 
-map==cbjP==144 		# (cbhC) -- Pick TV 
-map==cbjP==144 		# (cbhD) -- Pick TV 
-map==cbjP==144 		# (cbhF) -- Pick TV 
-map==cbjP==144 		# (cbhG) -- Pick TV 
-map==cbjP==144 		# (cbhH) -- Pick TV 
-map==cbjP==144 		# (cbhJ) -- Pick TV 
-map==cbjP==144 		# (cbhK) -- Pick TV 
-map==cbjP==144 		# (cbhM) -- Pick TV 
-map==cbjP==144 		# (cbhN) -- Pick TV 
-map==cbjP==144 		# (cbhP) -- Pick TV 
-map==cbjP==144 		# (cbhQ) -- Pick TV 
-map==cbjP==144 		# (cbhR) -- Pick TV 
-map==cbjP==144 		# (cbhS) -- Pick TV 
-map==cbjP==144 		# (cbhT) -- Pick TV 
-map==cbjP==180 		# (cbhW) -- Pick TV 
-map==cbjP==180 		# (cbhX) -- Pick TV 
-map==cbjP==180 		# (cbhZ) -- Pick TV 
-map==cbjP==180 		# (cbhY) -- Pick TV 
-map==cbjP==180 		# (cbh2) -- Pick TV 
-map==cbjP==180 		# (cbh4) -- Pick TV 
-map==cbjP==180 		# (cbh5) -- Pick TV 
-map==cbjP==180 		# (cbh6) -- Pick TV 
-map==cbjP==180 		# (cbh7) -- Pick TV 
-map==cbjP==180 		# (cbh8) -- Pick TV 
-map==cbjP==180 		# (cbh9) -- Pick TV 
-map==cbjP==180 		# (cbjb) -- Pick TV 
-map==cbjP==180 		# (cbjc) -- Pick TV 
-map==cbjP==180 		# (cbjd) -- Pick TV 
-map==cbjP==180 		# (cbjf) -- Pick TV 
-map==cbjP==180 		# (cbjg) -- Pick TV 
-map==cbjP==180 		# (cbjh) -- Pick TV 
-map==cbjP==180 		# (cbjj) -- Pick TV 
-map==cbjP==11 		# (cbjm) -- Pick TV 
-map==cbjP==11 		# (cbjn) -- Pick TV 
-map==cbjP==11 		# (cbjp) -- Pick TV 
-map==cbjP==11 		# (cbjq) -- Pick TV 
-map==cbjP==11 		# (cbjr) -- Pick TV 
-map==cbjP==11 		# (cbjs) -- Pick TV 
-map==cbjP==11 		# (cbjt) -- Pick TV 
-map==cbjP==11 		# (cbjv) -- Pick TV 
-map==cbjP==11 		# (cbjw) -- Pick TV 
-map==cbjP==11 		# (cbjx) -- Pick TV 
-map==cbjP==11 		# (cbjy) -- Pick TV 
-map==cbjP==11 		# (cbjz) -- Pick TV 
-map==cbjP==11 		# (cbjB) -- Pick TV 
-map==cbjP==11 		# (cbjC) -- Pick TV 
-map==cbjP==11 		# (cbjD) -- Pick TV 
-map==cbjP==11 		# (cbjF) -- Pick TV 
-map==cbjP==11 		# (cbjG) -- Pick TV 
-map==cbjP==11 		# (cbjH) -- Pick TV 
-map==cbjP==11 		# (cbjJ) -- Pick TV 
-map==cbjP==11 		# (cbjK) -- Pick TV 
-map==cbjP==11 		# (cbjM) -- Pick TV 
-map==cbjP==11 		# (cbjS) -- Pick TV 
-map==cbjP==11 		# (cbjT) -- Pick TV 
-map==cbjP==11 		# (cbjV) -- Pick TV 
-map==cbjP==11 		# (cbjW) -- Pick TV 
-map==cbjP==11 		# (cbjX) -- Pick TV 
-map==cbjP==11 		# (cbjZ) -- Pick TV 
-map==cbjP==11 		# (cbjY) -- Pick TV 
-map==cbjP==11 		# (cbj2) -- Pick TV 
-map==cbjP==11 		# (cbj4) -- Pick TV 
-map==cbjP==11 		# (cbj5) -- Pick TV 
-map==cbjP==11 		# (cbj6) -- Pick TV 
-map==cbjP==11 		# (cbj7) -- Pick TV 
-map==cbjP==11 		# (cbj8) -- Pick TV 
-map==cbjP==11 		# (cbj9) -- Pick TV 
-map==cbjP==11 		# (cbkb) -- Pick TV 
-map==cbjP==11 		# (cbkc) -- Pick TV 
-map==cbjP==11 		# (cbkd) -- Pick TV 
-map==cbjP==11 		# (cbkf) -- Pick TV 
-map==cbjP==11 		# (cbkg) -- Pick TV 
-map==cbjP==11 		# (cbkh) -- Pick TV 
-map==cbjP==11 		# (cbkj) -- Pick TV 
-map==cbjP==11 		# (cbkm) -- Pick TV 
-map==cbjP==11 		# (cbkn) -- Pick TV 
-map==cbjP==11 		# (cbkp) -- Pick TV 
-map==cbjP==11 		# (cbkq) -- Pick TV 
-map==cbjP==11 		# (cbkr) -- Pick TV 
-map==cbjP==11 		# (cbks) -- Pick TV 
-map==cbjP==11 		# (cbkt) -- Pick TV 
-map==cbjP==11 		# (cbkv) -- Pick TV 
-map==cbjP==11 		# (cbkw) -- Pick TV 
-map==cbjP==11 		# (cbkx) -- Pick TV 
-map==cbjP==11 		# (cbky) -- Pick TV 
-map==cbjP==11 		# (cbkz) -- Pick TV 
-map==cbjP==11 		# (cbkB) -- Pick TV 
-map==cbjP==11 		# (cbkC) -- Pick TV 
-map==cbjP==11 		# (cbkD) -- Pick TV 
-map==cbjP==11 		# (cbkF) -- Pick TV 
-map==cbjP==11 		# (cbkG) -- Pick TV 
-map==cbjP==11 		# (cbkH) -- Pick TV 
-map==cbjP==11 		# (cbkJ) -- Pick TV 
-map==cbjP==11 		# (cbkK) -- Pick TV 
-map==cbjP==11 		# (cbkM) -- Pick TV 
-map==cbjQ==153 		# (cbfM) -- Pick TV +1 
-map==cbjQ==153 		# (cbfN) -- Pick TV +1 
-map==cbjQ==153 		# (cbfP) -- Pick TV +1 
-map==cbjQ==153 		# (cbfQ) -- Pick TV +1 
-map==cbjQ==153 		# (cbfR) -- Pick TV +1 
-map==cbjQ==153 		# (cbfS) -- Pick TV +1 
-map==cbjQ==153 		# (cbfT) -- Pick TV +1 
-map==cbjQ==153 		# (cbfV) -- Pick TV +1 
-map==cbjQ==153 		# (cbfW) -- Pick TV +1 
-map==cbjQ==153 		# (cbfX) -- Pick TV +1 
-map==cbjQ==153 		# (cbfZ) -- Pick TV +1 
-map==cbjQ==153 		# (cbfY) -- Pick TV +1 
-map==cbjQ==153 		# (cbf2) -- Pick TV +1 
-map==cbjQ==153 		# (cbf4) -- Pick TV +1 
-map==cbjQ==153 		# (cbf5) -- Pick TV +1 
-map==cbjQ==153 		# (cbf6) -- Pick TV +1 
-map==cbjQ==153 		# (cbf7) -- Pick TV +1 
-map==cbjQ==153 		# (cbf8) -- Pick TV +1 
-map==cbjQ==153 		# (cbf9) -- Pick TV +1 
-map==cbjQ==153 		# (cbgb) -- Pick TV +1 
-map==cbjQ==153 		# (cbgc) -- Pick TV +1 
-map==cbjQ==153 		# (cbgd) -- Pick TV +1 
-map==cbjQ==153 		# (cbgf) -- Pick TV +1 
-map==cbjQ==153 		# (cbgg) -- Pick TV +1 
-map==cbjQ==153 		# (cbgh) -- Pick TV +1 
-map==cbjQ==153 		# (cbgj) -- Pick TV +1 
-map==cbjQ==153 		# (cbgk) -- Pick TV +1 
-map==cbjQ==153 		# (cbgm) -- Pick TV +1 
-map==cbjQ==153 		# (cbgn) -- Pick TV +1 
-map==cbjQ==153 		# (cbgq) -- Pick TV +1 
-map==cbjQ==153 		# (cbgr) -- Pick TV +1 
-map==cbjQ==153 		# (cbgs) -- Pick TV +1 
-map==cbjQ==153 		# (cbgt) -- Pick TV +1 
-map==cbjQ==153 		# (cbgv) -- Pick TV +1 
-map==cbjQ==153 		# (cbgw) -- Pick TV +1 
-map==cbjQ==153 		# (cbgx) -- Pick TV +1 
-map==cbjQ==153 		# (cbgy) -- Pick TV +1 
-map==cbjQ==153 		# (cbgz) -- Pick TV +1 
-map==cbjQ==153 		# (cbgB) -- Pick TV +1 
-map==cbjQ==153 		# (cbgC) -- Pick TV +1 
-map==cbjQ==153 		# (cbgD) -- Pick TV +1 
-map==cbjQ==153 		# (cbgF) -- Pick TV +1 
-map==cbjQ==153 		# (cbgG) -- Pick TV +1 
-map==cbjQ==153 		# (cbgH) -- Pick TV +1 
-map==cbjQ==153 		# (cbgJ) -- Pick TV +1 
-map==cbjQ==153 		# (cbgK) -- Pick TV +1 
-map==cbjQ==153 		# (cbgM) -- Pick TV +1 
-map==cbjQ==153 		# (cbgN) -- Pick TV +1 
-map==cbjQ==153 		# (cbgP) -- Pick TV +1 
-map==cbjQ==153 		# (cbgQ) -- Pick TV +1 
-map==cbjQ==153 		# (cbgR) -- Pick TV +1 
-map==cbjQ==153 		# (cbgS) -- Pick TV +1 
-map==cbjQ==153 		# (cbgT) -- Pick TV +1 
-map==cbjQ==153 		# (cbgV) -- Pick TV +1 
-map==cbjQ==153 		# (cbgW) -- Pick TV +1 
-map==cbjQ==153 		# (cbgX) -- Pick TV +1 
-map==cbjQ==153 		# (cbgZ) -- Pick TV +1 
-map==cbjQ==153 		# (cbgY) -- Pick TV +1 
+map==cbjP==152 		# (cbfM) -- Pick 
+map==cbjP==152 		# (cbfN) -- Pick 
+map==cbjP==152 		# (cbfP) -- Pick 
+map==cbjP==152 		# (cbfQ) -- Pick 
+map==cbjP==152 		# (cbfR) -- Pick 
+map==cbjP==152 		# (cbfS) -- Pick 
+map==cbjP==152 		# (cbfT) -- Pick 
+map==cbjP==152 		# (cbfV) -- Pick 
+map==cbjP==152 		# (cbfW) -- Pick 
+map==cbjP==152 		# (cbfX) -- Pick 
+map==cbjP==152 		# (cbfZ) -- Pick 
+map==cbjP==152 		# (cbfY) -- Pick 
+map==cbjP==152 		# (cbf2) -- Pick 
+map==cbjP==152 		# (cbf4) -- Pick 
+map==cbjP==152 		# (cbf5) -- Pick 
+map==cbjP==152 		# (cbf6) -- Pick 
+map==cbjP==152 		# (cbf7) -- Pick 
+map==cbjP==152 		# (cbf8) -- Pick 
+map==cbjP==152 		# (cbf9) -- Pick 
+map==cbjP==152 		# (cbgb) -- Pick 
+map==cbjP==152 		# (cbgc) -- Pick 
+map==cbjP==152 		# (cbgd) -- Pick 
+map==cbjP==152 		# (cbgf) -- Pick 
+map==cbjP==152 		# (cbgg) -- Pick 
+map==cbjP==152 		# (cbgh) -- Pick 
+map==cbjP==152 		# (cbgj) -- Pick 
+map==cbjP==152 		# (cbgk) -- Pick 
+map==cbjP==152 		# (cbgm) -- Pick 
+map==cbjP==152 		# (cbgn) -- Pick 
+map==cbjP==152 		# (cbgq) -- Pick 
+map==cbjP==152 		# (cbgr) -- Pick 
+map==cbjP==152 		# (cbgs) -- Pick 
+map==cbjP==152 		# (cbgt) -- Pick 
+map==cbjP==152 		# (cbgv) -- Pick 
+map==cbjP==152 		# (cbgw) -- Pick 
+map==cbjP==152 		# (cbgx) -- Pick 
+map==cbjP==152 		# (cbgy) -- Pick 
+map==cbjP==152 		# (cbgz) -- Pick 
+map==cbjP==152 		# (cbgB) -- Pick 
+map==cbjP==152 		# (cbgC) -- Pick 
+map==cbjP==152 		# (cbgD) -- Pick 
+map==cbjP==152 		# (cbgF) -- Pick 
+map==cbjP==152 		# (cbgG) -- Pick 
+map==cbjP==152 		# (cbgH) -- Pick 
+map==cbjP==152 		# (cbgJ) -- Pick 
+map==cbjP==152 		# (cbgK) -- Pick 
+map==cbjP==152 		# (cbgM) -- Pick 
+map==cbjP==152 		# (cbgN) -- Pick 
+map==cbjP==152 		# (cbgP) -- Pick 
+map==cbjP==152 		# (cbgQ) -- Pick 
+map==cbjP==152 		# (cbgR) -- Pick 
+map==cbjP==152 		# (cbgS) -- Pick 
+map==cbjP==152 		# (cbgT) -- Pick 
+map==cbjP==152 		# (cbgV) -- Pick 
+map==cbjP==152 		# (cbgW) -- Pick 
+map==cbjP==152 		# (cbgX) -- Pick 
+map==cbjP==152 		# (cbgZ) -- Pick 
+map==cbjP==152 		# (cbgY) -- Pick 
+map==cbjP==11 		# (cbg4) -- Pick 
+map==cbjP==11 		# (cbg5) -- Pick 
+map==cbjP==11 		# (cbg6) -- Pick 
+map==cbjP==11 		# (cbg7) -- Pick 
+map==cbjP==11 		# (cbg8) -- Pick 
+map==cbjP==11 		# (cbg9) -- Pick 
+map==cbjP==11 		# (cbhb) -- Pick 
+map==cbjP==11 		# (cbhc) -- Pick 
+map==cbjP==11 		# (cbhd) -- Pick 
+map==cbjP==11 		# (cbhf) -- Pick 
+map==cbjP==11 		# (cbhg) -- Pick 
+map==cbjP==11 		# (cbhh) -- Pick 
+map==cbjP==11 		# (cbhj) -- Pick 
+map==cbjP==11 		# (cbhk) -- Pick 
+map==cbjP==11 		# (cbhm) -- Pick 
+map==cbjP==11 		# (cbhn) -- Pick 
+map==cbjP==11 		# (cbhp) -- Pick 
+map==cbjP==11 		# (cbhq) -- Pick 
+map==cbjP==11 		# (cbhr) -- Pick 
+map==cbjP==11 		# (cbhs) -- Pick 
+map==cbjP==11 		# (cbht) -- Pick 
+map==cbjP==144 		# (cbhw) -- Pick 
+map==cbjP==144 		# (cbhx) -- Pick 
+map==cbjP==144 		# (cbhy) -- Pick 
+map==cbjP==144 		# (cbhz) -- Pick 
+map==cbjP==144 		# (cbhB) -- Pick 
+map==cbjP==144 		# (cbhC) -- Pick 
+map==cbjP==144 		# (cbhD) -- Pick 
+map==cbjP==144 		# (cbhF) -- Pick 
+map==cbjP==144 		# (cbhG) -- Pick 
+map==cbjP==144 		# (cbhH) -- Pick 
+map==cbjP==144 		# (cbhJ) -- Pick 
+map==cbjP==144 		# (cbhK) -- Pick 
+map==cbjP==144 		# (cbhM) -- Pick 
+map==cbjP==144 		# (cbhN) -- Pick 
+map==cbjP==144 		# (cbhP) -- Pick 
+map==cbjP==144 		# (cbhQ) -- Pick 
+map==cbjP==144 		# (cbhR) -- Pick 
+map==cbjP==144 		# (cbhS) -- Pick 
+map==cbjP==144 		# (cbhT) -- Pick 
+map==cbjP==180 		# (cbhW) -- Pick 
+map==cbjP==180 		# (cbhX) -- Pick 
+map==cbjP==180 		# (cbhZ) -- Pick 
+map==cbjP==180 		# (cbhY) -- Pick 
+map==cbjP==180 		# (cbh2) -- Pick 
+map==cbjP==180 		# (cbh4) -- Pick 
+map==cbjP==180 		# (cbh5) -- Pick 
+map==cbjP==180 		# (cbh6) -- Pick 
+map==cbjP==180 		# (cbh7) -- Pick 
+map==cbjP==180 		# (cbh8) -- Pick 
+map==cbjP==180 		# (cbh9) -- Pick 
+map==cbjP==180 		# (cbjb) -- Pick 
+map==cbjP==180 		# (cbjc) -- Pick 
+map==cbjP==180 		# (cbjd) -- Pick 
+map==cbjP==180 		# (cbjf) -- Pick 
+map==cbjP==180 		# (cbjg) -- Pick 
+map==cbjP==180 		# (cbjh) -- Pick 
+map==cbjP==180 		# (cbjj) -- Pick 
+map==cbjP==11 		# (cbjm) -- Pick 
+map==cbjP==11 		# (cbjn) -- Pick 
+map==cbjP==11 		# (cbjp) -- Pick 
+map==cbjP==11 		# (cbjq) -- Pick 
+map==cbjP==11 		# (cbjr) -- Pick 
+map==cbjP==11 		# (cbjs) -- Pick 
+map==cbjP==11 		# (cbjt) -- Pick 
+map==cbjP==11 		# (cbjv) -- Pick 
+map==cbjP==11 		# (cbjw) -- Pick 
+map==cbjP==11 		# (cbjx) -- Pick 
+map==cbjP==11 		# (cbjy) -- Pick 
+map==cbjP==11 		# (cbjz) -- Pick 
+map==cbjP==11 		# (cbjB) -- Pick 
+map==cbjP==11 		# (cbjC) -- Pick 
+map==cbjP==11 		# (cbjD) -- Pick 
+map==cbjP==11 		# (cbjF) -- Pick 
+map==cbjP==11 		# (cbjG) -- Pick 
+map==cbjP==11 		# (cbjH) -- Pick 
+map==cbjP==11 		# (cbjJ) -- Pick 
+map==cbjP==11 		# (cbjK) -- Pick 
+map==cbjP==11 		# (cbjM) -- Pick 
+map==cbjP==11 		# (cbjS) -- Pick 
+map==cbjP==11 		# (cbjT) -- Pick 
+map==cbjP==11 		# (cbjV) -- Pick 
+map==cbjP==11 		# (cbjW) -- Pick 
+map==cbjP==11 		# (cbjX) -- Pick 
+map==cbjP==11 		# (cbjZ) -- Pick 
+map==cbjP==11 		# (cbjY) -- Pick 
+map==cbjP==11 		# (cbj2) -- Pick 
+map==cbjP==11 		# (cbj4) -- Pick 
+map==cbjP==11 		# (cbj5) -- Pick 
+map==cbjP==11 		# (cbj6) -- Pick 
+map==cbjP==11 		# (cbj7) -- Pick 
+map==cbjP==11 		# (cbj8) -- Pick 
+map==cbjP==11 		# (cbj9) -- Pick 
+map==cbjP==11 		# (cbkb) -- Pick 
+map==cbjP==11 		# (cbkc) -- Pick 
+map==cbjP==11 		# (cbkd) -- Pick 
+map==cbjP==11 		# (cbkf) -- Pick 
+map==cbjP==11 		# (cbkg) -- Pick 
+map==cbjP==11 		# (cbkh) -- Pick 
+map==cbjP==11 		# (cbkj) -- Pick 
+map==cbjP==11 		# (cbkm) -- Pick 
+map==cbjP==11 		# (cbkn) -- Pick 
+map==cbjP==11 		# (cbkp) -- Pick 
+map==cbjP==11 		# (cbkq) -- Pick 
+map==cbjP==11 		# (cbkr) -- Pick 
+map==cbjP==11 		# (cbks) -- Pick 
+map==cbjP==11 		# (cbkt) -- Pick 
+map==cbjP==11 		# (cbkv) -- Pick 
+map==cbjP==11 		# (cbkw) -- Pick 
+map==cbjP==11 		# (cbkx) -- Pick 
+map==cbjP==11 		# (cbky) -- Pick 
+map==cbjP==11 		# (cbkz) -- Pick 
+map==cbjP==11 		# (cbkB) -- Pick 
+map==cbjP==11 		# (cbkC) -- Pick 
+map==cbjP==11 		# (cbkD) -- Pick 
+map==cbjP==11 		# (cbkF) -- Pick 
+map==cbjP==11 		# (cbkG) -- Pick 
+map==cbjP==11 		# (cbkH) -- Pick 
+map==cbjP==11 		# (cbkJ) -- Pick 
+map==cbjP==11 		# (cbkK) -- Pick 
+map==cbjP==11 		# (cbkM) -- Pick 
+map==cbjQ==153 		# (cbfM) -- Pick +1 
+map==cbjQ==153 		# (cbfN) -- Pick +1 
+map==cbjQ==153 		# (cbfP) -- Pick +1 
+map==cbjQ==153 		# (cbfQ) -- Pick +1 
+map==cbjQ==153 		# (cbfR) -- Pick +1 
+map==cbjQ==153 		# (cbfS) -- Pick +1 
+map==cbjQ==153 		# (cbfT) -- Pick +1 
+map==cbjQ==153 		# (cbfV) -- Pick +1 
+map==cbjQ==153 		# (cbfW) -- Pick +1 
+map==cbjQ==153 		# (cbfX) -- Pick +1 
+map==cbjQ==153 		# (cbfZ) -- Pick +1 
+map==cbjQ==153 		# (cbfY) -- Pick +1 
+map==cbjQ==153 		# (cbf2) -- Pick +1 
+map==cbjQ==153 		# (cbf4) -- Pick +1 
+map==cbjQ==153 		# (cbf5) -- Pick +1 
+map==cbjQ==153 		# (cbf6) -- Pick +1 
+map==cbjQ==153 		# (cbf7) -- Pick +1 
+map==cbjQ==153 		# (cbf8) -- Pick +1 
+map==cbjQ==153 		# (cbf9) -- Pick +1 
+map==cbjQ==153 		# (cbgb) -- Pick +1 
+map==cbjQ==153 		# (cbgc) -- Pick +1 
+map==cbjQ==153 		# (cbgd) -- Pick +1 
+map==cbjQ==153 		# (cbgf) -- Pick +1 
+map==cbjQ==153 		# (cbgg) -- Pick +1 
+map==cbjQ==153 		# (cbgh) -- Pick +1 
+map==cbjQ==153 		# (cbgj) -- Pick +1 
+map==cbjQ==153 		# (cbgk) -- Pick +1 
+map==cbjQ==153 		# (cbgm) -- Pick +1 
+map==cbjQ==153 		# (cbgn) -- Pick +1 
+map==cbjQ==153 		# (cbgq) -- Pick +1 
+map==cbjQ==153 		# (cbgr) -- Pick +1 
+map==cbjQ==153 		# (cbgs) -- Pick +1 
+map==cbjQ==153 		# (cbgt) -- Pick +1 
+map==cbjQ==153 		# (cbgv) -- Pick +1 
+map==cbjQ==153 		# (cbgw) -- Pick +1 
+map==cbjQ==153 		# (cbgx) -- Pick +1 
+map==cbjQ==153 		# (cbgy) -- Pick +1 
+map==cbjQ==153 		# (cbgz) -- Pick +1 
+map==cbjQ==153 		# (cbgB) -- Pick +1 
+map==cbjQ==153 		# (cbgC) -- Pick +1 
+map==cbjQ==153 		# (cbgD) -- Pick +1 
+map==cbjQ==153 		# (cbgF) -- Pick +1 
+map==cbjQ==153 		# (cbgG) -- Pick +1 
+map==cbjQ==153 		# (cbgH) -- Pick +1 
+map==cbjQ==153 		# (cbgJ) -- Pick +1 
+map==cbjQ==153 		# (cbgK) -- Pick +1 
+map==cbjQ==153 		# (cbgM) -- Pick +1 
+map==cbjQ==153 		# (cbgN) -- Pick +1 
+map==cbjQ==153 		# (cbgP) -- Pick +1 
+map==cbjQ==153 		# (cbgQ) -- Pick +1 
+map==cbjQ==153 		# (cbgR) -- Pick +1 
+map==cbjQ==153 		# (cbgS) -- Pick +1 
+map==cbjQ==153 		# (cbgT) -- Pick +1 
+map==cbjQ==153 		# (cbgV) -- Pick +1 
+map==cbjQ==153 		# (cbgW) -- Pick +1 
+map==cbjQ==153 		# (cbgX) -- Pick +1 
+map==cbjQ==153 		# (cbgZ) -- Pick +1 
+map==cbjQ==153 		# (cbgY) -- Pick +1 
 map==cbjW==105 		# (cbfM) -- 3e 
 map==cbjW==105 		# (cbgq) -- 3e 
+map==cbjW==6 		# (cbjP) -- 3e 
 map==cbjc==213 		# (cbfM) -- Dave 
 map==cbjc==213 		# (cbfN) -- Dave 
 map==cbjc==213 		# (cbfP) -- Dave 
@@ -27081,6 +27476,7 @@ map==cbjg==188 		# (cbgd) -- FOX
 map==cbjg==188 		# (cbgf) -- FOX 
 map==cbjg==188 		# (cbgg) -- FOX 
 map==cbjg==188 		# (cbgh) -- FOX 
+map==cbjg==188 		# (cbgj) -- FOX 
 map==cbjg==188 		# (cbgk) -- FOX 
 map==cbjg==188 		# (cbgm) -- FOX 
 map==cbjg==188 		# (cbgn) -- FOX 
@@ -27637,6 +28033,8 @@ map==cbjr==421 		# (cbfS) -- Chelsea TV
 map==cbjr==421 		# (cbfT) -- Chelsea TV 
 map==cbjr==421 		# (cbfV) -- Chelsea TV 
 map==cbjr==421 		# (cbfW) -- Chelsea TV 
+map==cbjr==421 		# (cbfX) -- Chelsea TV 
+map==cbjr==421 		# (cbfZ) -- Chelsea TV 
 map==cbjr==421 		# (cbfY) -- Chelsea TV 
 map==cbjr==421 		# (cbf2) -- Chelsea TV 
 map==cbjr==421 		# (cbf4) -- Chelsea TV 
@@ -27661,6 +28059,7 @@ map==cbjr==421 		# (cbgs) -- Chelsea TV
 map==cbjr==421 		# (cbgt) -- Chelsea TV 
 map==cbjr==421 		# (cbgv) -- Chelsea TV 
 map==cbjr==421 		# (cbgw) -- Chelsea TV 
+map==cbjr==421 		# (cbgx) -- Chelsea TV 
 map==cbjr==421 		# (cbgy) -- Chelsea TV 
 map==cbjr==421 		# (cbgz) -- Chelsea TV 
 map==cbjr==421 		# (cbgB) -- Chelsea TV 
@@ -28550,6 +28949,7 @@ map==cbkJ==440 		# (cbjb) -- Sky Movies Greats HD
 map==cbkJ==440 		# (cbjc) -- Sky Movies Greats HD 
 map==cbkJ==440 		# (cbjd) -- Sky Movies Greats HD 
 map==cbkJ==440 		# (cbjf) -- Sky Movies Greats HD 
+map==cbkJ==440 		# (cbjg) -- Sky Movies Greats HD 
 map==cbkJ==440 		# (cbjh) -- Sky Movies Greats HD 
 map==cbkJ==440 		# (cbjj) -- Sky Movies Greats HD 
 map==cbkK==340 		# (cbfM) -- Sky Movies Select 
@@ -28710,6 +29110,7 @@ map==cbkN==514 		# (cbfP) -- Al Jazeera English
 map==cbkN==514 		# (cbfQ) -- Al Jazeera English 
 map==cbkN==514 		# (cbfR) -- Al Jazeera English 
 map==cbkN==514 		# (cbfS) -- Al Jazeera English 
+map==cbkN==514 		# (cbfT) -- Al Jazeera English 
 map==cbkN==514 		# (cbfV) -- Al Jazeera English 
 map==cbkN==514 		# (cbfW) -- Al Jazeera English 
 map==cbkN==514 		# (cbfX) -- Al Jazeera English 
@@ -29188,6 +29589,7 @@ map==cbkT==649 		# (cbf7) -- Best Direct
 map==cbkT==649 		# (cbf8) -- Best Direct 
 map==cbkT==649 		# (cbf9) -- Best Direct 
 map==cbkT==649 		# (cbgb) -- Best Direct 
+map==cbkT==649 		# (cbgc) -- Best Direct 
 map==cbkT==649 		# (cbgd) -- Best Direct 
 map==cbkT==649 		# (cbgf) -- Best Direct 
 map==cbkT==649 		# (cbgg) -- Best Direct 
@@ -29525,6 +29927,7 @@ map==cbkc==528 		# (cbgF) -- Nat Geo Wild
 map==cbkc==528 		# (cbgG) -- Nat Geo Wild 
 map==cbkc==528 		# (cbgH) -- Nat Geo Wild 
 map==cbkc==528 		# (cbgJ) -- Nat Geo Wild 
+map==cbkc==528 		# (cbgK) -- Nat Geo Wild 
 map==cbkc==528 		# (cbgM) -- Nat Geo Wild 
 map==cbkc==528 		# (cbgN) -- Nat Geo Wild 
 map==cbkc==528 		# (cbgP) -- Nat Geo Wild 
@@ -29799,6 +30202,8 @@ map==cbkm==309 		# (cbgx) -- Sky Movies Crime & Thriller
 map==cbkm==309 		# (cbgy) -- Sky Movies Crime & Thriller 
 map==cbkm==309 		# (cbgz) -- Sky Movies Crime & Thriller 
 map==cbkm==309 		# (cbgB) -- Sky Movies Crime & Thriller 
+map==cbkm==309 		# (cbgC) -- Sky Movies Crime & Thriller 
+map==cbkm==309 		# (cbgD) -- Sky Movies Crime & Thriller 
 map==cbkm==309 		# (cbgF) -- Sky Movies Crime & Thriller 
 map==cbkm==309 		# (cbgG) -- Sky Movies Crime & Thriller 
 map==cbkm==309 		# (cbgH) -- Sky Movies Crime & Thriller 
@@ -29850,6 +30255,7 @@ map==cbkn==309 		# (cbf2) -- Sky Movies Crime & Thriller HD
 map==cbkn==309 		# (cbf4) -- Sky Movies Crime & Thriller HD 
 map==cbkn==309 		# (cbf5) -- Sky Movies Crime & Thriller HD 
 map==cbkn==309 		# (cbf6) -- Sky Movies Crime & Thriller HD 
+map==cbkn==309 		# (cbf7) -- Sky Movies Crime & Thriller HD 
 map==cbkn==309 		# (cbf8) -- Sky Movies Crime & Thriller HD 
 map==cbkn==309 		# (cbf9) -- Sky Movies Crime & Thriller HD 
 map==cbkn==309 		# (cbgb) -- Sky Movies Crime & Thriller HD 
@@ -29862,6 +30268,7 @@ map==cbkn==309 		# (cbgj) -- Sky Movies Crime & Thriller HD
 map==cbkn==309 		# (cbgk) -- Sky Movies Crime & Thriller HD 
 map==cbkn==309 		# (cbgm) -- Sky Movies Crime & Thriller HD 
 map==cbkn==309 		# (cbgn) -- Sky Movies Crime & Thriller HD 
+map==cbkn==336 		# (cbgq) -- Sky Movies Crime & Thriller HD 
 map==cbkn==336 		# (cbgr) -- Sky Movies Crime & Thriller HD 
 map==cbkn==336 		# (cbgs) -- Sky Movies Crime & Thriller HD 
 map==cbkn==336 		# (cbgt) -- Sky Movies Crime & Thriller HD 
@@ -30157,6 +30564,7 @@ map==cbks==335 		# (cbf8) -- Sky Movies Comedy
 map==cbks==335 		# (cbf9) -- Sky Movies Comedy 
 map==cbks==335 		# (cbgb) -- Sky Movies Comedy 
 map==cbks==335 		# (cbgc) -- Sky Movies Comedy 
+map==cbks==335 		# (cbgd) -- Sky Movies Comedy 
 map==cbks==335 		# (cbgf) -- Sky Movies Comedy 
 map==cbks==335 		# (cbgg) -- Sky Movies Comedy 
 map==cbks==335 		# (cbgh) -- Sky Movies Comedy 
@@ -30267,11 +30675,13 @@ map==cbkt==335 		# (cbgT) -- Sky Movies Comedy HD
 map==cbkt==335 		# (cbgV) -- Sky Movies Comedy HD 
 map==cbkt==335 		# (cbgW) -- Sky Movies Comedy HD 
 map==cbkt==335 		# (cbgX) -- Sky Movies Comedy HD 
+map==cbkt==335 		# (cbgZ) -- Sky Movies Comedy HD 
 map==cbkt==335 		# (cbgY) -- Sky Movies Comedy HD 
 map==cbkt==434 		# (cbhW) -- Sky Movies Comedy HD 
 map==cbkt==434 		# (cbhX) -- Sky Movies Comedy HD 
 map==cbkt==434 		# (cbhZ) -- Sky Movies Comedy HD 
 map==cbkt==434 		# (cbhY) -- Sky Movies Comedy HD 
+map==cbkt==434 		# (cbh2) -- Sky Movies Comedy HD 
 map==cbkt==434 		# (cbh4) -- Sky Movies Comedy HD 
 map==cbkt==434 		# (cbh5) -- Sky Movies Comedy HD 
 map==cbkt==434 		# (cbh6) -- Sky Movies Comedy HD 
@@ -30789,6 +31199,7 @@ map==cbm4==148 		# (cbgj) -- CBS Action
 map==cbm4==148 		# (cbgk) -- CBS Action 
 map==cbm4==148 		# (cbgm) -- CBS Action 
 map==cbm4==148 		# (cbgn) -- CBS Action 
+map==cbm4==148 		# (cbgq) -- CBS Action 
 map==cbm4==148 		# (cbgr) -- CBS Action 
 map==cbm4==148 		# (cbgs) -- CBS Action 
 map==cbm4==148 		# (cbgt) -- CBS Action 
@@ -30796,6 +31207,7 @@ map==cbm4==148 		# (cbgv) -- CBS Action
 map==cbm4==148 		# (cbgw) -- CBS Action 
 map==cbm4==148 		# (cbgx) -- CBS Action 
 map==cbm4==148 		# (cbgy) -- CBS Action 
+map==cbm4==148 		# (cbgz) -- CBS Action 
 map==cbm4==148 		# (cbgB) -- CBS Action 
 map==cbm4==148 		# (cbgC) -- CBS Action 
 map==cbm4==148 		# (cbgD) -- CBS Action 
@@ -31463,6 +31875,7 @@ map==cbmC==189 		# (cbgX) -- Propeller TV
 map==cbmC==189 		# (cbgZ) -- Propeller TV 
 map==cbmC==189 		# (cbgY) -- Propeller TV 
 map==cbmD==386 		# (cbfM) -- MTV Live 
+map==cbmD==386 		# (cbfN) -- MTV Live 
 map==cbmD==386 		# (cbfP) -- MTV Live 
 map==cbmD==386 		# (cbfQ) -- MTV Live 
 map==cbmD==386 		# (cbfR) -- MTV Live 
@@ -31610,6 +32023,7 @@ map==cbmG==183 		# (cbgq) -- AIT International
 map==cbmG==183 		# (cbgr) -- AIT International 
 map==cbmG==183 		# (cbgs) -- AIT International 
 map==cbmG==183 		# (cbgt) -- AIT International 
+map==cbmG==183 		# (cbgv) -- AIT International 
 map==cbmG==183 		# (cbgw) -- AIT International 
 map==cbmG==183 		# (cbgx) -- AIT International 
 map==cbmG==183 		# (cbgy) -- AIT International 
@@ -32076,6 +32490,7 @@ map==cbmS==417 		# (cbgC) -- ESPN
 map==cbmS==417 		# (cbgD) -- ESPN 
 map==cbmS==417 		# (cbgF) -- ESPN 
 map==cbmS==417 		# (cbgG) -- ESPN 
+map==cbmS==417 		# (cbgH) -- ESPN 
 map==cbmS==417 		# (cbgJ) -- ESPN 
 map==cbmS==417 		# (cbgK) -- ESPN 
 map==cbmS==417 		# (cbgM) -- ESPN 
@@ -32303,6 +32718,13 @@ map==cbmV==707 		# (cbjg) -- Disney XD
 map==cbmV==707 		# (cbjh) -- Disney XD 
 map==cbmV==707 		# (cbjj) -- Disney XD 
 map==cbmW==608 		# (cbfM) -- Disney XD +1 
+map==cbmW==608 		# (cbfN) -- Disney XD +1 
+map==cbmW==608 		# (cbfP) -- Disney XD +1 
+map==cbmW==608 		# (cbfQ) -- Disney XD +1 
+map==cbmW==608 		# (cbfR) -- Disney XD +1 
+map==cbmW==608 		# (cbfS) -- Disney XD +1 
+map==cbmW==608 		# (cbfT) -- Disney XD +1 
+map==cbmW==608 		# (cbfV) -- Disney XD +1 
 map==cbmW==608 		# (cbfW) -- Disney XD +1 
 map==cbmW==608 		# (cbfX) -- Disney XD +1 
 map==cbmW==608 		# (cbfZ) -- Disney XD +1 
@@ -32401,6 +32823,7 @@ map==cbmX==607 		# (cbgk) -- Disney XD HD
 map==cbmX==607 		# (cbgm) -- Disney XD HD 
 map==cbmX==607 		# (cbgn) -- Disney XD HD 
 map==cbmX==622 		# (cbgq) -- Disney XD HD 
+map==cbmX==622 		# (cbgr) -- Disney XD HD 
 map==cbmX==622 		# (cbgs) -- Disney XD HD 
 map==cbmX==622 		# (cbgt) -- Disney XD HD 
 map==cbmX==622 		# (cbgv) -- Disney XD HD 
@@ -32426,6 +32849,7 @@ map==cbmX==622 		# (cbgT) -- Disney XD HD
 map==cbmX==622 		# (cbgV) -- Disney XD HD 
 map==cbmX==622 		# (cbgW) -- Disney XD HD 
 map==cbmX==622 		# (cbgX) -- Disney XD HD 
+map==cbmX==622 		# (cbgZ) -- Disney XD HD 
 map==cbmX==622 		# (cbgY) -- Disney XD HD 
 map==cbmZ==146 		# (cbfM) -- CBS Reality 
 map==cbmZ==146 		# (cbfN) -- CBS Reality 
@@ -32448,6 +32872,7 @@ map==cbmZ==146 		# (cbf8) -- CBS Reality
 map==cbmZ==146 		# (cbf9) -- CBS Reality 
 map==cbmZ==146 		# (cbgb) -- CBS Reality 
 map==cbmZ==146 		# (cbgc) -- CBS Reality 
+map==cbmZ==146 		# (cbgd) -- CBS Reality 
 map==cbmZ==146 		# (cbgf) -- CBS Reality 
 map==cbmZ==146 		# (cbgg) -- CBS Reality 
 map==cbmZ==146 		# (cbgh) -- CBS Reality 
@@ -32575,6 +33000,7 @@ map==cbmb==617 		# (cbgR) -- Tiny Pop
 map==cbmb==617 		# (cbgS) -- Tiny Pop 
 map==cbmb==617 		# (cbgT) -- Tiny Pop 
 map==cbmb==617 		# (cbgV) -- Tiny Pop 
+map==cbmb==617 		# (cbgW) -- Tiny Pop 
 map==cbmb==617 		# (cbgX) -- Tiny Pop 
 map==cbmb==617 		# (cbgZ) -- Tiny Pop 
 map==cbmb==617 		# (cbgY) -- Tiny Pop 
@@ -32981,6 +33407,7 @@ map==cbmm==124 		# (cbf8) -- FOX HD
 map==cbmm==124 		# (cbf9) -- FOX HD 
 map==cbmm==124 		# (cbgb) -- FOX HD 
 map==cbmm==124 		# (cbgc) -- FOX HD 
+map==cbmm==124 		# (cbgd) -- FOX HD 
 map==cbmm==124 		# (cbgf) -- FOX HD 
 map==cbmm==124 		# (cbgg) -- FOX HD 
 map==cbmm==124 		# (cbgh) -- FOX HD 
@@ -33010,6 +33437,7 @@ map==cbmm==188 		# (cbgN) -- FOX HD
 map==cbmm==188 		# (cbgP) -- FOX HD 
 map==cbmm==188 		# (cbgQ) -- FOX HD 
 map==cbmm==188 		# (cbgR) -- FOX HD 
+map==cbmm==188 		# (cbgS) -- FOX HD 
 map==cbmm==188 		# (cbgT) -- FOX HD 
 map==cbmm==188 		# (cbgV) -- FOX HD 
 map==cbmm==188 		# (cbgW) -- FOX HD 
@@ -33155,6 +33583,7 @@ map==cbmq==326 		# (cbgD) -- Movies4Men +1
 map==cbmq==326 		# (cbgF) -- Movies4Men +1 
 map==cbmq==326 		# (cbgG) -- Movies4Men +1 
 map==cbmq==326 		# (cbgH) -- Movies4Men +1 
+map==cbmq==326 		# (cbgJ) -- Movies4Men +1 
 map==cbmq==326 		# (cbgK) -- Movies4Men +1 
 map==cbmq==326 		# (cbgM) -- Movies4Men +1 
 map==cbmq==326 		# (cbgN) -- Movies4Men +1 
@@ -33254,6 +33683,7 @@ map==cbmr==303 		# (cbhC) -- True Movies 2
 map==cbmr==303 		# (cbhD) -- True Movies 2 
 map==cbmr==303 		# (cbhF) -- True Movies 2 
 map==cbmr==303 		# (cbhG) -- True Movies 2 
+map==cbmr==303 		# (cbhH) -- True Movies 2 
 map==cbmr==303 		# (cbhJ) -- True Movies 2 
 map==cbmr==303 		# (cbhK) -- True Movies 2 
 map==cbmr==303 		# (cbhM) -- True Movies 2 
@@ -33266,6 +33696,7 @@ map==cbmr==303 		# (cbhT) -- True Movies 2
 map==cbmv==531 		# (cbfM) -- H2 
 map==cbmv==531 		# (cbfN) -- H2 
 map==cbmv==531 		# (cbfP) -- H2 
+map==cbmv==531 		# (cbfQ) -- H2 
 map==cbmv==531 		# (cbfR) -- H2 
 map==cbmv==531 		# (cbfS) -- H2 
 map==cbmv==531 		# (cbfT) -- H2 
@@ -33818,6 +34249,7 @@ map==cbn6==963 		# (cbhW) -- Kiss 100
 map==cbn6==963 		# (cbhX) -- Kiss 100 
 map==cbn6==963 		# (cbhZ) -- Kiss 100 
 map==cbn6==963 		# (cbhY) -- Kiss 100 
+map==cbn6==963 		# (cbh2) -- Kiss 100 
 map==cbn6==963 		# (cbh4) -- Kiss 100 
 map==cbn6==963 		# (cbh5) -- Kiss 100 
 map==cbn6==963 		# (cbh6) -- Kiss 100 
@@ -34238,6 +34670,7 @@ map==cbnD==110 		# (cbhP) -- BBC Alba
 map==cbnD==110 		# (cbhQ) -- BBC Alba 
 map==cbnD==110 		# (cbhR) -- BBC Alba 
 map==cbnD==110 		# (cbhS) -- BBC Alba 
+map==cbnD==110 		# (cbhT) -- BBC Alba 
 map==cbnD==188 		# (cbhW) -- BBC Alba 
 map==cbnD==188 		# (cbhX) -- BBC Alba 
 map==cbnD==188 		# (cbhZ) -- BBC Alba 
@@ -34307,6 +34740,7 @@ map==cbnF==122 		# (cbgB) -- Sky Livingit
 map==cbnF==122 		# (cbgC) -- Sky Livingit 
 map==cbnF==122 		# (cbgD) -- Sky Livingit 
 map==cbnF==122 		# (cbgF) -- Sky Livingit 
+map==cbnF==122 		# (cbgG) -- Sky Livingit 
 map==cbnF==122 		# (cbgH) -- Sky Livingit 
 map==cbnF==122 		# (cbgJ) -- Sky Livingit 
 map==cbnF==122 		# (cbgK) -- Sky Livingit 
@@ -35237,82 +35671,82 @@ map==cbnX==727 		# (cbkH) -- Absolute Radio
 map==cbnX==727 		# (cbkJ) -- Absolute Radio 
 map==cbnX==727 		# (cbkK) -- Absolute Radio 
 map==cbnX==727 		# (cbkM) -- Absolute Radio 
-map==cbnb==620 		# (cbfM) -- Nick Jr. 2 
-map==cbnb==620 		# (cbfN) -- Nick Jr. 2 
-map==cbnb==620 		# (cbfP) -- Nick Jr. 2 
-map==cbnb==620 		# (cbfQ) -- Nick Jr. 2 
-map==cbnb==620 		# (cbfR) -- Nick Jr. 2 
-map==cbnb==620 		# (cbfS) -- Nick Jr. 2 
-map==cbnb==620 		# (cbfT) -- Nick Jr. 2 
-map==cbnb==620 		# (cbfV) -- Nick Jr. 2 
-map==cbnb==620 		# (cbfW) -- Nick Jr. 2 
-map==cbnb==620 		# (cbfX) -- Nick Jr. 2 
-map==cbnb==620 		# (cbfZ) -- Nick Jr. 2 
-map==cbnb==620 		# (cbfY) -- Nick Jr. 2 
-map==cbnb==620 		# (cbf2) -- Nick Jr. 2 
-map==cbnb==620 		# (cbf4) -- Nick Jr. 2 
-map==cbnb==620 		# (cbf5) -- Nick Jr. 2 
-map==cbnb==620 		# (cbf6) -- Nick Jr. 2 
-map==cbnb==620 		# (cbf7) -- Nick Jr. 2 
-map==cbnb==620 		# (cbf8) -- Nick Jr. 2 
-map==cbnb==620 		# (cbf9) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgb) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgc) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgd) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgf) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgg) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgh) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgj) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgk) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgm) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgn) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgq) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgr) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgs) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgt) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgv) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgw) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgx) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgy) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgz) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgB) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgC) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgD) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgF) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgG) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgH) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgJ) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgK) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgM) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgN) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgP) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgQ) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgR) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgS) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgT) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgV) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgW) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgX) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgZ) -- Nick Jr. 2 
-map==cbnb==620 		# (cbgY) -- Nick Jr. 2 
-map==cbnb==716 		# (cbhW) -- Nick Jr. 2 
-map==cbnb==716 		# (cbhX) -- Nick Jr. 2 
-map==cbnb==716 		# (cbhZ) -- Nick Jr. 2 
-map==cbnb==716 		# (cbhY) -- Nick Jr. 2 
-map==cbnb==716 		# (cbh2) -- Nick Jr. 2 
-map==cbnb==716 		# (cbh4) -- Nick Jr. 2 
-map==cbnb==716 		# (cbh5) -- Nick Jr. 2 
-map==cbnb==716 		# (cbh6) -- Nick Jr. 2 
-map==cbnb==716 		# (cbh7) -- Nick Jr. 2 
-map==cbnb==716 		# (cbh8) -- Nick Jr. 2 
-map==cbnb==716 		# (cbh9) -- Nick Jr. 2 
-map==cbnb==716 		# (cbjb) -- Nick Jr. 2 
-map==cbnb==716 		# (cbjc) -- Nick Jr. 2 
-map==cbnb==716 		# (cbjd) -- Nick Jr. 2 
-map==cbnb==716 		# (cbjf) -- Nick Jr. 2 
-map==cbnb==716 		# (cbjg) -- Nick Jr. 2 
-map==cbnb==716 		# (cbjh) -- Nick Jr. 2 
-map==cbnb==716 		# (cbjj) -- Nick Jr. 2 
+map==cbnb==620 		# (cbfM) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbfN) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbfP) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbfQ) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbfR) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbfS) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbfT) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbfV) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbfW) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbfX) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbfZ) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbfY) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbf2) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbf4) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbf5) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbf6) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbf7) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbf8) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbf9) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgb) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgc) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgd) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgf) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgg) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgh) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgj) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgk) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgm) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgn) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgq) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgr) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgs) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgt) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgv) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgw) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgx) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgy) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgz) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgB) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgC) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgD) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgF) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgG) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgH) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgJ) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgK) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgM) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgN) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgP) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgQ) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgR) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgS) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgT) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgV) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgW) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgX) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgZ) -- Nick Jr. Peppa 
+map==cbnb==620 		# (cbgY) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbhW) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbhX) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbhZ) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbhY) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbh2) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbh4) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbh5) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbh6) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbh7) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbh8) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbh9) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbjb) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbjc) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbjd) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbjf) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbjg) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbjh) -- Nick Jr. Peppa 
+map==cbnb==716 		# (cbjj) -- Nick Jr. Peppa 
 map==cbnc==507 		# (cbgq) -- NHK World 
 map==cbnc==507 		# (cbgr) -- NHK World 
 map==cbnc==507 		# (cbgs) -- NHK World 
@@ -36054,6 +36488,8 @@ map==cbnv==303 		# (cbgF) -- Sky Movies Showcase
 map==cbnv==303 		# (cbgG) -- Sky Movies Showcase 
 map==cbnv==303 		# (cbgH) -- Sky Movies Showcase 
 map==cbnv==303 		# (cbgJ) -- Sky Movies Showcase 
+map==cbnv==303 		# (cbgK) -- Sky Movies Showcase 
+map==cbnv==303 		# (cbgM) -- Sky Movies Showcase 
 map==cbnv==303 		# (cbgN) -- Sky Movies Showcase 
 map==cbnv==303 		# (cbgP) -- Sky Movies Showcase 
 map==cbnv==303 		# (cbgQ) -- Sky Movies Showcase 
@@ -36713,6 +37149,7 @@ map==cbq5==126 		# (cbf5) -- MTV HD
 map==cbq5==126 		# (cbf6) -- MTV HD 
 map==cbq5==126 		# (cbf7) -- MTV HD 
 map==cbq5==126 		# (cbf8) -- MTV HD 
+map==cbq5==126 		# (cbf9) -- MTV HD 
 map==cbq5==126 		# (cbgb) -- MTV HD 
 map==cbq5==126 		# (cbgc) -- MTV HD 
 map==cbq5==126 		# (cbgd) -- MTV HD 
@@ -36996,6 +37433,7 @@ map==cbvk==0128 		# (cbgN) -- 102.2 Smooth Radio
 map==cbvk==0128 		# (cbgP) -- 102.2 Smooth Radio 
 map==cbvk==0128 		# (cbgQ) -- 102.2 Smooth Radio 
 map==cbvk==0128 		# (cbgR) -- 102.2 Smooth Radio 
+map==cbvk==0128 		# (cbgS) -- 102.2 Smooth Radio 
 map==cbvk==0128 		# (cbgT) -- 102.2 Smooth Radio 
 map==cbvk==0128 		# (cbgV) -- 102.2 Smooth Radio 
 map==cbvk==0128 		# (cbgW) -- 102.2 Smooth Radio 
@@ -37142,6 +37580,8 @@ map==cbvz==751 		# (cbhQ) -- RTÉ 2FM
 map==cbvz==751 		# (cbhR) -- RTÉ 2FM 
 map==cbvz==751 		# (cbhS) -- RTÉ 2FM 
 map==cbvz==751 		# (cbhT) -- RTÉ 2FM 
+map==cbvz==202 		# (cbjQ) -- RTÉ 2FM 
+map==cbvz==202 		# (cbjP) -- RTÉ 2FM 
 map==cbw4==0121 		# (cbfN) -- Gold 
 map==cbw4==0121 		# (cbfP) -- Gold 
 map==cbw4==0121 		# (cbfQ) -- Gold 
@@ -37182,6 +37622,7 @@ map==cbw4==0121 		# (cbgB) -- Gold
 map==cbw4==0121 		# (cbgC) -- Gold 
 map==cbw4==0121 		# (cbgD) -- Gold 
 map==cbw4==0121 		# (cbgF) -- Gold 
+map==cbw4==0121 		# (cbgG) -- Gold 
 map==cbw4==0121 		# (cbgH) -- Gold 
 map==cbw4==0121 		# (cbgJ) -- Gold 
 map==cbw4==0121 		# (cbgK) -- Gold 
@@ -37234,98 +37675,99 @@ map==cbw4==959 		# (cbjf) -- Gold
 map==cbw4==959 		# (cbjg) -- Gold 
 map==cbw4==959 		# (cbjh) -- Gold 
 map==cbw4==959 		# (cbjj) -- Gold 
-map==cbwj==0114 		# (cbfN) -- Choice FM 
-map==cbwj==0114 		# (cbfP) -- Choice FM 
-map==cbwj==0114 		# (cbfQ) -- Choice FM 
-map==cbwj==0114 		# (cbfR) -- Choice FM 
-map==cbwj==0114 		# (cbfS) -- Choice FM 
-map==cbwj==0114 		# (cbfT) -- Choice FM 
-map==cbwj==0114 		# (cbfV) -- Choice FM 
-map==cbwj==0114 		# (cbfW) -- Choice FM 
-map==cbwj==0114 		# (cbfX) -- Choice FM 
-map==cbwj==0114 		# (cbfZ) -- Choice FM 
-map==cbwj==0114 		# (cbfY) -- Choice FM 
-map==cbwj==0114 		# (cbf2) -- Choice FM 
-map==cbwj==0114 		# (cbf4) -- Choice FM 
-map==cbwj==0114 		# (cbf5) -- Choice FM 
-map==cbwj==0114 		# (cbf6) -- Choice FM 
-map==cbwj==0114 		# (cbf7) -- Choice FM 
-map==cbwj==0114 		# (cbf8) -- Choice FM 
-map==cbwj==0114 		# (cbf9) -- Choice FM 
-map==cbwj==0114 		# (cbgb) -- Choice FM 
-map==cbwj==0114 		# (cbgd) -- Choice FM 
-map==cbwj==0114 		# (cbgf) -- Choice FM 
-map==cbwj==0114 		# (cbgg) -- Choice FM 
-map==cbwj==0114 		# (cbgh) -- Choice FM 
-map==cbwj==0114 		# (cbgj) -- Choice FM 
-map==cbwj==0114 		# (cbgk) -- Choice FM 
-map==cbwj==0114 		# (cbgm) -- Choice FM 
-map==cbwj==0114 		# (cbgn) -- Choice FM 
-map==cbwj==0114 		# (cbgr) -- Choice FM 
-map==cbwj==0114 		# (cbgs) -- Choice FM 
-map==cbwj==0114 		# (cbgt) -- Choice FM 
-map==cbwj==0114 		# (cbgv) -- Choice FM 
-map==cbwj==0114 		# (cbgw) -- Choice FM 
-map==cbwj==0114 		# (cbgx) -- Choice FM 
-map==cbwj==0114 		# (cbgy) -- Choice FM 
-map==cbwj==0114 		# (cbgz) -- Choice FM 
-map==cbwj==0114 		# (cbgB) -- Choice FM 
-map==cbwj==0114 		# (cbgC) -- Choice FM 
-map==cbwj==0114 		# (cbgD) -- Choice FM 
-map==cbwj==0114 		# (cbgF) -- Choice FM 
-map==cbwj==0114 		# (cbgG) -- Choice FM 
-map==cbwj==0114 		# (cbgH) -- Choice FM 
-map==cbwj==0114 		# (cbgJ) -- Choice FM 
-map==cbwj==0114 		# (cbgK) -- Choice FM 
-map==cbwj==0114 		# (cbgM) -- Choice FM 
-map==cbwj==0114 		# (cbgN) -- Choice FM 
-map==cbwj==0114 		# (cbgP) -- Choice FM 
-map==cbwj==0114 		# (cbgQ) -- Choice FM 
-map==cbwj==0114 		# (cbgR) -- Choice FM 
-map==cbwj==0114 		# (cbgS) -- Choice FM 
-map==cbwj==0114 		# (cbgT) -- Choice FM 
-map==cbwj==0114 		# (cbgV) -- Choice FM 
-map==cbwj==0114 		# (cbgW) -- Choice FM 
-map==cbwj==0114 		# (cbgX) -- Choice FM 
-map==cbwj==0114 		# (cbgZ) -- Choice FM 
-map==cbwj==0114 		# (cbgY) -- Choice FM 
-map==cbwj==720 		# (cbhw) -- Choice FM 
-map==cbwj==720 		# (cbhx) -- Choice FM 
-map==cbwj==720 		# (cbhy) -- Choice FM 
-map==cbwj==720 		# (cbhz) -- Choice FM 
-map==cbwj==720 		# (cbhB) -- Choice FM 
-map==cbwj==720 		# (cbhC) -- Choice FM 
-map==cbwj==720 		# (cbhD) -- Choice FM 
-map==cbwj==720 		# (cbhF) -- Choice FM 
-map==cbwj==720 		# (cbhG) -- Choice FM 
-map==cbwj==720 		# (cbhH) -- Choice FM 
-map==cbwj==720 		# (cbhJ) -- Choice FM 
-map==cbwj==720 		# (cbhK) -- Choice FM 
-map==cbwj==720 		# (cbhM) -- Choice FM 
-map==cbwj==720 		# (cbhN) -- Choice FM 
-map==cbwj==720 		# (cbhP) -- Choice FM 
-map==cbwj==720 		# (cbhQ) -- Choice FM 
-map==cbwj==720 		# (cbhR) -- Choice FM 
-map==cbwj==720 		# (cbhS) -- Choice FM 
-map==cbwj==720 		# (cbhT) -- Choice FM 
-map==cbwj==969 		# (cbhW) -- Choice FM 
-map==cbwj==969 		# (cbhX) -- Choice FM 
-map==cbwj==969 		# (cbhZ) -- Choice FM 
-map==cbwj==969 		# (cbhY) -- Choice FM 
-map==cbwj==969 		# (cbh2) -- Choice FM 
-map==cbwj==969 		# (cbh4) -- Choice FM 
-map==cbwj==969 		# (cbh5) -- Choice FM 
-map==cbwj==969 		# (cbh6) -- Choice FM 
-map==cbwj==969 		# (cbh7) -- Choice FM 
-map==cbwj==969 		# (cbh8) -- Choice FM 
-map==cbwj==969 		# (cbh9) -- Choice FM 
-map==cbwj==969 		# (cbjb) -- Choice FM 
-map==cbwj==969 		# (cbjc) -- Choice FM 
-map==cbwj==969 		# (cbjd) -- Choice FM 
-map==cbwj==969 		# (cbjf) -- Choice FM 
-map==cbwj==969 		# (cbjg) -- Choice FM 
-map==cbwj==969 		# (cbjh) -- Choice FM 
-map==cbwj==969 		# (cbjj) -- Choice FM 
+map==cbwj==0114 		# (cbfN) -- Capital XTRA 
+map==cbwj==0114 		# (cbfP) -- Capital XTRA 
+map==cbwj==0114 		# (cbfQ) -- Capital XTRA 
+map==cbwj==0114 		# (cbfR) -- Capital XTRA 
+map==cbwj==0114 		# (cbfS) -- Capital XTRA 
+map==cbwj==0114 		# (cbfT) -- Capital XTRA 
+map==cbwj==0114 		# (cbfV) -- Capital XTRA 
+map==cbwj==0114 		# (cbfW) -- Capital XTRA 
+map==cbwj==0114 		# (cbfX) -- Capital XTRA 
+map==cbwj==0114 		# (cbfZ) -- Capital XTRA 
+map==cbwj==0114 		# (cbfY) -- Capital XTRA 
+map==cbwj==0114 		# (cbf2) -- Capital XTRA 
+map==cbwj==0114 		# (cbf4) -- Capital XTRA 
+map==cbwj==0114 		# (cbf5) -- Capital XTRA 
+map==cbwj==0114 		# (cbf6) -- Capital XTRA 
+map==cbwj==0114 		# (cbf7) -- Capital XTRA 
+map==cbwj==0114 		# (cbf8) -- Capital XTRA 
+map==cbwj==0114 		# (cbf9) -- Capital XTRA 
+map==cbwj==0114 		# (cbgb) -- Capital XTRA 
+map==cbwj==0114 		# (cbgc) -- Capital XTRA 
+map==cbwj==0114 		# (cbgd) -- Capital XTRA 
+map==cbwj==0114 		# (cbgf) -- Capital XTRA 
+map==cbwj==0114 		# (cbgg) -- Capital XTRA 
+map==cbwj==0114 		# (cbgh) -- Capital XTRA 
+map==cbwj==0114 		# (cbgj) -- Capital XTRA 
+map==cbwj==0114 		# (cbgk) -- Capital XTRA 
+map==cbwj==0114 		# (cbgm) -- Capital XTRA 
+map==cbwj==0114 		# (cbgn) -- Capital XTRA 
+map==cbwj==0114 		# (cbgr) -- Capital XTRA 
+map==cbwj==0114 		# (cbgs) -- Capital XTRA 
+map==cbwj==0114 		# (cbgt) -- Capital XTRA 
+map==cbwj==0114 		# (cbgv) -- Capital XTRA 
+map==cbwj==0114 		# (cbgw) -- Capital XTRA 
+map==cbwj==0114 		# (cbgx) -- Capital XTRA 
+map==cbwj==0114 		# (cbgy) -- Capital XTRA 
+map==cbwj==0114 		# (cbgz) -- Capital XTRA 
+map==cbwj==0114 		# (cbgB) -- Capital XTRA 
+map==cbwj==0114 		# (cbgC) -- Capital XTRA 
+map==cbwj==0114 		# (cbgD) -- Capital XTRA 
+map==cbwj==0114 		# (cbgF) -- Capital XTRA 
+map==cbwj==0114 		# (cbgG) -- Capital XTRA 
+map==cbwj==0114 		# (cbgH) -- Capital XTRA 
+map==cbwj==0114 		# (cbgJ) -- Capital XTRA 
+map==cbwj==0114 		# (cbgK) -- Capital XTRA 
+map==cbwj==0114 		# (cbgM) -- Capital XTRA 
+map==cbwj==0114 		# (cbgN) -- Capital XTRA 
+map==cbwj==0114 		# (cbgP) -- Capital XTRA 
+map==cbwj==0114 		# (cbgQ) -- Capital XTRA 
+map==cbwj==0114 		# (cbgR) -- Capital XTRA 
+map==cbwj==0114 		# (cbgS) -- Capital XTRA 
+map==cbwj==0114 		# (cbgT) -- Capital XTRA 
+map==cbwj==0114 		# (cbgV) -- Capital XTRA 
+map==cbwj==0114 		# (cbgW) -- Capital XTRA 
+map==cbwj==0114 		# (cbgX) -- Capital XTRA 
+map==cbwj==0114 		# (cbgZ) -- Capital XTRA 
+map==cbwj==0114 		# (cbgY) -- Capital XTRA 
+map==cbwj==720 		# (cbhw) -- Capital XTRA 
+map==cbwj==720 		# (cbhx) -- Capital XTRA 
+map==cbwj==720 		# (cbhy) -- Capital XTRA 
+map==cbwj==720 		# (cbhz) -- Capital XTRA 
+map==cbwj==720 		# (cbhB) -- Capital XTRA 
+map==cbwj==720 		# (cbhC) -- Capital XTRA 
+map==cbwj==720 		# (cbhD) -- Capital XTRA 
+map==cbwj==720 		# (cbhF) -- Capital XTRA 
+map==cbwj==720 		# (cbhG) -- Capital XTRA 
+map==cbwj==720 		# (cbhH) -- Capital XTRA 
+map==cbwj==720 		# (cbhJ) -- Capital XTRA 
+map==cbwj==720 		# (cbhK) -- Capital XTRA 
+map==cbwj==720 		# (cbhM) -- Capital XTRA 
+map==cbwj==720 		# (cbhN) -- Capital XTRA 
+map==cbwj==720 		# (cbhP) -- Capital XTRA 
+map==cbwj==720 		# (cbhQ) -- Capital XTRA 
+map==cbwj==720 		# (cbhR) -- Capital XTRA 
+map==cbwj==720 		# (cbhS) -- Capital XTRA 
+map==cbwj==720 		# (cbhT) -- Capital XTRA 
+map==cbwj==969 		# (cbhW) -- Capital XTRA 
+map==cbwj==969 		# (cbhX) -- Capital XTRA 
+map==cbwj==969 		# (cbhZ) -- Capital XTRA 
+map==cbwj==969 		# (cbhY) -- Capital XTRA 
+map==cbwj==969 		# (cbh2) -- Capital XTRA 
+map==cbwj==969 		# (cbh4) -- Capital XTRA 
+map==cbwj==969 		# (cbh5) -- Capital XTRA 
+map==cbwj==969 		# (cbh6) -- Capital XTRA 
+map==cbwj==969 		# (cbh7) -- Capital XTRA 
+map==cbwj==969 		# (cbh8) -- Capital XTRA 
+map==cbwj==969 		# (cbh9) -- Capital XTRA 
+map==cbwj==969 		# (cbjb) -- Capital XTRA 
+map==cbwj==969 		# (cbjc) -- Capital XTRA 
+map==cbwj==969 		# (cbjd) -- Capital XTRA 
+map==cbwj==969 		# (cbjf) -- Capital XTRA 
+map==cbwj==969 		# (cbjg) -- Capital XTRA 
+map==cbwj==969 		# (cbjh) -- Capital XTRA 
+map==cbwj==969 		# (cbjj) -- Capital XTRA 
 map==cbxQ==0202 		# (cbfN) -- Jazz FM 
 map==cbxQ==0202 		# (cbfP) -- Jazz FM 
 map==cbxQ==0202 		# (cbfQ) -- Jazz FM 
@@ -37959,6 +38401,8 @@ map==cbzF==752 		# (cbhQ) -- RTÉ lyric fm
 map==cbzF==752 		# (cbhR) -- RTÉ lyric fm 
 map==cbzF==752 		# (cbhS) -- RTÉ lyric fm 
 map==cbzF==752 		# (cbhT) -- RTÉ lyric fm 
+map==cbzF==203 		# (cbjQ) -- RTÉ lyric fm 
+map==cbzF==203 		# (cbjP) -- RTÉ lyric fm 
 map==cbzG==0160 		# (cbfN) -- RTÉ Radio 1 FM 
 map==cbzG==0160 		# (cbfP) -- RTÉ Radio 1 FM 
 map==cbzG==0160 		# (cbfQ) -- RTÉ Radio 1 FM 
@@ -38007,6 +38451,7 @@ map==cbzG==0160 		# (cbgM) -- RTÉ Radio 1 FM
 map==cbzG==0160 		# (cbgN) -- RTÉ Radio 1 FM 
 map==cbzG==0160 		# (cbgP) -- RTÉ Radio 1 FM 
 map==cbzG==0160 		# (cbgQ) -- RTÉ Radio 1 FM 
+map==cbzG==0160 		# (cbgR) -- RTÉ Radio 1 FM 
 map==cbzG==0160 		# (cbgS) -- RTÉ Radio 1 FM 
 map==cbzG==0160 		# (cbgT) -- RTÉ Radio 1 FM 
 map==cbzG==0160 		# (cbgV) -- RTÉ Radio 1 FM 
@@ -38034,6 +38479,8 @@ map==cbzG==750 		# (cbhR) -- RTÉ Radio 1 FM
 map==cbzG==750 		# (cbhS) -- RTÉ Radio 1 FM 
 map==cbzG==750 		# (cbhT) -- RTÉ Radio 1 FM 
 map==cbzG==917 		# (cbjb) -- RTÉ Radio 1 FM 
+map==cbzG==200 		# (cbjQ) -- RTÉ Radio 1 FM 
+map==cbzG==200 		# (cbjP) -- RTÉ Radio 1 FM 
 map==cbzJ==0166 		# (cbfN) -- RTÉ Raidió na Gaeltachta 
 map==cbzJ==0166 		# (cbfP) -- RTÉ Raidió na Gaeltachta 
 map==cbzJ==0166 		# (cbfQ) -- RTÉ Raidió na Gaeltachta 
@@ -38133,6 +38580,8 @@ map==cbzJ==729 		# (cbjK) -- RTÉ Raidió na Gaeltachta
 map==cbzJ==729 		# (cbjM) -- RTÉ Raidió na Gaeltachta 
 map==cbzJ==729 		# (cbj7) -- RTÉ Raidió na Gaeltachta 
 map==cbzJ==729 		# (cbkn) -- RTÉ Raidió na Gaeltachta 
+map==cbzJ==204 		# (cbjQ) -- RTÉ Raidió na Gaeltachta 
+map==cbzJ==204 		# (cbjP) -- RTÉ Raidió na Gaeltachta 
 map==cbzV==0185 		# (cbfN) -- Spectrum Radio FM 
 map==cbzV==0185 		# (cbfP) -- Spectrum Radio FM 
 map==cbzV==0185 		# (cbfQ) -- Spectrum Radio FM 

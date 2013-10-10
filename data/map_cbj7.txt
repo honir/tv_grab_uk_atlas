@@ -1,4 +1,4 @@
-# CHANNELS for cbj7 - Northern Ireland
+# CHANNELS for region cbj7 - Northern Ireland
 # 'map' == channel id == channel number
 # 
 map==cbbj==1 

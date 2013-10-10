@@ -1,4 +1,4 @@
-# CHANNELS for cbgn - London (Essex)
+# CHANNELS for region cbgn - London (Essex)
 # 'map' == channel id == channel number
 # 
 map==cbbh==101 
@@ -23,6 +23,7 @@ map==cbd4==119
 map==cbd6==120 
 map==cbh2==121 
 map==cbnF==122 
+map==cbgd==123 
 map==cbmm==124 
 map==cbWQ==125 
 map==cbq5==126 
@@ -89,6 +90,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -178,6 +180,7 @@ map==cbfF==352
 map==cbhG==353 
 map==cbgb==354 
 map==cbgD==355 
+map==cbgC==356 
 map==cbm5==357 
 map==cbVt==358 
 map==cbfZ==359 
@@ -196,6 +199,7 @@ map==cbh7==376
 map==cbh5==382 
 map==cbmD==386 
 map==cbj8==401 
+map==cbj9==402 
 map==cbmj==403 
 map==cbnr==404 
 map==cbCn==405 
@@ -316,9 +320,12 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
+map==cbW2==808 
 map==cbTm==809 
 map==cbkY==814 
 map==cbXf==816 

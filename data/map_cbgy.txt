@@ -1,8 +1,9 @@
-# CHANNELS for cbgy - Meridian (East)
+# CHANNELS for region cbgy - Meridian (East)
 # 'map' == channel id == channel number
 # 
 map==cbbx==101 
 map==cbbG==102 
+map==cbdB==103 
 map==cbdj==104 
 map==cbdq==105 
 map==cbhf==106 
@@ -88,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgT==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -317,7 +319,9 @@ map==cbXb==783
 map==cbhH==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 

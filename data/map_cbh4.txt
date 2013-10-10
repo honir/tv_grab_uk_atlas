@@ -1,4 +1,4 @@
-# CHANNELS for cbh4 - Cambridge
+# CHANNELS for region cbh4 - Cambridge
 # 'map' == channel id == channel number
 # 
 map==cbTj==101 
@@ -86,8 +86,9 @@ map==cbfw==196
 map==cbm2==197 
 map==cbWd==200 
 map==cbDK==201 
-map==cbhT==203 
-map==cbhV==204 
+map==cbVP==203 
+map==cbhT==206 
+map==cbhV==207 
 map==cbjh==208 
 map==cbjk==209 
 map==cbjj==210 
@@ -163,6 +164,7 @@ map==cbT7==416
 map==cbXz==417 
 map==cbnQ==419 
 map==cbnR==420 
+map==cbjN==424 
 map==cbdm==428 
 map==cbhc==429 
 map==cbhd==430 
@@ -251,6 +253,7 @@ map==cbgX==805
 map==cbXf==807 
 map==cbfP==809 
 map==cbDj==810 
+map==cbXT==811 
 map==cbhC==815 
 map==cbXg==819 
 map==cbfN==825 

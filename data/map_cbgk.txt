@@ -1,4 +1,4 @@
-# CHANNELS for cbgk - Cumbria
+# CHANNELS for region cbgk - Cumbria
 # 'map' == channel id == channel number
 # 
 map==cbbr==101 
@@ -87,6 +87,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -145,6 +146,7 @@ map==cbkM==312
 map==cbm8==313 
 map==cbkp==314 
 map==cbhc==315 
+map==cbhd==316 
 map==cbT7==317 
 map==cbXz==318 
 map==cbjn==319 
@@ -194,6 +196,7 @@ map==cbh7==376
 map==cbh5==382 
 map==cbmD==386 
 map==cbj8==401 
+map==cbj9==402 
 map==cbmj==403 
 map==cbnr==404 
 map==cbCn==405 
@@ -314,9 +317,12 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
+map==cbW2==808 
 map==cbTm==809 
 map==cbkY==814 
 map==cbXf==816 

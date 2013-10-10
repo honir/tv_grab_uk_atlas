@@ -15,6 +15,7 @@ map==cbmx==watch.uktv.co.uk   				# 109 (2115) - Watch
 map==cbgw==gold.uktv.co.uk   				# 110 (288) - GOLD
 map==cbjc==dave.uktv.co.uk   				# 111 (2050) - Dave
 map==cbgV==comedycentral.com   				# 112 (1061) - Comedy Central
+map==cbgN==universalchannel.co.uk   				# 113 (180) - Universal Channel
 map==cbgR==uk.syfy.com   				# 114 (2212) - Syfy
 map==cbbP==bbcthree.bbc.co.uk   				# 115 (45) - BBC Three
 map==cbbQ==bbcfour.bbc.co.uk   				# 116 (47) - BBC Four
@@ -23,6 +24,7 @@ map==cbdZ==itv2.itv.co.uk   				# 118 (185) - ITV2
 map==cbd2==itv3.itv.co.uk   				# 119 (1859) - ITV3
 map==cbd5==itv4.itv.co.uk   				# 120 (1961) - ITV4
 map==cbh2==sky-two.sky.com   				# 121 (922) - Sky2
+map==cbnF==livingit.sky.com   				# 122 (2189) - Sky Livingit
 map==cbgd==plus-1.living.sky.com   				# 123 (841) - Sky Living +1
 map==cbjg==fxuk.tv   				# 124 (1461) - FOX
 map==cbWJ==   				# 125 () - TLC
@@ -50,8 +52,8 @@ map==cbm4==action.cbs.com   				# 148 (2178) - CBS Action
 map==cbm2==drama.cbs.com   				# 149 (2177) - CBS Drama
 map==cbgQ==plus-1.universalchannel.co.uk   				# 150 (2591) - Universal Channel +1
 map==cbh4==eentertainment.com   				# 151 (1421) - E! Entertainment
-map==cbjP==sky-three.sky.com   				# 152 (1963) - Pick TV
-map==cbjQ==plus-1.sky-three.sky.com   				# 153 (2647) - Pick TV +1
+map==cbjP==sky-three.sky.com   				# 152 (1963) - Pick
+map==cbjQ==plus-1.sky-three.sky.com   				# 153 (2647) - Pick +1
 map==cbmP==quest.discoveryeurope.com   				# 154 (2179) - Quest
 map==cbmy==plus-1.watch.uktv.co.uk   				# 155 (2116) - Watch +1
 map==cbhx==biography-channel.biography.com   				# 156 (119) - Bio
@@ -89,6 +91,7 @@ map==cbgS==plus-1.uk.syfy.com   				# 194 (2213) - Syfy +1
 map==cbWK==   				# 195 () - TLC+1
 map==cbgM==plus-1.alibi.uktv.co.uk   				# 196 (1993) - Alibi +1
 map==cbWc==   				# 197 () - Bio +1
+map==cbXV==   				# 200 () - TLC+2
 map==cbgT==hd.uk.syfy.com   				# 201 (2214) - Syfy HD
 map==cbdn==e4.channel4.com   				# 202 (158) - E4
 map==cbTq==   				# 203 () - My Channel TV
@@ -182,6 +185,7 @@ map==cbgC==vh1.co.uk   				# 356 (293) - VH1
 map==cbm5==uk.viva.tv   				# 357 (2184) - Viva
 map==cbmD==hd.live.mtv.co.uk   				# 358 (2150) - MTV Live
 map==cbfZ==thebox.co.uk   				# 359 (281) - The Box
+map==cbdp==4music.channel4.com   				# 360 (1544) - 4Music
 map==cbhp==kiss-tv.kiss100.com   				# 361 (609) - Kiss TV
 map==cbhX==smashhits.net   				# 362 (592) - Smash Hits!
 map==cbhW==magictv.co.uk   				# 363 (588) - Magic
@@ -290,7 +294,7 @@ map==cbk9==popfun.co.uk   				# 616 (2544) - Pop
 map==cbmb==tinypop.com   				# 617 (2543) - Tiny Pop
 map==cbg7==plus-1.boomerang.cartoonnetwork.com   				# 618 (129) - Boomerang +1
 map==cbkS==cartoonito.cartoonnetwork.com   				# 619 (1983) - Cartoonito
-map==cbnb==2.jr.nickelodeon.co.uk   				# 620 (2593) - Nick Jr. 2
+map==cbnb==2.jr.nickelodeon.co.uk   				# 620 (2593) - Nick Jr. Peppa
 map==cbfz==citv.itv.co.uk   				# 621 (1981) - CITV
 map==cbmX==   				# 622 () - Disney XD HD
 map==cbVs==   				# 623 () - Baby TV
@@ -317,7 +321,9 @@ map==cbXb==   				# 783 () - Star Life OK
 map==cbhH==star-plus.startv.com   				# 784 (591) - Star Plus
 map==cbfQ==phoenixcne.com   				# 785 (2246) - Phoenix CNE Channel
 map==cbfP==zeeuk.com   				# 788 (581) - Zee TV
+map==cbXT==   				# 789 () - Lamhe
 map==cbDj==   				# 790 () - Zee Cinema
+map==cbWD==   				# 798 () - Zing
 map==cbfN==tv5.org   				# 799 (276) - TV5
 map==cbXg==   				# 806 () - ARY News
 map==cbW2==   				# 808 () - Star Jalsha
@@ -367,13 +373,14 @@ map==cbpf==   				# 0109 () - 95.8 Capital FM
 map==cbyX==   				# 0110 () - Planet Rock
 map==cbyc==   				# 0112 () - LBC 97.3
 map==cbnW==   				# 0113 () - Xfm
-map==cbwj==   				# 0114 () - Choice FM
+map==cbwj==   				# 0114 () - Capital XTRA
 map==cbc4==   				# 0115 () - BBC World Service
 map==cbc5==   				# 0116 () - BBC Radio Scotland FM
 map==cbdb==   				# 0117 () - BBC Radio Wales
 map==cbc8==   				# 0118 () - BBC Radio Ulster
 map==cbDk==   				# 0119 () - BBC Asian Network
 map==cbcZ==   				# 0120 () - BBC Radio 6 Music
+map==cbw4==   				# 0121 () - Gold
 map==cbyd==   				# 0124 () - LBC News 1152
 map==cbvk==   				# 0128 () - 102.2 Smooth Radio
 map==cbdh==   				# 0131 () - BBC Radio 4 Extra

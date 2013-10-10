@@ -1,4 +1,4 @@
-# CHANNELS for cbf6 - West England
+# CHANNELS for region cbf6 - West England
 # 'map' == channel id == channel number
 # 
 map==cbbB==101 
@@ -90,6 +90,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -115,6 +116,7 @@ map==cbny==235
 map==cbWV==237 
 map==cbmd==238 
 map==cbWJ==239 
+map==cbhg==240 
 map==cbhh==241 
 map==cbjM==242 
 map==cbfT==246 
@@ -318,9 +320,12 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
+map==cbW2==808 
 map==cbTm==809 
 map==cbkY==814 
 map==cbXf==816 
@@ -372,6 +377,7 @@ map==cbnW==0113
 map==cbwj==0114 
 map==cbc4==0115 
 map==cbc5==0116 
+map==cbdb==0117 
 map==cbc8==0118 
 map==cbDk==0119 
 map==cbcZ==0120 

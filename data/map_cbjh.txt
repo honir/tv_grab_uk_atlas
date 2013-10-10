@@ -1,4 +1,4 @@
-# CHANNELS for cbjh - Scotland (North)
+# CHANNELS for region cbjh - Scotland (North)
 # 'map' == channel id == channel number
 # 
 map==cbbv==101 
@@ -88,8 +88,9 @@ map==cbfw==196
 map==cbm2==197 
 map==cbWd==200 
 map==cbDK==201 
-map==cbhT==203 
-map==cbhV==204 
+map==cbVP==203 
+map==cbhT==206 
+map==cbhV==207 
 map==cbjh==208 
 map==cbjk==209 
 map==cbjj==210 
@@ -254,6 +255,7 @@ map==cbgX==805
 map==cbXf==807 
 map==cbfP==809 
 map==cbDj==810 
+map==cbXT==811 
 map==cbhC==815 
 map==cbXg==819 
 map==cbfN==825 

@@ -1,4 +1,4 @@
-# CHANNELS for cbh2 - South West
+# CHANNELS for region cbh2 - South West
 # 'map' == channel id == channel number
 # 
 map==cbbz==101 
@@ -87,12 +87,15 @@ map==cbfw==196
 map==cbm2==197 
 map==cbWd==200 
 map==cbDK==201 
-map==cbhT==203 
+map==cbVP==203 
+map==cbhT==206 
+map==cbhV==207 
 map==cbjh==208 
 map==cbjk==209 
 map==cbjj==210 
 map==cbgF==211 
 map==cbj4==212 
+map==cbgG==213 
 map==cbf6==216 
 map==cbDN==217 
 map==cbf7==218 
@@ -168,6 +171,7 @@ map==cbhc==429
 map==cbhd==430 
 map==cbkr==431 
 map==cbnw==433 
+map==cbkt==434 
 map==cbkw==435 
 map==cbky==436 
 map==cbWz==437 
@@ -229,6 +233,7 @@ map==cbTV==714
 map==cbg5==715 
 map==cbnb==716 
 map==cbhQ==717 
+map==cbgy==724 
 map==cbgz==725 
 map==cbhq==727 
 map==cbg6==730 
@@ -249,6 +254,7 @@ map==cbgX==805
 map==cbXf==807 
 map==cbfP==809 
 map==cbDj==810 
+map==cbXT==811 
 map==cbhC==815 
 map==cbXg==819 
 map==cbfN==825 
@@ -277,6 +283,7 @@ map==cbvP==951
 map==cbn4==952 
 map==cbpf==958 
 map==cbw4==959 
+map==cbn6==963 
 map==cbnW==965 
 map==cbwj==969 
 map==cbyc==973 

@@ -1,4 +1,4 @@
-# CHANNELS for cbgS - Anglia
+# CHANNELS for region cbgS - Anglia
 # 'map' == channel id == channel number
 # 
 map==cbbn==101 
@@ -80,6 +80,7 @@ map==cbnd==184
 map==cbTH==185 
 map==cbV7==186 
 map==cbnT==187 
+map==cbmm==188 
 map==cbmC==189 
 map==cbnS==190 
 map==cbV6==191 
@@ -88,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgT==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -151,6 +153,7 @@ map==cbgZ==317
 map==cbXz==318 
 map==cbjn==319 
 map==cbjp==320 
+map==cbjN==321 
 map==cbmr==322 
 map==cbD6==323 
 map==cbB7==324 
@@ -160,6 +163,7 @@ map==cbnQ==327
 map==cbnR==328 
 map==cbnw==330 
 map==cbkJ==331 
+map==cbWz==332 
 map==cbky==333 
 map==cbkw==334 
 map==cbkt==335 
@@ -315,7 +319,9 @@ map==cbXb==783
 map==cbhH==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 
@@ -376,6 +382,7 @@ map==cbDk==0119
 map==cbcZ==0120 
 map==cbw4==0121 
 map==cbyd==0124 
+map==cbvk==0128 
 map==cbdh==0131 
 map==cbcR==0137 
 map==cbc7==0139 

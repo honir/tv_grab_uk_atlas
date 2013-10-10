@@ -1,4 +1,4 @@
-# CHANNELS for cbgR - London (Thames Valley)
+# CHANNELS for region cbgR - London (Thames Valley)
 # 'map' == channel id == channel number
 # 
 map==cbbw==101 
@@ -90,6 +90,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgT==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -153,6 +154,7 @@ map==cbgZ==317
 map==cbXz==318 
 map==cbjn==319 
 map==cbjp==320 
+map==cbjN==321 
 map==cbmr==322 
 map==cbD6==323 
 map==cbB7==324 
@@ -208,6 +210,7 @@ map==cbmj==409
 map==cbhm==410 
 map==cbjx==411 
 map==cbhn==412 
+map==cbW8==413 
 map==cbW7==414 
 map==cbhP==415 
 map==cbmS==417 
@@ -317,7 +320,9 @@ map==cbXb==783
 map==cbhH==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 
@@ -387,6 +392,7 @@ map==cbcX==0144
 map==cbzw==0146 
 map==cbbZ==0152 
 map==cbdf==0154 
+map==cbzG==0160 
 map==cbzF==0165 
 map==cbzJ==0166 
 map==cbn6==0178 

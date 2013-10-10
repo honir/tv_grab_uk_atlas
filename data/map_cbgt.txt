@@ -1,4 +1,4 @@
-# CHANNELS for cbgt - North West
+# CHANNELS for region cbgt - North West
 # 'map' == channel id == channel number
 # 
 map==cbbs==101 
@@ -57,6 +57,7 @@ map==cbmy==155
 map==cbhx==156 
 map==cbCc==157 
 map==cbjd==158 
+map==cbjC==159 
 map==cbfJ==160 
 map==cbfS==164 
 map==cbnC==165 
@@ -88,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgT==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -317,7 +319,9 @@ map==cbXb==783
 map==cbhH==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 

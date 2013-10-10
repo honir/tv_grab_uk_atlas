@@ -1,4 +1,4 @@
-# CHANNELS for cbjC - Scotland (Borders)
+# CHANNELS for region cbjC - Scotland (Borders)
 # 'map' == channel id == channel number
 # 
 map==cbbv==1 

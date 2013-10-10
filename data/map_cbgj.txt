@@ -1,4 +1,4 @@
-# CHANNELS for cbgj - East Midlands
+# CHANNELS for region cbgj - East Midlands
 # 'map' == channel id == channel number
 # 
 map==cbbp==101 
@@ -80,6 +80,7 @@ map==cbnd==184
 map==cbTH==185 
 map==cbV7==186 
 map==cbnT==187 
+map==cbjg==188 
 map==cbmC==189 
 map==cbnS==190 
 map==cbV6==191 
@@ -88,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -196,6 +198,7 @@ map==cbh7==376
 map==cbh5==382 
 map==cbmD==386 
 map==cbj8==401 
+map==cbj9==402 
 map==cbmj==403 
 map==cbnr==404 
 map==cbCn==405 
@@ -210,6 +213,7 @@ map==cbW9==413
 map==cbW6==414 
 map==cbhP==415 
 map==cbmT==417 
+map==cbhj==418 
 map==cbhF==419 
 map==cbjr==421 
 map==cbW8==426 
@@ -315,7 +319,9 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 

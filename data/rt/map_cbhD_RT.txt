@@ -30,6 +30,7 @@ map==cbfw==plus-1.more4.channel4.com   				# 125 (1972) - More4 +1
 map==cbfg==hd.channel4.com   				# 126 (2056) - Channel 4 HD
 map==cbB2==   				# 127 (2701) - 4seven
 map==cbdr==plus-1.channel5.co.uk   				# 128 (2699) - Channel 5 +1
+map==cbdv==fiveusa.channel5.co.uk   				# 129 (2008) - 5USA
 map==cbnH==plus-1.fiveusa.channel5.co.uk   				# 130 (2577) - 5USA +1
 map==cbdt==fiver.channel5.co.uk   				# 131 (2062) - 5*
 map==cbfB==plus-1.fiver.channel5.co.uk   				# 132 (2578) - 5* +1
@@ -43,7 +44,7 @@ map==cbnT==international.bet.com   				# 140 (2244) - BET:BlackEntTV
 map==cbnS==plus-1.international.bet.com   				# 141 (2597) - BET:BlackEntTV +1
 map==cbnd==entertainment.truemovies.tv   				# 142 (2603) - True Entertainment
 map==cbTH==   				# 143 () - more>movies
-map==cbjP==sky-three.sky.com   				# 144 (1963) - Pick TV
+map==cbjP==sky-three.sky.com   				# 144 (1963) - Pick
 map==cbfR==challengetv.co.uk   				# 145 (131) - Challenge
 map==cbm5==uk.viva.tv   				# 146 (2184) - Viva
 map==cbbR==news.bbc.co.uk   				# 200 (48) - BBC News Channel
@@ -75,6 +76,7 @@ map==cbmk==essentialflava.com   				# 502 (2551) - Flava
 map==cbh5==mydancenation.com   				# 503 (2457) - Chart Show Dance
 map==cbhC==b4utv.com   				# 504 (43) - B4U Movies
 map==cbh7==bliss.co.uk   				# 506 (1144) - Bliss
+map==cbWD==   				# 509 () - Zing
 map==cbDw==   				# 515 () - Vintage TV
 map==cbhp==kiss-tv.kiss100.com   				# 518 (609) - Kiss TV
 map==cbfZ==thebox.co.uk   				# 519 (281) - The Box
@@ -108,7 +110,7 @@ map==cbdf==   				# 715 () - BBC Radio Cymru
 map==cbc8==   				# 716 () - BBC Radio Ulster
 map==cbbZ==   				# 718 () - BBC London 94.9
 map==cbpf==   				# 719 () - 95.8 Capital FM
-map==cbwj==   				# 720 () - Choice FM
+map==cbwj==   				# 720 () - Capital XTRA
 map==cbn8==   				# 721 () - Classic FM
 map==cbw4==   				# 722 () - Gold
 map==cbnW==   				# 723 () - Xfm

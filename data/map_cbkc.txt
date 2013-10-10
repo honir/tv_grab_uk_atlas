@@ -1,4 +1,4 @@
-# CHANNELS for cbkc - East
+# CHANNELS for region cbkc - East
 # 'map' == channel id == channel number
 # 
 map==cbbn==1 

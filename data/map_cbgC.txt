@@ -1,4 +1,4 @@
-# CHANNELS for cbgC - Scotland (Borders)
+# CHANNELS for region cbgC - Scotland (Borders)
 # 'map' == channel id == channel number
 # 
 map==cbbv==101 
@@ -90,6 +90,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgT==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -141,6 +142,7 @@ map==cbWy==305
 map==cbkx==306 
 map==cbkv==307 
 map==cbks==308 
+map==cbkm==309 
 map==cbkz==310 
 map==cbkC==311 
 map==cbkK==312 
@@ -315,9 +317,12 @@ map==cbj6==752
 map==cbhC==780 
 map==cbgX==782 
 map==cbXb==783 
+map==cbhH==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 

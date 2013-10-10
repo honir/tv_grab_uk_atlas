@@ -1,4 +1,4 @@
-# CHANNELS for cbgz - Meridian (West)
+# CHANNELS for region cbgz - Meridian (West)
 # 'map' == channel id == channel number
 # 
 map==cbbw==101 
@@ -46,9 +46,11 @@ map==cbnD==143
 map==cbmc==144 
 map==cbmZ==146 
 map==cbDK==147 
+map==cbm4==148 
 map==cbm2==149 
 map==cbgQ==150 
 map==cbh4==151 
+map==cbjP==152 
 map==cbjQ==153 
 map==cbmP==154 
 map==cbmy==155 
@@ -87,6 +89,8 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
+map==cbgT==201 
 map==cbdn==202 
 map==cbTq==203 
 map==cbgP==204 
@@ -104,6 +108,7 @@ map==cbkR==222
 map==cbmJ==223 
 map==cbd5==228 
 map==cbWd==229 
+map==cbfg==230 
 map==cbnt==231 
 map==cbVw==233 
 map==cbgf==235 
@@ -300,6 +305,7 @@ map==cbDh==631
 map==cbTV==632 
 map==cbDY==634 
 map==cbg8==640 
+map==cbTZ==644 
 map==cbjf==645 
 map==cbkT==649 
 map==cbkX==652 
@@ -313,7 +319,9 @@ map==cbXb==783
 map==cbhH==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 

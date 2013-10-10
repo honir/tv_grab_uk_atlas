@@ -1,4 +1,4 @@
-# CHANNELS for cbhT - West Midlands
+# CHANNELS for region cbhT - West Midlands
 # 'map' == channel id == channel number
 # 
 map==cbbC==101 
@@ -10,6 +10,7 @@ map==cbbP==106
 map==cbbQ==107 
 map==cbbq==108 
 map==cbWw==109 
+map==cbnD==110 
 map==cbdQ==112 
 map==cbdZ==113 
 map==cbfr==114 
@@ -59,6 +60,7 @@ map==cbWf==210
 map==cbWS==215 
 map==cbdm==300 
 map==cbhd==301 
+map==cbjN==302 
 map==cbmr==303 
 map==cbmp==304 
 map==cbmq==305 
@@ -72,6 +74,7 @@ map==cbmk==502
 map==cbh5==503 
 map==cbhC==504 
 map==cbh7==506 
+map==cbWD==509 
 map==cbDw==515 
 map==cbhp==518 
 map==cbfZ==519 
@@ -139,6 +142,7 @@ map==cbTg==958
 map==cbbx==959 
 map==cbbv==960 
 map==cbbw==961 
+map==cbbz==962 
 map==cbbC==963 
 map==cbby==964 
 map==cbbB==965 

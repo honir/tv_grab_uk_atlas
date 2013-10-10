@@ -1,4 +1,4 @@
-# CHANNELS for cbgv - North Yorkshire
+# CHANNELS for region cbgv - North Yorkshire
 # 'map' == channel id == channel number
 # 
 map==cbbF==101 
@@ -75,6 +75,7 @@ map==cbCp==178
 map==cbfr==179 
 map==cbfv==180 
 map==cbDP==181 
+map==cbmG==183 
 map==cbnd==184 
 map==cbTH==185 
 map==cbV7==186 
@@ -88,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgT==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -267,6 +269,7 @@ map==cbWS==551
 map==cbkd==553 
 map==cbkf==554 
 map==cbkd==555 
+map==cbgn==557 
 map==cbgF==561 
 map==cbjk==563 
 map==cbf4==580 
@@ -316,7 +319,9 @@ map==cbXb==783
 map==cbhH==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 

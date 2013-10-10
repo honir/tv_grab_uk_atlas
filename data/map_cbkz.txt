@@ -1,4 +1,4 @@
-# CHANNELS for cbkz - Channel Islands
+# CHANNELS for region cbkz - Channel Islands
 # 'map' == channel id == channel number
 # 
 map==cbTh==1 

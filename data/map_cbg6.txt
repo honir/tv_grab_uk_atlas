@@ -1,4 +1,4 @@
-# CHANNELS for cbg6 - West Midlands
+# CHANNELS for region cbg6 - West Midlands
 # 'map' == channel id == channel number
 # 
 map==cbbC==1 

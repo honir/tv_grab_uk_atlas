@@ -1,0 +1,19 @@
+# CHANNELS for platform cbjQ - Saorsat
+# 'map' == channel id == channel number
+# 
+map==cbfk==1 
+map==cbFr==2 
+map==cbTb==3 
+map==cbfn==4 
+map==cbTs==7 
+map==cbTv==8 
+map==cbzG==200 
+map==cbV2==201 
+map==cbvz==202 
+map==cbzF==203 
+map==cbzJ==204 
+map==cbWr==205 
+map==cbWs==206 
+map==cbWt==207 
+map==cbB5==208 
+map==cbCF==209 

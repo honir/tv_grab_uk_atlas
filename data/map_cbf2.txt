@@ -1,4 +1,4 @@
-# CHANNELS for cbf2 - South Lakeland
+# CHANNELS for region cbf2 - South Lakeland
 # 'map' == channel id == channel number
 # 
 map==cbbs==101 
@@ -88,6 +88,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -177,6 +178,7 @@ map==cbfF==352
 map==cbhG==353 
 map==cbgb==354 
 map==cbgD==355 
+map==cbgC==356 
 map==cbm5==357 
 map==cbVt==358 
 map==cbfZ==359 
@@ -231,6 +233,7 @@ map==cbbR==503
 map==cbbT==504 
 map==cbWf==505 
 map==cbfY==506 
+map==cbTt==507 
 map==cbhB==508 
 map==cbVF==512 
 map==cbVy==513 
@@ -265,6 +268,7 @@ map==cbWS==551
 map==cbmM==553 
 map==cbkf==554 
 map==cbkd==555 
+map==cbgn==557 
 map==cbgF==561 
 map==cbjh==563 
 map==cbf4==580 
@@ -314,9 +318,12 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
+map==cbW2==808 
 map==cbTm==809 
 map==cbkY==814 
 map==cbXf==816 

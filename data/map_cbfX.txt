@@ -1,4 +1,4 @@
-# CHANNELS for cbfX - Scotland (Central)
+# CHANNELS for region cbfX - Scotland (Central)
 # 'map' == channel id == channel number
 # 
 map==cbbv==101 
@@ -89,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -214,6 +215,7 @@ map==cbhP==415
 map==cbmT==417 
 map==cbhj==418 
 map==cbhF==419 
+map==cbjr==421 
 map==cbW8==426 
 map==cbW7==427 
 map==cbTp==428 
@@ -317,9 +319,12 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
+map==cbW2==808 
 map==cbTm==809 
 map==cbkY==814 
 map==cbXf==816 

@@ -1,4 +1,4 @@
-# CHANNELS for cbh8 - North West
+# CHANNELS for region cbh8 - North West
 # 'map' == channel id == channel number
 # 
 map==cbbs==101 
@@ -88,8 +88,9 @@ map==cbfw==196
 map==cbm2==197 
 map==cbWd==200 
 map==cbDK==201 
-map==cbhT==203 
-map==cbhV==204 
+map==cbVP==203 
+map==cbhT==206 
+map==cbhV==207 
 map==cbjh==208 
 map==cbjk==209 
 map==cbjj==210 
@@ -194,8 +195,10 @@ map==999==516
 map==cbj8==517 
 map==cbj9==518 
 map==cbhm==521 
+map==cbhn==522 
 map==cbjx==525 
 map==cbV9==526 
+map==cbhF==527 
 map==cbhj==528 
 map==cbmS==529 
 map==cbmT==530 
@@ -252,6 +255,7 @@ map==cbgX==805
 map==cbXf==807 
 map==cbfP==809 
 map==cbDj==810 
+map==cbXT==811 
 map==cbhC==815 
 map==cbXg==819 
 map==cbfN==825 

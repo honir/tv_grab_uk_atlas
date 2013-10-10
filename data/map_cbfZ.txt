@@ -1,4 +1,4 @@
-# CHANNELS for cbfZ - Scotland (Borders)
+# CHANNELS for region cbfZ - Scotland (Borders)
 # 'map' == channel id == channel number
 # 
 map==cbbv==101 
@@ -51,6 +51,7 @@ map==cbm4==148
 map==cbm2==149 
 map==cbgQ==150 
 map==cbVw==151 
+map==cbjP==152 
 map==cbjQ==153 
 map==cbmP==154 
 map==cbmy==155 
@@ -89,6 +90,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -103,6 +105,7 @@ map==cbhf==216
 map==cbfB==219 
 map==cbfH==220 
 map==cbjw==221 
+map==cbhz==222 
 map==cbmz==223 
 map==cbd5==228 
 map==cbgK==229 
@@ -213,6 +216,7 @@ map==cbhP==415
 map==cbmT==417 
 map==cbhj==418 
 map==cbhF==419 
+map==cbjr==421 
 map==cbW8==426 
 map==cbW7==427 
 map==cbTp==428 
@@ -316,9 +320,12 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
+map==cbW2==808 
 map==cbTm==809 
 map==cbkY==814 
 map==cbXf==816 

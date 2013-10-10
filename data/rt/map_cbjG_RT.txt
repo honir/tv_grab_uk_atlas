@@ -13,7 +13,7 @@ map==cbbP==bbcthree.bbc.co.uk   				# 7 (45) - BBC Three
 map==cbnD==alba.bbc.co.uk   				# 8 (2098) - BBC Alba
 map==cbbQ==bbcfour.bbc.co.uk   				# 9 (47) - BBC Four
 map==cbd2==itv3.itv.co.uk   				# 10 (1859) - ITV3
-map==cbjP==sky-three.sky.com   				# 11 (1963) - Pick TV
+map==cbjP==sky-three.sky.com   				# 11 (1963) - Pick
 map==cbjc==dave.uktv.co.uk   				# 12 (2050) - Dave
 map==cbff==plus-1.channel4.com   				# 13 (2047) - Channel 4 +1
 map==cbdk==more4.channel4.com   				# 14 (1959) - More4

@@ -1,4 +1,4 @@
-# CHANNELS for cbhn - London
+# CHANNELS for region cbhn - London
 # 'map' == channel id == channel number
 # 
 map==cbbh==1 

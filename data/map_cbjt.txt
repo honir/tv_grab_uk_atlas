@@ -1,4 +1,4 @@
-# CHANNELS for cbjt - London
+# CHANNELS for region cbjt - London
 # 'map' == channel id == channel number
 # 
 map==cbbh==1 

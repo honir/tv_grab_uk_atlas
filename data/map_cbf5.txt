@@ -1,4 +1,4 @@
-# CHANNELS for cbf5 - West Dorset
+# CHANNELS for region cbf5 - West Dorset
 # 'map' == channel id == channel number
 # 
 map==cbbz==101 
@@ -85,9 +85,11 @@ map==cbmC==189
 map==cbnS==190 
 map==cbV6==191 
 map==cbTN==193 
+map==cbgS==194 
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -317,9 +319,12 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
+map==cbW2==808 
 map==cbTm==809 
 map==cbkY==814 
 map==cbXf==816 

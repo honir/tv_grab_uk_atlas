@@ -1,4 +1,4 @@
-# CHANNELS for cbjV - South East
+# CHANNELS for region cbjV - South East
 # 'map' == channel id == channel number
 # 
 map==cbbx==1 

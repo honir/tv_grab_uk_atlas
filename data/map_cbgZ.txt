@@ -1,4 +1,4 @@
-# CHANNELS for cbgZ - London (Kent)
+# CHANNELS for region cbgZ - London (Kent)
 # 'map' == channel id == channel number
 # 
 map==cbbh==101 
@@ -90,6 +90,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgT==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -166,6 +167,7 @@ map==cbkJ==331
 map==cbWz==332 
 map==cbky==333 
 map==cbkw==334 
+map==cbkt==335 
 map==cbkn==336 
 map==cbkB==337 
 map==cbkD==339 
@@ -239,6 +241,7 @@ map==cbTn==512
 map==cbVy==513 
 map==cbkN==514 
 map==cbf9==516 
+map==cbVF==518 
 map==cbj4==520 
 map==cbgG==521 
 map==cbmF==522 
@@ -292,6 +295,7 @@ map==cbg7==618
 map==cbkS==619 
 map==cbnb==620 
 map==cbfz==621 
+map==cbmX==622 
 map==cbVs==623 
 map==cbCR==625 
 map==cbDH==626 
@@ -306,6 +310,7 @@ map==cbTZ==644
 map==cbjf==645 
 map==cbkT==649 
 map==cbkX==652 
+map==cbhy==654 
 map==cbVm==671 
 map==cbfW==743 
 map==cbj6==752 
@@ -315,6 +320,9 @@ map==cbXb==783
 map==cbhH==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
+map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 
@@ -356,6 +364,7 @@ map==cbff==974
 map==cbdj==974 
 map==cbcQ==0101 
 map==cbcS==0102 
+map==cbcT==0103 
 map==cbcV==0104 
 map==cbcW==0105 
 map==cbn8==0106 
@@ -381,6 +390,7 @@ map==cbc7==0139
 map==cbdg==0143 
 map==cbcX==0144 
 map==cbzw==0146 
+map==cbbZ==0152 
 map==cbdf==0154 
 map==cbzG==0160 
 map==cbzF==0165 

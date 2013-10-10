@@ -1,6 +1,7 @@
-# CHANNELS for cbgq - Republic of Ireland
+# CHANNELS for region cbgq - Republic of Ireland
 # 'map' == channel id == channel number
 # 
+map==cbfk==101 
 map==cbfm==102 
 map==cbfp==103 
 map==cbfn==104 
@@ -40,6 +41,7 @@ map==cbnD==143
 map==cbmc==144 
 map==cbmZ==146 
 map==cbDK==147 
+map==cbm4==148 
 map==cbm2==149 
 map==cbgQ==150 
 map==cbh4==151 
@@ -74,6 +76,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgT==201 
 map==cbft==202 
 map==cbTq==203 
@@ -149,6 +152,7 @@ map==cbWz==332
 map==cbky==333 
 map==cbkw==334 
 map==cbkt==335 
+map==cbkn==336 
 map==cbkB==337 
 map==cbkD==339 
 map==cbkM==340 
@@ -290,7 +294,9 @@ map==cbXb==783
 map==cbhH==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 

@@ -1,4 +1,4 @@
-# CHANNELS for cbks - Wales
+# CHANNELS for region cbks - Wales
 # 'map' == channel id == channel number
 # 
 map==cbby==1 

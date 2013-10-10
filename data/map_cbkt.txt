@@ -1,4 +1,4 @@
-# CHANNELS for cbkt - Scotland (Central)
+# CHANNELS for region cbkt - Scotland (Central)
 # 'map' == channel id == channel number
 # 
 map==cbbv==1 

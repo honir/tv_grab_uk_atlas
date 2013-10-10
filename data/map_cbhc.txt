@@ -1,4 +1,4 @@
-# CHANNELS for cbhc - Cambridgeshire
+# CHANNELS for region cbhc - Cambridgeshire
 # 'map' == channel id == channel number
 # 
 map==cbTj==1 

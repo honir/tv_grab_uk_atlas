@@ -1,4 +1,4 @@
-# CHANNELS for cbkh - South
+# CHANNELS for region cbkh - South
 # 'map' == channel id == channel number
 # 
 map==cbbw==1 

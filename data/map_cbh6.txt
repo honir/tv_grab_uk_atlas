@@ -1,4 +1,4 @@
-# CHANNELS for cbh6 - East Midlands
+# CHANNELS for region cbh6 - East Midlands
 # 'map' == channel id == channel number
 # 
 map==cbbp==101 
@@ -88,8 +88,9 @@ map==cbfw==196
 map==cbm2==197 
 map==cbWd==200 
 map==cbDK==201 
-map==cbhT==203 
-map==cbhV==204 
+map==cbVP==203 
+map==cbhT==206 
+map==cbhV==207 
 map==cbjh==208 
 map==cbjk==209 
 map==cbjj==210 
@@ -205,6 +206,7 @@ map==cbhP==534
 map==cbjq==536 
 map==cbDQ==544 
 map==cbjK==545 
+map==cbW8==547 
 map==cbW7==548 
 map==cbW9==549 
 map==cbW6==550 
@@ -214,6 +216,7 @@ map==cbfY==607
 map==cbfX==609 
 map==cbbT==612 
 map==cbWf==613 
+map==cbhB==620 
 map==cbkN==622 
 map==cbVy==624 
 map==cbTt==625 
@@ -252,6 +255,7 @@ map==cbgX==805
 map==cbXf==807 
 map==cbfP==809 
 map==cbDj==810 
+map==cbXT==811 
 map==cbhC==815 
 map==cbXg==819 
 map==cbfN==825 
@@ -266,6 +270,7 @@ map==cbcR==907
 map==cbcX==908 
 map==cbcZ==909 
 map==cbdh==910 
+map==cbDk==912 
 map==cbBB==914 
 map==cbnX==915 
 map==cbvk==916 

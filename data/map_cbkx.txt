@@ -1,4 +1,4 @@
-# CHANNELS for cbkx - North West
+# CHANNELS for region cbkx - North West
 # 'map' == channel id == channel number
 # 
 map==cbbs==1 

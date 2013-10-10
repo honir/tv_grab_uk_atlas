@@ -1,4 +1,4 @@
-# CHANNELS for cbgf - Anglia
+# CHANNELS for region cbgf - Anglia
 # 'map' == channel id == channel number
 # 
 map==cbbn==101 
@@ -89,11 +89,13 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
 map==cbgN==204 
 map==cbgV==205 
+map==cbfy==206 
 map==cbdZ==207 
 map==cbd2==208 
 map==cbjc==213 
@@ -317,7 +319,9 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 

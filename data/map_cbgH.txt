@@ -1,4 +1,4 @@
-# CHANNELS for cbgH - West Dorset
+# CHANNELS for region cbgH - West Dorset
 # 'map' == channel id == channel number
 # 
 map==cbbz==101 
@@ -89,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgT==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -209,7 +210,9 @@ map==cbhm==410
 map==cbjx==411 
 map==cbhn==412 
 map==cbW8==413 
+map==cbW7==414 
 map==cbhP==415 
+map==cbmS==417 
 map==cbhj==418 
 map==cbhF==419 
 map==cbjr==421 
@@ -316,7 +319,9 @@ map==cbXb==783
 map==cbhH==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 

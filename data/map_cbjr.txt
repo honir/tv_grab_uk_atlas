@@ -1,4 +1,4 @@
-# CHANNELS for cbjr - North East
+# CHANNELS for region cbjr - North East
 # 'map' == channel id == channel number
 # 
 map==cbbr==1 

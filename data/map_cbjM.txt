@@ -1,4 +1,4 @@
-# CHANNELS for cbjM - Oxfordshire
+# CHANNELS for region cbjM - Oxfordshire
 # 'map' == channel id == channel number
 # 
 map==cbTg==1 

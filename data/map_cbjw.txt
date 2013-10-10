@@ -1,4 +1,4 @@
-# CHANNELS for cbjw - Yorkshire & Lincolnshire
+# CHANNELS for region cbjw - Yorkshire & Lincolnshire
 # 'map' == channel id == channel number
 # 
 map==cbbD==1 

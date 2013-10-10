@@ -1,4 +1,4 @@
-# CHANNELS for cbfP - Oxford
+# CHANNELS for region cbfP - Oxford
 # 'map' == channel id == channel number
 # 
 map==cbTg==101 
@@ -89,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -279,6 +280,7 @@ map==cbTV==604
 map==cbg2==605 
 map==cbhQ==606 
 map==cbmX==607 
+map==cbmW==608 
 map==cbDh==609 
 map==cbgz==610 
 map==cbWP==611 
@@ -317,7 +319,9 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 

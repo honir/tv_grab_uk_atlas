@@ -1,4 +1,4 @@
-# CHANNELS for cbf7 - West Midlands
+# CHANNELS for region cbf7 - West Midlands
 # 'map' == channel id == channel number
 # 
 map==cbbC==101 
@@ -89,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -140,6 +141,7 @@ map==cbWz==305
 map==cbky==306 
 map==cbkw==307 
 map==cbkt==308 
+map==cbkn==309 
 map==cbkB==310 
 map==cbkD==311 
 map==cbkM==312 
@@ -293,6 +295,7 @@ map==cbkS==619
 map==cbnb==620 
 map==cbfz==621 
 map==cbmV==622 
+map==cbVs==623 
 map==cbCR==625 
 map==cbDH==626 
 map==cbhq==628 
@@ -316,7 +319,9 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 
@@ -370,6 +375,7 @@ map==cbnW==0113
 map==cbwj==0114 
 map==cbc4==0115 
 map==cbc5==0116 
+map==cbdb==0117 
 map==cbc8==0118 
 map==cbDk==0119 
 map==cbcZ==0120 

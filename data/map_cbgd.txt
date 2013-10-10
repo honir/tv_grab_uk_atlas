@@ -1,4 +1,4 @@
-# CHANNELS for cbgd - London (Thames Valley)
+# CHANNELS for region cbgd - London (Thames Valley)
 # 'map' == channel id == channel number
 # 
 map==cbbh==101 
@@ -24,12 +24,14 @@ map==cbd6==120
 map==cbh2==121 
 map==cbnF==122 
 map==cbgd==123 
+map==cbmm==124 
 map==cbWQ==125 
 map==cbq5==126 
 map==cbgW==127 
 map==cbjB==128 
 map==cbkR==129 
 map==cbmJ==130 
+map==cbdS==131 
 map==cbWd==132 
 map==cbgx==133 
 map==cbfh==134 
@@ -43,6 +45,7 @@ map==cbbq==141
 map==cbWw==142 
 map==cbnD==143 
 map==cbmc==144 
+map==cbmZ==146 
 map==cbDK==147 
 map==cbm4==148 
 map==cbm2==149 
@@ -87,6 +90,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgR==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -163,6 +167,7 @@ map==cbkH==331
 map==cbWy==332 
 map==cbkx==333 
 map==cbkv==334 
+map==cbks==335 
 map==cbkm==336 
 map==cbkz==337 
 map==cbkC==339 
@@ -305,6 +310,7 @@ map==cbTZ==644
 map==cbjf==645 
 map==cbkT==649 
 map==cbkX==652 
+map==cbhy==654 
 map==cbVm==671 
 map==cbfW==743 
 map==cbj6==752 
@@ -314,7 +320,9 @@ map==cbXb==783
 map==cbV8==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 

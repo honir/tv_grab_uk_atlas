@@ -1,4 +1,4 @@
-# CHANNELS for cbjm - West Midlands
+# CHANNELS for region cbjm - West Midlands
 # 'map' == channel id == channel number
 # 
 map==cbbC==1 

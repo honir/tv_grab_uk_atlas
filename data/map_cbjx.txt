@@ -1,4 +1,4 @@
-# CHANNELS for cbjx - Wales
+# CHANNELS for region cbjx - Wales
 # 'map' == channel id == channel number
 # 
 map==cbby==1 

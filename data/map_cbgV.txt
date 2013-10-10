@@ -1,4 +1,4 @@
-# CHANNELS for cbgV - Henley on Thames
+# CHANNELS for region cbgV - Henley on Thames
 # 'map' == channel id == channel number
 # 
 map==cbTg==101 
@@ -89,6 +89,7 @@ map==cbgS==194
 map==cbWK==195 
 map==cbgM==196 
 map==cbWc==197 
+map==cbXV==200 
 map==cbgT==201 
 map==cbdn==202 
 map==cbTq==203 
@@ -152,6 +153,7 @@ map==cbgZ==317
 map==cbXz==318 
 map==cbjn==319 
 map==cbjp==320 
+map==cbjN==321 
 map==cbmr==322 
 map==cbD6==323 
 map==cbB7==324 
@@ -283,6 +285,7 @@ map==cbgy==609
 map==cbgz==610 
 map==cbhq==611 
 map==cbhr==612 
+map==cbbW==613 
 map==cbbX==614 
 map==cbg5==615 
 map==cbk9==616 
@@ -316,7 +319,9 @@ map==cbXb==783
 map==cbhH==784 
 map==cbfQ==785 
 map==cbfP==788 
+map==cbXT==789 
 map==cbDj==790 
+map==cbWD==798 
 map==cbfN==799 
 map==cbXg==806 
 map==cbW2==808 

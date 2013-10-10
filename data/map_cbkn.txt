@@ -1,4 +1,4 @@
-# CHANNELS for cbkn - Northern Ireland
+# CHANNELS for region cbkn - Northern Ireland
 # 'map' == channel id == channel number
 # 
 map==cbbj==1 

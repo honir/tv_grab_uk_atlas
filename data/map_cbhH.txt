@@ -1,4 +1,4 @@
-# CHANNELS for cbhH - Oxfordshire
+# CHANNELS for region cbhH - Oxfordshire
 # 'map' == channel id == channel number
 # 
 map==cbTg==101 
@@ -61,6 +61,7 @@ map==cbWS==215
 map==cbdm==300 
 map==cbhd==301 
 map==cbjN==302 
+map==cbmr==303 
 map==cbmp==304 
 map==cbmq==305 
 map==cbV6==400 
@@ -73,6 +74,7 @@ map==cbmk==502
 map==cbh5==503 
 map==cbhC==504 
 map==cbh7==506 
+map==cbWD==509 
 map==cbDw==515 
 map==cbhp==518 
 map==cbfZ==519 
