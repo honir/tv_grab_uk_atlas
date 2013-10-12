@@ -91,7 +91,7 @@ $dst 		 = "--dst" 							if $hasdst;
 
 
 # run the grabber (& capture the output)
-system("perl $ENV{'HOME'}/tv_grab_uk_atlas.pl --quiet $action $channel $dst 1>/tmp/tv_grab_uk_atlas.stdout 2>/tmp/tv_grab_uk_atlas.stderr ");
+system("perl $ENV{'HOME'}/tv_grab_uk_atlas --quiet $action $channel $dst 1>/tmp/tv_grab_uk_atlas.stdout 2>/tmp/tv_grab_uk_atlas.stderr ");
 
 my $result = '';
 open(my $fh, '<', '/tmp/tv_grab_uk_atlas.stderr')

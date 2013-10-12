@@ -14,7 +14,7 @@ Download and copy the files to the following locations:
 
 /usr/bin
 --------
-tv_grab_uk_atlas.pl   (and make sure it has execute permission)
+tv_grab_uk_atlas   (and make sure it has execute permission)
 
 $HOME/.xmltv
 ------------
