@@ -1,4 +1,8 @@
 
+1.010  12-Oct-2013  Additional person roles
+                    Fix for platforms with no regions (e.g. Saorview)
+                    Modified method for determining programme's Title / Sub-title
+                    Add 'role' attribute to actors
 1.009  3-Oct-2013   Map genre to multiple out values
                     Allow genre removal
 1.008  28-Sep-2013  Fix --list-channels
