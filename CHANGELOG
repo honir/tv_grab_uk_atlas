@@ -1,4 +1,5 @@
 
+1.011  14-Oct-2013  Add 'episode_num' tag with the Atlas ids for brand, series and item
 1.010  12-Oct-2013  Additional person roles
                     Fix for platforms with no regions (e.g. Saorview)
                     Modified method for determining programme's Title / Sub-title

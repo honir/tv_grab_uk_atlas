@@ -6,7 +6,7 @@
 #
 # 
 
-my $_version 	= '$Id: tv_grab_uk_atlas,v 1.010 2013/10/12 09:23:00 honir Exp $';
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.011 2013/10/14 16:35:00 honir Exp $';
 
 
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
@@ -83,7 +83,7 @@ $XMLTV::Handlers{'credits'}->[1] = sub( $$$ ) {
     my ($w, $e, $v) = @_; die if not defined $v;
     my %h = %$v;
     return if not %h; # don't write empty element
-    t 'writing credits: ' ;# d \%h;
+    t 'writing credits: ' ;# . d \%h;
     # TODO some 'do nothing' setting in XML::Writer to replace this
     # convention of passing undef.
     #
@@ -380,7 +380,10 @@ sub get_schedule_from_json {
 						$item{'episodetitle'} = '';
 						
 						if ( (exists $prog{'series'}) && $prog{'series'}->{'title'} && ( $prog{'series'}->{'title'} ne $prog{'container'}->{'title'} ) ) {
-								$item{'episodetitle'} = $prog{'series'}->{'title'} . ':';
+								$item{'episodetitle'} = $prog{'series'}->{'title'} . ': ';
+						}
+						if ( (exists $prog{'series_summary'}) && $prog{'series_summary'}->{'title'} && ( $prog{'series_summary'}->{'title'} ne $prog{'container'}->{'title'} ) ) {
+								$item{'episodetitle'} = $prog{'series_summary'}->{'title'} . ': ';
 						}
 				
 						if ( $prog{'title'} && ($prog{'title'} ne $prog{'container'}->{'title'} ) ) {
@@ -403,6 +406,11 @@ sub get_schedule_from_json {
 						$item{'totaleps'} 		= defined($prog{'series_summary'}->{'total_episodes'}) ? $prog{'series_summary'}->{'total_episodes'} : '';
 				}
 
+				# get the Atlasobject "id"s
+				$item{'itemid'}						= defined($prog{'id'}) ? $prog{'id'} : '';
+				$item{'seriesid'}					= ( defined($prog{'series_summary'}->{'id'})  && ( $prog{'series_summary'}->{'type'} eq 'series' ) ) ? $prog{'series_summary'}->{'id'} : '';
+				$item{'brandid'}					= ( defined($prog{'container'}->{'id'})  && ( $prog{'container'}->{'type'} eq 'brand' ) ) ? $prog{'container'}->{'id'} : '';
+				
 				$item{'image'}						= defined($prog{'image'}) ? $prog{'image'} : '';
 				$item{'media'}						= defined($prog{'mediaType'}) ? $prog{'mediaType'} : '';
 				$item{'year'}							= defined($prog{'year'}) ? $prog{'year'} : '';
@@ -535,7 +543,16 @@ sub add_programme_to_xml {
 		
 		my $showepnum = make_ns_epnum($item{'seriesno'}, $item{'epno'}, $item{'totaleps'});
 		$xmlprog{'episode-num'} 		= [[ $showepnum, 'xmltv_ns' ]]									if ($showepnum && $showepnum ne '..');
-				
+
+		# Output an additional 'episode_num' with the Atlas ids for brand, series and item.  
+		# These can be used to match existing objects in your EPG (& so avoid having to do title matching etc.).
+		# However some poorly written EPG processors may not allow for multiple 'episode_num' tags, so we'll let the user
+		# disable this additional tag.
+		if ( (not defined( $conf->{writeids} )) || ( not $conf->{writeids}->[0] =~ /no?/i ) ) {
+			my $showids = $item{'brandid'} .'.'. $item{'seriesid'} .'.'. $item{'itemid'};
+			push @{$xmlprog{'episode-num'}}, [ $showids, 'brand.series.episode' ]			if ($showids && $showids ne '..');
+		}
+	
 		foreach my $role ( qw/director actor writer adapter producer composer editor presenter commentator guest/ ) {
 			if ($item{($role.'s')} && scalar @{$item{($role.'s')}} > 0) {
 				foreach my $showperson ( @{$item{$role.'s'}}) {
@@ -995,6 +1012,19 @@ sub config_stage {
 						title => [ [ 'Directory to store the cache', 'en' ] ],
 						description => [ [ $GRABBER_NAME.' uses a cache with files that it has already downloaded. Please specify a location for this cache.', 'en' ] ],
 						default => get_default_cachedir(),
+        } );
+				
+        $writer->end('select-option');
+				
+    }	
+		# ------------------------------------------------------------------ #
+		elsif ($stage eq 'select-option') {
+			 
+        $writer->write_string( {
+						id => 'writeids', 
+						title => [ [ 'Output brand/series/summary ids? (yes/no)', 'en' ] ],
+						description => [ [ $GRABBER_NAME.' normally outputs an episode-num tag with brand.series.episode ids from the Atlas database.', 'en' ] ],
+						default => 'yes',
         } );
 				
         $writer->end('select-platform');
