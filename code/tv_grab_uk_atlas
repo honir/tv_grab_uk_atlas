@@ -6,7 +6,7 @@
 #
 # 
 
-my $_version 	= '$Id: tv_grab_uk_atlas,v 1.011 2013/10/14 16:35:00 honir Exp $';
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.012 2013/10/17 16:20:00 honir Exp $';
 
 
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
@@ -302,12 +302,15 @@ sub fetch_listings {
 		  $channel_id = unmap_channel_id($channel_id);
 			
 			my $baseurl = $ROOT_URL.'schedule.json';
-			my $apiKey = readpipe("cat ".$conf->{'api-key'}->[0]);
-			chomp($apiKey); chop($apiKey) if ($apiKey =~ m/\r$/);
-			my $publisher = 'pressassociation.com';
+			my $apiKey = '';
+			if ( $conf->{'api-key'}->[0] ) {
+				$apiKey = '&apiKey='.readpipe("cat ".$conf->{'api-key'}->[0]);
+				chomp($apiKey); chop($apiKey) if ($apiKey =~ m/\r$/);
+			} 
+			my $publisher = $conf->{'publisher'}->[0] || 'pressassociation.com';	# (undocumented option needed for xmltv automatic testing)
 			my $annotations = 'extended_description,broadcasts,series_summary,brand_summary,people,channel';
 
-			my $url = $baseurl.'?'."channel_id=$channel_id&from=$from&to=$to&annotations=$annotations&publisher=$publisher&apiKey=$apiKey";
+			my $url = $baseurl.'?'."channel_id=$channel_id&from=$from&to=$to&annotations=$annotations&publisher=$publisher$apiKey";
 			print $url ."\n" 	if ($opt->{debug});
 			#print STDERR "$url \n";
 			
