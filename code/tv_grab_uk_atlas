@@ -6,7 +6,7 @@
 #
 # 
 
-my $_version 	= '$Id: tv_grab_uk_atlas,v 1.012 2013/10/17 16:20:00 honir Exp $';
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.013 2013/10/19 19:10:00 honir Exp $';
 
 
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
@@ -97,7 +97,11 @@ $XMLTV::Handlers{'credits'}->[1] = sub( $$$ ) {
 			
 			# BEGIN modified code needed to support role attribute
 			if (ref($person) eq 'ARRAY') {
-				$w->dataElement($_, @{$person}[0], 'role' => @{$person}[1] ) if $w;
+				if ( defined @{$person}[1] && @{$person}[1] ne '' ) {
+					$w->dataElement($_, @{$person}[0], 'role' => @{$person}[1] ) if $w;
+				} else {
+					$w->dataElement($_, @{$person}[0]) if $w;
+				}
 			} else {
 				$w->dataElement($_, $person) if $w;
 			}
@@ -559,7 +563,7 @@ sub add_programme_to_xml {
 		foreach my $role ( qw/director actor writer adapter producer composer editor presenter commentator guest/ ) {
 			if ($item{($role.'s')} && scalar @{$item{($role.'s')}} > 0) {
 				foreach my $showperson ( @{$item{$role.'s'}}) {
-					if ($role eq 'actor') {
+					if (ref($showperson) eq 'ARRAY') { 
 						push @{$xmlprog{'credits'}{$role}}, [ @{$showperson}[0], @{$showperson}[1] ];
 					} else {
 						push @{$xmlprog{'credits'}{$role}}, $showperson;
@@ -1071,7 +1075,7 @@ sub config_stage {
 						next unless $platform{'id'} eq $conf->{'platform'}[0];
 				
 						# may not be a regionalised platform (e.g. Saorview)
-						if (scalar (keys %{$platform{'regions'}}) == 0) {		
+						if ( (!defined $platform{'regions'}) || (scalar @{$platform{'regions'}} == 0) ) {	
 			
 									$writer->write_option( {
 											value => $platform{'id'},
