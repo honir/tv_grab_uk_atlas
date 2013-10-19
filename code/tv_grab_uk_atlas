@@ -1115,6 +1115,7 @@ sub config_stage {
 						
 						#$conf->{'platform-title'} = [ $platform{'title'} ];
 						$platform_title = $platform{'title'};
+						$region_title = '';
 						
 						foreach my $r (@{$platform{'regions'}}) {
 								my %region = %$r;
