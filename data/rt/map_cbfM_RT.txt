@@ -52,7 +52,8 @@ map==cbjQ==plus-1.sky-three.sky.com   				# 153 (2647) - Pick +1
 map==cbmP==quest.discoveryeurope.com   				# 154 (2179) - Quest
 map==cbmy==plus-1.watch.uktv.co.uk   				# 155 (2116) - Watch +1
 map==cbhx==biography-channel.biography.com   				# 156 (119) - Bio
-map==cbCc==   				# 157 (2702) - Sony Entertainment Television
+map==cbX2==   				# 156 () - Lifetime HD
+map==cbCc==sonytv.com   				# 157 (2702) - Sony Entertainment Television
 map==cbjd==plus-1.dave.uktv.co.uk   				# 158 (2052) - Dave ja vu
 map==cbjC==plus-1.extra.comedycentral.com   				# 159 (2596) - Comedy Central Extra +1
 map==cbfJ==plus-1.mtv.co.uk   				# 160 (2547) - MTV +1
@@ -63,7 +64,7 @@ map==cbmQ==plus-1.quest.discoveryeurope.com   				# 167 (2588) - Quest +1
 map==cbnq==3d.sky.com   				# 170 (2606) - Sky 3D
 map==cbV4==   				# 172 () - Sky1 +1
 map==cbVb==   				# 173 () - Sky Atlantic +1
-map==cbDP==   				# 181 (2703) - Sony Entertainment Television +1
+map==cbDP==plus-1.sonytv.com   				# 181 (2703) - Sony Entertainment Television +1
 map==cbmG==   				# 183 () - AIT International
 map==cbnd==entertainment.truemovies.tv   				# 184 (2603) - True Entertainment
 map==cbTH==   				# 185 () - more>movies
@@ -88,7 +89,7 @@ map==cbbP==bbcthree.bbc.co.uk   				# 210 (45) - BBC Three
 map==cbbQ==bbcfour.bbc.co.uk   				# 211 (47) - BBC Four
 map==cbjc==dave.uktv.co.uk   				# 213 (2050) - Dave
 map==cbmx==watch.uktv.co.uk   				# 214 (2115) - Watch
-map==cbbj==northern-ireland.bbc1.bbc.co.uk   				# 215 (99) - BBC One Northern Ireland
+map==cbbj==hd.northern-ireland.bbc1.bbc.co.uk   				# 215 (99) - BBC One Northern Ireland
 map==cbhf==sky-one.sky.com   				# 216 (248) - Sky1
 map==cbfH==mtv.co.uk   				# 220 (202) - MTV
 map==cbjw==plus-1.livingit.sky.com   				# 221 (2190) - Sky Livingit +1
@@ -131,7 +132,7 @@ map==cbkt==hd.comedy.movies.sky.com   				# 308 (2157) - Sky Movies Comedy HD
 map==cbkn==hd.crime.movies.sky.com   				# 309 (2207) - Sky Movies Crime & Thriller HD
 map==cbkB==hd.drama.movies.sky.com   				# 310 (2209) - Sky Movies Drama & Romance HD
 map==cbkD==hd.scifi.movies.sky.com   				# 311 (2161) - Sky Movies Sci-fi/Horror HD
-map==cbkM==hd.indie.movies.sky.com   				# 312 (2587) - Sky Movies Select HD
+map==cbkM==hd.select.movies.sky.com   				# 312 (2587) - Sky Movies Select HD
 map==cbm8==hd.mgm.com   				# 313 (2645) - MGM HD
 map==cbkp==premiere.movies.sky.com   				# 314 (249) - Sky Movies Premiere
 map==cbhc==hd.filmfour.channel4.com   				# 315 (2617) - Film4 HD
@@ -142,11 +143,11 @@ map==cbjn==horror.cbs.com   				# 319 (2476) - Horror Channel
 map==cbjp==plus-1.horror.cbs.com   				# 320 (2561) - Horror Channel +1
 map==cbjN==1.truemovies.tv   				# 321 (2059) - True Movies
 map==cbmr==2.truemovies.tv   				# 322 (2192) - True Movies 2
-map==cbD6==   				# 323 (2705) - Sony Movie Channel
-map==cbB7==   				# 324 (2706) - Sony Movie Channel +1
+map==cbD6==movies.sonytv.com   				# 323 (2705) - Sony Movie Channel
+map==cbB7==plus-1.movies.sonytv.com   				# 324 (2706) - Sony Movie Channel +1
 map==cbmp==1.movies4men.co.uk   				# 325 (2058) - Movies4Men
 map==cbmq==plus-1.1.movies4men.co.uk   				# 326 (2598) - Movies4Men +1
-map==cbnQ==   				# 327 (2704) - Movies 24
+map==cbnQ==tvmovies24.com   				# 327 (2704) - Movies 24
 map==cbnR==   				# 328 () - Movies 24 +
 map==cbnv==   				# 330 () - Sky Movies Showcase
 map==cbkH==modern.movies.sky.com   				# 331 (260) - Sky Movies Greats
@@ -157,7 +158,7 @@ map==cbks==comedy.movies.sky.com   				# 335 (257) - Sky Movies Comedy
 map==cbkm==crime.movies.sky.com   				# 336 (2206) - Sky Movies Crime & Thriller
 map==cbkz==drama.movies.sky.com   				# 337 (2208) - Sky Movies Drama & Romance
 map==cbkC==scifi.movies.sky.com   				# 339 (2168) - Sky Movies Sci-fi/Horror
-map==cbkK==indie.movies.sky.com   				# 340 (253) - Sky Movies Select
+map==cbkK==select.movies.sky.com   				# 340 (253) - Sky Movies Select
 map==cbgZ==tcm.turner.com   				# 341 (271) - TCM
 map==cbdm==filmfour.channel4.com   				# 342 (160) - Film4
 map==cbnJ==   				# 350 () - MTV Music
@@ -186,7 +187,7 @@ map==cbTG==   				# 406 () - Sky Sports F1 HD
 map==cbhs==1.sports.sky.com   				# 407 (262) - Sky Sports 1
 map==cbht==2.sports.sky.com   				# 408 (264) - Sky Sports 2
 map==cbhv==3.sports.sky.com   				# 409 (265) - Sky Sports 3
-map==cbhn==hd.eurosport.sky.com   				# 410 (2148) - British Eurosport HD
+map==cbhn==hd.british.eurosport.com   				# 410 (2148) - British Eurosport HD
 map==cbV9==   				# 411 () - Eurosport 2 HD
 map==cbhm==british.eurosport.com   				# 412 (123) - British Eurosport
 map==cbW9==   				# 413 () - BT Sport 1HD

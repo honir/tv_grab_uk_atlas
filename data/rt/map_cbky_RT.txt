@@ -42,7 +42,7 @@ map==cbkX==gemstv.co.uk   				# 43 (2528) - Gems TV
 map==cbdr==plus-1.channel5.co.uk   				# 44 (2699) - Channel 5 +1
 map==cbhd==plus-1.filmfour.channel4.com   				# 45 (2021) - Film4 +1
 map==cbfR==challengetv.co.uk   				# 46 (131) - Challenge
-map==cbB2==   				# 47 (2701) - 4seven
+map==cbB2==4seven.channel4.com   				# 47 (2701) - 4seven
 map==cbm6==foodnetwork.com   				# 48 (2185) - Food Network
 map==cbnd==entertainment.truemovies.tv   				# 61 (2603) - True Entertainment
 map==cbbW==cbbc.bbc.co.uk   				# 70 (482) - CBBC

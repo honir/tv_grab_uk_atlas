@@ -1,6 +1,6 @@
 # channel_ids
 #
-# $Id: channel_ids,v 1.244 2012/06/10 07:26:11 knowledgejunkie Exp $
+# $Id: channel_ids,v 1.264 2013/05/07 23:23:22 knowledgejunkie Exp $
 #
 # This file maps Radio Times channel IDs to XMLTV IDs for use with the
 # tv_grab_uk_rt XMLTV grabber. One channel entry per line. Comments are allowed 
@@ -102,13 +102,13 @@ south-east.bbc2.bbc.co.uk|1862|BBC Two South East|http://www.lyngsat-logo.com/lo
 east-midlands.bbc2.bbc.co.uk|2241|BBC Two East Midlands|http://www.lyngsat-logo.com/logo/tv/bb/bbc2.jpg|||SDTV
 #
 #
-# ITV1 regions, ITV1 +1/HD macro-regions support
+# ITV regions, ITV +1/HD macro-regions support
 # =============================================
 #
-# The ITV1 +1 and ITV1 HD services do not have the same fully-regionalised 
-# channel coverage as with the regular ITV1 channel output. Instead, ITV plc 
-# has created 6 English macro-regions grouping together adjacent ITV1 regions
-# where necessary. ITV1 Channel Islands is not included in these macro-regions.
+# The ITV +1 and ITV HD services do not have the same fully-regionalised 
+# channel coverage as with the regular ITV channel output. Instead, ITV plc 
+# has created 6 English macro-regions grouping together adjacent ITV regions
+# where necessary. ITV Channel Islands is not included in these macro-regions.
 #
 # The 6 macro-regions (and constituent regions) are as follows:
 #
@@ -124,65 +124,66 @@ east-midlands.bbc2.bbc.co.uk|2241|BBC Two East Midlands|http://www.lyngsat-logo.
 # and North regions.
 #
 #
-# ITV1 regional franchises (carried on RT service)
+# ITV regional franchises (carried on RT service)
 #
-anglia.itv1.itv.co.uk|24|ITV1 Anglia|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
-border.itv1.itv.co.uk|25|ITV1 Border|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
-scottish.border.itv1.itv.co.uk|461|ITV1 Border (Scottish)|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
-central.itv1.itv.co.uk|27|ITV1 Central|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
-channel.itv1.itv.co.uk|28|ITV1 Channel Television|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
-granada.itv1.itv.co.uk|29|ITV1 Granada|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
-london.itv1.itv.co.uk|26|ITV1 London|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
-meridian.itv1.itv.co.uk|30|ITV1 Meridian|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
-tynetees.itv1.itv.co.uk|31|ITV1 Tyne Tees|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
-wales.itv1.itv.co.uk|35|ITV1 Wales|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
-west.itv1.itv.co.uk|36|ITV1 West|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
-westcountry.itv1.itv.co.uk|33|ITV1 Westcountry|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
-yorkshire.itv1.itv.co.uk|32|ITV1 Yorkshire|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
+anglia.itv1.itv.co.uk|24|ITV Anglia|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
+border.itv1.itv.co.uk|25|ITV Border|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
+scottish.border.itv1.itv.co.uk|461|ITV Border (Scottish)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
+central.itv1.itv.co.uk|27|ITV Central|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
+channel.itv1.itv.co.uk|28|ITV Channel Television|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
+granada.itv1.itv.co.uk|29|ITV Granada|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
+london.itv1.itv.co.uk|26|ITV London|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
+meridian.itv1.itv.co.uk|30|ITV Meridian|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
+tynetees.itv1.itv.co.uk|31|ITV Tyne Tees|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
+wales.itv1.itv.co.uk|35|ITV Wales|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
+west.itv1.itv.co.uk|36|ITV West|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
+westcountry.itv1.itv.co.uk|33|ITV Westcountry|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
+yorkshire.itv1.itv.co.uk|32|ITV Yorkshire|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
 central.stv.tv|37|STV Central|http://www.lyngsat-logo.com/logo/tv/ss/stv_west.jpg|||SDTV
 north.stv.tv|2203|STV North|http://www.lyngsat-logo.com/logo/tv/ss/stv_north.jpg|||SDTV
 u.tv|38|UTV|http://www.lyngsat-logo.com/logo/tv/uu/ulster_tv.jpg|||SDTV
 #
-# Timeshifted versions of ITV1 regions
+# Timeshifted versions of ITV regions
 #
-tsod.plus-1.anglia.itv1.itv.co.uk|24|ITV1 +1 Anglia|http://www.lyngsat-logo.com/logo/tv/ii/itv1_plus1.jpg|+1hour||SDTV
-tsod.plus-1.central.itv1.itv.co.uk|27|ITV1 +1 Central|http://www.lyngsat-logo.com/logo/tv/ii/itv1_plus1.jpg|+1hour||SDTV
-tsod.plus-1.granada.itv1.itv.co.uk|29|ITV1 +1 Granada|http://www.lyngsat-logo.com/logo/tv/ii/itv1_plus1.jpg|+1hour||SDTV
-tsod.plus-1.london.itv1.itv.co.uk|26|ITV1 +1 London|http://www.lyngsat-logo.com/logo/tv/ii/itv1_plus1.jpg|+1hour||SDTV
-tsod.plus-1.meridian.itv1.itv.co.uk|30|ITV1 +1 Meridian|http://www.lyngsat-logo.com/logo/tv/ii/itv1_plus1.jpg|+1hour||SDTV
-tsod.plus-1.tynetees.itv1.itv.co.uk|31|ITV1 +1 Tyne Tees|http://www.lyngsat-logo.com/logo/tv/ii/itv1_plus1.jpg|+1hour||SDTV
-tsod.plus-1.wales.itv1.itv.co.uk|35|ITV1 +1 Wales|http://www.lyngsat-logo.com/logo/tv/ii/itv1_plus1.jpg|+1hour||SDTV
-tsod.plus-1.west.itv1.itv.co.uk|36|ITV1 +1 West|http://www.lyngsat-logo.com/logo/tv/ii/itv1_plus1.jpg|+1hour||SDTV
-tsod.plus-1.westcountry.itv1.itv.co.uk|33|ITV1 +1 Westcountry|http://www.lyngsat-logo.com/logo/tv/ii/itv1_plus1.jpg|+1hour||SDTV
-tsod.plus-1.yorkshire.itv1.itv.co.uk|32|ITV1 +1 Yorkshire|http://www.lyngsat-logo.com/logo/tv/ii/itv1_plus1.jpg|+1hour||SDTV
+tsod.plus-1.anglia.itv1.itv.co.uk|24|ITV +1 Anglia|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.central.itv1.itv.co.uk|27|ITV +1 Central|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.granada.itv1.itv.co.uk|29|ITV +1 Granada|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.london.itv1.itv.co.uk|26|ITV +1 London|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.meridian.itv1.itv.co.uk|30|ITV +1 Meridian|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.tynetees.itv1.itv.co.uk|31|ITV +1 Tyne Tees|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.wales.itv1.itv.co.uk|35|ITV +1 Wales|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.west.itv1.itv.co.uk|36|ITV +1 West|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.westcountry.itv1.itv.co.uk|33|ITV +1 Westcountry|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.yorkshire.itv1.itv.co.uk|32|ITV +1 Yorkshire|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
 tsod.plus-1.central.stv.tv|37|STV Central +1|http://www.lyngsat-logo.com/logo/tv/ss/stv_west.jpg|+1hour||SDTV
 tsod.plus-1.north.stv.tv|2203|STV North +1|http://www.lyngsat-logo.com/logo/tv/ss/stv_north.jpg|+1hour||SDTV
 tsod.plus-1.ni-macro.u.tv|38|UTV +1|http://www.lyngsat-logo.com/logo/tv/uu/ulster_tv.jpg|+1hour||SDTV
 #
-# HDTV-flagged versions of ITV1 macro regions (using macro-based IDs)
+# HDTV-flagged versions of ITV macro regions (using macro-based IDs)
 #
-hd.london-macro.itv1.itv.co.uk|26|ITV1 HD (London/LWT)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_london_hd.jpg|||HDTV
-hd.central-macro.itv1.itv.co.uk|27|ITV1 HD (Central)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_central_west_hd.jpg|||HDTV
-hd.northwest-macro.itv1.itv.co.uk|29|ITV1 HD (Granada/Border)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_granada_hd.jpg|||HDTV
-hd.southeast-macro.itv1.itv.co.uk|30|ITV1 HD (Meridian/Anglia)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_meridian_se_hd.jpg|||HDTV
-hd.northeast-macro.itv1.itv.co.uk|32|ITV1 HD (Yorkshire/Tyne Tees)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_london_hd.jpg|||HDTV
-hd.west-macro.itv1.itv.co.uk|35|ITV1 HD (West/Wales/Westcountry)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_london_hd.jpg|||HDTV
+hd.london-macro.itv1.itv.co.uk|26|ITV HD (London/LWT)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_hd.jpg|||HDTV
+hd.central-macro.itv1.itv.co.uk|27|ITV HD (Central)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_hd.jpg|||HDTV
+hd.northwest-macro.itv1.itv.co.uk|29|ITV HD (Granada/Border)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_hd.jpg|||HDTV
+hd.southeast-macro.itv1.itv.co.uk|30|ITV HD (Meridian/Anglia)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_hd.jpg|||HDTV
 hd.scotland-macro.stv.tv|37|STV HD|http://www.lyngsat-logo.com/logo/tv/ss/stv_west.jpg|||HDTV
 hd.ni-macro.u.tv|38|UTV HD|http://www.lyngsat-logo.com/logo/tv/uu/ulster_tv.jpg|||HDTV
+# FIXME (these channels have OFCOM licences but do not broadcast yet)
+hd.northeast-macro.itv1.itv.co.uk|32|ITV HD (Yorkshire/Tyne Tees)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_hd.jpg|||HDTV
+hd.west-macro.itv1.itv.co.uk|35|ITV HD (West/Wales/Westcountry)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_hd.jpg|||HDTV
 #
 #FIXME (deprecated as sub-region varations dropped in 2009)
-north-thamesvalley.itv1.itv.co.uk|2514|ITV1 Thames Valley North|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
-south-thamesvalley.itv1.itv.co.uk|2515|ITV1 Thames Valley South|http://www.lyngsat-logo.com/logo/tv/ii/itv1.jpg|||SDTV
+north-thamesvalley.itv1.itv.co.uk|2514|ITV Thames Valley North|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
+south-thamesvalley.itv1.itv.co.uk|2515|ITV Thames Valley South|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg|||SDTV
 #
-#FIXME (deprecated as more specific versions of ITV1 +1 launched in 03/2012)
-# Timeshifted versions of ITV1 macro regions (using macro-based IDs)
+#FIXME (deprecated as more specific versions of ITV +1 launched in 03/2012)
+# Timeshifted versions of ITV macro regions (using macro-based IDs)
 #
-tsod.plus-1.london-macro.itv1.itv.co.uk|26|ITV1 +1 (London/LWT)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_london.jpg|+1hour||SDTV
-tsod.plus-1.central-macro.itv1.itv.co.uk|27|ITV1 +1 (Central)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_central.jpg|+1hour||SDTV
-tsod.plus-1.northwest-macro.itv1.itv.co.uk|29|ITV1 +1 (Granada/Border)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_granada.jpg|+1hour||SDTV
-tsod.plus-1.southeast-macro.itv1.itv.co.uk|30|ITV1 +1 (Meridian/Anglia)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_meridian.jpg|+1hour||SDTV
-tsod.plus-1.northeast-macro.itv1.itv.co.uk|32|ITV1 +1 (Yorkshire/Tyne Tees)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_yorkshire.jpg|+1hour||SDTV
-tsod.plus-1.west-macro.itv1.itv.co.uk|35|ITV1 +1 (West/Wales/Westcountry)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_wales.jpg|+1hour||SDTV
+tsod.plus-1.london-macro.itv1.itv.co.uk|26|ITV +1 (London/LWT)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.central-macro.itv1.itv.co.uk|27|ITV +1 (Central)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.northwest-macro.itv1.itv.co.uk|29|ITV +1 (Granada/Border)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.southeast-macro.itv1.itv.co.uk|30|ITV +1 (Meridian/Anglia)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.northeast-macro.itv1.itv.co.uk|32|ITV +1 (Yorkshire/Tyne Tees)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.west-macro.itv1.itv.co.uk|35|ITV +1 (West/Wales/Westcountry)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|+1hour||SDTV
 #
 # Timeshifted channels support
 # ============================
@@ -218,10 +219,8 @@ tsod.plus-1.dave.uktv.co.uk|2050|Dave ja vu|http://www.lyngsat-logo.com/logo/tv/
 tsod.plus-1.discoveryeurope.com|147|Discovery Channel +1|http://www.lyngsat-logo.com/logo/tv/dd/discovery.jpg|+1hour||SDTV
 tsod.plus-1.health.discovery.com|149|Discovery Home & Health +1|http://www.lyngsat-logo.com/logo/tv/dd/discovery_home_health.jpg|+1hour||SDTV
 tsod.plus-1.history.discoveryeurope.com|2668|Discovery History +1|http://www.lyngsat-logo.com/logo/tv/dd/discovery_history_plus1.jpg|+1hour||SDTV
-tsod.plus-1.realtime.discoveryeurope.com|150|Discovery Real Time +1|http://www.lyngsat-logo.com/logo/tv/dd/discovery_real_time_uk.jpg|+1hour||SDTV
 tsod.plus-1.science.discoveryeurope.com|153|Discovery Science +1|http://www.lyngsat-logo.com/logo/tv/dd/discovery_science.jpg|+1hour||SDTV
 tsod.plus-1.disneychannel.disney.co.uk|156|Disney Channel +1|http://www.lyngsat-logo.com/logo/tv/dd/disney_plus1.jpg|+1hour||SDTV
-tsod.plus-1.cinemagic.disney.co.uk|1984|Disney Cinemagic +1|http://www.lyngsat-logo.com/logo/tv/dd/disney_cinemagic.jpg|+1hour||SDTV
 tsod.plus-1.junior.disney.co.uk|421|Disney Junior +|http://www.lyngsat-logo.com/logo/tv/dd/disney_junior_uk.jpg|+1hour||SDTV
 tsod.plus-1.xd.disney.co.uk|165|Disney XD +1|http://www.lyngsat-logo.com/logo/tv/dd/disney_xd_uk.jpg|+1hour||SDTV
 tsod.plus-1.dmax.discoveryeurope.com|2545|DMAX +1|http://www.lyngsat-logo.com/logo/tv/dd/dmax.jpg|+1hour||SDTV
@@ -230,12 +229,13 @@ tsod.plus-1.e4.channel4.com|158|E4 +1|http://www.lyngsat-logo.com/logo/tv/ee/e4_
 tsod.plus-1.eden.uktv.co.uk|1601|Eden +1|http://www.lyngsat-logo.com/logo/tv/ee/eden.jpg|+1hour||SDTV
 tsod.plus-1.filmfour.channel4.com|160|Film4 +1|http://www.lyngsat-logo.com/logo/tv/ff/film4_plus1.jpg|+1hour||SDTV
 tsod.plus-1.foodnetwork.com|2185|Food Network +1|http://www.lyngsat-logo.com/logo/tv/ff/food_network_uk.jpg|+1hour||SDTV
-tsod.plus-1.fxuk.tv|1461|FX +|http://www.lyngsat-logo.com/logo/tv/ff/fx_uk.jpg|+1hour||SDTV
+tsod.plus-1.fxuk.tv|1461|Fox +1|http://www.lyngsat-logo.com/logo/tv/ff/fox_uk_plus1.jpg|+1hour||SDTV
 tsod.plus-1.gold.uktv.co.uk|288|Gold +1|http://www.lyngsat-logo.com/logo/tv/gg/gold_tv.jpg|+1hour||SDTV
 tsod.plus-1.goodfood.uktv.co.uk|2136|Good Food +1|http://www.lyngsat-logo.com/logo/tv/gg/good_food_uktv.jpg|+1hour||SDTV
 tsod.plus-1.thehistorychannel.co.uk|182|History +1|http://www.lyngsat-logo.com/logo/tv/hh/history.jpg|+1hour||SDTV
 tsod.plus-1.home.uktv.co.uk|2134|Home +1|http://www.lyngsat-logo.com/logo/tv/hh/home_uktv.jpg|+1hour||SDTV
 tsod.plus-1.horror.cbs.com|2476|Horror Channel +1|http://www.lyngsat-logo.com/logo/tv/hh/horror_channel_uk.jpg|+1hour||SDTV
+tsod.plus-1.investigation.discoveryeurope.com|2570|Investigation Discovery +1|http://www.lyngsat-logo.com/logo/tv/ii/investigation_discovery_europe_plus1.jpg|+1hour||SDTV
 tsod.plus-1.itv2.itv.co.uk|185|ITV2 +1|http://www.lyngsat-logo.com/logo/tv/ii/itv2_plus1.jpg|+1hour||SDTV
 tsod.plus-1.itv3.itv.co.uk|1859|ITV3 +1|http://www.lyngsat-logo.com/logo/tv/ii/itv3_plus1.jpg|+1hour||SDTV
 tsod.plus-1.itv4.itv.co.uk|1961|ITV4 +1|http://www.lyngsat-logo.com/logo/tv/ii/itv4_plus1.jpg|+1hour||SDTV
@@ -246,11 +246,14 @@ tsod.plus-2.more4.channel4.com|1959|More4 +2|http://www.lyngsat-logo.com/logo/tv
 tsod.plus-1.1.movies4men.co.uk|2058|Movies4Men +1|http://www.lyngsat-logo.com/logo/tv/mm/movies_4_men.jpg|+1hour||SDTV
 tsod.plus-1.mtv.co.uk|202|MTV +1|http://www.lyngsat-logo.com/logo/tv/mm/mtv_uk.jpg|+1hour||SDTV
 tsod.plus-1.nationalgeographic.co.uk|213|National Geographic Channel +1|http://www.lyngsat-logo.com/logo/tv/nn/nat_geo_uk.jpg|+1hour||SDTV
-tsod.plus-1.nickelodeon.co.uk|217|Nick Replay|http://www.lyngsat-logo.com/logo/tv/nn/nick_replay.jpg|+1hour||SDTV
+tsod.plus-1.jr.nickelodeon.co.uk|215|Nick Jr. +1|http://www.lyngsat-logo.com/logo/tv/nn/nick_jr_uk.jpg|+1hour||SDTV
+tsod.plus-1.nickelodeon.co.uk|217|Nickelodeon +1|http://www.lyngsat-logo.com/logo/tv/nn/nickelodeon.jpg|+1hour||SDTV
 tsod.plus-1.sky-three.sky.com|1963|Pick TV +1|http://www.lyngsat-logo.com/logo/tv/pp/pick_tv_plus1.jpg|+1hour||SDTV
 tsod.plus-1.quest.discoveryeurope.com|2179|Quest +1|http://www.lyngsat-logo.com/logo/tv/qq/quest.jpg|+1hour||SDTV
+tsod.plus-1.atlantic.sky.com|2685|Sky Atlantic +1|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_atlantic.jpg|+1 hour||SDTV
 tsod.plus-1.premiere.movies.sky.com|249|Sky Movies Premiere +1|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_premiere_plus1.jpg|+1hour||SDTV
-tsod.plus-1.sonytv.com|2697|Sony Entertainment Television +1|http://www.lyngsat-logo.com/logo/tv/ss/set_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.sonytv.com|2702|Sony Entertainment Television +1|http://www.lyngsat-logo.com/logo/tv/ss/set_uk_plus1.jpg|+1hour||SDTV
+tsod.plus-1.movies.sonytv.com|2705|Sony Movie Channel +1|http://www.lyngsat-logo.com/logo/tv/ss/sony_movie_channel_uk_plus1.jpg|+1hour||SDTV
 tsod.plus-1.uk.syfy.com|2212|Syfy +1|http://www.lyngsat-logo.com/logo/tv/ss/syfy.jpg|+1hour||SDTV
 tsod.plus-1.tinypop.com|2543|Tiny Pop +1|http://www.lyngsat-logo.com/logo/tv/tt/tiny_pop.jpg|+1hour||SDTV
 tsod.plus-1.sat.travelchannel.co.uk|1462|Travel Channel +1|http://www.lyngsat-logo.com/logo/tv/tt/travelchannel.jpg|+1hour||SDTV
@@ -270,6 +273,7 @@ tsod.plus-1.yesterday.uktv.co.uk|801|Yesterday +1|http://www.lyngsat-logo.com/lo
 #
 freeview.communitychannel.org|1542|Community Channel [Freeview]|http://www.lyngsat-logo.com/logo/tv/cc/communitychannel_uk.jpg||0500-0800|SDTV
 freeview.aljazeera.net|2055|Al Jazeera English [Freeview]|http://www.lyngsat-logo.com/logo/tv/aa/al_jazeera.jpg||1800-2300|SDTV
+6to8.freeview.aljazeera.net|2055|Al Jazeera 6-8 [Freeview]|http://www.lyngsat-logo.com/logo/tv/aa/al_jazeera.jpg||0600-0800|SDTV
 freeview.foodnetwork.com|2185|Food Network [Freeview]|http://www.lyngsat-logo.com/logo/tv/ff/food_network_uk.jpg||1800-2200|SDTV
 rtejr.rte.ie|1870|RTÉjr|http://www.lyngsat-logo.com/logo/tv/rr/rte_jr_tv.jpg||0900-1200|SDTV
 trte.rte.ie|1870|TRTÉ|http://www.lyngsat-logo.com/logo/tv/rr/rte_two.jpg||0600-1730|SDTV
@@ -282,15 +286,14 @@ cula4.tg4.ie|273|Cúla4|http://www.lyngsat-logo.com/logo/tv/tt/tg4.jpg||0700-190
 # the grabber to be informed of both the correct timeshift to apply to the standard
 # channel's data, and the hours which the data should be restricted to.
 #
-tsod.plus-1.freeview.dave.uktv.co.uk|2050|Dave ja vu [Freeview]|http://www.lyngsat-logo.com/logo/tv/dd/dave_ja_vu.jpg|+1hour|0200-0400|SDTV
-tsod.plus-1.toons.nickelodeon.co.uk|664|Nicktoons Replay|http://www.lyngsat-logo.com/logo/tv/nn/nicktoons_replay.jpg|+1hour|0700-1900|SDTV
+tsod.plus-1.freeview.dave.uktv.co.uk|2050|Dave ja vu [Freeview]|http://www.lyngsat-logo.com/logo/tv/dd/dave_ja_vu.jpg|+1hour|0800-0400|SDTV
 tsod.plus-1.one.rte.ie|231|RTÉ One +1|http://www.lyngsat-logo.com/logo/tv/rr/rte_one_plus1.jpg|+1hour|1900-0200|SDTV
 #
 # HDTV-flagged versions of regular channels
 # =========================================
 #
 # Some HD channels are simulcasts of their regular SDTV sibling channel 
-# (e.g. ITV1 HD). Some content will be native HDTV material, other material will 
+# (e.g. ITV HD). Some content will be native HDTV material, other material will 
 # be upscaled SDTV. The grabber can create HDTV-flagged listings for such 
 # channels by taking the listings for the SDTV version of the channel, and 
 # flagging all programmes as HDTV. This ensures that the actual listings for
@@ -299,11 +302,18 @@ tsod.plus-1.one.rte.ie|231|RTÉ One +1|http://www.lyngsat-logo.com/logo/tv/rr/rt
 # Note: HD channels which are not simulcasts of a regular SD channel (e.g. BBC HD) 
 # should _not_ be configured in this way.
 #
+hd.alibi.uktv.co.uk|292|Alibi HD|http://www.lyngsat-logo.com/logo/tv/aa/alibi.jpg|||HDTV
 hd.animalplanet.discoveryeurope.com|39|Animal Planet HD|http://www.lyngsat-logo.com/logo/tv/aa/animal_planet_us_hd.jpg|||HDTV
+hd.bbc1.bbc.co.uk|2667|BBC One HD|http://www.lyngsat-logo.com/logo/tv/bb/bbc_one_hd.jpg|||HDTV
+hd.northern-ireland.bbc1.bbc.co.uk|99|BBC One Northern Ireland HD|http://www.lyngsat-logo.com/logo/tv/bb/bbc_one_hd.jpg|||HDTV
+hd.scotland.bbc1.bbc.co.uk|101|BBC One Scotland HD|http://www.lyngsat-logo.com/logo/tv/bb/bbc_one_hd.jpg|||HDTV
+hd.wales.bbc1.bbc.co.uk|100|BBC One Wales HD|http://www.lyngsat-logo.com/logo/tv/bb/bbc_one_hd.jpg|||HDTV
+hd.bbc2.bbc.co.uk|105|BBC Two HD|http://www.lyngsat-logo.com/logo/tv/bb/bbc_two_uk_hd.jpg|||HDTV
 hd.cartoonnetwork.com|128|Cartoon Network HD|http://www.lyngsat-logo.com/logo/tv/cc/cartoon_network_uk_hd.jpg|||HDTV
 hd.dave.uktv.co.uk|2050|Dave HD|http://www.lyngsat-logo.com/logo/tv/uu/uktv_dave.jpg|||HDTV
 hd.disneychannel.disney.co.uk|156|Disney Channel HD|http://www.lyngsat-logo.com/logo/tv/dd/disney_channel_hd.jpg|||HDTV
 hd.xd.disney.co.uk|165|Disney XD HD|http://www.lyngsat-logo.com/logo/tv/dd/disney_xd_hd.jpg|||HDTV
+hd.eentertainment.com|1421|E! HD|http://www.lyngsat-logo.com/logo/tv/ee/e_entertainment_tv.jpg|||HDTV
 hd.espnamerica.com|1543|ESPN America HD|http://www.lyngsat-logo.com/logo/tv/ee/espn_america_hd.jpg|||HDTV
 hd.goodfood.uktv.co.uk|2136|Good Food HD|http://www.lyngsat-logo.com/logo/tv/gg/good_food_uktv.jpg|||HDTV
 hd.itv3.itv.co.uk|1859|ITV3 HD|http://www.lyngsat-logo.com/logo/tv/ii/itv3_hd.jpg|||HDTV
@@ -312,9 +322,10 @@ hd.mtv.co.uk|202|MTV HD|http://www.lyngsat-logo.com/logo/tv/mm/mtv_uk.jpg|||HDTV
 hd.nickelodeon.co.uk|217|Nickelodeon HD|http://www.lyngsat-logo.com/logo/tv/nn/nickelodeon_uk_hd.jpg|||HDTV
 hd.two.rte.ie|1870|RTÉ Two HD|http://www.lyngsat-logo.com/logo/tv/rr/rte_two.jpg|||HDTV
 hd.setantasport.ie|2479|Setanta HD|http://www.lyngsat-logo.com/logo/tv/ss/setanta_sports_ie.jpg|||HDTV
-hd.classics.movies.sky.com|259|Sky Movies Classics HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_classics_hd.jpg|||HDTV
 hd.f1.sports.sky.com|2700|Sky Sports F1 HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports_f1_hd.jpg|||HDTV
 hd.news.sports.sky.com|300|Sky Sports News HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports_news_hd.jpg|||HDTV
+hd.tcm.turner.com|271|TCM HD|http://www.lyngsat-logo.com/logo/tv/tt/tcm_uk_hd.jpg|||HDTV
+hd.tg4.ie|273|TG4 HD|http://www.lyngsat-logo.com/logo/tv/tt/tg4.jpg|||HDTV
 hd.universalchannel.co.uk|180|Universal Channel HD|http://www.lyngsat-logo.com/logo/tv/uu/universal_channel_uk_hd.jpg|||HDTV
 hd.watch.uktv.co.uk|2115|Watch HD|http://www.lyngsat-logo.com/logo/tv/ww/watch.jpg|||HDTV
 #
@@ -326,7 +337,11 @@ hd.watch.uktv.co.uk|2115|Watch HD|http://www.lyngsat-logo.com/logo/tv/ww/watch.j
 # configurations to use when the channel is available on more than one 
 # TV service/platform.
 #
-freeview.hd.channel4.com|2056|Channel 4 HD|http://www.lyngsat-logo.com/logo/tv/cc/channel4_hd.jpg|||HDTV
+# NOTE: Since regional_channels_by_postcode was deprecated in favour of lineups,
+# the use of multiple platform-specific versions of channels (each having same
+# content) is no longer required.
+#
+freeview.hd.channel4.com|2056|Channel 4 HD [Freeview]|http://www.lyngsat-logo.com/logo/tv/cc/channel4_hd.jpg|||HDTV
 wales.s4c.co.uk|721|S4C [Freeview]|http://www.lyngsat-logo.com/logo/tv/ss/s4c.jpg|||SDTV
 #
 # SDTV channels (carried by RT service)
@@ -354,10 +369,8 @@ channel5.co.uk|134|Channel 5|http://www.lyngsat-logo.com/logo/tv/cc/channel5_reg
 god.tv|137|God Channel|http://www.lyngsat-logo.com/logo/tv/gg/godchannel.jpg|||SDTV
 discoveryeurope.com|147|Discovery Channel|http://www.lyngsat-logo.com/logo/tv/dd/discovery.jpg|||SDTV
 health.discovery.com|149|Discovery Home & Health|http://www.lyngsat-logo.com/logo/tv/dd/discovery_home_health.jpg|||SDTV
-realtime.discoveryeurope.com|150|Discovery Real Time|http://www.lyngsat-logo.com/logo/tv/dd/discovery_real_time_uk.jpg|||SDTV
 plus-1.discoveryeurope.com|152|Discovery Channel +1 (RT)|http://www.lyngsat-logo.com/logo/tv/dd/discovery.jpg|||SDTV
 science.discoveryeurope.com|153|Discovery Science|http://www.lyngsat-logo.com/logo/tv/dd/discovery_science.jpg|||SDTV
-travel.discoveryeurope.com|154|Discovery Travel & Living|http://www.lyngsat-logo.com/logo/tv/dd/discovery_travel_living.jpg|||SDTV
 turbo.discoveryeurope.com|155|Discovery Turbo|http://www.lyngsat-logo.com/logo/tv/dd/discovery_turbo.jpg|||SDTV
 disneychannel.disney.co.uk|156|Disney Channel|http://www.lyngsat-logo.com/logo/tv/dd/disney_channel.jpg|||SDTV
 plus-1.disneychannel.disney.co.uk|157|Disney Channel +1 (RT)|http://www.lyngsat-logo.com/logo/tv/dd/disney_plus1.jpg|||SDTV
@@ -387,12 +400,11 @@ one.rte.ie|231|RTÉ One|http://www.lyngsat-logo.com/logo/tv/rr/rte_one.jpg|||SDT
 sky-one.sky.com|248|Sky1|http://www.lyngsat-logo.com/logo/tv/ss/sky_one.jpg|||SDTV
 premiere.movies.sky.com|249|Sky Movies Premiere|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_premiere.jpg|||SDTV
 plus-1.premiere.movies.sky.com|250|Sky Movies Premiere +1 (RT)|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_premiere_plus1.jpg|||SDTV
-indie.movies.sky.com|253|Sky Movies Indie|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_indie.jpg|||SDTV
+select.movies.sky.com|253|Sky Movies Select||||SDTV
 sky-news.sky.com|256|Sky News|http://www.lyngsat-logo.com/logo/tv/ss/sky_news.jpg|||SDTV
 comedy.movies.sky.com|257|Sky Movies Comedy|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_comedy.jpg|||SDTV
 family.movies.sky.com|258|Sky Movies Family|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_family.jpg|||SDTV
-classics.movies.sky.com|259|Sky Movies Classics|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_classics.jpg|||SDTV
-modern.movies.sky.com|260|Sky Movies Modern Greats|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_modern_greats.jpg|||SDTV
+modern.movies.sky.com|260|Sky Movies Greats|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_modern_greats.jpg|||SDTV
 1.sports.sky.com|262|Sky Sports 1|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports1.jpg|||SDTV
 2.sports.sky.com|264|Sky Sports 2|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports2.jpg|||SDTV
 3.sports.sky.com|265|Sky Sports 3|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports3.jpg|||SDTV
@@ -433,7 +445,7 @@ bliss.co.uk|1144|Bliss|http://www.lyngsat-logo.com/logo/tv/bb/bliss.jpg|||SDTV
 plus-1.e4.channel4.com|1161|E4 +1 (RT)|http://www.lyngsat-logo.com/logo/tv/ee/e4_plus1.jpg|||SDTV
 extra.comedycentral.com|1201|Comedy Central Extra|http://www.lyngsat-logo.com/logo/tv/cc/comedy_central_extra_uk.jpg|||SDTV
 eentertainment.com|1421|E!|http://www.lyngsat-logo.com/logo/tv/ee/e_entertainment_tv.jpg|||SDTV
-fxuk.tv|1461|FX|http://www.lyngsat-logo.com/logo/tv/ff/fx_uk.jpg|||SDTV
+fxuk.tv|1461|Fox|http://www.lyngsat-logo.com/logo/tv/ff/fox_uk_plus1.jpg|||SDTV
 sat.travelchannel.co.uk|1462|Travel Channel|http://www.lyngsat-logo.com/logo/tv/tt/travelchannel.jpg|||SDTV
 plus-1.yesterday.uktv.co.uk|1521|Yesterday +1 (RT)|http://www.lyngsat-logo.com/logo/tv/yy/yesterday_uktv.jpg|||SDTV
 communitychannel.org|1542|Community Channel [Satellite/Cable]|http://www.lyngsat-logo.com/logo/tv/cc/communitychannel_uk.jpg|||SDTV
@@ -444,7 +456,6 @@ blighty.uktv.co.uk|1602|Blighty|http://www.lyngsat-logo.com/logo/tv/bb/blighty.j
 boomerang.cartoonnetwork.com|1661|Boomerang|http://www.lyngsat-logo.com/logo/tv/bb/boomerang_eur.jpg|||SDTV
 chelseafc.com|1741|Chelsea TV|http://www.lyngsat-logo.com/logo/tv/cc/chelseatv.jpg|||SDTV
 plus-1.animalplanet.discoveryeurope.com|1761|Animal Planet +1 (RT)|http://www.lyngsat-logo.com/logo/tv/aa/animalplanet.jpg|||SDTV
-plus-1.realtime.discoveryeurope.com|1764|Discovery Real Time +1 (RT)|http://www.lyngsat-logo.com/logo/tv/dd/discovery_real_time_uk.jpg|||SDTV
 plus-1.sat.travelchannel.co.uk|1855|Travel Channel +1 (RT)|http://www.lyngsat-logo.com/logo/tv/tt/travelchannel.jpg|||SDTV
 itv3.itv.co.uk|1859|ITV3|http://www.lyngsat-logo.com/logo/tv/ii/itv3.jpg|||SDTV
 two.rte.ie|1870|RTÉ Two|http://www.lyngsat-logo.com/logo/tv/rr/rte_two.jpg|||SDTV
@@ -457,12 +468,10 @@ motors.tv|1958|Motors TV|http://www.lyngsat-logo.com/logo/tv/mm/motorstv.jpg|||S
 more4.channel4.com|1959|More4|http://www.lyngsat-logo.com/logo/tv/mm/more4.jpg|||SDTV
 itv4.itv.co.uk|1961|ITV4|http://www.lyngsat-logo.com/logo/tv/ii/itv4.jpg|||SDTV
 sky-three.sky.com|1963|Pick TV|http://www.lyngsat-logo.com/logo/tv/pp/pick_tv.jpg|||SDTV
-plus-1.fxuk.tv|1971|FX + (RT)|http://www.lyngsat-logo.com/logo/tv/ff/fx_uk.jpg|||SDTV
+plus-1.fxuk.tv|1971|Fox +1 (RT)|http://www.lyngsat-logo.com/logo/tv/ff/fox_uk_plus1.jpg|||SDTV
 plus-1.more4.channel4.com|1972|More4 +1 (RT)|http://www.lyngsat-logo.com/logo/tv/mm/more4_plus1.jpg|||SDTV
 citv.itv.co.uk|1981|CITV|http://www.lyngsat-logo.com/logo/tv/cc/citv.jpg|||SDTV
 cartoonito.cartoonnetwork.com|1983|Cartoonito|http://www.lyngsat-logo.com/logo/tv/cc/cartoonito_uk.jpg|||SDTV
-cinemagic.disney.co.uk|1984|Disney Cinemagic|http://www.lyngsat-logo.com/logo/tv/dd/disney_cinemagic.jpg|||SDTV
-plus-1.cinemagic.disney.co.uk|1985|Disney Cinemagic +1 (RT)|http://www.lyngsat-logo.com/logo/tv/dd/disney_cinemagic.jpg|||SDTV
 plus-1.itv2.itv.co.uk|1990|ITV2 +1 (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv2_plus1.jpg|||SDTV
 plus-1.alibi.uktv.co.uk|1993|Alibi +1 (RT)|http://www.lyngsat-logo.com/logo/tv/aa/alibi.jpg|||SDTV
 fiveusa.channel5.co.uk|2008|5USA|http://www.lyngsat-logo.com/logo/tv/cc/channel5_usa.jpg|||SDTV
@@ -495,7 +504,6 @@ scifi.movies.sky.com|2168|Sky Movies Sci-Fi & Horror|http://www.lyngsat-logo.com
 drama.cbs.com|2177|CBS Drama|http://www.lyngsat-logo.com/logo/tv/cc/cbs_drama.jpg|||SDTV
 action.cbs.com|2178|CBS Action|http://www.lyngsat-logo.com/logo/tv/cc/cbs_action.jpg|||SDTV
 quest.discoveryeurope.com|2179|Quest|http://www.lyngsat-logo.com/logo/tv/qq/quest.jpg|||SDTV
-cinemoi.tv|2181|Cinémoi|http://www.lyngsat-logo.com/logo/tv/cc/cine_moi.jpg|||SDTV
 uk.viva.tv|2184|Viva|http://www.lyngsat-logo.com/logo/tv/vv/viva_uk.jpg|||SDTV
 foodnetwork.com|2185|Food Network|http://www.lyngsat-logo.com/logo/tv/ff/food_network_uk.jpg|||SDTV
 plus-1.foodnetwork.com|2186|Food Network +1 (RT)|http://www.lyngsat-logo.com/logo/tv/ff/food_network_uk.jpg|||SDTV
@@ -507,7 +515,6 @@ mgm.com|2196|MGM|http://www.lyngsat-logo.com/logo/tv/mm/mgm_es.jpg|||SDTV
 action.movies.sky.com|2204|Sky Movies Action & Adventure|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_action_adventure.jpg|||SDTV
 crime.movies.sky.com|2206|Sky Movies Crime & Thriller|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_crime_thriller.jpg|||SDTV
 drama.movies.sky.com|2208|Sky Movies Drama & Romance|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_drama_romance.jpg|||SDTV
-showcase.movies.sky.com|2210|Sky Movies Showcase|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_showcase.jpg|||SDTV
 uk.syfy.com|2212|Syfy|http://www.lyngsat-logo.com/logo/tv/ss/syfy.jpg|||SDTV
 plus-1.uk.syfy.com|2213|Syfy +1 (RT)|http://www.lyngsat-logo.com/logo/tv/ss/syfy.jpg|||SDTV
 international.bet.com|2244|BET|http://www.lyngsat-logo.com/logo/tv/bb/bet.jpg|||SDTV
@@ -517,7 +524,7 @@ mydancenation.com|2457|Dance Nation TV|http://www.lyngsat-logo.com/logo/tv/dd/da
 horror.cbs.com|2476|Horror Channel|http://www.lyngsat-logo.com/logo/tv/hh/horror_channel_uk.jpg|||SDTV
 setantasport.ie|2479|Setanta Ireland|http://www.lyngsat-logo.com/logo/tv/ss/setanta_sports_ie.jpg|||SDTV
 3e.tv3.ie|2502|3e|http://www.lyngsat-logo.com/logo/tv/num/3e_ie.jpg|||SDTV
-filmflexmovies.co.uk|2505|Filmflex Previews|http://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Filmflex.jpg/220px-Filmflex.jpg|||SDTV
+filmflexmovies.co.uk|2505|FilmFlex Previews|http://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Filmflex.jpg/220px-Filmflex.jpg|||SDTV
 plus-1.itv3.itv.co.uk|2511|ITV3 +1 (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv3_plus1.jpg|||SDTV
 bestdirect.tv|2527|Best Direct|http://www.lyngsat-logo.com/logo/tv/bb/bestdirect.jpg|||SDTV
 gemstv.co.uk|2528|Gems TV|http://www.lyngsat-logo.com/logo/tv/gg/gems_tv.jpg|||SDTV
@@ -565,35 +572,37 @@ plus-1.sky-three.sky.com|2647|Pick TV +1 (RT)|http://www.lyngsat-logo.com/logo/t
 rt.freeview.quest.discoveryeurope.com|2663|Quest (Freeview) (RT)|http://www.lyngsat-logo.com/logo/tv/qq/quest.jpg|||SDTV
 history.discoveryeurope.com|2668|Discovery History|http://www.lyngsat-logo.com/logo/tv/dd/discovery_history.jpg|||SDTV
 plus-1.history.discoveryeurope.com|2672|Discovery History +1 (RT)|http://www.lyngsat-logo.com/logo/tv/dd/discovery_history_plus1.jpg|||SDTV
-plus-1.granada.itv1.itv.co.uk|2676|ITV1 +1 (Granada/Border) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_granada.jpg|||SDTV
+plus-1.granada.itv1.itv.co.uk|2676|ITV +1 (Granada/Border) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|||SDTV
 plus-1.u.tv|2677|UTV +1 (RT)|http://www.lyngsat-logo.com/logo/tv/uu/ulster_tv.jpg|||SDTV
-plus-1.central.itv1.itv.co.uk|2678|ITV1 +1 (Central) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_central.jpg|||SDTV
-plus-1.west.itv1.itv.co.uk|2679|ITV1 +1 (West/Westcountry/Wales) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_west.jpg|||SDTV
-plus-1.meridian.itv1.itv.co.uk|2680|ITV1 +1 (Medidian/Anglia) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_meridian.jpg|||SDTV
+plus-1.central.itv1.itv.co.uk|2678|ITV +1 (Central) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|||SDTV
+plus-1.west.itv1.itv.co.uk|2679|ITV +1 (West/Westcountry/Wales) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|||SDTV
+plus-1.meridian.itv1.itv.co.uk|2680|ITV +1 (Medidian/Anglia) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|||SDTV
 plus-1.stv.tv|2681|STV +1 (RT)|http://www.lyngsat-logo.com/logo/tv/ss/stv_north.jpg|||SDTV
-plus-1.london.itv1.itv.co.uk|2682|ITV1 +1 (London) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_london.jpg|||SDTV
-plus-1.yorkshire.itv1.itv.co.uk|2683|ITV1 +1 (Yorkshire/Tyne Tees) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_yorkshire.jpg|||SDTV
+plus-1.london.itv1.itv.co.uk|2682|ITV +1 (London) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|||SDTV
+plus-1.yorkshire.itv1.itv.co.uk|2683|ITV +1 (Yorkshire/Tyne Tees) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_plus1.jpg|||SDTV
 atlantic.sky.com|2685|Sky Atlantic|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_atlantic.jpg|||SDTV
-plus-1.sonytv.com|2696|Sony Entertainment Television +1 (RT)|http://www.lyngsat-logo.com/logo/tv/ss/set_uk_plus1.jpg|||SDTV
-sonytv.com|2697|Sony Entertainment Television|http://www.lyngsat-logo.com/logo/tv/ss/set_uk.jpg|||SDTV
-pbs.co.uk|2698|PBS UK|http://www.lyngsat-logo.com/logo/tv/pp/pbs_uk.jpg|||SDTV
+pbs.co.uk|2698|PBS America|http://www.lyngsat-logo.com/logo/tv/pp/pbs_uk.jpg|||SDTV
 plus-1.channel5.co.uk|2699|Channel 5 +1 (RT)|http://www.lyngsat-logo.com/logo/tv/cc/channel5_region1_plus1.jpg|||SDTV
 f1.sports.sky.com|2700|Sky Sports F1|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports_f1.jpg|||SDTV
+4seven.channel4.com|2701|4seven|http://www.lyngsat-logo.com/logo/tv/cc/channel4_seven_uk.jpg|||SDTV
+sonytv.com|2702|Sony Entertainment Television|http://www.lyngsat-logo.com/logo/tv/ss/set_uk.jpg|||SDTV
+plus-1.sonytv.com|2703|Sony Entertainment Television +1 (RT)|http://www.lyngsat-logo.com/logo/tv/ss/set_uk_plus1.jpg|||SDTV
+tvmovies24.com|2704|Movies 24|http://www.lyngsat-logo.com/logo/tv/mm/movies_24.jpg|||SDTV
+movies.sonytv.com|2705|Sony Movie Channel|http://www.lyngsat-logo.com/logo/tv/ss/sony_movie_channel_uk.jpg|||SDTV
+plus-1.movies.sonytv.com|2706|Sony Movie Channel +1 (RT)|http://www.lyngsat-logo.com/logo/tv/ss/sony_movie_channel_uk_plus1.jpg|||SDTV
 #
 # HDTV channels (carried by RT service)
 # =====================================
 #
-hd.bbc.co.uk|1994|BBC HD|http://www.lyngsat-logo.com/logo/tv/bb/bbc_hd_uk.jpg|||HDTV
 hd.channel4.com|2056|Channel 4 HD|http://www.lyngsat-logo.com/logo/tv/cc/channel4_hd.jpg|||HDTV
-rt.hd.london.itv1.itv.co.uk|2118|ITV1 HD (London) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv1_london_hd.jpg|||HDTV
+rt.hd.london.itv1.itv.co.uk|2118|ITV HD (London) (RT)|http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_hd.jpg|||HDTV
 hd.sky-one.sky.com|2139|Sky1 HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_one_hd.jpg|||HDTV
 hd.biography-channel.biography.com|2143|Bio. HD|http://www.lyngsat-logo.com/logo/tv/bb/biography_hd.jpg|||HDTV
 hd.crimeandinvestigation.co.uk|2144|Crime & Investigation Network HD|http://www.lyngsat-logo.com/logo/tv/cc/crime_investigation_network_hd.jpg|||HDTV
 hd.discoveryeurope.com|2145|Discovery HD|http://www.lyngsat-logo.com/logo/tv/dd/discovery_hd.jpg|||HDTV
-hd.cinemagic.disney.co.uk|2146|Disney Cinemagic HD|http://www.lyngsat-logo.com/logo/tv/dd/disney_cinemagic_hd.jpg|||HDTV
 hd.uk.espn.com|2147|ESPN HD|http://www.lyngsat-logo.com/logo/tv/ee/espn_hd.jpg|||HDTV
-hd.eurosport.sky.com|2148|Eurosport HD|http://www.lyngsat-logo.com/logo/tv/ee/eurosport_hd.jpg|||HDTV
-hd.fxuk.tv|2149|FX HD|http://www.lyngsat-logo.com/logo/tv/ff/fx_uk_hd.jpg|||HDTV
+hd.british.eurosport.com|2148|British Eurosport HD|http://www.lyngsat-logo.com/logo/tv/ee/eurosport_hd.jpg|||HDTV
+hd.fxuk.tv|2149|Fox HD|http://www.lyngsat-logo.com/logo/tv/ff/fox_uk_hd.jpg|||HDTV
 hd.live.mtv.co.uk|2150|MTVNHD|http://www.lyngsat-logo.com/logo/tv/mm/mtv_live_hd_us.jpg|||HDTV
 hd.nationalgeographic.co.uk|2151|National Geographic Channel HD|http://www.lyngsat-logo.com/logo/tv/nn/nat_geo_eur_hd.jpg|||HDTV
 hd.wild.nationalgeographic.co.uk|2152|Nat Geo Wild HD|http://www.lyngsat-logo.com/logo/tv/nn/nat_geo_wild_emea_hd.jpg|||HDTV
@@ -601,7 +610,7 @@ hd.arts.sky.com|2154|Sky Arts 1 HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk
 hd.2.arts.sky.com|2155|Sky Arts 2 HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_arts2_hd.jpg|||HDTV
 hd.comedy.movies.sky.com|2157|Sky Movies Comedy HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_comedy_hd.jpg|||HDTV
 hd.family.movies.sky.com|2159|Sky Movies Family HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_family_hd.jpg|||HDTV
-hd.modern.movies.sky.com|2160|Sky Movies Modern Greats HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_modern_greats_hd.jpg|||HDTV
+hd.modern.movies.sky.com|2160|Sky Movies Greats HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_modern_greats_hd.jpg|||HDTV
 hd.scifi.movies.sky.com|2161|Sky Movies Sci-Fi & Horror HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_scifi_horror_hd.jpg|||HDTV
 hd.1.sports.sky.com|2174|Sky Sports 1 HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports_hd1.jpg|||HDTV
 hd.2.sports.sky.com|2175|Sky Sports 2 HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports_hd2.jpg|||HDTV
@@ -610,7 +619,6 @@ hd.e4.channel4.com|2195|E4 HD|http://www.lyngsat-logo.com/logo/tv/ee/e4_uk_hd.jp
 hd.action.movies.sky.com|2205|Sky Movies Action & Adventure HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_action_adventure_hd.jpg|||HDTV
 hd.crime.movies.sky.com|2207|Sky Movies Crime & Thriller HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_crime_thriller_hd.jpg|||HDTV
 hd.drama.movies.sky.com|2209|Sky Movies Drama & Romance HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_drama_romance_hd.jpg|||HDTV
-hd.showcase.movies.sky.com|2211|Sky Movies Showcase HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_showcase_hd.jpg|||HDTV
 hd.uk.syfy.com|2214|Syfy HD|http://www.lyngsat-logo.com/logo/tv/ss/syfy_hd.jpg|||HDTV
 hd.news.sky.com|2217|Sky News HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_news_hd.jpg|||HDTV
 rt.hd.stv.tv|2219|STV HD (RT)|http://www.lyngsat-logo.com/logo/tv/ss/stv_north.jpg|||HDTV
@@ -619,7 +627,7 @@ hd.1.boxoffice.sky.com|2507|Sky Movies Box Office HD1|http://www.lyngsat-logo.co
 hd.thehistorychannel.co.uk|2526|History HD|http://www.lyngsat-logo.com/logo/tv/hh/history_hd.jpg|||HDTV
 hd.premiere.movies.sky.com|2552|Sky Movies Premiere HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_premiere_hd.jpg|||HDTV
 hd.living.sky.com|2585|Sky Living HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_living_hd.jpg|||HDTV
-hd.indie.movies.sky.com|2587|Sky Movies Indie HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_indie_hd.jpg|||HDTV
+hd.select.movies.sky.com|2587|Sky Movies Select HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_select_hd.jpg|||HDTV
 hd.world.nhk.or.jp|2594|NHK World HD|http://www.lyngsat-logo.com/logo/tv/nn/nhk_world.jpg|||HDTV
 3d.sky.com|2606|Sky 3D|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_3d_tv.jpg|||HDTV
 hd.4.sports.sky.com|2607|Sky Sports 4 HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports_hd4.jpg|||HDTV
@@ -630,7 +638,6 @@ hd.mgm.com|2645|MGM HD|http://www.lyngsat-logo.com/logo/tv/mm/mgm_hd_uk.jpg|||HD
 hd.comedycentral.com|2646|Comedy Central HD|http://www.lyngsat-logo.com/logo/tv/cc/comedy_central_uk.jpg|||HDTV
 hd.itv2.itv.co.uk|2661|ITV2 HD|http://www.lyngsat-logo.com/logo/tv/ii/itv2_hd.jpg|||HDTV
 hd.eden.uktv.co.uk|2662|Eden HD|http://www.lyngsat-logo.com/logo/tv/ee/eden.jpg|||HDTV
-hd.bbc1.bbc.co.uk|2667|BBC One HD|http://www.lyngsat-logo.com/logo/tv/bb/bbc_one_hd.jpg|||HDTV
 hd.atlantic.sky.com|2684|Sky Atlantic HD|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_atlantic_hd.jpg|||HDTV
 #
 #
@@ -654,23 +661,34 @@ hd.atlantic.sky.com|2684|Sky Atlantic HD|http://www.lyngsat-logo.com/logo/tv/ss/
 #
 blank.bravo.co.uk|122|Bravo (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/bb/bravo_uk.jpg|||SDTV
 blank.knowledge.discoveryeurope.com|148|Discovery Knowledge (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/dd/discovery.jpg|||SDTV
+blank.realtime.discoveryeurope.com|150|Discovery Real Time (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/dd/discovery_real_time_uk.jpg|||SDTV
+blank.travel.discoveryeurope.com|154|Discovery Travel & Living (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/dd/discovery_travel_living.jpg|||SDTV
 blank.screenshop.co.uk|246|Screenshop (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ss/screenshop.jpg|||SDTV
+blank.classics.movies.sky.com|259|Sky Movies Classics (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_classics.jpg|||SDTV
 blank.reallives.sky.com|266|Sky Real Lives (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ss/sky_real_lives.jpg|||SDTV
 blank.plus-2.livingtv.co.uk|287|Living +2 (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ll/living_tv_uk.jpg|||SDTV
 blank.plus-1.bravo.co.uk|1221|Bravo +1 (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/bb/bravo_uk_plus1.jpg|||SDTV
 blank.boxoffice.sky.com|1261|Sky Movies Box Office (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_box_office.jpg|||SDTV
 blank.2.reallives.sky.com|1662|Sky Real Lives 2 (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ss/sky_real_lives_2.jpg|||SDTV
+blank.plus-1.realtime.discoveryeurope.com|1764|Discovery Real Time +1 (RT) (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/dd/discovery_real_time_uk.jpg|||SDTV
 blank.idealworld.tv|1802|Ideal World (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ii/ideal_world.jpg|||SDTV
 blank.teleg.co.uk|1804|TeleG (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/tt/tele_g.jpg|||SDTV
 blank.channelm.co.uk|1944|Channel M (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/cc/channel_m_uk.jpg|||SDTV
 blank.teachers.tv|1956|Teachers' TV (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/tt/teachers_tv.jpg|||SDTV
 blank.ftv.com|1969|Fashion TV (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ff/fashion_tv.jpg|||SDTV
+blank.cinemagic.disney.co.uk|1984|Disney Cinemagic (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/dd/disney_cinemagic.jpg|||SDTV
+blank.plus-1.cinemagic.disney.co.uk|1985|Disney Cinemagic +1 (RT) (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/dd/disney_cinemagic.jpg|||SDTV
+blank.hd.bbc.co.uk|1994|BBC HD (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/bb/bbc_hd_uk.jpg|||HDTV
 blank.bravo2.bravo.co.uk|2010|Bravo 2 (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/bb/bravo2_uk.jpg|||SDTV
 blank.1.virginmedia.com|2049|Channel One [Satellite/Cable] (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/cc/channel_one_uk.jpg|||SDTV
+blank.hd.cinemagic.disney.co.uk|2146|Disney Cinemagic HD (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/dd/disney_cinemagic_hd.jpg|||HDTV
 blank.hd.reallives.sky.com|2162|Sky Real Lives HD (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ss/sky_real_lives.jpg|||HDTV
 blank.plus-1.1.virginmedia.com|2169|Channel One +1 [Satellite/Cable] (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/cc/channel_one_plus1_uk.jpg|||SDTV
 blank.hd.rush.com|2173|Rush HD (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/rr/rush_hd.jpg|||HDTV
+blank.cinemoi.tv|2181|Cinémoi (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/cc/cine_moi.jpg|||SDTV
 blank.tvmovies24.com|2197|Movies 24 (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/mm/movies_24.jpg|||SDTV
+blank.showcase.movies.sky.com|2210|Sky Movies Christmas (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_showcase.jpg|||SDTV
+blank.hd.showcase.movies.sky.com|2211|Sky Movies Christmas HD (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_showcase_hd.jpg|||HDTV
 blank.unknown.health|2250|Health (Do Not Use)||||SDTV
 blank.unknown.simplyshoppingtv.co.uk|2251|Simply Shopping (Do Not Use)||||SDTV
 blank.gm.tv|2331|GMTV Digital (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/gg/gmtv.jpg|||SDTV
@@ -698,6 +716,8 @@ blank.showcase.information.tv|2622|Showcase TV (Do Not Use)|http://information.t
 blank.asianetglobal.com|2625|Asianet (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/aa/asianet.jpg|||SDTV
 blank.unknown.multichannel|2636|Multi Channel (Do Not Use)||||SDTV
 blank.livingloves.sky.com|2686|Sky Living Loves (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_living_loves.jpg|||SDTV
+blank.plus-1.sonytv.com|2696|Sony Entertainment Television +1 (RT) (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ss/set_uk_plus1.jpg|||SDTV
+blank.sonytv.com|2697|Sony Entertainment Television (Do Not Use)|http://www.lyngsat-logo.com/logo/tv/ss/set_uk.jpg|||SDTV
 #
 # Non-UK channels
 # ===============
@@ -727,4 +747,3 @@ dw-world.de|2530|Deutsche Welle (Do Not Use)||||SDTV
 newsnow.abcnews.com|2553|ABC News Now (Do Not Use)||||SDTV
 hd.europe.nationalgeographic.co.uk|2557|National Geographic HD Pan European (Do Not Use)||||HDTV
 europe.musicchoice.co.uk|2637|Music Choice Europe (Do Not Use)||||SDTV
-

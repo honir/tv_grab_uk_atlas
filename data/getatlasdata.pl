@@ -49,6 +49,7 @@ my $regions = ();
 my $platformchannels = ();
 my $regionchannels = ();
 my $allchannels = ();
+my $alluniquechannels = ();
 my $channelids = ();
 my $rtchannelids = ();
 my $pachannelids = ();
@@ -74,6 +75,7 @@ sub get_channels {
 		fetch_channels();
 		#		print Dumper($regionchannels);
 		#		print Dumper($allchannels);
+		#		print Dumper($alluniquechannels);
 		#		print Dumper($rtchannelids);
 		#		print Dumper($pachannelids);
 		print_channels();
@@ -124,9 +126,11 @@ sub fetch_platforms {
 							push @{$platform{'regions'}},  { 'id' => $region->{'id'}, 'title' =>  $region->{'title'} };
 
 							$regions->{$region->{'id'}} = { 'title' => $region->{'title'}, 'platformid' => $platform{'id'}, 'platform' => $platform{'title'} };
+							#~ last;
 						}
 						
 						push @{$platforms}, \%platform;
+						#~ last;
 				}
 				
 		} else {
@@ -250,8 +254,6 @@ sub fetch_channels_for_code {
 						$channel{'media_type'} 	= $chan{'channel'}->{'media_type'};		# 'video' 'audio'
 						$channel{'region'} 			= $code;
 						
-						push @{$allchannels}, { %channel };
-						
 						foreach (@{$chan{'channel'}->{'aliases'}}) {
 								my $alias = $_;							
 								#     'aliases' => [
@@ -274,6 +276,9 @@ sub fetch_channels_for_code {
 									next;
 								}
 						}
+						
+						push @{$allchannels}, { %channel };
+						$alluniquechannels->{$channel{'id'}} = \%channel;
 								 
 						push @{$channeldata{$code}}, \%channel;
 				}
@@ -493,7 +498,7 @@ sub print_channels_RT_ATLAS {
 			}
 			close $fh;
 		}
-		#print Dumper (\%rt_ids);
+		# print Dumper (\%rt_ids);
 		
 		my $f = 'rt/map__RT.txt';			
 		open OUT, "> $f"  or die "Failed to open $f for writing";
@@ -518,7 +523,7 @@ sub print_channels_RT_ATLAS {
 		printf OUT '# rt_channel id == rt_channel name == channel_id'."\n";
 		printf OUT '# Sorted by rt_channel id'."\n";
 		printf OUT '# '."\n";
-		foreach my $key ( sort {$a<=>$b} keys %rt_ids) {
+		foreach my $key ( sort {$a<=>$b} keys %rt_ids ) {
 				my $rt_id = $key;
 				printf OUT '%s==%s==%s'."\n", $rt_id, $rt_ids{$rt_id}, (defined $rtchannelids->{$rt_id}{'atlasid'} ? $rtchannelids->{$rt_id}{'atlasid'} : '????');
 		}
@@ -532,11 +537,37 @@ sub print_channels_RT_ATLAS {
 		printf OUT '# rt_channel name == rt_channel id == channel_id'."\n";
 		printf OUT '# Sorted by rt_channel name'."\n";
 		printf OUT '# '."\n";
-		foreach my $key (sort {$rt_ids{$a} cmp $rt_ids{$b} } keys %rt_ids) {
+		foreach my $key ( sort {$rt_ids{$a} cmp $rt_ids{$b} } keys %rt_ids ) {
 				my $rt_id = $key;
 				printf OUT '%s==%s==%s'."\n", $rt_ids{$rt_id}, $rt_id, (defined $rtchannelids->{$rt_id}{'atlasid'} ? $rtchannelids->{$rt_id}{'atlasid'} : '????');
 		}
 		close OUT;
+		
+		
+		
+		
+		# Write a map file of all the Atlas channels for all platforms/regions with  map==id==RT_id ;# RT_channel   ("map_ALL.txt")
+		#  where 'RT_id' is the channel_id (RFC2838 compliant) as defined in the channel_ids file from the tv_grab_uk_rt grabber
+		#  and RT_channel' is the RadioTimes channel number (i.e.  "xxx.dat" file)
+		$f = 'rt/map_ALL.txt';			
+		open OUT, "> $f"  or die "Failed to open $f for writing";
+		printf OUT '# CHANNELS for all Atlas channels mapped to an RFC2838 compliant channel id'."\n";
+		printf OUT '# Cross-references the RadioTimes channel id (where one exists)'."\n";
+		printf OUT '# \'map\' == atlas_channel_id == rt_channel name # rt_channel id -- channel title '."\n";
+		printf OUT '# '."\n";	
+				
+		foreach ( sort {$a cmp $b} keys %$alluniquechannels ) {
+				my %c = %{ $alluniquechannels->{$_} };
+				if (defined $c{'rt_chan'}) {
+					printf OUT "map==%s==%s %s# (%s) -- %s "."\n", $c{'id'}, $rt_ids{$c{'rt_chan'}}, " " x (50-length( $c{'id'} . $rt_ids{$c{'rt_chan'}} )), $c{'rt_chan'}, $c{'title'};
+				} else {
+					printf OUT "map==%s==%s %s# (%s) -- %s "."\n", $c{'id'}, $c{'num'}.'.atlas', " " x (50-length( $c{'id'} . $c{'num'}.'.atlas' )), '????', $c{'title'};
+				}
+		}
+				
+		close OUT;
+		
+		
 		
 }		
 		
@@ -652,7 +683,8 @@ $VAR1 = [
 print Dumper($allchannels);			
 $VAR1 = [
           {
-            'num' => '101',
+            'rt_chan' => '231',
+						'num' => '101',
             'media_type' => 'video',
             'region' => 'cbfM',
             'id' => 'cbfk',
@@ -660,7 +692,8 @@ $VAR1 = [
             'image' => 'http://images.atlas.metabroadcast.com/pressassociation.com/channels/p139876.png'
           },
           {
-            'num' => '102',
+            'rt_chan' => '1870',
+						'num' => '102',
             'media_type' => 'video',
             'region' => 'cbfM',
             'id' => 'cbfm',
@@ -670,6 +703,31 @@ $VAR1 = [
         ];
 				
 				
+# ----------------------------------------------------------------------------------------------------------- #	
+print Dumper($alluniquechannels);	
+$VAR1 = {
+          'cbj4' => {
+                    'rt_chan' => '2145',
+                    'num' => '520',
+                    'region' => 'cbfM',
+                    'pa_chan' => '1233',
+                    'image' => 'http://images.atlas.metabroadcast.com/pressassociation.com/channels/p131501.png',
+                    'media_type' => 'video',
+                    'id' => 'cbj4',
+                    'title' => 'Discovery Channel HD'
+                  },
+          'cbkX' => {
+                    'rt_chan' => '2528',
+                    'num' => '652',
+                    'region' => 'cbfM',
+                    'pa_chan' => '1365',
+                    'image' => 'http://images.atlas.metabroadcast.com/pressassociation.com/channels/p141482.png',
+                    'media_type' => 'video',
+                    'id' => 'cbkX',
+                    'title' => 'Gems TV'
+                  }
+        };
+
 # ----------------------------------------------------------------------------------------------------------- #				
 print Dumper($rtchannelids);
 $VAR1 = {
@@ -702,6 +760,13 @@ $VAR1 = {
         };
 				
 				
-				
+# ----------------------------------------------------------------------------------------------------------- #												
+print Dumper (\%rt_ids);
+$VAR1 = {				
+	        '1855' => 'plus-1.sat.travelchannel.co.uk',
+          '2506' => 'hd.2.boxoffice.sky.com',
+          '1201' => 'extra.comedycentral.com',
+				}
+			
 		
 		

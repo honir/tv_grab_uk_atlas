@@ -3,7 +3,7 @@
 # RT grabber's channel_ids file
 # 'map' == channel id == rt_id   # channel-num (rt_channel_as_defined_by_atlas) channel_name
 # 
-map==cbbv==scotland.bbc1.bbc.co.uk   				# 101 (101) - BBC One Scotland
+map==cbbv==hd.scotland.bbc1.bbc.co.uk   				# 101 (101) - BBC One Scotland
 map==cbbK==scotland.bbc2.bbc.co.uk   				# 102 (113) - BBC Two Scotland
 map==cbdz==border.itv1.itv.co.uk   				# 103 (25) - ITV Border
 map==cbdj==channel4.com   				# 104 (132) - Channel 4
@@ -42,7 +42,7 @@ map==cbdn==e4.channel4.com   				# 136 (158) - E4
 map==cbfs==plus-1.e4.channel4.com   				# 137 (1161) - E4 +1
 map==cbdk==more4.channel4.com   				# 138 (1959) - More4
 map==cbfw==plus-1.more4.channel4.com   				# 139 (1972) - More4 +1
-map==cbB2==   				# 140 (2701) - 4seven
+map==cbB2==4seven.channel4.com   				# 140 (2701) - 4seven
 map==cbVD==   				# 141 () - BBC One Scotland HD
 map==cbWw==   				# 142 () - BBC Two HD
 map==cbnD==alba.bbc.co.uk   				# 143 (2098) - BBC Alba
@@ -57,8 +57,9 @@ map==cbjP==sky-three.sky.com   				# 152 (1963) - Pick
 map==cbjQ==plus-1.sky-three.sky.com   				# 153 (2647) - Pick +1
 map==cbmP==quest.discoveryeurope.com   				# 154 (2179) - Quest
 map==cbmy==plus-1.watch.uktv.co.uk   				# 155 (2116) - Watch +1
+map==cbXY==   				# 156 () - Lifetime
 map==cbhx==biography-channel.biography.com   				# 156 (119) - Bio
-map==cbCc==   				# 157 (2702) - Sony Entertainment Television
+map==cbCc==sonytv.com   				# 157 (2702) - Sony Entertainment Television
 map==cbjd==plus-1.dave.uktv.co.uk   				# 158 (2052) - Dave ja vu
 map==cbjC==plus-1.extra.comedycentral.com   				# 159 (2596) - Comedy Central Extra +1
 map==cbfJ==plus-1.mtv.co.uk   				# 160 (2547) - MTV +1
@@ -77,7 +78,7 @@ map==cbdr==plus-1.channel5.co.uk   				# 177 (2699) - Channel 5 +1
 map==cbfc==rt.hd.stv.tv   				# 178 (2219) - STV HD
 map==cbfr==plus-1.itv2.itv.co.uk   				# 179 (1990) - ITV2+1
 map==cbfv==plus-1.itv3.itv.co.uk   				# 180 (2511) - ITV3+1
-map==cbDP==   				# 181 (2703) - Sony Entertainment Television +1
+map==cbDP==plus-1.sonytv.com   				# 181 (2703) - Sony Entertainment Television +1
 map==cbmG==   				# 183 () - AIT International
 map==cbnd==entertainment.truemovies.tv   				# 184 (2603) - True Entertainment
 map==cbTH==   				# 185 () - more>movies
@@ -147,7 +148,7 @@ map==cbks==comedy.movies.sky.com   				# 308 (257) - Sky Movies Comedy
 map==cbkm==crime.movies.sky.com   				# 309 (2206) - Sky Movies Crime & Thriller
 map==cbkz==drama.movies.sky.com   				# 310 (2208) - Sky Movies Drama & Romance
 map==cbkC==scifi.movies.sky.com   				# 311 (2168) - Sky Movies Sci-fi/Horror
-map==cbkK==indie.movies.sky.com   				# 312 (253) - Sky Movies Select
+map==cbkK==select.movies.sky.com   				# 312 (253) - Sky Movies Select
 map==cbm8==hd.mgm.com   				# 313 (2645) - MGM HD
 map==cbkr==hd.premiere.movies.sky.com   				# 314 (2552) - Sky Movies Premiere HD
 map==cbdm==filmfour.channel4.com   				# 315 (160) - Film4
@@ -158,11 +159,11 @@ map==cbjn==horror.cbs.com   				# 319 (2476) - Horror Channel
 map==cbjp==plus-1.horror.cbs.com   				# 320 (2561) - Horror Channel +1
 map==cbjN==1.truemovies.tv   				# 321 (2059) - True Movies
 map==cbmr==2.truemovies.tv   				# 322 (2192) - True Movies 2
-map==cbD6==   				# 323 (2705) - Sony Movie Channel
-map==cbB7==   				# 324 (2706) - Sony Movie Channel +1
+map==cbD6==movies.sonytv.com   				# 323 (2705) - Sony Movie Channel
+map==cbB7==plus-1.movies.sonytv.com   				# 324 (2706) - Sony Movie Channel +1
 map==cbmp==1.movies4men.co.uk   				# 325 (2058) - Movies4Men
 map==cbmq==plus-1.1.movies4men.co.uk   				# 326 (2598) - Movies4Men +1
-map==cbnQ==   				# 327 (2704) - Movies 24
+map==cbnQ==tvmovies24.com   				# 327 (2704) - Movies 24
 map==cbnR==   				# 328 () - Movies 24 +
 map==cbnw==   				# 330 () - Sky Movies Showcase HD
 map==cbkJ==hd.modern.movies.sky.com   				# 331 (2160) - Sky Movies Greats HD
@@ -173,7 +174,7 @@ map==cbkt==hd.comedy.movies.sky.com   				# 335 (2157) - Sky Movies Comedy HD
 map==cbkn==hd.crime.movies.sky.com   				# 336 (2207) - Sky Movies Crime & Thriller HD
 map==cbkB==hd.drama.movies.sky.com   				# 337 (2209) - Sky Movies Drama & Romance HD
 map==cbkD==hd.scifi.movies.sky.com   				# 339 (2161) - Sky Movies Sci-fi/Horror HD
-map==cbkM==hd.indie.movies.sky.com   				# 340 (2587) - Sky Movies Select HD
+map==cbkM==hd.select.movies.sky.com   				# 340 (2587) - Sky Movies Select HD
 map==cbT7==   				# 341 () - TCM HD
 map==cbhc==hd.filmfour.channel4.com   				# 342 (2617) - Film4 HD
 map==cbnJ==   				# 350 () - MTV Music
@@ -211,7 +212,7 @@ map==cbj9==hd.2.sports.sky.com   				# 408 (2175) - Sky Sports 2 HD
 map==cbmj==hd.3.sports.sky.com   				# 409 (2176) - Sky Sports 3 HD
 map==cbhm==british.eurosport.com   				# 410 (123) - British Eurosport
 map==cbjx==2.british.eurosport.com   				# 411 (1876) - British Eurosport 2
-map==cbhn==hd.eurosport.sky.com   				# 412 (2148) - British Eurosport HD
+map==cbhn==hd.british.eurosport.com   				# 412 (2148) - British Eurosport HD
 map==cbW8==   				# 413 () - BT Sport 1
 map==cbW7==   				# 414 () - BT Sport 2
 map==cbhP==attheraces.co.uk   				# 415 (661) - At The Races
@@ -340,8 +341,8 @@ map==cbTy==   				# 901 () - The Adult Channel
 map==cbgB==   				# 903 () - Television X
 map==cbTR==   				# 904 () - Red Hot Amateur
 map==cbVZ==   				# 907 () - Red Hot 18s
-map==cbby==wales.bbc1.bbc.co.uk   				# 952 (100) - BBC One Wales
-map==cbbj==northern-ireland.bbc1.bbc.co.uk   				# 953 (99) - BBC One Northern Ireland
+map==cbby==hd.wales.bbc1.bbc.co.uk   				# 952 (100) - BBC One Wales
+map==cbbj==hd.northern-ireland.bbc1.bbc.co.uk   				# 953 (99) - BBC One Northern Ireland
 map==cbbh==london.bbc1.bbc.co.uk   				# 954 (94) - BBC One London
 map==cbbr==north-east.bbc1.bbc.co.uk   				# 955 (97) - BBC One North East & Cumbria
 map==cbbF==   				# 956 () - BBC One Yorkshire

@@ -3,7 +3,7 @@
 # RT grabber's channel_ids file
 # 'map' == channel id == rt_id   # channel-num (rt_channel_as_defined_by_atlas) channel_name
 # 
-map==cbbv==scotland.bbc1.bbc.co.uk   				# 1 (101) - BBC One Scotland
+map==cbbv==hd.scotland.bbc1.bbc.co.uk   				# 1 (101) - BBC One Scotland
 map==cbbK==scotland.bbc2.bbc.co.uk   				# 2 (113) - BBC Two Scotland
 map==cbdz==border.itv1.itv.co.uk   				# 3 (25) - ITV Border
 map==cbdj==channel4.com   				# 4 (132) - Channel 4
@@ -43,7 +43,7 @@ map==cbkX==gemstv.co.uk   				# 43 (2528) - Gems TV
 map==cbdr==plus-1.channel5.co.uk   				# 44 (2699) - Channel 5 +1
 map==cbhd==plus-1.filmfour.channel4.com   				# 45 (2021) - Film4 +1
 map==cbfR==challengetv.co.uk   				# 46 (131) - Challenge
-map==cbB2==   				# 47 (2701) - 4seven
+map==cbB2==4seven.channel4.com   				# 47 (2701) - 4seven
 map==cbnd==entertainment.truemovies.tv   				# 61 (2603) - True Entertainment
 map==cbbW==cbbc.bbc.co.uk   				# 70 (482) - CBBC
 map==cbbX==cbeebies.bbc.co.uk   				# 71 (483) - CBeebies

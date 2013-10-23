@@ -25,7 +25,7 @@ map==cbfs==plus-1.e4.channel4.com   				# 123 (1161) - E4 +1
 map==cbdk==more4.channel4.com   				# 124 (1959) - More4
 map==cbfw==plus-1.more4.channel4.com   				# 125 (1972) - More4 +1
 map==cbfg==hd.channel4.com   				# 126 (2056) - Channel 4 HD
-map==cbB2==   				# 127 (2701) - 4seven
+map==cbB2==4seven.channel4.com   				# 127 (2701) - 4seven
 map==cbdr==plus-1.channel5.co.uk   				# 128 (2699) - Channel 5 +1
 map==cbdv==fiveusa.channel5.co.uk   				# 129 (2008) - 5USA
 map==cbnH==plus-1.fiveusa.channel5.co.uk   				# 130 (2577) - 5USA +1
@@ -134,14 +134,14 @@ map==cbbn==west.east.bbc1.bbc.co.uk   				# 953 (93) - BBC One East
 map==cbbC==   				# 954 () - BBC One West Midlands
 map==cbbs==north-west.bbc1.bbc.co.uk   				# 955 (98) - BBC One North West
 map==cbbr==north-east.bbc1.bbc.co.uk   				# 956 (97) - BBC One North East & Cumbria
-map==cbbj==northern-ireland.bbc1.bbc.co.uk   				# 957 (99) - BBC One Northern Ireland
+map==cbbj==hd.northern-ireland.bbc1.bbc.co.uk   				# 957 (99) - BBC One Northern Ireland
 map==cbTg==   				# 958 () - BBC One Oxfordshire
 map==cbbx==south-east.bbc1.bbc.co.uk   				# 959 (1869) - BBC One South East
-map==cbbv==scotland.bbc1.bbc.co.uk   				# 960 (101) - BBC One Scotland
+map==cbbv==hd.scotland.bbc1.bbc.co.uk   				# 960 (101) - BBC One Scotland
 map==cbbw==oxford.south.bbc1.bbc.co.uk   				# 961 (102) - BBC One South
 map==cbbz==ci.south-west.bbc1.bbc.co.uk   				# 962 (103) - BBC One South West
 map==cbbC==   				# 963 () - BBC One West Midlands
-map==cbby==wales.bbc1.bbc.co.uk   				# 964 (100) - BBC One Wales
+map==cbby==hd.wales.bbc1.bbc.co.uk   				# 964 (100) - BBC One Wales
 map==cbbB==west.bbc1.bbc.co.uk   				# 965 (104) - BBC One West
 map==cbbF==   				# 966 () - BBC One Yorkshire
 map==cbbD==   				# 967 () - BBC One Yorkshire & Lincolnshire

@@ -584,7 +584,6 @@ map==cbCZ==103 		# (cbjD) -- ITVHD Meridian
 map==cbCZ==103 		# (cbjH) -- ITVHD Meridian 
 map==cbCZ==103 		# (cbjJ) -- ITVHD Meridian 
 map==cbCZ==103 		# (cbjV) -- ITVHD Meridian 
-map==cbCZ==103 		# (cbj8) -- ITVHD Meridian 
 map==cbCZ==103 		# (cbkc) -- ITVHD Meridian 
 map==cbCZ==103 		# (cbkg) -- ITVHD Meridian 
 map==cbCZ==103 		# (cbkh) -- ITVHD Meridian 
@@ -6943,6 +6942,35 @@ map==cbWz==437 		# (cbjf) -- Sky Movies Disney HD
 map==cbWz==437 		# (cbjg) -- Sky Movies Disney HD 
 map==cbWz==437 		# (cbjh) -- Sky Movies Disney HD 
 map==cbWz==437 		# (cbjj) -- Sky Movies Disney HD 
+map==cbX2==156 		# (cbfM) -- Lifetime HD 
+map==cbX2==156 		# (cbfN) -- Lifetime HD 
+map==cbX2==156 		# (cbfP) -- Lifetime HD 
+map==cbX2==156 		# (cbfQ) -- Lifetime HD 
+map==cbX2==156 		# (cbfR) -- Lifetime HD 
+map==cbX2==156 		# (cbfS) -- Lifetime HD 
+map==cbX2==156 		# (cbfT) -- Lifetime HD 
+map==cbX2==156 		# (cbfV) -- Lifetime HD 
+map==cbX2==156 		# (cbfW) -- Lifetime HD 
+map==cbX2==156 		# (cbfX) -- Lifetime HD 
+map==cbX2==156 		# (cbfZ) -- Lifetime HD 
+map==cbX2==156 		# (cbfY) -- Lifetime HD 
+map==cbX2==156 		# (cbf2) -- Lifetime HD 
+map==cbX2==156 		# (cbf4) -- Lifetime HD 
+map==cbX2==156 		# (cbf5) -- Lifetime HD 
+map==cbX2==156 		# (cbf6) -- Lifetime HD 
+map==cbX2==156 		# (cbf7) -- Lifetime HD 
+map==cbX2==156 		# (cbf8) -- Lifetime HD 
+map==cbX2==156 		# (cbf9) -- Lifetime HD 
+map==cbX2==156 		# (cbgb) -- Lifetime HD 
+map==cbX2==156 		# (cbgc) -- Lifetime HD 
+map==cbX2==156 		# (cbgd) -- Lifetime HD 
+map==cbX2==156 		# (cbgf) -- Lifetime HD 
+map==cbX2==156 		# (cbgg) -- Lifetime HD 
+map==cbX2==156 		# (cbgh) -- Lifetime HD 
+map==cbX2==156 		# (cbgj) -- Lifetime HD 
+map==cbX2==156 		# (cbgk) -- Lifetime HD 
+map==cbX2==156 		# (cbgm) -- Lifetime HD 
+map==cbX2==156 		# (cbgn) -- Lifetime HD 
 map==cbXT==789 		# (cbfM) -- Lamhe 
 map==cbXT==789 		# (cbfN) -- Lamhe 
 map==cbXT==789 		# (cbfP) -- Lamhe 
@@ -7077,6 +7105,53 @@ map==cbXV==200 		# (cbgW) -- TLC+2
 map==cbXV==200 		# (cbgX) -- TLC+2 
 map==cbXV==200 		# (cbgZ) -- TLC+2 
 map==cbXV==200 		# (cbgY) -- TLC+2 
+map==cbXY==156 		# (cbgq) -- Lifetime 
+map==cbXY==156 		# (cbgr) -- Lifetime 
+map==cbXY==156 		# (cbgs) -- Lifetime 
+map==cbXY==156 		# (cbgt) -- Lifetime 
+map==cbXY==156 		# (cbgv) -- Lifetime 
+map==cbXY==156 		# (cbgw) -- Lifetime 
+map==cbXY==156 		# (cbgx) -- Lifetime 
+map==cbXY==156 		# (cbgy) -- Lifetime 
+map==cbXY==156 		# (cbgz) -- Lifetime 
+map==cbXY==156 		# (cbgB) -- Lifetime 
+map==cbXY==156 		# (cbgC) -- Lifetime 
+map==cbXY==156 		# (cbgD) -- Lifetime 
+map==cbXY==156 		# (cbgF) -- Lifetime 
+map==cbXY==156 		# (cbgG) -- Lifetime 
+map==cbXY==156 		# (cbgH) -- Lifetime 
+map==cbXY==156 		# (cbgJ) -- Lifetime 
+map==cbXY==156 		# (cbgK) -- Lifetime 
+map==cbXY==156 		# (cbgM) -- Lifetime 
+map==cbXY==156 		# (cbgN) -- Lifetime 
+map==cbXY==156 		# (cbgP) -- Lifetime 
+map==cbXY==156 		# (cbgQ) -- Lifetime 
+map==cbXY==156 		# (cbgR) -- Lifetime 
+map==cbXY==156 		# (cbgS) -- Lifetime 
+map==cbXY==156 		# (cbgT) -- Lifetime 
+map==cbXY==156 		# (cbgV) -- Lifetime 
+map==cbXY==156 		# (cbgW) -- Lifetime 
+map==cbXY==156 		# (cbgX) -- Lifetime 
+map==cbXY==156 		# (cbgZ) -- Lifetime 
+map==cbXY==156 		# (cbgY) -- Lifetime 
+map==cbXY==242 		# (cbhW) -- Lifetime 
+map==cbXY==242 		# (cbhX) -- Lifetime 
+map==cbXY==242 		# (cbhZ) -- Lifetime 
+map==cbXY==242 		# (cbhY) -- Lifetime 
+map==cbXY==242 		# (cbh2) -- Lifetime 
+map==cbXY==242 		# (cbh4) -- Lifetime 
+map==cbXY==242 		# (cbh5) -- Lifetime 
+map==cbXY==242 		# (cbh6) -- Lifetime 
+map==cbXY==242 		# (cbh7) -- Lifetime 
+map==cbXY==242 		# (cbh8) -- Lifetime 
+map==cbXY==242 		# (cbh9) -- Lifetime 
+map==cbXY==242 		# (cbjb) -- Lifetime 
+map==cbXY==242 		# (cbjc) -- Lifetime 
+map==cbXY==242 		# (cbjd) -- Lifetime 
+map==cbXY==242 		# (cbjf) -- Lifetime 
+map==cbXY==242 		# (cbjg) -- Lifetime 
+map==cbXY==242 		# (cbjh) -- Lifetime 
+map==cbXY==242 		# (cbjj) -- Lifetime 
 map==cbXb==783 		# (cbfM) -- Star Life OK 
 map==cbXb==783 		# (cbfN) -- Star Life OK 
 map==cbXb==783 		# (cbfP) -- Star Life OK 

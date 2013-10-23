@@ -42,7 +42,7 @@ map==cbkX==gemstv.co.uk   				# 43 (2528) - Gems TV
 map==cbdr==plus-1.channel5.co.uk   				# 44 (2699) - Channel 5 +1
 map==cbhd==plus-1.filmfour.channel4.com   				# 45 (2021) - Film4 +1
 map==cbfR==challengetv.co.uk   				# 46 (131) - Challenge
-map==cbB2==   				# 47 (2701) - 4seven
+map==cbB2==4seven.channel4.com   				# 47 (2701) - 4seven
 map==cbnd==entertainment.truemovies.tv   				# 61 (2603) - True Entertainment
 map==cbbW==cbbc.bbc.co.uk   				# 70 (482) - CBBC
 map==cbbX==cbeebies.bbc.co.uk   				# 71 (483) - CBeebies
@@ -56,7 +56,6 @@ map==cbS7==   				# 87 () - Community Channel Freeview
 map==cbbq==hd.bbc1.bbc.co.uk   				# 101 (2667) - BBC One HD
 map==cbWw==   				# 102 () - BBC Two HD
 map==cbDG==   				# 103 () - ITVHD Central
-map==cbCZ==   				# 103 () - ITVHD Meridian
 map==cbfg==hd.channel4.com   				# 104 (2056) - Channel 4 HD
 map==cbgB==   				# 171 () - Television X
 map==cbf4==god.tv   				# 235 (137) - God TV

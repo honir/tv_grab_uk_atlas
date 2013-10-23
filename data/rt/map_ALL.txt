@@ -1,0 +1,482 @@
+# CHANNELS for all Atlas channels mapped to an RFC2838 compliant channel id
+# Cross-references the RadioTimes channel id (where one exists)
+# 'map' == atlas_channel_id == rt_channel name # rt_channel id -- channel title 
+# 
+map==999==f1.sports.sky.com                               # (2700) -- Sky Sports F1 
+map==cbB2==4seven.channel4.com                            # (2701) -- 4seven 
+map==cbB5==208.atlas                                      # (????) -- RTÉ Gold 
+map==cbB7==plus-1.movies.sonytv.com                       # (2706) -- Sony Movie Channel +1 
+map==cbBB==914.atlas                                      # (????) -- UCB 
+map==cbBT==728.atlas                                      # (????) -- World Radio Network 
+map==cbBm==711.atlas                                      # (????) -- The Hits 
+map==cbBz==726.atlas                                      # (????) -- U105 
+map==cbCF==209.atlas                                      # (????) -- RTÉ Junior 
+map==cbCQ==723.atlas                                      # (????) -- talkSPORT DAB 
+map==cbCR==625.atlas                                      # (????) -- Tiny Pop +1 
+map==cbCZ==103.atlas                                      # (????) -- ITVHD Meridian 
+map==cbCc==sonytv.com                                     # (2702) -- Sony Entertainment Television 
+map==cbCn==436.atlas                                      # (????) -- Sky Sports News HD 
+map==cbCp==103.atlas                                      # (????) -- ITVHD Granada 
+map==cbCw==194.atlas                                      # (????) -- Dave HD 
+map==cbD6==movies.sonytv.com                              # (2705) -- Sony Movie Channel 
+map==cbDG==103.atlas                                      # (????) -- ITVHD Central 
+map==cbDH==604.atlas                                      # (????) -- PopGirl 
+map==cbDK==201.atlas                                      # (????) -- CBS Reality +1 
+map==cbDN==217.atlas                                      # (????) -- Animal Planet HD 
+map==cbDP==plus-1.sonytv.com                              # (2703) -- Sony Entertainment Television +1 
+map==cbDQ==544.atlas                                      # (????) -- LFC TV 
+map==cbDY==732.atlas                                      # (????) -- Cartoon Network HD 
+map==cbDh==631.atlas                                      # (????) -- Disney Channel HD 
+map==cbDj==810.atlas                                      # (????) -- Zee Cinema 
+map==cbDk==709.atlas                                      # (????) -- BBC Asian Network 
+map==cbDn==700.atlas                                      # (????) -- BBC Radio 1 Northern Ireland 
+map==cbDs==261.atlas                                      # (????) -- Good Food HD 
+map==cbDt==700.atlas                                      # (????) -- BBC Radio 1 Scotland 
+map==cbDw==343.atlas                                      # (????) -- Vintage TV 
+map==cbDz==700.atlas                                      # (????) -- BBC Radio 1 Wales 
+map==cbFr==2.atlas                                        # (????) -- RTÉ Two HD 
+map==cbFv==191.atlas                                      # (????) -- Watch HD 
+map==cbGK==338.atlas                                      # (????) -- Heat TV 
+map==cbS7==87.atlas                                       # (????) -- Community Channel Freeview 
+map==cbT2==495.atlas                                      # (????) -- Playboy TV 
+map==cbT7==416.atlas                                      # (????) -- TCM HD 
+map==cbTF==442.atlas                                      # (????) -- TRACE Sport Stars 
+map==cbTG==439.atlas                                      # (????) -- Sky Sports F1 HD 
+map==cbTH==143.atlas                                      # (????) -- more>movies 
+map==cbTK==33.atlas                                       # (????) -- STV Central+1 
+map==cbTN==193.atlas                                      # (????) -- Showcase +1 
+map==cbTQ==20.atlas                                       # (????) -- GOLD Top Up TV 
+map==cbTR==482.atlas                                      # (????) -- Red Hot Amateur 
+map==cbTV==714.atlas                                      # (????) -- Nickelodeon HD 
+map==cbTZ==747.atlas                                      # (????) -- Ideal World 
+map==cbTb==5.atlas                                        # (????) -- RTÉ News Now 
+map==cbTg==1.atlas                                        # (????) -- BBC One Oxfordshire 
+map==cbTh==1.atlas                                        # (????) -- BBC One Channel Islands 
+map==cbTj==1.atlas                                        # (????) -- BBC One Cambridgeshire 
+map==cbTm==801.atlas                                      # (????) -- Star GOLD 
+map==cbTn==85.atlas                                       # (????) -- RT 
+map==cbTp==428.atlas                                      # (????) -- Premier Sports 
+map==cbTq==203.atlas                                      # (????) -- My Channel TV 
+map==cbTs==7.atlas                                        # (????) -- RTÉ Jr 
+map==cbTt==625.atlas                                      # (????) -- NHK World HD 
+map==cbTv==8.atlas                                        # (????) -- RTÉ One +1 
+map==cbTy==477.atlas                                      # (????) -- The Adult Channel 
+map==cbV2==201.atlas                                      # (????) -- RTÉ Radio 1 Extra 
+map==cbV4==172.atlas                                      # (????) -- Sky1 +1 
+map==cbV6==400.atlas                                      # (????) -- Showcase 
+map==cbV7==186.atlas                                      # (????) -- more>movies +1 
+map==cbV8==854.atlas                                      # (????) -- Star Plus HD 
+map==cbV9==526.atlas                                      # (????) -- Eurosport 2 HD 
+map==cbVB==101.atlas                                      # (????) -- BBC One Wales HD 
+map==cbVC==32.atlas                                       # (????) -- Movie Mix 
+map==cbVD==101.atlas                                      # (????) -- BBC One Scotland HD 
+map==cbVF==206.atlas                                      # (????) -- RT HD 
+map==cbVG==101.atlas                                      # (????) -- BBC One Northern Ireland HD 
+map==cbVP==203.atlas                                      # (????) -- More4 HD 
+map==cbVZ==480.atlas                                      # (????) -- Red Hot 18s 
+map==cbVb==173.atlas                                      # (????) -- Sky Atlantic +1 
+map==cbVm==813.atlas                                      # (????) -- Create and Craft 
+map==cbVn==33.atlas                                       # (????) -- ITV Anglia+1 
+map==cbVp==33.atlas                                       # (????) -- ITV Tyne Tees+1 
+map==cbVq==33.atlas                                       # (????) -- ITV Westcountry+1 
+map==cbVr==33.atlas                                       # (????) -- ITV Wales+1 
+map==cbVs==703.atlas                                      # (????) -- Baby TV 
+map==cbVt==311.atlas                                      # (????) -- MTV Live HD 
+map==cbVv==630.atlas                                      # (????) -- Nick Jr. +1 
+map==cbVw==233.atlas                                      # (????) -- E! Entertainment HD 
+map==cbVx==36.atlas                                       # (????) -- Create and Craft 
+map==cbVy==624.atlas                                      # (????) -- FRANCE 24 English 
+map==cbW2==808.atlas                                      # (????) -- Star Jalsha 
+map==cbW6==511.atlas                                      # (????) -- BT Sport 2 HD 
+map==cbW7==508.atlas                                      # (????) -- BT Sport 2 
+map==cbW8==507.atlas                                      # (????) -- BT Sport 1 
+map==cbW9==510.atlas                                      # (????) -- BT Sport 1HD 
+map==cbWD==509.atlas                                      # (????) -- Zing 
+map==cbWJ==875.atlas                                      # (????) -- TLC 
+map==cbWK==195.atlas                                      # (????) -- TLC+1 
+map==cbWM==831.atlas                                      # (????) -- Rishtey 
+map==cbWP==628.atlas                                      # (????) -- Disney Junior HD 
+map==cbWQ==168.atlas                                      # (????) -- TLC HD 
+map==cbWS==215.atlas                                      # (????) -- Investigation Discovery +1 
+map==cbWV==237.atlas                                      # (????) -- True Drama 
+map==cbWW==20.atlas                                       # (????) -- Drama 
+map==cbWX==993.atlas                                      # (????) -- BBC Red Button 3 
+map==cbWY==303.atlas                                      # (????) -- BBC Red Button HD 
+map==cbWZ==302.atlas                                      # (????) -- BBC Red Button 2 
+map==cbWb==22.atlas                                       # (????) -- Ideal World Freeview 
+map==cbWc==197.atlas                                      # (????) -- Bio +1 
+map==cbWd==200.atlas                                      # (????) -- Alibi HD 
+map==cbWf==613.atlas                                      # (????) -- CNBC UK 
+map==cbWr==205.atlas                                      # (????) -- RTÉ Pulse 
+map==cbWs==206.atlas                                      # (????) -- RTÉ 2XM 
+map==cbWt==207.atlas                                      # (????) -- RTÉ Choice 
+map==cbWw==852.atlas                                      # (????) -- BBC Two HD 
+map==cbWy==407.atlas                                      # (????) -- Sky Movies Disney 
+map==cbWz==437.atlas                                      # (????) -- Sky Movies Disney HD 
+map==cbX2==156.atlas                                      # (????) -- Lifetime HD 
+map==cbXT==811.atlas                                      # (????) -- Lamhe 
+map==cbXV==200.atlas                                      # (????) -- TLC+2 
+map==cbXY==242.atlas                                      # (????) -- Lifetime 
+map==cbXb==804.atlas                                      # (????) -- Star Life OK 
+map==cbXc==33.atlas                                       # (????) -- STV North+1 
+map==cbXf==807.atlas                                      # (????) -- Sony SAB 
+map==cbXg==819.atlas                                      # (????) -- ARY News 
+map==cbXs==826.atlas                                      # (????) -- Colors 
+map==cbXt==629.atlas                                      # (????) -- Kix Power 
+map==cbXv==372.atlas                                      # (????) -- BuzMuzik 
+map==cbXz==417.atlas                                      # (????) -- TCM+1 
+map==cbbB==west.bbc1.bbc.co.uk                            # (104) -- BBC One West 
+map==cbbC==1.atlas                                        # (????) -- BBC One West Midlands 
+map==cbbD==1.atlas                                        # (????) -- BBC One Yorkshire & Lincolnshire 
+map==cbbF==1.atlas                                        # (????) -- BBC One Yorkshire 
+map==cbbG==east-midlands.bbc2.bbc.co.uk                   # (2241) -- BBC Two England 
+map==cbbH==northern-ireland.bbc2.bbc.co.uk                # (112) -- BBC Two Northern Ireland 
+map==cbbK==scotland.bbc2.bbc.co.uk                        # (113) -- BBC Two Scotland 
+map==cbbM==wales.bbc2.bbc.co.uk                           # (114) -- BBC Two Wales 
+map==cbbP==bbcthree.bbc.co.uk                             # (45) -- BBC Three 
+map==cbbQ==bbcfour.bbc.co.uk                              # (47) -- BBC Four 
+map==cbbR==news.bbc.co.uk                                 # (48) -- BBC News Channel 
+map==cbbT==parliament.bbc.co.uk                           # (49) -- BBC Parliament 
+map==cbbW==cbbc.bbc.co.uk                                 # (482) -- CBBC 
+map==cbbX==cbeebies.bbc.co.uk                             # (483) -- CBeebies 
+map==cbbZ==718.atlas                                      # (????) -- BBC London 94.9 
+map==cbbh==london.bbc1.bbc.co.uk                          # (94) -- BBC One London 
+map==cbbj==hd.northern-ireland.bbc1.bbc.co.uk             # (99) -- BBC One Northern Ireland 
+map==cbbn==west.east.bbc1.bbc.co.uk                       # (93) -- BBC One East 
+map==cbbp==midlands.bbc1.bbc.co.uk                        # (95) -- BBC One East Midlands 
+map==cbbq==hd.bbc1.bbc.co.uk                              # (2667) -- BBC One HD 
+map==cbbr==north-east.bbc1.bbc.co.uk                      # (97) -- BBC One North East & Cumbria 
+map==cbbs==north-west.bbc1.bbc.co.uk                      # (98) -- BBC One North West 
+map==cbbv==hd.scotland.bbc1.bbc.co.uk                     # (101) -- BBC One Scotland 
+map==cbbw==oxford.south.bbc1.bbc.co.uk                    # (102) -- BBC One South 
+map==cbbx==south-east.bbc1.bbc.co.uk                      # (1869) -- BBC One South East 
+map==cbby==hd.wales.bbc1.bbc.co.uk                        # (100) -- BBC One Wales 
+map==cbbz==ci.south-west.bbc1.bbc.co.uk                   # (103) -- BBC One South West 
+map==cbc4==710.atlas                                      # (????) -- BBC World Service 
+map==cbc5==719.atlas                                      # (????) -- BBC Radio Scotland FM 
+map==cbc7==720.atlas                                      # (????) -- BBC Radio Nan Gaidheal 
+map==cbc8==719.atlas                                      # (????) -- BBC Radio Ulster 
+map==cbc9==720.atlas                                      # (????) -- BBC Radio Foyle 
+map==cbcQ==700.atlas                                      # (????) -- BBC Radio 1 England 
+map==cbcR==701.atlas                                      # (????) -- BBC Radio 1Xtra 
+map==cbcS==702.atlas                                      # (????) -- BBC Radio 2 
+map==cbcT==703.atlas                                      # (????) -- BBC Radio 3 
+map==cbcV==704.atlas                                      # (????) -- BBC Radio 4 FM 
+map==cbcW==705.atlas                                      # (????) -- BBC Radio 5 live 
+map==cbcX==706.atlas                                      # (????) -- BBC Radio 5 live sports extra 
+map==cbcZ==707.atlas                                      # (????) -- BBC Radio 6 Music 
+map==cbd2==itv3.itv.co.uk                                 # (1859) -- ITV3 
+map==cbd4==177.atlas                                      # (????) -- ITV3HD 
+map==cbd5==itv4.itv.co.uk                                 # (1961) -- ITV4 
+map==cbd6==178.atlas                                      # (????) -- ITV4HD 
+map==cbd7==tsod.plus-1.northeast-macro.itv1.itv.co.uk     # (32) -- ITV Yorkshire 
+map==cbd8==hd.ni-macro.u.tv                               # (38) -- UTV 
+map==cbd9==103.atlas                                      # (????) -- UTV HD 
+map==cbdB==tsod.plus-1.southeast-macro.itv1.itv.co.uk     # (30) -- ITV Meridian 
+map==cbdC==tsod.plus-1.anglia.itv1.itv.co.uk              # (24) -- ITV Anglia 
+map==cbdD==channel.itv1.itv.co.uk                         # (28) -- ITV Channel Television 
+map==cbdF==tsod.plus-1.west-macro.itv1.itv.co.uk          # (35) -- ITV Wales 
+map==cbdG==tsod.plus-1.west.itv1.itv.co.uk                # (36) -- ITV West 
+map==cbdH==tsod.plus-1.central-macro.itv1.itv.co.uk       # (27) -- ITV Central 
+map==cbdJ==tsod.plus-1.westcountry.itv1.itv.co.uk         # (33) -- ITV Westcountry 
+map==cbdP==rt.hd.london.itv1.itv.co.uk                    # (2118) -- ITVHD London 
+map==cbdQ==plus-1.central.itv1.itv.co.uk                  # (2678) -- ITV Central+1 
+map==cbdR==plus-1.granada.itv1.itv.co.uk                  # (2676) -- ITV Granada+1 
+map==cbdS==plus-1.london.itv1.itv.co.uk                   # (2682) -- ITV London+1 
+map==cbdT==plus-1.meridian.itv1.itv.co.uk                 # (2680) -- ITV Meridian+1 
+map==cbdV==plus-1.u.tv                                    # (2677) -- UTV+1 
+map==cbdW==plus-1.west.itv1.itv.co.uk                     # (2679) -- ITV West+1 
+map==cbdX==plus-1.yorkshire.itv1.itv.co.uk                # (2683) -- ITV Yorkshire+1 
+map==cbdY==hd.itv2.itv.co.uk                              # (2661) -- ITV2HD 
+map==cbdZ==itv2.itv.co.uk                                 # (185) -- ITV2 
+map==cbdb==719.atlas                                      # (????) -- BBC Radio Wales 
+map==cbdf==720.atlas                                      # (????) -- BBC Radio Cymru 
+map==cbdg==710.atlas                                      # (????) -- BBC Radio 4 LW 
+map==cbdh==708.atlas                                      # (????) -- BBC Radio 4 Extra 
+map==cbdj==channel4.com                                   # (132) -- Channel 4 
+map==cbdk==more4.channel4.com                             # (1959) -- More4 
+map==cbdm==filmfour.channel4.com                          # (160) -- Film4 
+map==cbdn==e4.channel4.com                                # (158) -- E4 
+map==cbdp==4music.channel4.com                            # (1544) -- 4Music 
+map==cbdq==channel5.co.uk                                 # (134) -- Channel 5 
+map==cbdr==plus-1.channel5.co.uk                          # (2699) -- Channel 5 +1 
+map==cbds==hd.five.tv                                     # (2615) -- Channel 5 HD 
+map==cbdt==fiver.channel5.co.uk                           # (2062) -- 5* 
+map==cbdv==fiveusa.channel5.co.uk                         # (2008) -- 5USA 
+map==cbdw==tsod.plus-1.london-macro.itv1.itv.co.uk        # (26) -- ITV London 
+map==cbdx==tsod.plus-1.northwest-macro.itv1.itv.co.uk     # (29) -- ITV Granada 
+map==cbdy==tsod.plus-1.tynetees.itv1.itv.co.uk            # (31) -- ITV Tyne Tees 
+map==cbdz==border.itv1.itv.co.uk                          # (25) -- ITV Border 
+map==cbf2==uk.cartoonnetwork.com                          # (128) -- Cartoon Network 
+map==cbf4==god.tv                                         # (137) -- God TV 
+map==cbf6==animalplanet.discoveryeurope.com               # (39) -- Animal Planet 
+map==cbf7==plus-1.animalplanet.discoveryeurope.com        # (1761) -- Animal Planet +1 
+map==cbf8==sky-news.sky.com                               # (256) -- Sky News 
+map==cbf9==hd.news.sky.com                                # (2217) -- Sky News HD 
+map==cbfB==plus-1.fiver.channel5.co.uk                    # (2578) -- 5* +1 
+map==cbfF==hits.mtv.co.uk                                 # (204) -- MTV Hits 
+map==cbfG==base.mtv.co.uk                                 # (203) -- MTV Base 
+map==cbfH==mtv.co.uk                                      # (202) -- MTV 
+map==cbfJ==plus-1.mtv.co.uk                               # (2547) -- MTV +1 
+map==cbfK==sat.travelchannel.co.uk                        # (1462) -- Travel Channel 
+map==cbfM==plus-1.sat.travelchannel.co.uk                 # (1855) -- Travel Channel +1 
+map==cbfN==tv5.org                                        # (276) -- TV5 
+map==cbfP==zeeuk.com                                      # (581) -- Zee TV 
+map==cbfQ==phoenixcne.com                                 # (2246) -- Phoenix CNE Channel 
+map==cbfR==challengetv.co.uk                              # (131) -- Challenge 
+map==cbfS==plus-1.challengetv.co.uk                       # (1872) -- Challenge +1 
+map==cbfT==home.uktv.co.uk                                # (2134) -- Home 
+map==cbfV==plus-1.home.uktv.co.uk                         # (2135) -- Home +1 
+map==cbfW==blank.boxoffice.sky.com                        # (1261) -- Sky Box Office 
+map==cbfX==bloomberg.com                                  # (120) -- Bloomberg TV 
+map==cbfY==europe.cnn.com                                 # (126) -- CNN 
+map==cbfZ==thebox.co.uk                                   # (281) -- The Box 
+map==cbfb==hd.scotland-macro.stv.tv                       # (37) -- STV Central 
+map==cbfc==rt.hd.stv.tv                                   # (2219) -- STV HD 
+map==cbfd==tsod.plus-1.north.stv.tv                       # (2203) -- STV North 
+map==cbff==plus-1.channel4.com                            # (2047) -- Channel 4 +1 
+map==cbfg==hd.channel4.com                                # (2056) -- Channel 4 HD 
+map==cbfh==s4c.co.uk                                      # (721) -- S4C 
+map==cbfk==one.rte.ie                                     # (231) -- RTÉ One 
+map==cbfm==two.rte.ie                                     # (1870) -- RTÉ Two 
+map==cbfn==tg4.ie                                         # (273) -- TG4 
+map==cbfp==tv3.ie                                         # (2642) -- TV3 
+map==cbfr==plus-1.itv2.itv.co.uk                          # (1990) -- ITV2+1 
+map==cbfs==plus-1.e4.channel4.com                         # (1161) -- E4 +1 
+map==cbft==hd.e4.channel4.com                             # (2195) -- E4 HD 
+map==cbfv==plus-1.itv3.itv.co.uk                          # (2511) -- ITV3+1 
+map==cbfw==plus-1.more4.channel4.com                      # (1972) -- More4 +1 
+map==cbfy==plus-1.itv4.itv.co.uk                          # (2568) -- ITV4+1 
+map==cbfz==citv.itv.co.uk                                 # (1981) -- CITV 
+map==cbg2==plus-1.nickelodeon.co.uk                       # (216) -- Nickelodeon +1 
+map==cbg5==jr.nickelodeon.co.uk                           # (215) -- Nick Jr. 
+map==cbg6==boomerang.cartoonnetwork.com                   # (1661) -- Boomerang 
+map==cbg7==plus-1.boomerang.cartoonnetwork.com            # (129) -- Boomerang +1 
+map==cbg8==qvcuk.com                                      # (228) -- QVC 
+map==cbgB==171.atlas                                      # (????) -- Television X 
+map==cbgC==vh1.co.uk                                      # (293) -- VH1 
+map==cbgD==classic.mtv.co.uk                              # (294) -- MTV Classic 
+map==cbgF==discoveryeurope.com                            # (147) -- Discovery Channel 
+map==cbgG==plus-1.discoveryeurope.com                     # (152) -- Discovery Channel +1 
+map==cbgJ==turbo.discoveryeurope.com                      # (155) -- Discovery Turbo 
+map==cbgK==alibi.uktv.co.uk                               # (292) -- Alibi 
+map==cbgM==plus-1.alibi.uktv.co.uk                        # (1993) -- Alibi +1 
+map==cbgN==universalchannel.co.uk                         # (180) -- Universal Channel 
+map==cbgP==204.atlas                                      # (????) -- Universal Channel HD 
+map==cbgQ==plus-1.universalchannel.co.uk                  # (2591) -- Universal Channel +1 
+map==cbgR==uk.syfy.com                                    # (2212) -- Syfy 
+map==cbgS==plus-1.uk.syfy.com                             # (2213) -- Syfy +1 
+map==cbgT==hd.uk.syfy.com                                 # (2214) -- Syfy HD 
+map==cbgV==comedycentral.com                              # (1061) -- Comedy Central 
+map==cbgW==plus-1.comedycentral.com                       # (2013) -- Comedy Central +1 
+map==cbgX==setasia.tv                                     # (267) -- Sony Entertainment TV Asia 
+map==cbgY==nickelodeon.co.uk                              # (217) -- Nickelodeon 
+map==cbgZ==tcm.turner.com                                 # (271) -- TCM 
+map==cbgb==rocks.mtv.co.uk                                # (205) -- MTV Rocks 
+map==cbgd==plus-1.living.sky.com                          # (841) -- Sky Living +1 
+map==cbgf==hd.living.sky.com                              # (2585) -- Sky Living HD 
+map==cbgj==history.discoveryeurope.com                    # (2668) -- Discovery History 
+map==cbgk==plus-1.history.discoveryeurope.com             # (2672) -- Discovery History +1 
+map==cbgm==science.discoveryeurope.com                    # (153) -- Discovery Science 
+map==cbgn==plus-1.science.discoveryeurope.com             # (2600) -- Discovery Science +1 
+map==cbgr==thehistorychannel.co.uk                        # (182) -- History 
+map==cbgs==plus-1.thehistorychannel.co.uk                 # (183) -- History +1 
+map==cbgt==nationalgeographic.co.uk                       # (213) -- National Geographic Channel 
+map==cbgv==plus-1.nationalgeographic.co.uk                # (214) -- National Geographic Channel +1 
+map==cbgw==gold.uktv.co.uk                                # (288) -- GOLD 
+map==cbgx==plus-1.gold.uktv.co.uk                         # (665) -- GOLD +1 
+map==cbgy==disneychannel.disney.co.uk                     # (156) -- Disney Channel 
+map==cbgz==plus-1.disneychannel.disney.co.uk              # (157) -- Disney Channel +1 
+map==cbh2==sky-two.sky.com                                # (922) -- Sky2 
+map==cbh4==eentertainment.com                             # (1421) -- E! Entertainment 
+map==cbh5==mydancenation.com                              # (2457) -- Chart Show Dance 
+map==cbh6==scuzz.tv                                       # (1143) -- Scuzz 
+map==cbh7==bliss.co.uk                                    # (1144) -- Bliss 
+map==cbhB==euronews.com                                   # (159) -- EuroNews 
+map==cbhC==b4utv.com                                      # (43) -- B4U Movies 
+map==cbhF==extreme.com                                    # (582) -- Extreme Sports Channel 
+map==cbhG==dance.mtv.co.uk                                # (610) -- MTV Dance 
+map==cbhH==star-plus.startv.com                           # (591) -- Star Plus 
+map==cbhM==goodfood.uktv.co.uk                            # (2136) -- Good Food 
+map==cbhN==plus-1.goodfood.uktv.co.uk                     # (2137) -- Good Food +1 
+map==cbhP==attheraces.co.uk                               # (661) -- At The Races 
+map==cbhQ==toons.nickelodeon.co.uk                        # (664) -- Nicktoons 
+map==cbhS==chartshow.com                                  # (2439) -- Chart Show TV 
+map==cbhT==yesterday.uktv.co.uk                           # (801) -- Yesterday 
+map==cbhV==plus-1.yesterday.uktv.co.uk                    # (1521) -- Yesterday +1 
+map==cbhW==magictv.co.uk                                  # (588) -- Magic 
+map==cbhX==smashhits.net                                  # (592) -- Smash Hits! 
+map==cbhY==communitychannel.org                           # (1542) -- Community Channel 
+map==cbhZ==kerrang.com                                    # (191) -- Kerrang! TV 
+map==cbhc==hd.filmfour.channel4.com                       # (2617) -- Film4 HD 
+map==cbhd==plus-1.filmfour.channel4.com                   # (2021) -- Film4 +1 
+map==cbhf==sky-one.sky.com                                # (248) -- Sky1 
+map==cbhg==health.discovery.com                           # (149) -- Discovery Home & Health 
+map==cbhh==plus-1.health.discovery.com                    # (1953) -- Discovery Home & Health +1 
+map==cbhj==mutv.manutd.com                                # (206) -- MUTV 
+map==cbhk==news.sports.sky.com                            # (300) -- Sky Sports News 
+map==cbhm==british.eurosport.com                          # (123) -- British Eurosport 
+map==cbhn==hd.british.eurosport.com                       # (2148) -- British Eurosport HD 
+map==cbhp==kiss-tv.kiss100.com                            # (609) -- Kiss TV 
+map==cbhq==junior.disney.co.uk                            # (421) -- Disney Junior 
+map==cbhr==plus.junior.disney.co.uk                       # (2542) -- Disney Junior + 
+map==cbhs==1.sports.sky.com                               # (262) -- Sky Sports 1 
+map==cbht==2.sports.sky.com                               # (264) -- Sky Sports 2 
+map==cbhv==3.sports.sky.com                               # (265) -- Sky Sports 3 
+map==cbhw==4.sports.sky.com                               # (2200) -- Sky Sports 4 
+map==cbhx==biography-channel.biography.com                # (119) -- Bio 
+map==cbhy==bid.tv                                         # (594) -- Bid 
+map==cbhz==arts.sky.com                                   # (40) -- Sky Arts 1 
+map==cbj4==hd.discoveryeurope.com                         # (2145) -- Discovery Channel HD 
+map==cbj5==hd.nationalgeographic.co.uk                    # (2151) -- National Geographic Channel HD 
+map==cbj6==752.atlas                                      # (????) -- Sky Box Office HD 
+map==cbj8==hd.1.sports.sky.com                            # (2174) -- Sky Sports 1 HD 
+map==cbj9==hd.2.sports.sky.com                            # (2175) -- Sky Sports 2 HD 
+map==cbjB==extra.comedycentral.com                        # (1201) -- Comedy Central Extra 
+map==cbjC==plus-1.extra.comedycentral.com                 # (2596) -- Comedy Central Extra +1 
+map==cbjD==hd.comedycentral.com                           # (2646) -- Comedy Central HD 
+map==cbjK==motors.tv                                      # (1958) -- Motors TV 
+map==cbjM==shed.discoveryeurope.com                       # (2057) -- Discovery Shed 
+map==cbjN==1.truemovies.tv                                # (2059) -- True Movies 
+map==cbjP==sky-three.sky.com                              # (1963) -- Pick 
+map==cbjQ==plus-1.sky-three.sky.com                       # (2647) -- Pick +1 
+map==cbjW==3e.tv3.ie                                      # (2502) -- 3e 
+map==cbjc==dave.uktv.co.uk                                # (2050) -- Dave 
+map==cbjd==plus-1.dave.uktv.co.uk                         # (2052) -- Dave ja vu 
+map==cbjf==price-drop.tv                                  # (2640) -- Price Drop 
+map==cbjg==fxuk.tv                                        # (1461) -- FOX 
+map==cbjh==eden.uktv.co.uk                                # (1601) -- Eden 
+map==cbjj==plus-1.eden.uktv.co.uk                         # (625) -- Eden +1 
+map==cbjk==hd.eden.uktv.co.uk                             # (2662) -- Eden HD 
+map==cbjn==horror.cbs.com                                 # (2476) -- Horror Channel 
+map==cbjp==plus-1.horror.cbs.com                          # (2561) -- Horror Channel +1 
+map==cbjq==racinguk.tv                                    # (1949) -- Racing UK 
+map==cbjr==chelseafc.com                                  # (1741) -- Chelsea TV 
+map==cbjt==setantasport.ie                                # (2479) -- Setanta Sports Ireland 
+map==cbjw==plus-1.livingit.sky.com                        # (2190) -- Sky Livingit +1 
+map==cbjx==2.british.eurosport.com                        # (1876) -- British Eurosport 2 
+map==cbjy==really.uktv.co.uk                              # (1882) -- Really 
+map==cbk2==1.setantasport.ie                              # (2533) -- Setanta Sports 1 
+map==cbk8==too.cartoonnetwork.com                         # (742) -- CN Too  
+map==cbk9==popfun.co.uk                                   # (2544) -- Pop 
+map==cbkB==hd.drama.movies.sky.com                        # (2209) -- Sky Movies Drama & Romance HD 
+map==cbkC==scifi.movies.sky.com                           # (2168) -- Sky Movies Sci-fi/Horror 
+map==cbkD==hd.scifi.movies.sky.com                        # (2161) -- Sky Movies Sci-fi/Horror HD 
+map==cbkH==modern.movies.sky.com                          # (260) -- Sky Movies Greats 
+map==cbkJ==hd.modern.movies.sky.com                       # (2160) -- Sky Movies Greats HD 
+map==cbkK==select.movies.sky.com                          # (253) -- Sky Movies Select 
+map==cbkM==hd.select.movies.sky.com                       # (2587) -- Sky Movies Select HD 
+map==cbkN==aljazeera.net                                  # (2055) -- Al Jazeera English 
+map==cbkP==hd.thehistorychannel.co.uk                     # (2526) -- History HD 
+map==cbkQ==hd.sky-one.sky.com                             # (2139) -- Sky1 HD 
+map==cbkR==hd.arts.sky.com                                # (2154) -- Sky Arts 1 HD 
+map==cbkS==cartoonito.cartoonnetwork.com                  # (1983) -- Cartoonito 
+map==cbkT==bestdirect.tv                                  # (2527) -- Best Direct 
+map==cbkX==gemstv.co.uk                                   # (2528) -- Gems TV 
+map==cbkY==814.atlas                                      # (????) -- Channel S 
+map==cbkc==wild.nationalgeographic.co.uk                  # (22) -- Nat Geo Wild 
+map==cbkd==crimeandinvestigation.co.uk                    # (2165) -- Crime & Investigation Network 
+map==cbkf==plus-1.crimeandinvestigation.co.uk             # (2583) -- Crime & Investigation Network +1 
+map==cbkm==crime.movies.sky.com                           # (2206) -- Sky Movies Crime & Thriller 
+map==cbkn==hd.crime.movies.sky.com                        # (2207) -- Sky Movies Crime & Thriller HD 
+map==cbkp==premiere.movies.sky.com                        # (249) -- Sky Movies Premiere 
+map==cbkq==plus-1.premiere.movies.sky.com                 # (250) -- Sky Movies Premiere +1 
+map==cbkr==hd.premiere.movies.sky.com                     # (2552) -- Sky Movies Premiere HD 
+map==cbks==comedy.movies.sky.com                          # (257) -- Sky Movies Comedy 
+map==cbkt==hd.comedy.movies.sky.com                       # (2157) -- Sky Movies Comedy HD 
+map==cbkv==action.movies.sky.com                          # (2204) -- Sky Movies Action & Adventure 
+map==cbkw==hd.action.movies.sky.com                       # (2205) -- Sky Movies Action & Adventure HD 
+map==cbkx==family.movies.sky.com                          # (258) -- Sky Movies Family 
+map==cbky==hd.family.movies.sky.com                       # (2159) -- Sky Movies Family HD 
+map==cbkz==drama.movies.sky.com                           # (2208) -- Sky Movies Drama & Romance 
+map==cbm2==drama.cbs.com                                  # (2177) -- CBS Drama 
+map==cbm4==action.cbs.com                                 # (2178) -- CBS Action 
+map==cbm5==uk.viva.tv                                     # (2184) -- Viva 
+map==cbm6==foodnetwork.com                                # (2185) -- Food Network 
+map==cbm7==plus-1.foodnetwork.com                         # (2186) -- Food Network +1 
+map==cbm8==hd.mgm.com                                     # (2645) -- MGM HD 
+map==cbmB==weddingtv.com                                  # (2566) -- wedding tv 
+map==cbmC==propellertv.co.uk                              # (2014) -- Propeller TV 
+map==cbmD==hd.live.mtv.co.uk                              # (2150) -- MTV Live 
+map==cbmF==investigation.discoveryeurope.com              # (2570) -- Investigation Discovery 
+map==cbmG==183.atlas                                      # (????) -- AIT International 
+map==cbmJ==hd.2.arts.sky.com                              # (2155) -- Sky Arts 2 HD 
+map==cbmM==hd.crimeandinvestigation.co.uk                 # (2144) -- Crime & Investigation Network HD 
+map==cbmN==hd.wild.nationalgeographic.co.uk               # (2152) -- Nat Geo Wild HD 
+map==cbmP==quest.discoveryeurope.com                      # (2179) -- Quest 
+map==cbmQ==plus-1.quest.discoveryeurope.com               # (2588) -- Quest +1 
+map==cbmS==uk.espn.com                                    # (2142) -- ESPN 
+map==cbmT==hd.uk.espn.com                                 # (2147) -- ESPN HD 
+map==cbmV==xd.disney.co.uk                                # (165) -- Disney XD 
+map==cbmW==plus-1.xd.disney.co.uk                         # (166) -- Disney XD +1 
+map==cbmX==622.atlas                                      # (????) -- Disney XD HD 
+map==cbmZ==reality.cbs.com                                # (2586) -- CBS Reality 
+map==cbmb==tinypop.com                                    # (2543) -- Tiny Pop 
+map==cbmc==dmax.discoveryeurope.com                       # (2545) -- DMAX 
+map==cbmd==plus-1.dmax.discoveryeurope.com                # (2595) -- DMAX +1 
+map==cbmg==horseandcountry.tv                             # (2549) -- Horse & Country TV 
+map==cbmj==hd.3.sports.sky.com                            # (2176) -- Sky Sports 3 HD 
+map==cbmk==essentialflava.com                             # (2551) -- Flava 
+map==cbmm==hd.fxuk.tv                                     # (2149) -- FOX HD 
+map==cbmp==1.movies4men.co.uk                             # (2058) -- Movies4Men 
+map==cbmq==plus-1.1.movies4men.co.uk                      # (2598) -- Movies4Men +1 
+map==cbmr==2.truemovies.tv                                # (2192) -- True Movies 2 
+map==cbmv==military.thehistorychannel.co.uk               # (2559) -- H2 
+map==cbmw==mystyle.com                                    # (2563) -- Style. 
+map==cbmx==watch.uktv.co.uk                               # (2115) -- Watch 
+map==cbmy==plus-1.watch.uktv.co.uk                        # (2116) -- Watch +1 
+map==cbmz==2.arts.sky.com                                 # (2122) -- Sky Arts 2 
+map==cbn4==952.atlas                                      # (????) -- Absolute Classic Rock 
+map==cbn6==713.atlas                                      # (????) -- Kiss 100 
+map==cbn8==922.atlas                                      # (????) -- Classic FM 
+map==cbn9==723.atlas                                      # (????) -- talkSPORT 
+map==cbnC==plus-1.fxuk.tv                                 # (1971) -- FOX+ 
+map==cbnD==alba.bbc.co.uk                                 # (2098) -- BBC Alba 
+map==cbnF==livingit.sky.com                               # (2189) -- Sky Livingit 
+map==cbnH==plus-1.fiveusa.channel5.co.uk                  # (2577) -- 5USA +1 
+map==cbnJ==310.atlas                                      # (????) -- MTV Music 
+map==cbnM==supercasino.com                                # (2569) -- Super Casino 
+map==cbnQ==tvmovies24.com                                 # (2704) -- Movies 24 
+map==cbnR==420.atlas                                      # (????) -- Movies 24 + 
+map==cbnS==plus-1.international.bet.com                   # (2597) -- BET:BlackEntTV +1 
+map==cbnT==international.bet.com                          # (2244) -- BET:BlackEntTV 
+map==cbnV==pbs.co.uk                                      # (2698) -- PBS America 
+map==cbnW==965.atlas                                      # (????) -- Xfm 
+map==cbnX==727.atlas                                      # (????) -- Absolute Radio 
+map==cbnb==2.jr.nickelodeon.co.uk                         # (2593) -- Nick Jr. Peppa 
+map==cbnc==hd.world.nhk.or.jp                             # (2594) -- NHK World 
+map==cbnd==entertainment.truemovies.tv                    # (2603) -- True Entertainment 
+map==cbng==theactivechannel.com                           # (2605) -- The Active Channel 
+map==cbnh==fitness.tv                                     # (2638) -- Fitness TV 
+map==cbnp==interactive.sport.bbc.co.uk                    # (2040) -- BBC Red Button 1 
+map==cbnq==3d.sky.com                                     # (2606) -- Sky 3D 
+map==cbnr==hd.4.sports.sky.com                            # (2607) -- Sky Sports 4 HD 
+map==cbns==atlantic.sky.com                               # (2685) -- Sky Atlantic 
+map==cbnt==hd.atlantic.sky.com                            # (2684) -- Sky Atlantic HD 
+map==cbnv==403.atlas                                      # (????) -- Sky Movies Showcase 
+map==cbnw==433.atlas                                      # (????) -- Sky Movies Showcase HD 
+map==cbny==living.sky.com                                 # (197) -- Sky Living 
+map==cbpb==712.atlas                                      # (????) -- Smash Hits 
+map==cbpc==722.atlas                                      # (????) -- Kerrang! 
+map==cbpd==714.atlas                                      # (????) -- Heat 
+map==cbpf==958.atlas                                      # (????) -- 95.8 Capital FM 
+map==cbpg==728.atlas                                      # (????) -- Heart London 
+map==cbq5==183.atlas                                      # (????) -- MTV HD 
+map==cbvD==724.atlas                                      # (????) -- 96-106 Capital FM 
+map==cbvP==951.atlas                                      # (????) -- Absolute 80s 
+map==cbvk==717.atlas                                      # (????) -- 102.2 Smooth Radio 
+map==cbvz==202.atlas                                      # (????) -- RTÉ 2FM 
+map==cbw4==959.atlas                                      # (????) -- Gold 
+map==cbwj==969.atlas                                      # (????) -- Capital XTRA 
+map==cbxQ==729.atlas                                      # (????) -- Jazz FM 
+map==cbyN==0210.atlas                                     # (????) -- Newstalk 106-108 FM 
+map==cbyX==924.atlas                                      # (????) -- Planet Rock 
+map==cbyZ==725.atlas                                      # (????) -- Premier Christian Radio 
+map==cbyc==973.atlas                                      # (????) -- LBC 97.3 
+map==cbyd==919.atlas                                      # (????) -- LBC News 1152 
+map==cbyn==715.atlas                                      # (????) -- Magic 105.4 
+map==cbzF==203.atlas                                      # (????) -- RTÉ lyric fm 
+map==cbzG==200.atlas                                      # (????) -- RTÉ Radio 1 FM 
+map==cbzJ==204.atlas                                      # (????) -- RTÉ Raidió na Gaeltachta 
+map==cbzV==0185.atlas                                     # (????) -- Spectrum Radio FM 
+map==cbzw==0146.atlas                                     # (????) -- Real Radio Wales 
