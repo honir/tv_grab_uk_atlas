@@ -6,7 +6,7 @@
 #
 # 
 
-my $_version 	= '$Id: tv_grab_uk_atlas,v 1.5 2013/10/20 17:17:15 bilbo_uk Exp $';
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.8 2013/12/04 10:55:16 bilbo_uk Exp $';
 
 
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
@@ -38,7 +38,6 @@ my $lwp = initialise_ua();
 
 use subs qw(t warning);
 my $warnings = 0;
-
 
 
 # #############################################################################
@@ -133,9 +132,21 @@ my $source_info_url					= $SOURCE_URL;
 
 
 
+# Options.pm hi-jacks the --help arg and creates its own POD synopsis!  This means we can't tell people about our added
+#  parameters.  I would posit that's a bug.  Let's redefine the PrintUsage to our POD.
+my ($opt, $conf);
+{
+	no warnings 'redefine';
+	local *XMLTV::Options::PrintUsage = sub {  
+		use Pod::Usage;
+		pod2usage(-verbose => 0);
+		#exit 1;
+	};
+	use warnings 'redefine';
+	
 # ------------------------------------------------------------------------------------------------------------------------------------- #
 # Use XMLTV::Options::ParseOptions to parse the options and take care of the basic capabilities that a tv_grabber should
-my ($opt, $conf) = ParseOptions({ 
+ ($opt, $conf) = ParseOptions({ 
 			grabber_name 			=> $GRABBER_NAME,
 			capabilities 			=> [qw/baseline manualconfig apiconfig cache/],
 			stage_sub 				=> \&config_stage,
@@ -145,10 +156,10 @@ my ($opt, $conf) = ParseOptions({
 			extra_options			=> [qw/hours=i date=s dst channel=s info/],
 			defaults					=> {'hours'=>0, 'channel'=>''}
 });
+}
 #print Dumper($conf, $opt); exit;
 
-# options.pm hi-jacks the --help arg and creates its own POD synopsis!  This means we can't tell people about our added
-#  parameters.  I would posit that's a bug.  Let's allow '--info' to replace it.
+# --info option prints a 'man' style page from our POD.
 if ($opt->{'info'}) {
 	use Pod::Usage;
   pod2usage(-verbose => 2);
@@ -336,9 +347,15 @@ sub fetch_listings {
 			my $baseurl = $ROOT_URL.'schedule.json';
 			my $apiKey = '';
 			if ( $conf->{'api-key'}->[0] ) {
-				$apiKey = '&apiKey='.readpipe("cat ".$conf->{'api-key'}->[0]);
+				$apiKey = readpipe("cat ".$conf->{'api-key'}->[0]);
 				chomp($apiKey); chop($apiKey) if ($apiKey =~ m/\r$/);
-			} 
+				if ($apiKey eq '' || $apiKey eq 'PUT YOUR API KEY HERE') {
+					print STDERR 'You must obtain an API key free from Atlas Metabroadcast before you can use this grabber'."\n";
+					print STDERR 'Instructions are available here: http://metabroadcast.com/blog/getting-full-uk-listings-data-from-atlas-it-s-easy'."\n";
+					exit(1);
+				}
+				$apiKey = '&apiKey='.$apiKey;
+			}
 			my $publisher = $conf->{'publisher'}->[0] || 'pressassociation.com';	# (undocumented option needed for xmltv automatic testing)
 			my $annotations = 'extended_description,broadcasts,series_summary,brand_summary,people,channel';
 
@@ -534,8 +551,10 @@ sub get_schedule_from_json {
 						# According to MetaBroadcast it's what PA use to signify a "follow-on" programme.  Hmm....
 						
 						
-						# Prevent ValidateGrabber reporting a failure when concatenating two day's schedules
-						if ( defined $conf->{'overlaps'} && $conf->{'overlaps'}->[0] eq 'prevent' ) {
+						# By default XMLTV grabbers should start with the first programme which *starts* within the requested period
+						#   (i.e. ignore any programme already running but which started before the requested period)
+						#
+						if ( !defined $conf->{'overlaps'} || $conf->{'overlaps'}->[0] ne 'allow' ) {
 							next if ( $bcast{'start'} < $starttime );
 						}
 						
@@ -1281,16 +1300,19 @@ tv_grab_uk_atlas --capabilities
 
 tv_grab_uk_atlas --description
 
-tv_grab_uk_atlas [--config-file FILE]
+tv_grab_uk_atlas 
            [--days N] [--offset N] [--dst]
+					 [--config-file FILE]
            [--output FILE] [--quiet] [--debug]
 
-tv_grab_uk_atlas [--config-file FILE]
+tv_grab_uk_atlas 
            [--hours N] [--offset N]
+					 [--config-file FILE]
            [--output FILE] [--quiet] [--debug]
 
-tv_grab_uk_atlas [--config-file FILE]
+tv_grab_uk_atlas 
            [--date DATE] [--dst]
+					 [--config-file FILE]
            [--output FILE] [--quiet] [--debug]
 
 tv_grab_uk_atlas --configure [--config-file FILE]
@@ -1354,7 +1376,7 @@ B<--version> Show the version of the grabber.
 
 B<--help> Print a help message and exit.
 
-B<--info> Print this help page and exit.
+B<--info> Print a help page and exit.
 
 =head1 ERROR HANDLING
 
