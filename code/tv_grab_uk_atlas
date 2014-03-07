@@ -8,7 +8,7 @@
 #         tv_grab_uk_atlas  --info
 # 
 
-my $_version 	= '$Id: tv_grab_uk_atlas,v 1.19 2014/03/06 15:08:37 bilbo_uk Exp $';
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.20 2014/03/07 10:05:34 bilbo_uk Exp $';
 
 
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
@@ -593,7 +593,7 @@ sub add_programme_to_xml {
 		# add 'Film' genre if it's a film
 		if ($item{'film'}) {
 			foreach ( map_category( 'Film' ) ) {
-				$item{'genres'}->{ $_ } = 32; 
+				$item{'genres'}->{ $_ } = (0 | 32)  if ( !defined $item{'genres'}->{ $_ } || $item{'genres'}->{ $_ } > (0 | 32) );  
 			}
 		}
 		if (scalar (keys %{$item{'genres'}}) > 0) {		
