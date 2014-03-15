@@ -31,7 +31,7 @@ CONFIGURATION
 1.
 First you must obtain an API key from Atlas Metabroadcast.  This is free (at the present time) for personal use and is necessary to allow you to access the full schedule published by the Press Association.  Any commercial use of the data obtained from Atlas will require a paid-for license. 
 
-Instructions are available here: http://metabroadcast.com/blog/getting-full-uk-listings-data-from-atlas-it-s-easy
+Instructions are available here: http://metabroadcast.com/blog/create-and-manage-your-atlas-api-key
 
 You will need to enter your API key during the --configure stage.
 
