@@ -8,7 +8,7 @@
 #         tv_grab_uk_atlas  --info
 # 
 
-my $_version 	= '$Id: tv_grab_uk_atlas,v 1.20 2014/03/07 10:05:34 bilbo_uk Exp $';
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.23 2014/05/28 14:56:41 bilbo_uk Exp $';
 
 
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
@@ -34,6 +34,7 @@ use XMLTV::Supplement qw/GetSupplement SetSupplementRoot/;
 use XMLTV::Configure::Writer;
 use XMLTV::Ask;
 use XMLTV::Get_nice 0.005065;
+use XMLTV::Date 0.005066;
 
 use File::Path;
 use POSIX qw(strftime);
@@ -170,6 +171,21 @@ $bar->finish() && undef $bar if defined $bar;
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------- #
+# Progress Bar :)
+$bar = new XMLTV::ProgressBar({
+  name => "Filtering duplicates",
+  count => scalar @{$programmes}
+}) unless ($opt->{quiet} || $opt->{debug});
+
+# Remove any duplicate programmes and set clumps where necessary
+filter_listings();
+
+# Progress Bar
+$bar->finish() && undef $bar if defined $bar;
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------- #
 # Generate the XML
 my $encoding = 'UTF-8';
 my $credits = { 'generator-info-name' => $generator_info_name,
@@ -281,8 +297,8 @@ sub fetch_listings {
 			my $apiKey = $conf->{'api-key'}->[0];
 			chomp($apiKey); chop($apiKey) if ($apiKey =~ m/\r$/);
 			if ($apiKey eq '' && $publisher ne 'bbc.co.uk') {
-				print STDERR 'You must obtain an API key free from Atlas Metabroadcast before you can use this grabber'."\n";
-				print STDERR 'Instructions are available here: http://metabroadcast.com/blog/getting-full-uk-listings-data-from-atlas-it-s-easy'."\n";
+				print STDERR 'You must obtain a free API key from http://atlas.metabroadcast.com/ before you can use this grabber'."\n";
+				print STDERR 'Instructions are available at http://metabroadcast.com/blog/create-and-manage-your-atlas-api-key'."\n";
 				exit(1);
 			}
 			$apiKey = '&apiKey='.$apiKey  if ($apiKey ne '');
@@ -311,7 +327,7 @@ sub fetch_listings {
 				}
 					
 				# Add to the channels hash
-				$channels->{$channel_id} = { 'id'=> $xmlchannel_id , 'display-name' => [[$channelname, 'en']]  };
+				$channels->{$channel_id} = { 'id'=> $xmlchannel_id , 'display-name' => [[ codify( $channelname), 'en']]  };
 				$channels->{$channel_id}->{'icon'} = [{'src' => $channelicon }]   if $channelicon;
 				
 				$bar->update if defined $bar;
@@ -626,6 +642,87 @@ sub add_programme_to_xml {
 		return;
 }
 						
+# ------------------------------------------------------------------------------------------------------------------------------------- #
+
+sub filter_listings {
+		# Given a hash ready to be fed into XMLTV writer, perform some last minute work on the programmes:
+		#   1) Remove any duplicate programmes
+		#   2) Create clumps where necessary (i.e. where programmes overlap)
+		#
+		
+		# Test scenarios (list of prog times) for clumpidx generation
+		#   1800-1830  1820-1830  1830-1900
+		#   1800-1830  1830-1835  1830-1900
+		#   1800-1830  1800-1805  1830-1900
+		#   1800-1830  1810-1815  1830-1900
+		#   1800-1830  1825-1835  1830-1900
+		#	
+		## For author's testing purposes:
+		##       require './filter_test.pl';   ($channels, $programmes) = set_test_data();
+		
+			
+		# Walk the array (note: this assumes, (i) the programmes are stored in channel+starttime order, (ii) they have stop times )
+		my ($clumpidx, $clumptot, @curr_clumps) = (0, 2, ());
+		for (my $i=0; $i<scalar @{$programmes}; $i++) {
+			my ($this, $next) = ($i, $i+1);			
+			
+			FILTER:
+			
+			# any more progs after this one?
+			last  if ($next >= scalar @{$programmes} );
+						
+			# get programme's times as epoch seconds
+			my $this_start = time_xmltv_to_epoch( @$programmes[$this]->{'start'} );
+			my $this_stop  = time_xmltv_to_epoch( @$programmes[$this]->{'stop'} );
+			my $next_start = time_xmltv_to_epoch( @$programmes[$next]->{'start'} );
+			my $next_stop  = time_xmltv_to_epoch( @$programmes[$next]->{'stop'} );
+			
+			
+			# (Task #1)
+			# Is prog a duplicate with next
+			#   (duplicate = same channel + same start & stop times + same title
+			if ( @$programmes[$next]->{'channel'}     eq @$programmes[$this]->{'channel'}
+			 &&  @$programmes[$next]->{'start'}       eq @$programmes[$this]->{'start'}
+			 &&  @$programmes[$next]->{'stop'}        eq @$programmes[$this]->{'stop'}
+			 &&  @$programmes[$next]->{'title'}[0][0] eq @$programmes[$this]->{'title'}[0][0] ) {
+					# delete the duplicate
+					splice(@{$programmes}, $next, 1);
+					goto FILTER;
+			}
+			
+			
+			# (Task #2) 
+			# Check times of next prog on this channel; is there an overlap?
+			if ( @$programmes[$next]->{'channel'} eq @$programmes[$this]->{'channel'}
+			 &&  $next_start < $this_stop ) {
+			 
+			  if ( !scalar @curr_clumps ) {
+					@$programmes[$this]->{'clumpidx'} = $clumpidx++ .'/'. $clumptot;
+					@$programmes[$next]->{'clumpidx'} = $clumpidx .'/'. $clumptot;
+					push @curr_clumps, $this;		# remember the current array index
+					
+				} else {   # current prog is already part of a clump :(   
+					# adjust rest of current clump
+					$clumptot++;
+					$clumpidx = 0;
+					foreach (@curr_clumps) {
+						@$programmes[$_]->{'clumpidx'} = $clumpidx++ .'/'. $clumptot;
+					}
+					@$programmes[$this]->{'clumpidx'} = $clumpidx++ .'/'. $clumptot;
+					@$programmes[$next]->{'clumpidx'} = $clumpidx .'/'. $clumptot;
+					push @curr_clumps, $this;		# remember the current array index
+				}
+						
+				
+			} else {
+				# reset vars ready for next pass
+			  ($clumpidx, $clumptot, @curr_clumps) = (0, 2, ());
+			}
+			
+			$bar->update if defined $bar;
+		}
+}
+# ------------------------------------------------------------------------------------------------------------------------------------- #
 						
 									
 # #############################################################################
@@ -1606,7 +1703,7 @@ access the full schedule published by the Press Association.  Any commercial
 use of the data obtained from Atlas will require a paid-for license. 
 
 Instructions are available here: 
-L<http://metabroadcast.com/blog/getting-full-uk-listings-data-from-atlas-it-s-easy>
+L<http://metabroadcast.com/blog/create-and-manage-your-atlas-api-key>
 
 You will need to enter your API key during the --configure stage.
 
