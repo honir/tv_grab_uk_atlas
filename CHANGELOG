@@ -1,3 +1,13 @@
+1.24   12-Jul-2014  Remove audio described (it is different to deaf signed) (minor)
+1.23   28-May-2014  Fix encoding of Irish channel names in xml output (minor)
+1.22   22-May-2014  Add duplicate programme deletion / clump creation
+1.21   14-Mar-2014  Update instructions on obtaining your Atlas API key
+1.20    7-Mar-2014  Don't change order of Film category when present as an Atlas genre (minor)
+1.19    6-Mar-2014  Output Atlas genres before PA genres, and in the same order as they arrive
+1.18   23-Jan-2014  Fix an issue with character encodings (minor)
+1.17   21-Jan-2014  Enhance POD information
+                    Use new --info option
+                    Fix 'premiere' flag
 1.16    9-Jan-2014  Disable widescreen, high-def and stereo tags (c.f. v1.14)
 1.15    9-Jan-2014  Add test for XMLTV version
 1.14   20-Dec-2013  Changes to attributes on website
