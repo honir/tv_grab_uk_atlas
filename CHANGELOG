@@ -1,3 +1,5 @@
+1.25    1-Aug-2014  Fix Perl error when filtering empty programmes hash (credit: ta264) (minor)
+                    Report error returned by Atlas when status 400 received (minor)
 1.24   12-Jul-2014  Remove audio described (it is different to deaf signed) (minor)
 1.23   28-May-2014  Fix encoding of Irish channel names in xml output (minor)
 1.22   22-May-2014  Add duplicate programme deletion / clump creation
