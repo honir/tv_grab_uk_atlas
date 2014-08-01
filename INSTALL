@@ -35,6 +35,8 @@ Instructions are available here: http://metabroadcast.com/blog/create-and-manage
 
 You will need to enter your API key during the --configure stage.
 
+Remember to request Press Association (PA) as the content provider on your Atlas API key. 
+
 
 2.
 Grabber configuration consists of the usual 
