@@ -8,7 +8,7 @@
 #         tv_grab_uk_atlas  --info
 # 
 
-my $_version 	= '$Id: tv_grab_uk_atlas,v 1.25 2014/08/01 09:29:04 bilbo_uk Exp $';
+my $_version 	= '$Id: tv_grab_uk_atlas,v 1.27 2014/08/28 13:45:13 bilbo_uk Exp $';
 
 
 eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
@@ -751,6 +751,12 @@ sub make_ns_epnum {
 		$p = text_to_num($p) if defined $p;
 		$p_of = text_to_num($p_of) if defined $p_of;
 		
+		# validation check
+		undef($s) if defined $s && $s eq '0';
+		undef($e) if defined $e && $e eq '0';
+		undef($p) if defined $p && $p eq '0';
+		undef($p_of) if defined $p_of && $p_of eq '0';
+		
 		# re-base the series/episode/part numbers
 		$s-- if (defined $s && $s ne '');
 		$e-- if (defined $e && $e ne '');
@@ -900,20 +906,22 @@ sub loadmapconf {
 		# Retrieve user map file from 'supplement' dir (*not* using XMLTV::Supplement)	
 		#  and overwrite any corresponding grabber mappings		
 		my $fn = get_supplement_dir() . '/'. $GRABBER_NAME . '.user.map.conf';
-		my $fhok = open my $fh, '<', $fn or warning("Cannot open conf file $fn");
-		if ($fhok) {
-			while (my $line = <$fh>) { 
-				chomp $line;  chop($line) if ($line =~ m/\r$/);  trim($line);
-				next if $line =~ /^#/ || $line eq '';
-				
-				my ($type, $mapfrom, $mapto, $trash) = $line =~ /^(.*)==(.*)==(.*?)([\s\t]*#.*)?$/;
-				SWITCH: {
-						lc($type) eq 'map' && do { $mapchannels->{$mapfrom} = $mapto; last SWITCH; };
-						lc($type) eq 'cat' && do { $mapcategories->{$mapfrom} = $mapto; last SWITCH; };
-						warning("Unknown type in map file: \n $line");
+		if ( -e $fn ) {
+			my $fhok = open my $fh, '<', $fn or warning("Cannot open conf file $fn");
+			if ($fhok) {
+				while (my $line = <$fh>) { 
+					chomp $line;  chop($line) if ($line =~ m/\r$/);  trim($line);
+					next if $line =~ /^#/ || $line eq '';
+					
+					my ($type, $mapfrom, $mapto, $trash) = $line =~ /^(.*)==(.*)==(.*?)([\s\t]*#.*)?$/;
+					SWITCH: {
+							lc($type) eq 'map' && do { $mapchannels->{$mapfrom} = $mapto; last SWITCH; };
+							lc($type) eq 'cat' && do { $mapcategories->{$mapfrom} = $mapto; last SWITCH; };
+							warning("Unknown type in map file: \n $line");
+					}
 				}
+				close $fh;
 			}
-			close $fh;
 		}
 		# print Dumper ($mapchannels, $mapcategories);
 }

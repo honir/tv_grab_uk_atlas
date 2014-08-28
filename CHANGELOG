@@ -1,3 +1,5 @@
+1.27   28-Aug-2014  Don't error if user.map file not found
+1.26   15-Aug-2014  Kill bad incoming data for series/ep numbers
 1.25    1-Aug-2014  Fix Perl error when filtering empty programmes hash (credit: ta264) (minor)
                     Report error returned by Atlas when status 400 received (minor)
 1.24   12-Jul-2014  Remove audio described (it is different to deaf signed) (minor)
